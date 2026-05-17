@@ -492,6 +492,15 @@ button.insight-row {
   white-space: nowrap;
 }
 
+.leaderboard-rank {
+  flex: 0 0 auto;
+  width: 22px;
+  color: var(--theme-line);
+  font-size: 12px;
+  font-weight: 900;
+  text-align: right;
+}
+
 @media (max-width: 720px) {
   .tree-canvas {
     padding: 12px;

@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "generate:leaderboards": "node scripts/generate-tree-leaderboard.mjs",
+    "prebuild": "npm run generate:leaderboards",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

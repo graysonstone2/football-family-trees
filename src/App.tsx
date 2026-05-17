@@ -13,6 +13,7 @@ import { trackEvent, trackPageView } from './functions/analytics';
 import { getRecordPct, getRecordTone, getSchoolRecord } from './functions/schoolRecords';
 import { DEFAULT_THEME, TEAM_THEMES, getThemeVars } from './functions/teamThemes';
 import { getTeamLogo } from './functions/teamLogos';
+import treeLeaderboard from './tree_leaderboard.json';
 
 type TreeNodeWithChildren = CoachTreeNode & {
   depth: number;
@@ -25,6 +26,24 @@ type InitialParams = {
   coach: string;
   mode: TreeMode;
   school: string;
+};
+
+type TreeLeaderboardEntry = {
+  coach: string;
+  directDescendants: number;
+  firstHeadCoachJob: {
+    school: string;
+    year: number;
+  } | null;
+  headCoachStops: number;
+  rank: number;
+  totalDescendants: number;
+  topStaffs: Array<{
+    coaches: string[];
+    count: number;
+    school: string;
+    year: number;
+  }>;
 };
 
 const modeCopy = {
@@ -166,44 +185,6 @@ const getEdgeLabel = (mode: TreeMode, node: CoachTreeNode, parentNode?: CoachTre
 const makeFilename = (coachName: string, mode: TreeMode) =>
   `${coachName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}-${mode}-tree.png`;
 
-const getMostProductiveStaffs = (root?: TreeNodeWithChildren | null) => {
-  if (!root) {
-    return [];
-  }
-
-  const staffSeasons = new Map<
-    string,
-    {
-      coaches: Set<string>;
-      school: string;
-      year: number;
-    }
-  >();
-
-  root.children.forEach((child) => {
-    child.years.forEach((year) => {
-      const rootJob = root.history.find((job) => job.title === 'hc' && job.year === year);
-
-      if (!rootJob) {
-        return;
-      }
-
-      const key = `${rootJob.school}-${year}`;
-      const season = staffSeasons.get(key) ?? {
-        coaches: new Set<string>(),
-        school: rootJob.school,
-        year,
-      };
-      season.coaches.add(child.id);
-      staffSeasons.set(key, season);
-    });
-  });
-
-  return Array.from(staffSeasons.values())
-    .sort((a, b) => b.coaches.size - a.coaches.size || a.year - b.year || a.school.localeCompare(b.school))
-    .slice(0, 6);
-};
-
 const getBestBranchDebuts = (root?: TreeNodeWithChildren | null) => {
   if (!root) {
     return [];
@@ -279,8 +260,13 @@ function App() {
     },
     [directOnly, hierarchy, selectedSchool],
   );
-  const productiveStaffs = useMemo(() => getMostProductiveStaffs(forwardHierarchy), [forwardHierarchy]);
+  const selectedLeaderboardEntry = useMemo(
+    () => (treeLeaderboard as TreeLeaderboardEntry[]).find((entry) => entry.coach === coach) ?? null,
+    [coach],
+  );
+  const productiveStaffs = selectedLeaderboardEntry?.topStaffs ?? [];
   const bestBranchDebuts = useMemo(() => getBestBranchDebuts(forwardHierarchy), [forwardHierarchy]);
+  const biggestTrees = useMemo(() => (treeLeaderboard as TreeLeaderboardEntry[]).slice(0, 8), []);
   const comparisonStats = useMemo(
     () => ({
       descendants: forwardHierarchy ? countChildren(forwardHierarchy) : 0,
@@ -673,7 +659,41 @@ function App() {
         </aside>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-4 px-5 pb-8 xl:grid-cols-3">
+      <section className="mx-auto grid max-w-7xl gap-4 px-5 pb-8 lg:grid-cols-2 2xl:grid-cols-4">
+        <InsightPanel title="Biggest trees">
+          <div className="space-y-2">
+            {biggestTrees.map((entry) => {
+              const logo = getTeamLogo(entry.firstHeadCoachJob?.school ?? '');
+
+              return (
+                <button
+                  className="insight-row w-full text-left"
+                  key={entry.coach}
+                  onClick={() => {
+                    setMode('forward');
+                    runSearch(entry.coach, 'forward');
+                  }}
+                  type="button"
+                >
+                  <div className="flex min-w-0 items-center gap-3">
+                    <span className="leaderboard-rank">{entry.rank}</span>
+                    {logo && <img alt="" className="team-logo team-logo-job" loading="lazy" src={logo} />}
+                    <div className="min-w-0">
+                      <p className="truncate font-black text-[var(--theme-primary)]">{entry.coach}</p>
+                      <p className="truncate text-xs font-bold text-[var(--theme-muted)]">
+                        {entry.firstHeadCoachJob
+                          ? `${entry.firstHeadCoachJob.school}, ${entry.firstHeadCoachJob.year}`
+                          : `${entry.headCoachStops} HC stops`}
+                      </p>
+                    </div>
+                  </div>
+                  <span className="insight-count">{entry.totalDescendants}</span>
+                </button>
+              );
+            })}
+          </div>
+        </InsightPanel>
+
         <InsightPanel title="Most productive staffs">
           {productiveStaffs.length > 0 ? (
             <div className="space-y-2">
@@ -690,7 +710,7 @@ function App() {
                           {season.school}, {season.year}
                         </p>
                         <p className="truncate text-xs font-bold text-[var(--theme-muted)]">
-                          {Array.from(season.coaches).slice(0, 4).join(', ')}
+                          {season.coaches.slice(0, 4).join(', ')}
                         </p>
                         {record && (
                           <div className="mt-2 flex flex-wrap items-center gap-2">
@@ -706,7 +726,7 @@ function App() {
                         )}
                       </div>
                     </div>
-                    <span className="insight-count">{season.coaches.size}</span>
+                    <span className="insight-count">{season.count}</span>
                   </div>
                 );
               })}
