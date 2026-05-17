@@ -5746,54 +5746,10 @@
         "Justin Sanders"
       ]
     },
-    "2009": {
-      "hc": "Brad Lambert",
-      "dc": "Bruce Tall",
-      "oc": "Jeff Mullen",
-      "other": [
-        "Phil Ratliff",
-        "Damian Wroblewski",
-        "Joe Tereshinski",
-        "James Adams",
-        "Gabe Kuhn"
-      ]
-    },
-    "2010": {
-      "hc": "Brad Lambert",
-      "dc": "Bruce Tall",
-      "oc": "Jeff Mullen",
-      "other": [
-        "Phil Ratliff",
-        "Damian Wroblewski",
-        "Joe Tereshinski",
-        "James Adams",
-        "Gabe Kuhn"
-      ]
-    },
-    "2011": {
-      "hc": "Brad Lambert",
-      "dc": "Bruce Tall",
-      "oc": "Jeff Mullen",
-      "other": [
-        "Phil Ratliff",
-        "Damian Wroblewski",
-        "Joe Tereshinski",
-        "James Adams",
-        "Gabe Kuhn"
-      ]
-    },
-    "2012": {
-      "hc": "Brad Lambert",
-      "dc": "Bruce Tall",
-      "oc": "Jeff Mullen",
-      "other": [
-        "Phil Ratliff",
-        "Damian Wroblewski",
-        "Joe Tereshinski",
-        "James Adams",
-        "Gabe Kuhn"
-      ]
-    },
+    "2009": {},
+    "2010": {},
+    "2011": {},
+    "2012": {},
     "2013": {
       "hc": "Brad Lambert",
       "dc": "Bruce Tall",
@@ -5831,87 +5787,15 @@
       ]
     },
     "2016": {},
-    "2000": {
-      "hc": "Bobby Petrino",
-      "dc": "Keith Patterson",
-      "oc": "Larry Edmondson",
-      "other": [
-        "Walter Wells",
-        "Mark Robinson"
-      ]
-    },
-    "2001": {
-      "hc": "Jerry McManus",
-      "dc": "Keith Patterson",
-      "oc": "Randy Fichtner",
-      "other": [
-        "Walt Stewart",
-        "Mark McHale"
-      ]
-    },
-    "2002": {
-      "hc": "Jerry McManus",
-      "dc": "Keith Patterson",
-      "oc": "Randy Fichtner",
-      "other": [
-        "Walt Stewart",
-        "Chris Meidt"
-      ]
-    },
-    "2003": {
-      "hc": "Jerry McManus",
-      "dc": "John Blake",
-      "oc": "Chris Meidt",
-      "other": [
-        "Chris Cosh",
-        "Larry Edmondson"
-      ]
-    },
-    "2004": {
-      "hc": "Brad Lambert",
-      "dc": "John Losey",
-      "oc": "Kevin Gilbride",
-      "other": [
-        "Phil Ratliff",
-        "Jeff Mullen"
-      ]
-    },
-    "2005": {
-      "hc": "Tommy Bowden",
-      "dc": "Vic Koenning",
-      "oc": "Rob Spence",
-      "other": [
-        "David Blackwell",
-        "Billy Napier"
-      ]
-    },
-    "2006": {
-      "hc": "Tommy Bowden",
-      "dc": "Vic Koenning",
-      "oc": "Rob Spence",
-      "other": [
-        "David Blackwell",
-        "Billy Napier"
-      ]
-    },
-    "2007": {
-      "hc": "Tommy Bowden",
-      "dc": "Vic Koenning",
-      "oc": "Rob Spence",
-      "other": [
-        "Ron West",
-        "Mike Dooley"
-      ]
-    },
-    "2008": {
-      "hc": "Tommy Bowden",
-      "dc": "Vic Koenning",
-      "oc": "Rob Spence",
-      "other": [
-        "Ron West",
-        "David Blackwell"
-      ]
-    },
+    "2000": {},
+    "2001": {},
+    "2002": {},
+    "2003": {},
+    "2004": {},
+    "2005": {},
+    "2006": {},
+    "2007": {},
+    "2008": {},
     "2025": {
       "hc": "Tim Albin",
       "oc": "Todd Fitch",
@@ -6092,33 +5976,13 @@
     },
     "2015": {
       "hc": "Tommy Tuberville",
-      "dc": "Steve Clinkscale",
       "oc": "Eddie Gran",
-      "other": [
-        "Blake Rolan",
-        "Robert Prunty",
-        "Fred Tate",
-        "Mark Elder",
-        "Roy Manning",
-        "Tyson Helton",
-        "Steve Stripling",
-        "Zach Azzanni"
-      ]
+      "dc": "Robert Prunty, Steve Clinkscale"
     },
     "2016": {
       "hc": "Tommy Tuberville",
-      "dc": "Jeff Koonz",
       "oc": "Zac Taylor",
-      "other": [
-        "Blake Rolan",
-        "Robert Prunty",
-        "Fred Tate",
-        "Mark Elder",
-        "Roy Manning",
-        "Tyson Helton",
-        "Steve Stripling",
-        "Zach Azzanni"
-      ]
+      "dc": "Robert Prunty"
     },
     "2000": {},
     "2001": {
@@ -14903,74 +14767,42 @@
   },
   "Louisiana": {
     "2017": {
-      "hc": "Ed Orgeron",
-      "dc": "Dave Aranda",
-      "oc": "Matt Canada",
-      "other": [
-        "Tommy Moffitt",
-        "Corey Raymond",
-        "Dennis Johnson"
-      ]
+      "hc": "Mark Hudspeth",
+      "oc": "Rob Sale",
+      "dc": "Charlie Harbison"
     },
     "2018": {
-      "hc": "Ed Orgeron",
-      "dc": "Dave Aranda",
-      "oc": "Steve Ensminger",
-      "other": [
-        "Tommy Moffitt",
-        "Corey Raymond",
-        "Dennis Johnson"
-      ]
+      "hc": "Billy Napier",
+      "oc": "Rob Sale",
+      "dc": "Ron Roberts"
     },
     "2019": {
-      "hc": "Ed Orgeron",
-      "dc": "Dave Aranda",
-      "oc": "Steve Ensminger",
-      "other": [
-        "Tommy Moffitt",
-        "Joe Brady",
-        "Bill Busch"
-      ]
+      "hc": "Billy Napier",
+      "oc": "Rob Sale",
+      "dc": "Ron Roberts"
     },
     "2020": {
-      "hc": "Ed Orgeron",
-      "dc": "Bo Pelini",
-      "oc": "Steve Ensminger",
-      "other": [
-        "Tommy Moffitt",
-        "Corey Raymond",
-        "Bill Busch"
-      ]
+      "hc": "Billy Napier",
+      "oc": "Rob Sale",
+      "dc": "Patrick Toney"
     },
     "2021": {
-      "hc": "Ed Orgeron",
-      "dc": "Daronte Jones",
-      "oc": "Jake Peetz",
+      "hc": "Billy Napier",
+      "oc": "Michael Desormeaux",
+      "dc": "Patrick Toney",
       "other": [
-        "Tommy Moffitt",
-        "Corey Raymond",
-        "James Cregg"
+        "Michael Desormeaux"
       ]
     },
     "2022": {
-      "hc": "Brian Kelly",
-      "dc": "Matt House",
-      "oc": "Mike Denbrock",
-      "other": [
-        "Tommy Moffitt",
-        "Corey Raymond",
-        "Joe Sloan"
-      ]
+      "hc": "Michael Desormeaux",
+      "oc": "Tim Leger",
+      "dc": "LaMar Morgan"
     },
     "2023": {
-      "hc": "Brian Kelly",
-      "dc": "Matt House",
-      "oc": "Mike Denbrock",
-      "other": [
-        "Tommy Moffitt",
-        "Corey Raymond",
-        "Joe Sloan"
-      ]
+      "hc": "Michael Desormeaux",
+      "oc": "Tim Leger",
+      "dc": "LaMar Morgan"
     },
     "2024": {
       "hc": "Michael Desormeaux",
@@ -24232,88 +24064,66 @@
   },
   "Ohio": {
     "2017": {
-      "hc": "Urban Meyer",
-      "dc": "Greg Schiano",
-      "oc": "Kevin Wilson",
-      "other": [
-        "Tony Alford",
-        "Bill Davis",
-        "Kerry Coombs",
-        "Greg Studrawa",
-        "Zach Smith",
-        "Ryan Day"
-      ]
+      "hc": "Frank Solich",
+      "oc": "Tim Albin",
+      "dc": "Jim Burrow"
     },
     "2018": {
-      "hc": "Urban Meyer",
-      "dc": "Greg Schiano",
-      "oc": "Ryan Day",
-      "other": [
-        "Tony Alford",
-        "Taver Johnson",
-        "Alex Grinch",
-        "Greg Studrawa",
-        "Brian Hartline",
-        "Bill Davis",
-        "Larry Johnson",
-        "Kevin Wilson"
-      ]
+      "hc": "Frank Solich",
+      "oc": "Tim Albin",
+      "dc": "Jim Burrow"
     },
     "2019": {
-      "hc": "Ryan Day",
-      "dc": "Jeff Hafley",
-      "oc": "Kevin Wilson",
+      "hc": "Frank Solich",
+      "oc": "Tim Albin, Scott Isphording",
+      "dc": "Ron Collins, Pete Germano",
       "other": [
-        "Tony Alford",
-        "Greg Mattison",
-        "Brian Hartline",
-        "Al Washington",
-        "Larry Johnson",
-        "Matt Barnes"
+        "Brian Haines",
+        "Dwayne Dixon",
+        "DeAngelo Smith",
+        "Tremayne Scott",
+        "Allen Rudolph",
+        "Nate Faanes",
+        "Chris Rodgers",
+        "Ryan Bainbridge",
+        "Dak Notestine"
       ]
     },
     "2020": {
-      "hc": "Ryan Day",
-      "dc": "Kerry Coombs",
-      "oc": "Kevin Wilson",
-      "other": [
-        "Tony Alford",
-        "Brian Hartline",
-        "Al Washington",
-        "Larry Johnson",
-        "Matt Barnes",
-        "Corey Dennis",
-        "Greg Mattison"
-      ]
+      "hc": "Frank Solich",
+      "oc": "Tim Albin",
+      "dc": "Ron Collins, Pete Germano"
     },
     "2021": {
-      "hc": "Ryan Day",
-      "dc": "Kerry Coombs",
-      "oc": "Kevin Wilson",
-      "other": [
-        "Tony Alford",
-        "Brian Hartline",
-        "Al Washington",
-        "Larry Johnson",
-        "Matt Barnes",
-        "Corey Dennis",
-        "Greg Studrawa"
-      ]
+      "hc": "Tim Albin",
+      "oc": "Scott Isphording, Allen Rudolph",
+      "dc": "Ron Collins, Pete Germano"
     },
     "2022": {
-      "hc": "Ryan Day",
-      "dc": "Jim Knowles",
-      "oc": "Kevin Wilson",
+      "hc": "Tim Albin",
+      "oc": "Scott Isphording, Allen Rudolph",
+      "dc": "Spence Nowinsky",
       "other": [
-        "Tony Alford",
-        "Brian Hartline",
-        "Al Washington",
-        "Larry Johnson",
-        "Matt Barnes",
-        "Corey Dennis",
-        "Justin Frye",
-        "Perry Eliano",
-        "Tim Walton"
+        "Dwayne Dixon",
+        "Tremayne Scott",
+        "John Hauser",
+        "Brian Smith",
+        "DeAngelo Smith",
+        "Nate Faanes",
+        "Brian Metz",
+        "Jeremiah Covington",
+        "Kyle Pollack",
+        "Thomas Turnbaugh",
+        "Jake Miller",
+        "Matthias Reiber",
+        "Zoe Stoker",
+        "Ryan Kalukin",
+        "Nick Arleo",
+        "Luke Nardo",
+        "Kenny Zamberlin",
+        "Kyle Obly",
+        "Clay Finney",
+        "Elaine Goodfellow"
       ]
     },
     "2023": {
@@ -35686,18 +35496,7 @@
     "2015": {
       "hc": "Matt Wells",
       "oc": "Josh Heupel",
-      "dc": "Kevin Clune",
-      "other": [
-        "David Yost",
-        "Luke Wells",
-        "Mark Weber",
-        "Jovon Bouknight",
-        "Ilaisa Tuiaki",
-        "Justin Ena",
-        "Frank Maile",
-        "Kendrick Shaver",
-        "Fred Whittingham Jr."
-      ]
+      "dc": "Kevin Clune"
     },
     "2016": {
       "hc": "Matt Wells",
@@ -41954,20 +41753,7 @@
     },
     "2011": {
       "hc": "Rocky Long",
-      "oc": "Andy Ludwig",
-      "other": [
-        "LeCharls McDaniel",
-        "Kevin McGarry",
-        "Jeff Horton",
-        "Tony White",
-        "Brian Sipe",
-        "Mark Smith",
-        "Matt Razzano",
-        "Kevin Wolthausen",
-        "Jeff Hecklinski",
-        "Ron Caragher",
-        "Darrell Funk"
-      ]
+      "oc": "Andy Ludwig"
     },
     "2012": {
       "hc": "Rocky Long",

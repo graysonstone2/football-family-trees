@@ -759,7 +759,7 @@ function App() {
       {page === 'tree' && (
         <>
       <section className="mx-auto grid max-w-7xl gap-5 px-5 pb-8 xl:grid-cols-[minmax(0,1fr)_360px]">
-        <div className="min-h-[620px] overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white shadow-sm">
+        <div className="flex min-h-[620px] flex-col overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white shadow-sm">
           <div className="flex flex-col gap-3 border-b border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h2 className="text-xl font-black">
@@ -812,7 +812,7 @@ function App() {
             </div>
           </div>
 
-          <div className="tree-canvas overflow-auto p-6" ref={canvasRef}>
+          <div className="tree-canvas flex-1 overflow-auto p-6" ref={canvasRef}>
             {visibleHierarchy ? (
               <div className="tree-export-surface" ref={exportRef}>
                 <TreeBranch
