@@ -22,6 +22,26 @@ type TreeNodeWithChildren = CoachTreeNode & {
 };
 
 const DEFAULT_COACH = 'Nick Saban';
+const ERA_OPTIONS = [
+  { label: 'All eras', value: '' },
+  { label: '1990s', value: '1990' },
+  { label: '2000s', value: '2000' },
+  { label: '2010s', value: '2010' },
+  { label: '2020s', value: '2020' },
+];
+const MIN_DESCENDANT_OPTIONS = [
+  { label: 'All tree sizes', value: '0' },
+  { label: '10+ descendants', value: '10' },
+  { label: '25+ descendants', value: '25' },
+  { label: '50+ descendants', value: '50' },
+];
+const MIN_STAFF_OPTIONS = [
+  { label: 'All staff sizes', value: '0' },
+  { label: '2+ future HCs', value: '2' },
+  { label: '3+ future HCs', value: '3' },
+  { label: '4+ future HCs', value: '4' },
+  { label: '5 future HCs', value: '5' },
+];
 type TreeMode = 'forward' | 'reverse';
 type AppPage = 'tree' | 'biggest-trees' | 'productive-staffs';
 type InitialParams = {
@@ -201,6 +221,8 @@ const getEdgeLabel = (mode: TreeMode, node: CoachTreeNode, parentNode?: CoachTre
 const makeFilename = (coachName: string, mode: TreeMode) =>
   `${coachName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}-${mode}-tree.png`;
 
+const yearToEra = (year: number) => `${Math.floor(year / 10) * 10}`;
+
 const getBestBranchDebuts = (root?: TreeNodeWithChildren | null) => {
   if (!root) {
     return [];
@@ -248,6 +270,11 @@ function App() {
   const [isExporting, setIsExporting] = useState(false);
   const [directOnly, setDirectOnly] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
+  const [treeLeaderboardMinDescendants, setTreeLeaderboardMinDescendants] = useState('0');
+  const [treeLeaderboardSchool, setTreeLeaderboardSchool] = useState('');
+  const [staffLeaderboardEra, setStaffLeaderboardEra] = useState('');
+  const [staffLeaderboardMinCount, setStaffLeaderboardMinCount] = useState('0');
+  const [staffLeaderboardSchool, setStaffLeaderboardSchool] = useState('');
   const [selectedThemeSchool, setSelectedThemeSchool] = useState(getInitialTheme);
   const canvasRef = useRef<HTMLDivElement>(null);
   const exportRef = useRef<HTMLDivElement>(null);
@@ -286,6 +313,38 @@ function App() {
   const bestBranchDebuts = useMemo(() => getBestBranchDebuts(forwardHierarchy), [forwardHierarchy]);
   const biggestTrees = useMemo(() => treeLeaderboard as TreeLeaderboardEntry[], []);
   const productiveStaffLeaderboard = useMemo(() => staffLeaderboard as StaffLeaderboardEntry[], []);
+  const treeLeaderboardSchoolOptions = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          biggestTrees
+            .map((entry) => entry.firstHeadCoachJob?.school)
+            .filter((school): school is string => Boolean(school)),
+        ),
+      ).sort((a, b) => a.localeCompare(b)),
+    [biggestTrees],
+  );
+  const staffLeaderboardSchoolOptions = useMemo(
+    () => Array.from(new Set(productiveStaffLeaderboard.map((entry) => entry.school))).sort((a, b) => a.localeCompare(b)),
+    [productiveStaffLeaderboard],
+  );
+  const filteredBiggestTrees = useMemo(() => {
+    const minDescendants = Number(treeLeaderboardMinDescendants);
+
+    return biggestTrees.filter((entry) => {
+      const schoolMatches = !treeLeaderboardSchool || entry.firstHeadCoachJob?.school === treeLeaderboardSchool;
+      return schoolMatches && entry.totalDescendants >= minDescendants;
+    });
+  }, [biggestTrees, treeLeaderboardMinDescendants, treeLeaderboardSchool]);
+  const filteredProductiveStaffLeaderboard = useMemo(() => {
+    const minCount = Number(staffLeaderboardMinCount);
+
+    return productiveStaffLeaderboard.filter((entry) => {
+      const schoolMatches = !staffLeaderboardSchool || entry.school === staffLeaderboardSchool;
+      const eraMatches = !staffLeaderboardEra || yearToEra(entry.year) === staffLeaderboardEra;
+      return schoolMatches && eraMatches && entry.count >= minCount;
+    });
+  }, [productiveStaffLeaderboard, staffLeaderboardEra, staffLeaderboardMinCount, staffLeaderboardSchool]);
   const comparisonStats = useMemo(
     () => ({
       descendants: forwardHierarchy ? countChildren(forwardHierarchy) : 0,
@@ -618,15 +677,32 @@ function App() {
               <div>
                 <h2 className="text-xl font-black text-[var(--theme-primary)]">Biggest trees</h2>
                 <p className="mt-1 text-sm text-[var(--theme-muted)]">
-                  Showing all {biggestTrees.length.toLocaleString()} ranked head coaches by total descendant branches.
+                  Showing {filteredBiggestTrees.length.toLocaleString()} of {biggestTrees.length.toLocaleString()} ranked head coaches by total descendant branches.
                 </p>
               </div>
               <button className="primary-button rounded-md px-4 py-2 text-sm font-black uppercase tracking-wide" onClick={() => setPage('tree')} type="button">
                 Back to tree
               </button>
             </div>
+            <div className="leaderboard-filters">
+              <FilterSelect
+                label="First HC school"
+                onChange={setTreeLeaderboardSchool}
+                options={[
+                  { label: 'All schools', value: '' },
+                  ...treeLeaderboardSchoolOptions.map((school) => ({ label: school, value: school })),
+                ]}
+                value={treeLeaderboardSchool}
+              />
+              <FilterSelect
+                label="Tree size"
+                onChange={setTreeLeaderboardMinDescendants}
+                options={MIN_DESCENDANT_OPTIONS}
+                value={treeLeaderboardMinDescendants}
+              />
+            </div>
             <div className="leaderboard-list">
-              {biggestTrees.map((entry) => (
+              {filteredBiggestTrees.map((entry) => (
                 <LeaderboardRow entry={entry} key={entry.coach} onOpenTree={openCoachTree} />
               ))}
             </div>
@@ -641,15 +717,38 @@ function App() {
               <div>
                 <h2 className="text-xl font-black text-[var(--theme-primary)]">Most productive staffs</h2>
                 <p className="mt-1 text-sm text-[var(--theme-muted)]">
-                  Showing {productiveStaffLeaderboard.length.toLocaleString()} staff seasons ranked by future head coaches produced.
+                  Showing {filteredProductiveStaffLeaderboard.length.toLocaleString()} of {productiveStaffLeaderboard.length.toLocaleString()} staff seasons ranked by future head coaches produced.
                 </p>
               </div>
               <button className="primary-button rounded-md px-4 py-2 text-sm font-black uppercase tracking-wide" onClick={() => setPage('tree')} type="button">
                 Back to tree
               </button>
             </div>
+            <div className="leaderboard-filters">
+              <FilterSelect
+                label="School"
+                onChange={setStaffLeaderboardSchool}
+                options={[
+                  { label: 'All schools', value: '' },
+                  ...staffLeaderboardSchoolOptions.map((school) => ({ label: school, value: school })),
+                ]}
+                value={staffLeaderboardSchool}
+              />
+              <FilterSelect
+                label="Era"
+                onChange={setStaffLeaderboardEra}
+                options={ERA_OPTIONS}
+                value={staffLeaderboardEra}
+              />
+              <FilterSelect
+                label="Staff output"
+                onChange={setStaffLeaderboardMinCount}
+                options={MIN_STAFF_OPTIONS}
+                value={staffLeaderboardMinCount}
+              />
+            </div>
             <div className="leaderboard-list">
-              {productiveStaffLeaderboard.map((entry) => (
+              {filteredProductiveStaffLeaderboard.map((entry) => (
                 <StaffLeaderboardRow entry={entry} key={`${entry.coach}-${entry.school}-${entry.year}`} onOpenTree={openCoachTree} />
               ))}
             </div>
@@ -892,6 +991,31 @@ function LeaderboardRow({ entry, onOpenTree }: { entry: TreeLeaderboardEntry; on
         </span>
       </span>
     </button>
+  );
+}
+
+function FilterSelect({
+  label,
+  onChange,
+  options,
+  value,
+}: {
+  label: string;
+  onChange: (value: string) => void;
+  options: Array<{ label: string; value: string }>;
+  value: string;
+}) {
+  return (
+    <label className="leaderboard-filter">
+      <span>{label}</span>
+      <select onChange={(event) => onChange(event.target.value)} value={value}>
+        {options.map((option) => (
+          <option key={`${label}-${option.value}`} value={option.value}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+    </label>
   );
 }
 
