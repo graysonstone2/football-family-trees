@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 const rootDir = dirname(dirname(fileURLToPath(import.meta.url)));
 const dataPath = join(rootDir, 'src', 'data.json');
 const outputPath = join(rootDir, 'src', 'tree_leaderboard.json');
+const staffOutputPath = join(rootDir, 'src', 'staff_leaderboard.json');
 const data = JSON.parse(readFileSync(dataPath, 'utf8'));
 
 const formatCoachName = (name) => name.trim().replace(/\s+/g, ' ');
@@ -140,7 +141,7 @@ const buildTree = (rootCoach, coaches, datasetStartYear) => {
   return nodes;
 };
 
-const getMostProductiveStaffs = (root, children) => {
+const getStaffSeasons = (root, children) => {
   const staffSeasons = new Map();
 
   children.forEach((child) => {
@@ -164,7 +165,6 @@ const getMostProductiveStaffs = (root, children) => {
 
   return Array.from(staffSeasons.values())
     .sort((a, b) => b.coaches.size - a.coaches.size || a.year - b.year || a.school.localeCompare(b.school))
-    .slice(0, 6)
     .map((season) => ({
       school: season.school,
       year: season.year,
@@ -185,6 +185,7 @@ const leaderboard = Object.entries(coaches)
     const root = tree.find((node) => !node.parent);
     const directChildren = tree.filter((node) => node.parent === coach);
     const firstJob = firstHeadCoachJob(jobs);
+    const staffSeasons = root ? getStaffSeasons(root, directChildren) : [];
 
     return {
       coach,
@@ -197,7 +198,8 @@ const leaderboard = Object.entries(coaches)
             year: firstJob.year,
           }
         : null,
-      topStaffs: root ? getMostProductiveStaffs(root, directChildren) : [],
+      staffSeasons,
+      topStaffs: staffSeasons.slice(0, 6),
     };
   })
   .sort(
@@ -208,5 +210,29 @@ const leaderboard = Object.entries(coaches)
   )
   .map((entry, index) => ({ rank: index + 1, ...entry }));
 
-writeFileSync(outputPath, `${JSON.stringify(leaderboard, null, 2)}\n`);
+const staffLeaderboard = leaderboard
+  .flatMap((entry) =>
+    entry.staffSeasons.map((season) => ({
+      coach: entry.coach,
+      coachRank: entry.rank,
+      school: season.school,
+      year: season.year,
+      count: season.count,
+      coaches: season.coaches,
+    })),
+  )
+  .sort(
+    (a, b) =>
+      b.count - a.count ||
+      a.year - b.year ||
+      a.school.localeCompare(b.school) ||
+      a.coach.localeCompare(b.coach),
+  )
+  .map((entry, index) => ({ rank: index + 1, ...entry }));
+
+const publicLeaderboard = leaderboard.map(({ staffSeasons, ...entry }) => entry);
+
+writeFileSync(outputPath, `${JSON.stringify(publicLeaderboard, null, 2)}\n`);
+writeFileSync(staffOutputPath, `${JSON.stringify(staffLeaderboard, null, 2)}\n`);
 console.log(`Generated ${leaderboard.length} coaching tree leaderboard rows.`);
+console.log(`Generated ${staffLeaderboard.length} productive staff leaderboard rows.`);

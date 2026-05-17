@@ -13,6 +13,7 @@ import { trackEvent, trackPageView } from './functions/analytics';
 import { getRecordPct, getRecordTone, getSchoolRecord } from './functions/schoolRecords';
 import { DEFAULT_THEME, TEAM_THEMES, getThemeVars } from './functions/teamThemes';
 import { getTeamLogo } from './functions/teamLogos';
+import staffLeaderboard from './staff_leaderboard.json';
 import treeLeaderboard from './tree_leaderboard.json';
 
 type TreeNodeWithChildren = CoachTreeNode & {
@@ -22,7 +23,7 @@ type TreeNodeWithChildren = CoachTreeNode & {
 
 const DEFAULT_COACH = 'Nick Saban';
 type TreeMode = 'forward' | 'reverse';
-type AppPage = 'tree' | 'biggest-trees';
+type AppPage = 'tree' | 'biggest-trees' | 'productive-staffs';
 type InitialParams = {
   coach: string;
   mode: TreeMode;
@@ -46,6 +47,16 @@ type TreeLeaderboardEntry = {
     school: string;
     year: number;
   }>;
+};
+
+type StaffLeaderboardEntry = {
+  coach: string;
+  coachRank: number;
+  coaches: string[];
+  count: number;
+  rank: number;
+  school: string;
+  year: number;
 };
 
 const modeCopy = {
@@ -88,7 +99,8 @@ const getInitialParams = (): InitialParams => {
 
   const params = new URLSearchParams(window.location.search);
   const mode = params.get('mode') === 'reverse' ? 'reverse' : 'forward';
-  const page = params.get('page') === 'biggest-trees' ? 'biggest-trees' : 'tree';
+  const pageParam = params.get('page');
+  const page = pageParam === 'biggest-trees' || pageParam === 'productive-staffs' ? pageParam : 'tree';
 
   return {
     coach: params.get('coach') || DEFAULT_COACH,
@@ -273,6 +285,7 @@ function App() {
   const productiveStaffs = selectedLeaderboardEntry?.topStaffs ?? [];
   const bestBranchDebuts = useMemo(() => getBestBranchDebuts(forwardHierarchy), [forwardHierarchy]);
   const biggestTrees = useMemo(() => treeLeaderboard as TreeLeaderboardEntry[], []);
+  const productiveStaffLeaderboard = useMemo(() => staffLeaderboard as StaffLeaderboardEntry[], []);
   const comparisonStats = useMemo(
     () => ({
       descendants: forwardHierarchy ? countChildren(forwardHierarchy) : 0,
@@ -494,12 +507,17 @@ function App() {
               </div>
             </div>
             <h1 className="mt-3 max-w-3xl text-4xl font-black leading-tight sm:text-5xl">
-              {page === 'tree' ? 'Trace coaching trees in both directions.' : 'The biggest coaching trees.'}
+              {page === 'tree' && 'Trace coaching trees in both directions.'}
+              {page === 'biggest-trees' && 'The biggest coaching trees.'}
+              {page === 'productive-staffs' && 'The most productive staffs.'}
             </h1>
             <p className="hero-copy mt-3 max-w-2xl text-sm leading-6">
-              {page === 'tree'
-                ? 'Search any coach, then follow either the assistants who became head coaches or the mentors whose staffs shaped them.'
-                : 'Rank every head coach by total descendant branches, then jump straight into the full tree.'}
+              {page === 'tree' &&
+                'Search any coach, then follow either the assistants who became head coaches or the mentors whose staffs shaped them.'}
+              {page === 'biggest-trees' &&
+                'Rank every head coach by total descendant branches, then jump straight into the full tree.'}
+              {page === 'productive-staffs' &&
+                'Find the single-season staffs with the most assistants who became head coaches in this dataset.'}
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               <PageButton active={page === 'tree'} onClick={() => setPage('tree')}>
@@ -507,6 +525,9 @@ function App() {
               </PageButton>
               <PageButton active={page === 'biggest-trees'} onClick={() => setPage('biggest-trees')}>
                 Biggest trees
+              </PageButton>
+              <PageButton active={page === 'productive-staffs'} onClick={() => setPage('productive-staffs')}>
+                Productive staffs
               </PageButton>
             </div>
           </div>
@@ -590,14 +611,14 @@ function App() {
         <Stat label="Head coaches" value={summary.headCoachCount.toLocaleString()} />
       </section>
 
-      {page === 'biggest-trees' ? (
+      {page === 'biggest-trees' && (
         <section className="mx-auto max-w-7xl px-5 pb-8">
           <div className="rounded-lg border border-[var(--theme-border)] bg-white p-4 shadow-sm">
             <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
               <div>
                 <h2 className="text-xl font-black text-[var(--theme-primary)]">Biggest trees</h2>
                 <p className="mt-1 text-sm text-[var(--theme-muted)]">
-                  Ranked by total descendant head coaches found in the dataset.
+                  Showing all {biggestTrees.length.toLocaleString()} ranked head coaches by total descendant branches.
                 </p>
               </div>
               <button className="primary-button rounded-md px-4 py-2 text-sm font-black uppercase tracking-wide" onClick={() => setPage('tree')} type="button">
@@ -611,7 +632,32 @@ function App() {
             </div>
           </div>
         </section>
-      ) : (
+      )}
+
+      {page === 'productive-staffs' && (
+        <section className="mx-auto max-w-7xl px-5 pb-8">
+          <div className="rounded-lg border border-[var(--theme-border)] bg-white p-4 shadow-sm">
+            <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <h2 className="text-xl font-black text-[var(--theme-primary)]">Most productive staffs</h2>
+                <p className="mt-1 text-sm text-[var(--theme-muted)]">
+                  Showing {productiveStaffLeaderboard.length.toLocaleString()} staff seasons ranked by future head coaches produced.
+                </p>
+              </div>
+              <button className="primary-button rounded-md px-4 py-2 text-sm font-black uppercase tracking-wide" onClick={() => setPage('tree')} type="button">
+                Back to tree
+              </button>
+            </div>
+            <div className="leaderboard-list">
+              {productiveStaffLeaderboard.map((entry) => (
+                <StaffLeaderboardRow entry={entry} key={`${entry.coach}-${entry.school}-${entry.year}`} onOpenTree={openCoachTree} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {page === 'tree' && (
         <>
       <section className="mx-auto grid max-w-7xl gap-5 px-5 pb-8 xl:grid-cols-[minmax(0,1fr)_360px]">
         <div className="min-h-[620px] overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white shadow-sm">
@@ -843,6 +889,43 @@ function LeaderboardRow({ entry, onOpenTree }: { entry: TreeLeaderboardEntry; on
         <span>
           <strong>{topStaff?.count ?? 0}</strong>
           <em>{topStaff ? `${topStaff.school} ${topStaff.year}` : 'top staff'}</em>
+        </span>
+      </span>
+    </button>
+  );
+}
+
+function StaffLeaderboardRow({ entry, onOpenTree }: { entry: StaffLeaderboardEntry; onOpenTree: (coach: string) => void }) {
+  const logo = getTeamLogo(entry.school);
+  const record = getSchoolRecord(entry.school, entry.year);
+
+  return (
+    <button className="leaderboard-row" onClick={() => onOpenTree(entry.coach)} type="button">
+      <span className="leaderboard-rank leaderboard-rank-large">{entry.rank}</span>
+      {logo && <img alt="" className="team-logo team-logo-signal" loading="lazy" src={logo} />}
+      <span className="min-w-0 flex-1">
+        <span className="block truncate text-lg font-black text-[var(--theme-primary)]">
+          {entry.school}, {entry.year}
+        </span>
+        <span className="mt-1 block text-sm font-bold text-[var(--theme-muted)]">
+          {entry.coach}'s staff
+        </span>
+        <span className="mt-1 block truncate text-xs font-bold text-[var(--theme-muted)]">
+          {entry.coaches.slice(0, 5).join(', ')}
+        </span>
+      </span>
+      <span className="leaderboard-metrics">
+        <span>
+          <strong>{entry.count}</strong>
+          <em>future HCs</em>
+        </span>
+        <span>
+          <strong>{entry.coachRank}</strong>
+          <em>tree rank</em>
+        </span>
+        <span>
+          <strong>{record?.record ?? 'N/A'}</strong>
+          <em>record</em>
         </span>
       </span>
     </button>
