@@ -134,14 +134,14 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
 
   return (
     <div className="flex h-full flex-col">
-      <div className="border-b border-[#e7decd] bg-[#12343b] p-5 text-white">
+      <div className="tray-header border-b p-5">
         <div className="flex items-start justify-between gap-4">
           <div>
-            <p className="text-xs font-black uppercase tracking-[0.2em] text-[#e0b25d]">Coach card</p>
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-[var(--theme-accent)]">Coach card</p>
             <h2 className="mt-2 text-2xl font-black leading-tight">{node.id}</h2>
-            <p className="mt-2 text-sm leading-6 text-[#dce7e7]">{relationText}</p>
+            <p className="mt-2 text-sm leading-6 text-[var(--theme-hero-muted)]">{relationText}</p>
             <button
-              className="mt-4 rounded-md bg-[#e0b25d] px-3 py-2 text-xs font-black uppercase tracking-wide text-[#12343b] transition hover:bg-[#f0c875]"
+              className="accent-button mt-4 rounded-md px-3 py-2 text-xs font-black uppercase tracking-wide transition"
               onClick={() => onSearchCoach(node.id)}
               type="button"
             >
@@ -150,7 +150,7 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
           </div>
           <button
             aria-label="Close coach details"
-            className="rounded-md border border-white/20 px-3 py-2 text-sm font-black text-white transition hover:bg-white/10"
+            className="rounded-md border border-white/20 px-3 py-2 text-sm font-black transition hover:bg-white/10"
             onClick={onClose}
             type="button"
           >
@@ -159,7 +159,7 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
         </div>
       </div>
 
-      <div className="grid grid-cols-3 border-b border-[#e7decd] bg-[#fffaf0] text-center">
+      <div className="grid grid-cols-3 border-b border-[var(--theme-border)] bg-[var(--theme-surface-soft)] text-center">
         <Metric label={mode === 'reverse' ? 'Mentors' : 'Branches'} value={relatedCount} />
         <Metric label="HC jobs" value={headCoachJobs.length} />
         <Metric label="Schools" value={schools.length} />
@@ -169,8 +169,8 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
         {parentNode && (
           <section>
             <h3 className="section-title">Connection to parent</h3>
-            <div className="rounded-lg border border-[#e0b25d] bg-[#fff7df] p-4 shadow-sm">
-              <p className="text-sm font-black text-[#12343b]">
+            <div className="rounded-lg border border-[var(--theme-accent)] bg-[var(--theme-accent-soft)] p-4 shadow-sm">
+              <p className="text-sm font-black text-[var(--theme-primary)]">
                 {mode === 'reverse'
                   ? `${parentNode.id} overlapped with ${node.id}`
                   : `${node.id} overlapped with ${parentNode.id}`}
@@ -179,7 +179,7 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
                 <div className="mt-3 space-y-2">
                   {connectionGroups.map((job) => (
                     <div
-                      className="rounded-md border border-[#edd38f] bg-white px-3 py-2"
+                      className="rounded-md border border-[var(--theme-border)] bg-white px-3 py-2"
                       key={overlapKey(job, job.years)}
                     >
                       <div className="flex items-center gap-2">
@@ -191,11 +191,11 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
                             src={getTeamLogo(job.school) ?? undefined}
                           />
                         )}
-                        <p className="text-sm font-black text-[#8f3b2d]">
+                        <p className="text-sm font-black text-[var(--theme-line)]">
                           {job.school}, {formatYears(job.years)}
                         </p>
                       </div>
-                      <p className="mt-1 text-sm leading-5 text-[#58676a]">
+                      <p className="mt-1 text-sm leading-5 text-[var(--theme-muted)]">
                         {mode === 'reverse'
                           ? `${node.id} was ${formatRole(job.title).toLowerCase()} while ${parentNode.id} was on staff.`
                           : `${node.id} was ${formatRole(job.title).toLowerCase()} while ${parentNode.id} was head coach.`}
@@ -204,7 +204,7 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
                   ))}
                 </div>
               ) : (
-                <p className="mt-2 text-sm leading-6 text-[#58676a]">
+                <p className="mt-2 text-sm leading-6 text-[var(--theme-muted)]">
                   The relationship years are recorded, but this dataset does not include a matching staff row for the selected coach.
                 </p>
               )}
@@ -214,14 +214,14 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
 
         <section>
           <h3 className="section-title">Current dataset signal</h3>
-          <div className="rounded-lg border border-[#e7decd] bg-[#f8fbfb] p-4">
+          <div className="rounded-lg border border-[var(--theme-border)] bg-[var(--theme-primary-soft)] p-4">
             <div className="flex items-center gap-3">
               {latestLogo && <img alt="" className="team-logo team-logo-signal" loading="lazy" src={latestLogo} />}
-              <p className="text-sm font-bold text-[#12343b]">
+              <p className="text-sm font-bold text-[var(--theme-primary)]">
                 {latestJob ? `${formatRole(latestJob.title)} at ${latestJob.school} in ${latestJob.year}` : 'No job history found.'}
               </p>
             </div>
-            <p className="mt-2 text-sm leading-6 text-[#58676a]">
+            <p className="mt-2 text-sm leading-6 text-[var(--theme-muted)]">
               {headCoachJobs.length > 0
                 ? `${node.id} has ${headCoachJobs.length} head coaching season${headCoachJobs.length === 1 ? '' : 's'} recorded.`
                 : `${node.id} appears in staff history, but no head coaching seasons are recorded.`}
@@ -232,9 +232,9 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
         {dataQualityHints.length > 0 && (
           <section>
             <h3 className="section-title">Data quality notes</h3>
-            <div className="space-y-2 rounded-lg border border-[#d9d0bf] bg-[#fffaf0] p-4">
+            <div className="space-y-2 rounded-lg border border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-4">
               {dataQualityHints.map((hint) => (
-                <p className="text-sm leading-6 text-[#58676a]" key={hint}>
+                <p className="text-sm leading-6 text-[var(--theme-muted)]" key={hint}>
                   {hint}
                 </p>
               ))}
@@ -290,9 +290,9 @@ const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: 
 
 function Metric({ label, value }: { label: string; value: number }) {
   return (
-    <div className="border-r border-[#e7decd] px-3 py-4 last:border-r-0">
-      <p className="text-xl font-black text-[#12343b]">{value}</p>
-      <p className="mt-1 text-[11px] font-black uppercase tracking-wide text-[#668085]">{label}</p>
+    <div className="border-r border-[var(--theme-border)] px-3 py-4 last:border-r-0">
+      <p className="text-xl font-black text-[var(--theme-primary)]">{value}</p>
+      <p className="mt-1 text-[11px] font-black uppercase tracking-wide text-[var(--theme-muted)]">{label}</p>
     </div>
   );
 }
@@ -312,17 +312,17 @@ function JobPill({
 }) {
   const logo = getTeamLogo(school);
   return (
-    <div className={`rounded-lg border bg-white p-3 ${highlighted ? 'connection-highlight' : 'border-[#e7decd]'}`}>
+    <div className={`rounded-lg border bg-white p-3 ${highlighted ? 'connection-highlight' : 'border-[var(--theme-border)]'}`}>
       <div className="flex items-center justify-between gap-3">
         <div className="flex min-w-0 items-center gap-2">
           {logo && <img alt="" className="team-logo team-logo-job" loading="lazy" src={logo} />}
-          <p className="min-w-0 font-black text-[#1d2528]">{school}</p>
+          <p className="min-w-0 font-black text-[var(--theme-ink)]">{school}</p>
         </div>
-        <span className="rounded-full bg-[#f6f2e8] px-2 py-1 text-xs font-black text-[#8f3b2d]">
+        <span className="rounded-full bg-[var(--theme-primary-soft)] px-2 py-1 text-xs font-black text-[var(--theme-line)]">
           {formatYears(years)}
         </span>
       </div>
-      <p className="mt-1 text-sm text-[#58676a]">{formatRole(title)}</p>
+      <p className="mt-1 text-sm text-[var(--theme-muted)]">{formatRole(title)}</p>
       {children}
     </div>
   );

@@ -1,0 +1,639 @@
+{
+  "themes": [
+    {
+      "school": "Air Force",
+      "primary": "#003594",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Akron",
+      "primary": "#041e42",
+      "secondary": "#c5b783"
+    },
+    {
+      "school": "Alabama",
+      "primary": "#9e1b32",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Appalachian State",
+      "primary": "#000000",
+      "secondary": "#ffcd00"
+    },
+    {
+      "school": "Arizona",
+      "primary": "#cc0033",
+      "secondary": "#003366"
+    },
+    {
+      "school": "Arizona State",
+      "primary": "#ffc627",
+      "secondary": "#8c1d40"
+    },
+    {
+      "school": "Arkansas",
+      "primary": "#a32136",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Arkansas State",
+      "primary": "#cc092f",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Army",
+      "primary": "#000000",
+      "secondary": "#d3bc8d"
+    },
+    {
+      "school": "Auburn",
+      "primary": "#002b5c",
+      "secondary": "#f26522"
+    },
+    {
+      "school": "Ball State",
+      "primary": "#ba0c2f",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Baylor",
+      "primary": "#154734",
+      "secondary": "#ffb81c"
+    },
+    {
+      "school": "Boise State",
+      "primary": "#0033a0",
+      "secondary": "#d64309"
+    },
+    {
+      "school": "Boston College",
+      "primary": "#8c2232",
+      "secondary": "#dbcca6"
+    },
+    {
+      "school": "Bowling Green",
+      "primary": "#fd5000",
+      "secondary": "#4f2c1d"
+    },
+    {
+      "school": "Buffalo",
+      "primary": "#005bbb",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "BYU",
+      "primary": "#0047ba",
+      "secondary": "#002e5d"
+    },
+    {
+      "school": "California",
+      "primary": "#041e42",
+      "secondary": "#ffc72c"
+    },
+    {
+      "school": "Central Michigan",
+      "primary": "#4c0027",
+      "secondary": "#fbab18"
+    },
+    {
+      "school": "Charlotte",
+      "primary": "#005035",
+      "secondary": "#a49665"
+    },
+    {
+      "school": "Cincinnati",
+      "primary": "#000000",
+      "secondary": "#e00122"
+    },
+    {
+      "school": "Clemson",
+      "primary": "#f56600",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Coastal Carolina",
+      "primary": "#006f71",
+      "secondary": "#a27752"
+    },
+    {
+      "school": "Colorado",
+      "primary": "#cfb87c",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Colorado State",
+      "primary": "#004c23",
+      "secondary": "#c8c372"
+    },
+    {
+      "school": "Duke",
+      "primary": "#00539b",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "East Carolina",
+      "primary": "#582c83",
+      "secondary": "#ffc72c"
+    },
+    {
+      "school": "Eastern Michigan",
+      "primary": "#006938",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "FIU",
+      "primary": "#091f3f",
+      "secondary": "#c3993f"
+    },
+    {
+      "school": "Florida",
+      "primary": "#0021a5",
+      "secondary": "#fa4616"
+    },
+    {
+      "school": "Florida Atlantic",
+      "primary": "#003366",
+      "secondary": "#cc0000"
+    },
+    {
+      "school": "Florida State",
+      "primary": "#782f40",
+      "secondary": "#ceb888"
+    },
+    {
+      "school": "Fresno State",
+      "primary": "#b1102b",
+      "secondary": "#13284c"
+    },
+    {
+      "school": "Georgia",
+      "primary": "#ba0c2f",
+      "secondary": "#2c2a29"
+    },
+    {
+      "school": "Georgia Southern",
+      "primary": "#041e42",
+      "secondary": "#a3aaae"
+    },
+    {
+      "school": "Georgia State",
+      "primary": "#0039a6",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Georgia Tech",
+      "primary": "#b3a369",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Hawaii",
+      "primary": "#005737",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Houston",
+      "primary": "#c8102e",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Illinois",
+      "primary": "#ff5f05",
+      "secondary": "#13294b"
+    },
+    {
+      "school": "Indiana",
+      "primary": "#970310",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Iowa",
+      "primary": "#231f20",
+      "secondary": "#fcd116"
+    },
+    {
+      "school": "Iowa State",
+      "primary": "#ae192d",
+      "secondary": "#ffc72a"
+    },
+    {
+      "school": "Kansas",
+      "primary": "#0051ba",
+      "secondary": "#e8000d"
+    },
+    {
+      "school": "Kansas State",
+      "primary": "#330a57",
+      "secondary": "#e2e3e4"
+    },
+    {
+      "school": "Kent State",
+      "primary": "#002664",
+      "secondary": "#eaab00"
+    },
+    {
+      "school": "Kentucky",
+      "primary": "#0033a0",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Liberty",
+      "primary": "#0a254e",
+      "secondary": "#b72025"
+    },
+    {
+      "school": "Louisiana",
+      "primary": "#ce181e",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Louisiana Tech",
+      "primary": "#003087",
+      "secondary": "#cb333b"
+    },
+    {
+      "school": "Louisiana-Monroe",
+      "primary": "#840029",
+      "secondary": "#fdb913"
+    },
+    {
+      "school": "Louisville",
+      "primary": "#c9001f",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "LSU",
+      "primary": "#461d76",
+      "secondary": "#fdd023"
+    },
+    {
+      "school": "Marshall",
+      "primary": "#00b140",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Maryland",
+      "primary": "#ce1126",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Massachusetts",
+      "primary": "#881c1c",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Memphis",
+      "primary": "#004991",
+      "secondary": "#8e908f"
+    },
+    {
+      "school": "Miami (FL)",
+      "primary": "#f47423",
+      "secondary": "#035131"
+    },
+    {
+      "school": "Miami (OH)",
+      "primary": "#c41230",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Michigan",
+      "primary": "#00274c",
+      "secondary": "#ffcb05"
+    },
+    {
+      "school": "Michigan State",
+      "primary": "#173f35",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Middle Tennessee",
+      "primary": "#036eb7",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Minnesota",
+      "primary": "#5e0a2f",
+      "secondary": "#fab41c"
+    },
+    {
+      "school": "Mississippi State",
+      "primary": "#5d1725",
+      "secondary": "#c1c6c8"
+    },
+    {
+      "school": "Missouri",
+      "primary": "#f1b82d",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Navy",
+      "primary": "#00225b",
+      "secondary": "#b5a67c"
+    },
+    {
+      "school": "Nebraska",
+      "primary": "#e31937",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Nevada",
+      "primary": "#041e42",
+      "secondary": "#8a8d8f"
+    },
+    {
+      "school": "New Mexico",
+      "primary": "#ba0c2f",
+      "secondary": "#a7a8aa"
+    },
+    {
+      "school": "North Carolina",
+      "primary": "#7bafd4",
+      "secondary": "#13294b"
+    },
+    {
+      "school": "North Texas",
+      "primary": "#068f33",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Northern Illinois",
+      "primary": "#c8102e",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Northwestern",
+      "primary": "#492f92",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Notre Dame",
+      "primary": "#062340",
+      "secondary": "#c99700"
+    },
+    {
+      "school": "Ohio",
+      "primary": "#154734",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Ohio State",
+      "primary": "#ba0c2f",
+      "secondary": "#a8adb4"
+    },
+    {
+      "school": "Oklahoma",
+      "primary": "#990000",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Oklahoma State",
+      "primary": "#fe5c00",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Old Dominion",
+      "primary": "#003768",
+      "secondary": "#a1d2f1"
+    },
+    {
+      "school": "Ole Miss",
+      "primary": "#13294b",
+      "secondary": "#cf142b"
+    },
+    {
+      "school": "Oregon",
+      "primary": "#00934b",
+      "secondary": "#fff41b"
+    },
+    {
+      "school": "Oregon State",
+      "primary": "#dc4405",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Penn State",
+      "primary": "#061440",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Pittsburgh",
+      "primary": "#003594",
+      "secondary": "#ffb81c"
+    },
+    {
+      "school": "Purdue",
+      "primary": "#ceb888",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Rice",
+      "primary": "#00205b",
+      "secondary": "#c1c6c8"
+    },
+    {
+      "school": "Rutgers",
+      "primary": "#ce0e2d",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "San Diego State",
+      "primary": "#a6192e",
+      "secondary": "#000000"
+    },
+    {
+      "school": "San Jose State",
+      "primary": "#0038a8",
+      "secondary": "#ffb81a"
+    },
+    {
+      "school": "SMU",
+      "primary": "#a80000",
+      "secondary": "#0033a1"
+    },
+    {
+      "school": "South Alabama",
+      "primary": "#00205b",
+      "secondary": "#bf0d3e"
+    },
+    {
+      "school": "South Carolina",
+      "primary": "#73000a",
+      "secondary": "#000000"
+    },
+    {
+      "school": "South Florida",
+      "primary": "#006747",
+      "secondary": "#cfc493"
+    },
+    {
+      "school": "Southern Mississippi",
+      "primary": "#ffc72c",
+      "secondary": "#231f20"
+    },
+    {
+      "school": "Stanford",
+      "primary": "#8c1515",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Syracuse",
+      "primary": "#000e54",
+      "secondary": "#ff431b"
+    },
+    {
+      "school": "TCU",
+      "primary": "#4d1979",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Temple",
+      "primary": "#a41e35",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Tennessee",
+      "primary": "#ff8200",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Texas",
+      "primary": "#af5c37",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Texas A&M",
+      "primary": "#500000",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Texas State",
+      "primary": "#501214",
+      "secondary": "#6a5638"
+    },
+    {
+      "school": "Texas Tech",
+      "primary": "#da291c",
+      "secondary": "#000000"
+    },
+    {
+      "school": "Toledo",
+      "primary": "#0b2240",
+      "secondary": "#ffcd00"
+    },
+    {
+      "school": "Troy",
+      "primary": "#862633",
+      "secondary": "#b1b1b1"
+    },
+    {
+      "school": "Tulane",
+      "primary": "#006747",
+      "secondary": "#418fde"
+    },
+    {
+      "school": "Tulsa",
+      "primary": "#003595",
+      "secondary": "#d0b787"
+    },
+    {
+      "school": "UAB",
+      "primary": "#1a5632",
+      "secondary": "#fdb913"
+    },
+    {
+      "school": "UCF",
+      "primary": "#000000",
+      "secondary": "#b4a169"
+    },
+    {
+      "school": "UCLA",
+      "primary": "#2774ae",
+      "secondary": "#f2a900"
+    },
+    {
+      "school": "UNLV",
+      "primary": "#cf0a2c",
+      "secondary": "#cac8c8"
+    },
+    {
+      "school": "USC",
+      "primary": "#9d2235",
+      "secondary": "#ffc72c"
+    },
+    {
+      "school": "Utah",
+      "primary": "#be0000",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Utah State",
+      "primary": "#0f2439",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "UTEP",
+      "primary": "#ff8200",
+      "secondary": "#041e42"
+    },
+    {
+      "school": "UTSA",
+      "primary": "#0c2340",
+      "secondary": "#f15a22"
+    },
+    {
+      "school": "Vanderbilt",
+      "primary": "#000000",
+      "secondary": "#cfae70"
+    },
+    {
+      "school": "Virginia",
+      "primary": "#f84c1e",
+      "secondary": "#232d4b"
+    },
+    {
+      "school": "Virginia Tech",
+      "primary": "#6a2c3e",
+      "secondary": "#cf4520"
+    },
+    {
+      "school": "Wake Forest",
+      "primary": "#ceb888",
+      "secondary": "#2c2a29"
+    },
+    {
+      "school": "Washington",
+      "primary": "#33006f",
+      "secondary": "#e8d3a2"
+    },
+    {
+      "school": "Washington State",
+      "primary": "#a60f2d",
+      "secondary": "#4d4d4d"
+    },
+    {
+      "school": "West Virginia",
+      "primary": "#eaaa00",
+      "secondary": "#002855"
+    },
+    {
+      "school": "Western Kentucky",
+      "primary": "#e13a3e",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Western Michigan",
+      "primary": "#532e1f",
+      "secondary": "#f1c500"
+    },
+    {
+      "school": "Wisconsin",
+      "primary": "#a00000",
+      "secondary": "#ffffff"
+    },
+    {
+      "school": "Wyoming",
+      "primary": "#492f24",
+      "secondary": "#ffc425"
+    }
+  ]
+}

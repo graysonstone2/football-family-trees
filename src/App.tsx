@@ -1,5 +1,5 @@
 import { toBlob } from 'html-to-image';
-import { FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from 'react';
+import { CSSProperties, FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from 'react';
 import Tray from './Tray';
 import {
   CoachTreeNode,
@@ -11,6 +11,7 @@ import {
 } from './functions/coachData';
 import { trackEvent, trackPageView } from './functions/analytics';
 import { getRecordPct, getRecordTone, getSchoolRecord } from './functions/schoolRecords';
+import { DEFAULT_THEME, TEAM_THEMES, getThemeVars } from './functions/teamThemes';
 import { getTeamLogo } from './functions/teamLogos';
 
 type TreeNodeWithChildren = CoachTreeNode & {
@@ -72,6 +73,15 @@ const getInitialParams = (): InitialParams => {
     mode,
     school: params.get('school') || '',
   };
+};
+
+const getInitialTheme = () => {
+  if (typeof window === 'undefined') {
+    return DEFAULT_THEME.school;
+  }
+
+  const savedTheme = window.localStorage.getItem('team-theme');
+  return TEAM_THEMES.some((theme) => theme.school === savedTheme) ? savedTheme ?? DEFAULT_THEME.school : DEFAULT_THEME.school;
 };
 
 const buildHierarchy = (nodes: CoachTreeNode[]) => {
@@ -240,6 +250,7 @@ function App() {
   const [isExporting, setIsExporting] = useState(false);
   const [directOnly, setDirectOnly] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
+  const [selectedThemeSchool, setSelectedThemeSchool] = useState(getInitialTheme);
   const canvasRef = useRef<HTMLDivElement>(null);
   const exportRef = useRef<HTMLDivElement>(null);
 
@@ -279,6 +290,11 @@ function App() {
     }),
     [forwardHierarchy, reverseHierarchy],
   );
+  const selectedTheme = useMemo(
+    () => TEAM_THEMES.find((theme) => theme.school === selectedThemeSchool) ?? DEFAULT_THEME,
+    [selectedThemeSchool],
+  );
+  const themeVars = useMemo(() => getThemeVars(selectedTheme) as CSSProperties, [selectedTheme]);
   const selectedTreeNode = useMemo(() => {
     if (!hierarchy || !selectedNode) {
       return null;
@@ -337,6 +353,14 @@ function App() {
     window.history.replaceState(null, '', nextUrl);
     trackPageView(`${window.location.pathname}${window.location.search}`);
   }, [coach, mode, selectedSchool]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    window.localStorage.setItem('team-theme', selectedThemeSchool);
+  }, [selectedThemeSchool]);
 
   const suggestions = useMemo(() => {
     const query = coach.trim().toLowerCase();
@@ -450,17 +474,17 @@ function App() {
     : null;
 
   return (
-    <main className="min-h-screen bg-[#f6f2e8] text-[#1d2528]">
-      <section className="border-b border-[#d9d0bf] bg-[#12343b] text-white">
+    <main className="app-shell min-h-screen" style={themeVars}>
+      <section className="hero-section border-b">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-5 py-7 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <div className="flex items-center gap-3">
               <img alt="" className="h-10 w-10 rounded-lg" src="/football-family-trees.svg" />
               <div>
-                <p className="text-sm font-black uppercase tracking-[0.2em] text-[#e0b25d]">
+                <p className="brand-title text-sm font-black uppercase tracking-[0.2em]">
                   Football Family Trees
                 </p>
-                <p className="mt-1 text-xs font-black uppercase tracking-[0.24em] text-[#9bbcff]">
+                <p className="stoneg-kicker mt-1 text-xs font-black uppercase tracking-[0.24em]">
                   A StoneG App
                 </p>
               </div>
@@ -468,12 +492,27 @@ function App() {
             <h1 className="mt-3 max-w-3xl text-4xl font-black leading-tight sm:text-5xl">
               Trace coaching trees in both directions.
             </h1>
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-[#dce7e7]">
+            <p className="hero-copy mt-3 max-w-2xl text-sm leading-6">
               Search any coach, then follow either the assistants who became head coaches or the mentors whose staffs shaped them.
             </p>
           </div>
 
           <form className="relative w-full max-w-xl" onSubmit={handleSubmit}>
+            <label className="mb-2 block text-sm font-semibold text-[var(--theme-accent)]" htmlFor="team-theme">
+              Team Theme
+            </label>
+            <select
+              className="theme-select mb-3 w-full rounded-lg px-3 py-3 text-sm font-black uppercase tracking-wide"
+              id="team-theme"
+              onChange={(event) => setSelectedThemeSchool(event.target.value)}
+              value={selectedThemeSchool}
+            >
+              {TEAM_THEMES.map((theme) => (
+                <option key={theme.school} value={theme.school}>
+                  {theme.school}
+                </option>
+              ))}
+            </select>
             <div className="mb-3 grid grid-cols-2 rounded-lg border border-white/15 bg-white/10 p-1">
               <ModeButton active={mode === 'forward'} onClick={() => changeMode('forward')}>
                 Descendants
@@ -482,13 +521,13 @@ function App() {
                 Mentors
               </ModeButton>
             </div>
-            <label className="mb-2 block text-sm font-semibold text-[#f7e6bd]" htmlFor="coach-search">
+            <label className="mb-2 block text-sm font-semibold text-[var(--theme-accent)]" htmlFor="coach-search">
               Coach search
             </label>
             <div className="flex gap-2 rounded-lg bg-white p-2 shadow-xl shadow-black/20">
               <input
                 id="coach-search"
-                className="min-w-0 flex-1 rounded-md border border-transparent px-4 py-3 text-base font-semibold text-[#1d2528] outline-none focus:border-[#e0b25d]"
+                className="min-w-0 flex-1 rounded-md border border-transparent px-4 py-3 text-base font-semibold text-[var(--theme-ink)] outline-none focus:border-[var(--theme-accent)]"
                 placeholder="Try Nick Saban, Mack Brown, Urban Meyer..."
                 value={coach}
                 onBlur={() => window.setTimeout(() => setIsFocused(false), 120)}
@@ -499,7 +538,7 @@ function App() {
                 onFocus={() => setIsFocused(true)}
               />
               <button
-                className="rounded-md bg-[#d0452f] px-5 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:bg-[#a93424] focus:outline-none focus:ring-2 focus:ring-[#e0b25d]"
+                className="primary-button rounded-md px-5 py-3 text-sm font-black uppercase tracking-wide transition focus:outline-none focus:ring-2 focus:ring-[var(--theme-accent)]"
                 type="submit"
               >
                 Search
@@ -507,16 +546,16 @@ function App() {
             </div>
 
             {isFocused && suggestions.length > 0 && (
-              <div className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-lg border border-[#d9d0bf] bg-white text-[#1d2528] shadow-2xl">
+              <div className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white text-[var(--theme-ink)] shadow-2xl">
                 {suggestions.map((suggestion) => (
                   <button
-                    className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-[#f6f2e8]"
+                    className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-[var(--theme-primary-soft)]"
                     key={suggestion}
                     onMouseDown={() => runSearch(suggestion)}
                     type="button"
                   >
                     <span>{suggestion}</span>
-                    <span className="text-xs uppercase tracking-wide text-[#668085]">select</span>
+                    <span className="text-xs uppercase tracking-wide text-[var(--theme-muted)]">select</span>
                   </button>
                 ))}
               </div>
@@ -533,13 +572,13 @@ function App() {
       </section>
 
       <section className="mx-auto grid max-w-7xl gap-5 px-5 pb-8 xl:grid-cols-[minmax(0,1fr)_360px]">
-        <div className="min-h-[620px] overflow-hidden rounded-lg border border-[#d9d0bf] bg-white shadow-sm">
-          <div className="flex flex-col gap-3 border-b border-[#e7decd] bg-[#fffaf0] p-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="min-h-[620px] overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white shadow-sm">
+          <div className="flex flex-col gap-3 border-b border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h2 className="text-xl font-black">
                 {visibleHierarchy ? `${visibleHierarchy.id}'s ${modeCopy[mode].title}` : 'No tree selected'}
               </h2>
-              <p className="mt-1 text-sm text-[#58676a]">
+              <p className="mt-1 text-sm text-[var(--theme-muted)]">
                 {message || modeCopy[mode].message}
               </p>
             </div>
@@ -553,7 +592,7 @@ function App() {
               <div className="flex flex-wrap items-center gap-2">
                 <select
                   aria-label="Filter tree by school"
-                  className="rounded-md border border-[#d9d0bf] bg-white px-3 py-2 text-sm font-bold text-[#12343b]"
+                  className="rounded-md border border-[var(--theme-border)] bg-white px-3 py-2 text-sm font-bold text-[var(--theme-primary)]"
                   onChange={(event) => setSelectedSchool(event.target.value)}
                   value={selectedSchool}
                 >
@@ -565,24 +604,24 @@ function App() {
                   ))}
                 </select>
                 <button
-                  className="rounded-md bg-[#d0452f] px-3 py-2 text-sm font-black uppercase tracking-wide text-white transition hover:bg-[#a93424] disabled:cursor-wait disabled:bg-[#a96f65]"
+                  className="primary-button rounded-md px-3 py-2 text-sm font-black uppercase tracking-wide transition disabled:cursor-wait disabled:opacity-60"
                   disabled={isExporting}
                   onClick={exportTree}
                   type="button"
                 >
                   {isExporting ? 'Exporting...' : 'Export PNG'}
                 </button>
-                <label className="flex items-center gap-2 rounded-md border border-[#d9d0bf] bg-white px-3 py-2 text-sm font-black text-[#12343b]">
+                <label className="flex items-center gap-2 rounded-md border border-[var(--theme-border)] bg-white px-3 py-2 text-sm font-black text-[var(--theme-primary)]">
                   <input
                     checked={directOnly}
-                    className="h-4 w-4 accent-[#d0452f]"
+                    className="h-4 w-4 accent-[var(--theme-line)]"
                     onChange={(event) => setDirectOnly(event.target.checked)}
                     type="checkbox"
                   />
                   Direct only
                 </label>
               </div>
-              {exportStatus && <p className="text-xs font-bold text-[#58676a]">{exportStatus}</p>}
+              {exportStatus && <p className="text-xs font-bold text-[var(--theme-muted)]">{exportStatus}</p>}
             </div>
           </div>
 
@@ -601,7 +640,7 @@ function App() {
               <div className="flex min-h-[420px] items-center justify-center text-center">
                 <div>
                   <p className="text-2xl font-black">No tree to show.</p>
-                  <p className="mt-2 max-w-md text-sm text-[#58676a]">
+                  <p className="mt-2 max-w-md text-sm text-[var(--theme-muted)]">
                     Pick a coach from autocomplete or try another spelling.
                   </p>
                 </div>
@@ -610,7 +649,7 @@ function App() {
           </div>
         </div>
 
-        <aside className="rounded-lg border border-[#d9d0bf] bg-white shadow-sm">
+        <aside className="rounded-lg border border-[var(--theme-border)] bg-white shadow-sm">
           {selectedNode ? (
             <Tray
               mode={mode}
@@ -623,7 +662,7 @@ function App() {
           ) : (
             <div className="p-6">
               <h2 className="text-xl font-black">Coach details</h2>
-              <p className="mt-2 text-sm leading-6 text-[#58676a]">
+              <p className="mt-2 text-sm leading-6 text-[var(--theme-muted)]">
                 Select any tree card to see coaching stops, mentorship years, schools, and later head coaching roles.
               </p>
             </div>
@@ -644,10 +683,10 @@ function App() {
                     <div className="flex min-w-0 items-center gap-3">
                       {logo && <img alt="" className="team-logo team-logo-job" loading="lazy" src={logo} />}
                       <div className="min-w-0">
-                        <p className="font-black text-[#12343b]">
+                        <p className="font-black text-[var(--theme-primary)]">
                           {season.school}, {season.year}
                         </p>
-                        <p className="truncate text-xs font-bold text-[#58676a]">
+                        <p className="truncate text-xs font-bold text-[var(--theme-muted)]">
                           {Array.from(season.coaches).slice(0, 4).join(', ')}
                         </p>
                         {record && (
@@ -656,7 +695,7 @@ function App() {
                               {record.record}
                             </span>
                             {record.record_note && (
-                              <span className="text-xs font-black uppercase tracking-wide text-[#8f3b2d]">
+                              <span className="text-xs font-black uppercase tracking-wide text-[var(--theme-line)]">
                                 {record.record_note}
                               </span>
                             )}
@@ -670,7 +709,7 @@ function App() {
               })}
             </div>
           ) : (
-            <p className="text-sm leading-6 text-[#58676a]">No direct descendant staff seasons found.</p>
+            <p className="text-sm leading-6 text-[var(--theme-muted)]">No direct descendant staff seasons found.</p>
           )}
         </InsightPanel>
 
@@ -685,19 +724,19 @@ function App() {
                     <div className="flex min-w-0 items-center gap-3">
                       {logo && <img alt="" className="team-logo team-logo-job" loading="lazy" src={logo} />}
                       <div className="min-w-0">
-                        <p className="font-black text-[#12343b]">{entry.coach}</p>
-                        <p className="truncate text-xs font-bold text-[#58676a]">
+                        <p className="font-black text-[var(--theme-primary)]">{entry.coach}</p>
+                        <p className="truncate text-xs font-bold text-[var(--theme-muted)]">
                           {entry.job.school}, {entry.job.year}
                         </p>
                       </div>
                     </div>
-                    <span className="text-sm font-black text-[#8f3b2d]">{entry.record.record}</span>
+                    <span className="text-sm font-black text-[var(--theme-line)]">{entry.record.record}</span>
                   </div>
                 );
               })}
             </div>
           ) : (
-            <p className="text-sm leading-6 text-[#58676a]">No descendant debut records found.</p>
+            <p className="text-sm leading-6 text-[var(--theme-muted)]">No descendant debut records found.</p>
           )}
         </InsightPanel>
 
@@ -716,17 +755,17 @@ function App() {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-[#d9d0bf] bg-white px-5 py-4 shadow-sm">
-      <p className="text-xs font-black uppercase tracking-wide text-[#668085]">{label}</p>
-      <p className="mt-2 text-2xl font-black text-[#12343b]">{value}</p>
+    <div className="rounded-lg border border-[var(--theme-border)] bg-white px-5 py-4 shadow-sm">
+      <p className="text-xs font-black uppercase tracking-wide text-[var(--theme-muted)]">{label}</p>
+      <p className="mt-2 text-2xl font-black text-[var(--theme-primary)]">{value}</p>
     </div>
   );
 }
 
 function InsightPanel({ children, title }: { children: ReactNode; title: string }) {
   return (
-    <div className="rounded-lg border border-[#d9d0bf] bg-white p-4 shadow-sm">
-      <h2 className="mb-3 text-sm font-black uppercase tracking-wide text-[#12343b]">{title}</h2>
+    <div className="rounded-lg border border-[var(--theme-border)] bg-white p-4 shadow-sm">
+      <h2 className="mb-3 text-sm font-black uppercase tracking-wide text-[var(--theme-primary)]">{title}</h2>
       {children}
     </div>
   );
@@ -734,9 +773,9 @@ function InsightPanel({ children, title }: { children: ReactNode; title: string 
 
 function ComparisonMetric({ label, value }: { label: string; value: number }) {
   return (
-    <div className="rounded-lg border border-[#e7decd] bg-[#fffaf0] p-3">
-      <p className="text-2xl font-black text-[#12343b]">{value}</p>
-      <p className="mt-1 text-[11px] font-black uppercase tracking-wide text-[#668085]">{label}</p>
+    <div className="rounded-lg border border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-3">
+      <p className="text-2xl font-black text-[var(--theme-primary)]">{value}</p>
+      <p className="mt-1 text-[11px] font-black uppercase tracking-wide text-[var(--theme-muted)]">{label}</p>
     </div>
   );
 }
@@ -752,8 +791,8 @@ function ModeButton({
 }) {
   return (
     <button
-      className={`rounded-md px-4 py-2 text-sm font-black uppercase tracking-wide transition ${
-        active ? 'bg-[#e0b25d] text-[#12343b]' : 'text-white hover:bg-white/10'
+      className={`mode-button rounded-md px-4 py-2 text-sm font-black uppercase tracking-wide transition ${
+        active ? 'mode-button-active' : ''
       }`}
       onClick={onClick}
       type="button"
@@ -764,7 +803,7 @@ function ModeButton({
 }
 
 function Badge({ children }: { children: ReactNode }) {
-  return <span className="rounded-full bg-[#12343b] px-3 py-2 text-white">{children}</span>;
+  return <span className="tree-badge rounded-full px-3 py-2">{children}</span>;
 }
 
 function TreeBranch({
