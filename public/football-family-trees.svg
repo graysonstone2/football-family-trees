@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Football Family Trees">
+  <rect width="64" height="64" rx="14" fill="#12343b"/>
+  <path d="M32 12v12M18 34h28M18 34v12M46 34v12" stroke="#e0b25d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="12" r="6" fill="#d0452f"/>
+  <circle cx="18" cy="50" r="6" fill="#ffffff"/>
+  <circle cx="46" cy="50" r="6" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,346 @@
+import type { ReactNode } from 'react';
+import { CoachJob, CoachTreeNode } from './functions/coachData';
+import {
+  formatRecordSummary,
+  getRecordTone,
+  getSurroundingRecordSummary,
+} from './functions/schoolRecords';
+import { getTeamLogo } from './functions/teamLogos';
+
+type TrayProps = {
+  mode: 'forward' | 'reverse';
+  node: CoachTreeNode;
+  parentNode?: CoachTreeNode | null;
+  relatedCount: number;
+  onClose: () => void;
+  onSearchCoach: (coachName: string) => void;
+};
+
+const roleLabels: Record<string, string> = {
+  hc: 'Head coach',
+  dc: 'Defensive coordinator',
+  oc: 'Offensive coordinator',
+  other: 'Assistant',
+};
+
+const formatRole = (role: string) => roleLabels[role] ?? role.toUpperCase();
+
+const formatYears = (years: number[]) => {
+  if (!years.length) {
+    return 'Origin coach';
+  }
+
+  const sorted = [...years].sort((a, b) => a - b);
+  return sorted.length === 1 ? String(sorted[0]) : `${sorted[0]}-${sorted[sorted.length - 1]}`;
+};
+
+const groupJobs = (history: CoachJob[]) => {
+  const groups = new Map<string, CoachJob[]>();
+
+  history.forEach((job) => {
+    const key = `${job.school}-${job.title}`;
+    groups.set(key, [...(groups.get(key) ?? []), job]);
+  });
+
+  return Array.from(groups.values()).map((jobs) => ({
+    school: jobs[0].school,
+    title: jobs[0].title,
+    years: jobs.map((job) => job.year).sort((a, b) => a - b),
+  }));
+};
+
+const getOverlapJobs = (mode: TrayProps['mode'], node: CoachTreeNode, parentNode?: CoachTreeNode | null) => {
+  if (!parentNode || node.years.length === 0) {
+    return [];
+  }
+
+  const edgeYears = new Set(node.years);
+  const nodeJobs = node.history.filter((job) => edgeYears.has(job.year));
+  const parentJobs = parentNode.history.filter((job) => edgeYears.has(job.year));
+
+  return nodeJobs
+    .map((job) => ({
+      coachJob: job,
+      parentJob:
+        parentJobs.find((parentJob) => {
+          const expectedTitle = mode === 'forward' ? parentJob.title === 'hc' : job.title === 'hc';
+          return expectedTitle && parentJob.school === job.school && parentJob.year === job.year;
+        }),
+    }))
+    .filter((overlap) => overlap.parentJob);
+};
+
+const overlapKey = (job: Pick<CoachJob, 'school' | 'title'>, years: number[]) =>
+  `${job.school}-${job.title}-${years.join(',')}`;
+
+const getDataQualityHints = ({
+  hasMissingOverlap,
+  node,
+}: {
+  hasMissingOverlap: boolean;
+  node: CoachTreeNode;
+}) => {
+  const hints: string[] = [];
+
+  if (/[/(]|,|\binterim\b/i.test(node.id)) {
+    hints.push('This coach name looks like it may include a split role, parenthetical note, or interim label.');
+  }
+
+  const jobsBySeason = new Map<string, CoachJob[]>();
+  node.history.forEach((job) => {
+    const key = `${job.school}-${job.year}`;
+    jobsBySeason.set(key, [...(jobsBySeason.get(key) ?? []), job]);
+  });
+
+  const duplicateRoleStops = Array.from(jobsBySeason.values()).filter((jobs) => jobs.length > 1);
+  if (duplicateRoleStops.length > 0) {
+    hints.push('This coach appears in multiple roles at the same school in at least one season.');
+  }
+
+  const unusualTitles = Array.from(new Set(node.history.map((job) => job.title))).filter(
+    (title) => !['hc', 'dc', 'oc', 'other'].includes(title),
+  );
+  if (unusualTitles.length > 0) {
+    hints.push(`This history includes non-standard role labels: ${unusualTitles.join(', ')}.`);
+  }
+
+  if (hasMissingOverlap) {
+    hints.push('The tree relationship has years attached, but the matching school staff row could not be reconstructed cleanly.');
+  }
+
+  return hints;
+};
+
+const Tray = ({ mode, node, parentNode, relatedCount, onClose, onSearchCoach }: TrayProps) => {
+  const headCoachJobs = node.history.filter((job) => job.title === 'hc');
+  const schools = Array.from(new Set(node.history.map((job) => job.school)));
+  const latestJob = [...node.history].sort((a, b) => b.year - a.year)[0];
+  const latestLogo = getTeamLogo(latestJob?.school);
+  const overlapJobs = getOverlapJobs(mode, node, parentNode);
+  const overlapYears = new Set(overlapJobs.map((overlap) => overlap.coachJob.year));
+  const connectionGroups = groupJobs(overlapJobs.map((overlap) => overlap.coachJob));
+  const dataQualityHints = getDataQualityHints({
+    hasMissingOverlap: Boolean(parentNode && node.years.length > 0 && overlapJobs.length === 0),
+    node,
+  });
+  const relationText =
+    mode === 'reverse'
+      ? node.parent
+        ? `${node.parent} worked under ${node.id} in ${formatYears(node.years)}.`
+        : 'Root of the selected mentor lineage.'
+      : node.parent
+        ? `Worked under ${node.parent} in ${formatYears(node.years)}.`
+        : 'Root of the selected coaching tree.';
+
+  return (
+    <div className="flex h-full flex-col">
+      <div className="border-b border-[#e7decd] bg-[#12343b] p-5 text-white">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-[#e0b25d]">Coach card</p>
+            <h2 className="mt-2 text-2xl font-black leading-tight">{node.id}</h2>
+            <p className="mt-2 text-sm leading-6 text-[#dce7e7]">{relationText}</p>
+            <button
+              className="mt-4 rounded-md bg-[#e0b25d] px-3 py-2 text-xs font-black uppercase tracking-wide text-[#12343b] transition hover:bg-[#f0c875]"
+              onClick={() => onSearchCoach(node.id)}
+              type="button"
+            >
+              Open this tree
+            </button>
+          </div>
+          <button
+            aria-label="Close coach details"
+            className="rounded-md border border-white/20 px-3 py-2 text-sm font-black text-white transition hover:bg-white/10"
+            onClick={onClose}
+            type="button"
+          >
+            X
+          </button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-3 border-b border-[#e7decd] bg-[#fffaf0] text-center">
+        <Metric label={mode === 'reverse' ? 'Mentors' : 'Branches'} value={relatedCount} />
+        <Metric label="HC jobs" value={headCoachJobs.length} />
+        <Metric label="Schools" value={schools.length} />
+      </div>
+
+      <div className="space-y-6 overflow-auto p-5">
+        {parentNode && (
+          <section>
+            <h3 className="section-title">Connection to parent</h3>
+            <div className="rounded-lg border border-[#e0b25d] bg-[#fff7df] p-4 shadow-sm">
+              <p className="text-sm font-black text-[#12343b]">
+                {mode === 'reverse'
+                  ? `${parentNode.id} overlapped with ${node.id}`
+                  : `${node.id} overlapped with ${parentNode.id}`}
+              </p>
+              {overlapJobs.length > 0 ? (
+                <div className="mt-3 space-y-2">
+                  {connectionGroups.map((job) => (
+                    <div
+                      className="rounded-md border border-[#edd38f] bg-white px-3 py-2"
+                      key={overlapKey(job, job.years)}
+                    >
+                      <div className="flex items-center gap-2">
+                        {getTeamLogo(job.school) && (
+                          <img
+                            alt=""
+                            className="team-logo team-logo-job"
+                            loading="lazy"
+                            src={getTeamLogo(job.school) ?? undefined}
+                          />
+                        )}
+                        <p className="text-sm font-black text-[#8f3b2d]">
+                          {job.school}, {formatYears(job.years)}
+                        </p>
+                      </div>
+                      <p className="mt-1 text-sm leading-5 text-[#58676a]">
+                        {mode === 'reverse'
+                          ? `${node.id} was ${formatRole(job.title).toLowerCase()} while ${parentNode.id} was on staff.`
+                          : `${node.id} was ${formatRole(job.title).toLowerCase()} while ${parentNode.id} was head coach.`}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="mt-2 text-sm leading-6 text-[#58676a]">
+                  The relationship years are recorded, but this dataset does not include a matching staff row for the selected coach.
+                </p>
+              )}
+            </div>
+          </section>
+        )}
+
+        <section>
+          <h3 className="section-title">Current dataset signal</h3>
+          <div className="rounded-lg border border-[#e7decd] bg-[#f8fbfb] p-4">
+            <div className="flex items-center gap-3">
+              {latestLogo && <img alt="" className="team-logo team-logo-signal" loading="lazy" src={latestLogo} />}
+              <p className="text-sm font-bold text-[#12343b]">
+                {latestJob ? `${formatRole(latestJob.title)} at ${latestJob.school} in ${latestJob.year}` : 'No job history found.'}
+              </p>
+            </div>
+            <p className="mt-2 text-sm leading-6 text-[#58676a]">
+              {headCoachJobs.length > 0
+                ? `${node.id} has ${headCoachJobs.length} head coaching season${headCoachJobs.length === 1 ? '' : 's'} recorded.`
+                : `${node.id} appears in staff history, but no head coaching seasons are recorded.`}
+            </p>
+          </div>
+        </section>
+
+        {dataQualityHints.length > 0 && (
+          <section>
+            <h3 className="section-title">Data quality notes</h3>
+            <div className="space-y-2 rounded-lg border border-[#d9d0bf] bg-[#fffaf0] p-4">
+              {dataQualityHints.map((hint) => (
+                <p className="text-sm leading-6 text-[#58676a]" key={hint}>
+                  {hint}
+                </p>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {headCoachJobs.length > 0 && (
+          <section>
+            <h3 className="section-title">Head coaching stops</h3>
+            <div className="space-y-2">
+              {groupJobs(headCoachJobs).map((job) => {
+                const surroundingSummary = getSurroundingRecordSummary(job.school, job.years);
+
+                return (
+                  <JobPill
+                    highlighted={job.years.some((year) => overlapYears.has(year))}
+                    key={overlapKey(job, job.years)}
+                    school={job.school}
+                    title={job.title}
+                    years={job.years}
+                  >
+                    <div className="mt-3 grid grid-cols-3 gap-2">
+                      <RecordMetric label="Before" summary={surroundingSummary.before} />
+                      <RecordMetric label="During" summary={surroundingSummary.during} />
+                      <RecordMetric label="After" summary={surroundingSummary.after} />
+                    </div>
+                  </JobPill>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        <section>
+          <h3 className="section-title">Full recorded history</h3>
+          <div className="space-y-2">
+            {groupJobs(node.history).map((job) => (
+              <JobPill
+                highlighted={job.years.some((year) => overlapYears.has(year))}
+                key={overlapKey(job, job.years)}
+                school={job.school}
+                title={job.title}
+                years={job.years}
+              />
+            ))}
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+};
+
+function Metric({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="border-r border-[#e7decd] px-3 py-4 last:border-r-0">
+      <p className="text-xl font-black text-[#12343b]">{value}</p>
+      <p className="mt-1 text-[11px] font-black uppercase tracking-wide text-[#668085]">{label}</p>
+    </div>
+  );
+}
+
+function JobPill({
+  children,
+  highlighted = false,
+  school,
+  title,
+  years,
+}: {
+  children?: ReactNode;
+  highlighted?: boolean;
+  school: string;
+  title: string;
+  years: number[];
+}) {
+  const logo = getTeamLogo(school);
+  return (
+    <div className={`rounded-lg border bg-white p-3 ${highlighted ? 'connection-highlight' : 'border-[#e7decd]'}`}>
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex min-w-0 items-center gap-2">
+          {logo && <img alt="" className="team-logo team-logo-job" loading="lazy" src={logo} />}
+          <p className="min-w-0 font-black text-[#1d2528]">{school}</p>
+        </div>
+        <span className="rounded-full bg-[#f6f2e8] px-2 py-1 text-xs font-black text-[#8f3b2d]">
+          {formatYears(years)}
+        </span>
+      </div>
+      <p className="mt-1 text-sm text-[#58676a]">{formatRole(title)}</p>
+      {children}
+    </div>
+  );
+}
+
+function RecordMetric({
+  label,
+  summary,
+}: {
+  label: string;
+  summary: ReturnType<typeof getSurroundingRecordSummary>['before'];
+}) {
+  return (
+    <div className={`record-metric record-metric-${getRecordTone(summary?.pct)}`}>
+      <p>{formatRecordSummary(summary)}</p>
+      <span>{label}</span>
+    </div>
+  );
+}
+
+export default Tray;
