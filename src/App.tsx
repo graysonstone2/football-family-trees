@@ -22,9 +22,11 @@ type TreeNodeWithChildren = CoachTreeNode & {
 
 const DEFAULT_COACH = 'Nick Saban';
 type TreeMode = 'forward' | 'reverse';
+type AppPage = 'tree' | 'biggest-trees';
 type InitialParams = {
   coach: string;
   mode: TreeMode;
+  page: AppPage;
   school: string;
 };
 
@@ -81,15 +83,17 @@ const groupByParent = (nodes: CoachTreeNode[]) => {
 
 const getInitialParams = (): InitialParams => {
   if (typeof window === 'undefined') {
-    return { coach: DEFAULT_COACH, mode: 'forward', school: '' };
+    return { coach: DEFAULT_COACH, mode: 'forward', page: 'tree', school: '' };
   }
 
   const params = new URLSearchParams(window.location.search);
   const mode = params.get('mode') === 'reverse' ? 'reverse' : 'forward';
+  const page = params.get('page') === 'biggest-trees' ? 'biggest-trees' : 'tree';
 
   return {
     coach: params.get('coach') || DEFAULT_COACH,
     mode,
+    page,
     school: params.get('school') || '',
   };
 };
@@ -220,6 +224,7 @@ function App() {
   const [mode, setMode] = useState<TreeMode>(initialParams.mode);
   const [coach, setCoach] = useState(initialParams.coach);
   const [treeData, setTreeData] = useState<CoachTreeNode[] | null>(initialTree);
+  const [page, setPage] = useState<AppPage>(initialParams.page);
   const [selectedNode, setSelectedNode] = useState<CoachTreeNode | null>(initialTree?.[0] ?? null);
   const [message, setMessage] = useState(
     initialTree && initialTree.length > 1
@@ -260,13 +265,14 @@ function App() {
     },
     [directOnly, hierarchy, selectedSchool],
   );
+  const selectedTreeCoach = hierarchy?.id ?? coach;
   const selectedLeaderboardEntry = useMemo(
-    () => (treeLeaderboard as TreeLeaderboardEntry[]).find((entry) => entry.coach === coach) ?? null,
-    [coach],
+    () => (treeLeaderboard as TreeLeaderboardEntry[]).find((entry) => entry.coach === selectedTreeCoach) ?? null,
+    [selectedTreeCoach],
   );
   const productiveStaffs = selectedLeaderboardEntry?.topStaffs ?? [];
   const bestBranchDebuts = useMemo(() => getBestBranchDebuts(forwardHierarchy), [forwardHierarchy]);
-  const biggestTrees = useMemo(() => (treeLeaderboard as TreeLeaderboardEntry[]).slice(0, 8), []);
+  const biggestTrees = useMemo(() => treeLeaderboard as TreeLeaderboardEntry[], []);
   const comparisonStats = useMemo(
     () => ({
       descendants: forwardHierarchy ? countChildren(forwardHierarchy) : 0,
@@ -331,6 +337,9 @@ function App() {
     if (mode !== 'forward') {
       params.set('mode', mode);
     }
+    if (page !== 'tree') {
+      params.set('page', page);
+    }
     if (selectedSchool) {
       params.set('school', selectedSchool);
     }
@@ -338,7 +347,7 @@ function App() {
     const nextUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
     window.history.replaceState(null, '', nextUrl);
     trackPageView(`${window.location.pathname}${window.location.search}`);
-  }, [coach, mode, selectedSchool]);
+  }, [coach, mode, page, selectedSchool]);
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -391,6 +400,15 @@ function App() {
   const changeMode = (nextMode: TreeMode) => {
     setMode(nextMode);
     runSearch(coach, nextMode);
+  };
+
+  const openCoachTree = (coachName: string) => {
+    setPage('tree');
+    setMode('forward');
+    setSelectedSchool('');
+    setDirectOnly(false);
+    runSearch(coachName, 'forward');
+    window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -476,11 +494,21 @@ function App() {
               </div>
             </div>
             <h1 className="mt-3 max-w-3xl text-4xl font-black leading-tight sm:text-5xl">
-              Trace coaching trees in both directions.
+              {page === 'tree' ? 'Trace coaching trees in both directions.' : 'The biggest coaching trees.'}
             </h1>
             <p className="hero-copy mt-3 max-w-2xl text-sm leading-6">
-              Search any coach, then follow either the assistants who became head coaches or the mentors whose staffs shaped them.
+              {page === 'tree'
+                ? 'Search any coach, then follow either the assistants who became head coaches or the mentors whose staffs shaped them.'
+                : 'Rank every head coach by total descendant branches, then jump straight into the full tree.'}
             </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <PageButton active={page === 'tree'} onClick={() => setPage('tree')}>
+                Tree search
+              </PageButton>
+              <PageButton active={page === 'biggest-trees'} onClick={() => setPage('biggest-trees')}>
+                Biggest trees
+              </PageButton>
+            </div>
           </div>
 
           <div className="theme-control w-full max-w-[190px] self-end lg:absolute lg:right-5 lg:top-5">
@@ -501,55 +529,57 @@ function App() {
             </select>
           </div>
 
-          <form className="relative w-full max-w-xl" onSubmit={handleSubmit}>
-            <div className="mb-3 grid grid-cols-2 rounded-lg border border-white/15 bg-white/10 p-1">
-              <ModeButton active={mode === 'forward'} onClick={() => changeMode('forward')}>
-                Descendants
-              </ModeButton>
-              <ModeButton active={mode === 'reverse'} onClick={() => changeMode('reverse')}>
-                Mentors
-              </ModeButton>
-            </div>
-            <label className="mb-2 block text-sm font-semibold text-[var(--theme-accent)]" htmlFor="coach-search">
-              Coach search
-            </label>
-            <div className="flex gap-2 rounded-lg bg-white p-2 shadow-xl shadow-black/20">
-              <input
-                id="coach-search"
-                className="min-w-0 flex-1 rounded-md border border-transparent px-4 py-3 text-base font-semibold text-[var(--theme-ink)] outline-none focus:border-[var(--theme-accent)]"
-                placeholder="Try Nick Saban, Mack Brown, Urban Meyer..."
-                value={coach}
-                onBlur={() => window.setTimeout(() => setIsFocused(false), 120)}
-                onChange={(event) => {
-                  setCoach(event.target.value);
-                  setIsFocused(true);
-                }}
-                onFocus={() => setIsFocused(true)}
-              />
-              <button
-                className="primary-button rounded-md px-5 py-3 text-sm font-black uppercase tracking-wide transition focus:outline-none focus:ring-2 focus:ring-[var(--theme-accent)]"
-                type="submit"
-              >
-                Search
-              </button>
-            </div>
-
-            {isFocused && suggestions.length > 0 && (
-              <div className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white text-[var(--theme-ink)] shadow-2xl">
-                {suggestions.map((suggestion) => (
-                  <button
-                    className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-[var(--theme-primary-soft)]"
-                    key={suggestion}
-                    onMouseDown={() => runSearch(suggestion)}
-                    type="button"
-                  >
-                    <span>{suggestion}</span>
-                    <span className="text-xs uppercase tracking-wide text-[var(--theme-muted)]">select</span>
-                  </button>
-                ))}
+          {page === 'tree' && (
+            <form className="relative w-full max-w-xl" onSubmit={handleSubmit}>
+              <div className="mb-3 grid grid-cols-2 rounded-lg border border-white/15 bg-white/10 p-1">
+                <ModeButton active={mode === 'forward'} onClick={() => changeMode('forward')}>
+                  Descendants
+                </ModeButton>
+                <ModeButton active={mode === 'reverse'} onClick={() => changeMode('reverse')}>
+                  Mentors
+                </ModeButton>
               </div>
-            )}
-          </form>
+              <label className="mb-2 block text-sm font-semibold text-[var(--theme-accent)]" htmlFor="coach-search">
+                Coach search
+              </label>
+              <div className="flex gap-2 rounded-lg bg-white p-2 shadow-xl shadow-black/20">
+                <input
+                  id="coach-search"
+                  className="min-w-0 flex-1 rounded-md border border-transparent px-4 py-3 text-base font-semibold text-[var(--theme-ink)] outline-none focus:border-[var(--theme-accent)]"
+                  placeholder="Try Nick Saban, Mack Brown, Urban Meyer..."
+                  value={coach}
+                  onBlur={() => window.setTimeout(() => setIsFocused(false), 120)}
+                  onChange={(event) => {
+                    setCoach(event.target.value);
+                    setIsFocused(true);
+                  }}
+                  onFocus={() => setIsFocused(true)}
+                />
+                <button
+                  className="primary-button rounded-md px-5 py-3 text-sm font-black uppercase tracking-wide transition focus:outline-none focus:ring-2 focus:ring-[var(--theme-accent)]"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </div>
+
+              {isFocused && suggestions.length > 0 && (
+                <div className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white text-[var(--theme-ink)] shadow-2xl">
+                  {suggestions.map((suggestion) => (
+                    <button
+                      className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-[var(--theme-primary-soft)]"
+                      key={suggestion}
+                      onMouseDown={() => runSearch(suggestion)}
+                      type="button"
+                    >
+                      <span>{suggestion}</span>
+                      <span className="text-xs uppercase tracking-wide text-[var(--theme-muted)]">select</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </form>
+          )}
         </div>
       </section>
 
@@ -560,6 +590,29 @@ function App() {
         <Stat label="Head coaches" value={summary.headCoachCount.toLocaleString()} />
       </section>
 
+      {page === 'biggest-trees' ? (
+        <section className="mx-auto max-w-7xl px-5 pb-8">
+          <div className="rounded-lg border border-[var(--theme-border)] bg-white p-4 shadow-sm">
+            <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <h2 className="text-xl font-black text-[var(--theme-primary)]">Biggest trees</h2>
+                <p className="mt-1 text-sm text-[var(--theme-muted)]">
+                  Ranked by total descendant head coaches found in the dataset.
+                </p>
+              </div>
+              <button className="primary-button rounded-md px-4 py-2 text-sm font-black uppercase tracking-wide" onClick={() => setPage('tree')} type="button">
+                Back to tree
+              </button>
+            </div>
+            <div className="leaderboard-list">
+              {biggestTrees.map((entry) => (
+                <LeaderboardRow entry={entry} key={entry.coach} onOpenTree={openCoachTree} />
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : (
+        <>
       <section className="mx-auto grid max-w-7xl gap-5 px-5 pb-8 xl:grid-cols-[minmax(0,1fr)_360px]">
         <div className="min-h-[620px] overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white shadow-sm">
           <div className="flex flex-col gap-3 border-b border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-4 sm:flex-row sm:items-center sm:justify-between">
@@ -659,42 +712,8 @@ function App() {
         </aside>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-4 px-5 pb-8 lg:grid-cols-2 2xl:grid-cols-4">
-        <InsightPanel title="Biggest trees">
-          <div className="space-y-2">
-            {biggestTrees.map((entry) => {
-              const logo = getTeamLogo(entry.firstHeadCoachJob?.school ?? '');
-
-              return (
-                <button
-                  className="insight-row w-full text-left"
-                  key={entry.coach}
-                  onClick={() => {
-                    setMode('forward');
-                    runSearch(entry.coach, 'forward');
-                  }}
-                  type="button"
-                >
-                  <div className="flex min-w-0 items-center gap-3">
-                    <span className="leaderboard-rank">{entry.rank}</span>
-                    {logo && <img alt="" className="team-logo team-logo-job" loading="lazy" src={logo} />}
-                    <div className="min-w-0">
-                      <p className="truncate font-black text-[var(--theme-primary)]">{entry.coach}</p>
-                      <p className="truncate text-xs font-bold text-[var(--theme-muted)]">
-                        {entry.firstHeadCoachJob
-                          ? `${entry.firstHeadCoachJob.school}, ${entry.firstHeadCoachJob.year}`
-                          : `${entry.headCoachStops} HC stops`}
-                      </p>
-                    </div>
-                  </div>
-                  <span className="insight-count">{entry.totalDescendants}</span>
-                </button>
-              );
-            })}
-          </div>
-        </InsightPanel>
-
-        <InsightPanel title="Most productive staffs">
+      <section className="mx-auto grid max-w-7xl gap-4 px-5 pb-8 lg:grid-cols-3">
+        <InsightPanel title={`Most productive staffs for ${selectedTreeCoach}`}>
           {productiveStaffs.length > 0 ? (
             <div className="space-y-2">
               {productiveStaffs.map((season) => {
@@ -772,6 +791,8 @@ function App() {
           </div>
         </InsightPanel>
       </section>
+        </>
+      )}
     </main>
   );
 }
@@ -794,12 +815,68 @@ function InsightPanel({ children, title }: { children: ReactNode; title: string 
   );
 }
 
+function LeaderboardRow({ entry, onOpenTree }: { entry: TreeLeaderboardEntry; onOpenTree: (coach: string) => void }) {
+  const logo = getTeamLogo(entry.firstHeadCoachJob?.school ?? '');
+  const topStaff = entry.topStaffs[0];
+
+  return (
+    <button className="leaderboard-row" onClick={() => onOpenTree(entry.coach)} type="button">
+      <span className="leaderboard-rank leaderboard-rank-large">{entry.rank}</span>
+      {logo && <img alt="" className="team-logo team-logo-signal" loading="lazy" src={logo} />}
+      <span className="min-w-0 flex-1">
+        <span className="block truncate text-lg font-black text-[var(--theme-primary)]">{entry.coach}</span>
+        <span className="mt-1 block text-sm font-bold text-[var(--theme-muted)]">
+          {entry.firstHeadCoachJob
+            ? `${entry.firstHeadCoachJob.school}, ${entry.firstHeadCoachJob.year}`
+            : `${entry.headCoachStops} HC stops`}
+        </span>
+      </span>
+      <span className="leaderboard-metrics">
+        <span>
+          <strong>{entry.totalDescendants}</strong>
+          <em>descendants</em>
+        </span>
+        <span>
+          <strong>{entry.directDescendants}</strong>
+          <em>direct</em>
+        </span>
+        <span>
+          <strong>{topStaff?.count ?? 0}</strong>
+          <em>{topStaff ? `${topStaff.school} ${topStaff.year}` : 'top staff'}</em>
+        </span>
+      </span>
+    </button>
+  );
+}
+
 function ComparisonMetric({ label, value }: { label: string; value: number }) {
   return (
     <div className="rounded-lg border border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-3">
       <p className="text-2xl font-black text-[var(--theme-primary)]">{value}</p>
       <p className="mt-1 text-[11px] font-black uppercase tracking-wide text-[var(--theme-muted)]">{label}</p>
     </div>
+  );
+}
+
+function PageButton({
+  active,
+  children,
+  onClick,
+}: {
+  active: boolean;
+  children: ReactNode;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      className={`page-button rounded-md px-3 py-2 text-xs font-black uppercase tracking-wide transition ${
+        active ? 'page-button-active' : ''
+      }`}
+      onClick={onClick}
+      type="button"
+    >
+      {children}
+    </button>
   );
 }
 
