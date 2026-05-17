@@ -476,7 +476,7 @@ function App() {
   return (
     <main className="app-shell min-h-screen" style={themeVars}>
       <section className="hero-section border-b">
-        <div className="mx-auto flex max-w-7xl flex-col gap-6 px-5 py-7 lg:flex-row lg:items-end lg:justify-between">
+        <div className="relative mx-auto flex max-w-7xl flex-col gap-6 px-5 py-7 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <div className="flex items-center gap-3">
               <img alt="" className="h-10 w-10 rounded-lg" src="/football-family-trees.svg" />
@@ -497,12 +497,12 @@ function App() {
             </p>
           </div>
 
-          <form className="relative w-full max-w-xl" onSubmit={handleSubmit}>
-            <label className="mb-2 block text-sm font-semibold text-[var(--theme-accent)]" htmlFor="team-theme">
+          <div className="theme-control w-full max-w-[190px] self-end lg:absolute lg:right-5 lg:top-5">
+            <label className="mb-1 block text-[10px] font-black uppercase tracking-wide text-[var(--theme-accent)]" htmlFor="team-theme">
               Team Theme
             </label>
             <select
-              className="theme-select mb-3 w-full rounded-lg px-3 py-3 text-sm font-black uppercase tracking-wide"
+              className="theme-select w-full rounded-md px-2 py-2 text-xs font-black uppercase tracking-wide"
               id="team-theme"
               onChange={(event) => setSelectedThemeSchool(event.target.value)}
               value={selectedThemeSchool}
@@ -513,6 +513,9 @@ function App() {
                 </option>
               ))}
             </select>
+          </div>
+
+          <form className="relative w-full max-w-xl" onSubmit={handleSubmit}>
             <div className="mb-3 grid grid-cols-2 rounded-lg border border-white/15 bg-white/10 p-1">
               <ModeButton active={mode === 'forward'} onClick={() => changeMode('forward')}>
                 Descendants
