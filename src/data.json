@@ -5478,7 +5478,6 @@
       "dc": "Greg Colby",
       "oc": "Chris Ostrowsky",
       "other": [
-        "Sherrone Moore",
         "Kyle Nystrom",
         "Derek Frazier",
         "Archie Collins",
@@ -5490,7 +5489,6 @@
       "dc": "Robb Akey",
       "oc": "Charlie Frye",
       "other": [
-        "Sherrone Moore",
         "Cory Hall",
         "Kevin Barbay",
         "Mike Cummings",
@@ -5610,8 +5608,18 @@
         "Gabe Fertitta"
       ]
     },
-    "2015": {},
-    "2016": {},
+    "2015": {
+      "hc": "John Bonamego",
+      "other": [
+        "Sherrone Moore"
+      ]
+    },
+    "2016": {
+      "hc": "John Bonamego",
+      "other": [
+        "Sherrone Moore"
+      ]
+    },
     "2000": {
       "hc": "Mike DeBord",
       "dc": "Jim Schlosser",
@@ -6899,7 +6907,6 @@
         "Clayton Adams",
         "Gary Bernardi",
         "Keith Gilmore",
-        "Sherrone Moore",
         "Darian Hagan",
         "Matt Thompson"
       ]
@@ -16036,7 +16043,8 @@
         "Mike Cassity",
         "Tony Alford",
         "Mark McHale",
-        "Eric Lewis"
+        "Eric Lewis",
+        "Sherrone Moore"
       ]
     },
     "2010": {
@@ -16050,7 +16058,8 @@
         "Larry Slade",
         "Watson Brown",
         "Claudio Marilii",
-        "Ron Dugans"
+        "Ron Dugans",
+        "Sherrone Moore"
       ]
     },
     "2011": {
@@ -16064,7 +16073,8 @@
         "Ron Dugans",
         "Brian Jean-Mary",
         "Kenny Carter",
-        "Tom McMahon"
+        "Tom McMahon",
+        "Sherrone Moore"
       ]
     },
     "2012": {
@@ -16089,7 +16099,8 @@
         "Brian Jean-Mary",
         "Ron Dugans",
         "Dave Borbely",
-        "Tom McMahon"
+        "Tom McMahon",
+        "Sherrone Moore"
       ]
     },
     "2014": {
@@ -18865,7 +18876,6 @@
         "Chris Partridge",
         "Michael Zordich",
         "Al Washington",
-        "Sherrone Moore",
         "Kevin Lempa"
       ]
     },
@@ -19990,8 +20000,7 @@
         "Greg Harbaugh Sr.",
         "Dan Nichol",
         "Marcus Hendrickson",
-        "Jim Panagos",
-        "Sherrone Moore"
+        "Jim Panagos"
       ]
     },
     "2018": {
@@ -20007,7 +20016,6 @@
         "Dan Nichol",
         "Marcus Hendrickson",
         "Jim Panagos",
-        "Sherrone Moore",
         "Chad Wilt"
       ]
     },
