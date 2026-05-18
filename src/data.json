@@ -20316,27 +20316,42 @@
     "1993": {
       "hc": "Jim Wacker",
       "oc": "Bob DeBesse",
-      "dc": "Marc Dove"
+      "dc": "Marc Dove",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1994": {
       "hc": "Jim Wacker",
       "oc": "Bob DeBesse",
-      "dc": "Marc Dove"
+      "dc": "Marc Dove",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1995": {
       "hc": "Jim Wacker",
       "oc": "Bob DeBesse",
-      "dc": "Marc Dove"
+      "dc": "Marc Dove",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1996": {
       "hc": "Jim Wacker",
       "oc": "Bob DeBesse",
-      "dc": "Tim Rose"
+      "dc": "Tim Rose",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1997": {
       "hc": "Glen Mason",
       "oc": "Elliot Uzelac",
-      "dc": "David Gibbs"
+      "dc": "David Gibbs",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1998": {
       "hc": "Glen Mason",
@@ -31985,7 +32000,6 @@
         "Ken Rucker",
         "Steve Marshall",
         "Todd Middleton",
-        "Kevin Sumlin",
         "Melvin Smith"
       ]
     },
@@ -38401,7 +38415,10 @@
     "1990": {
       "hc": "Mike Price",
       "oc": "Joe Tiller",
-      "dc": "Mike Zimmer"
+      "dc": "Mike Zimmer",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1991": {
       "hc": "Mike Price",
@@ -40226,12 +40243,18 @@
     "1991": {
       "hc": "Joe Tiller",
       "oc": "Larry Korpitz",
-      "dc": "Scott Downing"
+      "dc": "Scott Downing",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1992": {
       "hc": "Joe Tiller",
       "oc": "Larry Korpitz",
-      "dc": "Scott Downing"
+      "dc": "Scott Downing",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1993": {
       "hc": "Joe Tiller",
@@ -42065,7 +42088,8 @@
         "Gary Emanuel",
         "Terry Malone",
         "Scott Downing",
-        "Jeff Meyer"
+        "Jeff Meyer",
+        "Kevin Sumlin"
       ]
     },
     "2001": {
@@ -42234,12 +42258,18 @@
     "1998": {
       "hc": "Joe Tiller",
       "oc": "Jim Chaney",
-      "dc": "Brock Spack"
+      "dc": "Brock Spack",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "1999": {
       "hc": "Joe Tiller",
       "oc": "Jim Chaney",
-      "dc": "Brock Spack"
+      "dc": "Brock Spack",
+      "other": [
+        "Kevin Sumlin"
+      ]
     },
     "2026": {}
   },
