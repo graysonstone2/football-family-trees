@@ -45468,7 +45468,8 @@
         "Darrell Patterson",
         "Joe Robinson",
         "Paul Lounsberry",
-        "Ryan Silverfield"
+        "Ryan Silverfield",
+        "Brent Key"
       ]
     },
     "2007": {
@@ -45480,7 +45481,8 @@
         "Darrell Patterson",
         "Joe Robinson",
         "Paul Lounsberry",
-        "Ryan Silverfield"
+        "Ryan Silverfield",
+        "Brent Key"
       ]
     },
     "2008": {
@@ -45492,7 +45494,8 @@
         "Darrell Patterson",
         "Joe Robinson",
         "Paul Lounsberry",
-        "Gary Blackney"
+        "Gary Blackney",
+        "Brent Key"
       ]
     },
     "2009": {
@@ -45569,9 +45572,11 @@
     "2014": {
       "hc": "George O'Leary",
       "dc": "Tyson Summers",
-      "oc": "Charlie Taaffe",
+      "oc": [
+        "Charlie Taaffe",
+        "Brent Key"
+      ],
       "other": [
-        "Brent Key",
         "Sean Beckton",
         "Darren Hinshaw",
         "Kirk Callahan",
