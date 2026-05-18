@@ -81,6 +81,14 @@ const collectAssistantYears = (school, year) => {
 
 const firstHeadCoachJob = (jobs) => jobs.find((job) => job.title === 'hc') ?? null;
 
+const firstHeadCoachYearAfter = (jobs, year) => {
+  const headCoachYears = jobs
+    .filter((job) => job.title === 'hc' && job.year > year)
+    .map((job) => job.year);
+
+  return headCoachYears.length ? Math.min(...headCoachYears) : Number.POSITIVE_INFINITY;
+};
+
 const uniqueHeadCoachStops = (jobs) => {
   const stops = new Set(
     jobs
@@ -114,7 +122,7 @@ const buildTree = (rootCoach, coaches, datasetStartYear) => {
         return job.title === 'hc';
       }
 
-      return job.title === 'hc' && job.year > currentCoach.years[0];
+      return job.title === 'hc' && job.year >= currentCoach.cutoffYear;
     });
 
     if (!wasHeadCoachLater) {
@@ -135,12 +143,22 @@ const buildTree = (rootCoach, coaches, datasetStartYear) => {
     });
 
     Object.entries(coachesToAdd).forEach(([coach, years]) => {
-      const sortedYears = Array.from(new Set(years)).sort((a, b) => b - a);
+      const assistantYears = Array.from(new Set(years)).sort((a, b) => a - b);
+      const firstLaterHeadCoachYear = firstHeadCoachYearAfter(coaches[coach] ?? [], assistantYears[0]);
+
+      if (!Number.isFinite(firstLaterHeadCoachYear)) {
+        return;
+      }
+
+      const sortedYears = assistantYears
+        .filter((year) => year < firstLaterHeadCoachYear)
+        .sort((a, b) => b - a);
+
       queue.push({
         id: coach,
         years: sortedYears,
         parent: currentCoach.id,
-        cutoffYear: sortedYears[0],
+        cutoffYear: firstLaterHeadCoachYear,
       });
     });
   }
