@@ -1,4 +1,4 @@
-const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
+const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID ?? 'G-BW0VPWSN3M';
 
 type GtagCommand = 'config' | 'event' | 'js';
 
@@ -12,7 +12,8 @@ declare global {
 }
 
 let hasInitialized = false;
-let lastTrackedPage = '';
+let lastTrackedPage =
+  typeof window === 'undefined' ? '' : `${window.location.pathname}${window.location.search}`;
 
 export const initAnalytics = () => {
   if (!measurementId || hasInitialized || typeof window === 'undefined') {
@@ -21,17 +22,20 @@ export const initAnalytics = () => {
 
   hasInitialized = true;
   window.dataLayer = window.dataLayer ?? [];
-  window.gtag = function gtag(...args) {
-    window.dataLayer?.push(args);
-  };
 
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
-  document.head.appendChild(script);
+  if (!window.gtag) {
+    window.gtag = function gtag(...args) {
+      window.dataLayer?.push(args);
+    };
 
-  window.gtag('js', new Date());
-  window.gtag('config', measurementId, { send_page_view: false });
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+    document.head.appendChild(script);
+
+    window.gtag('js', new Date());
+    window.gtag('config', measurementId);
+  }
 };
 
 export const trackPageView = (path = `${window.location.pathname}${window.location.search}`) => {

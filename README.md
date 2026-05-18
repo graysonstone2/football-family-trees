@@ -2,17 +2,17 @@
 
 ## Google Analytics
 
-This app loads Google Analytics only when `VITE_GA_MEASUREMENT_ID` is set.
+This app ships with the GA4 tag for `G-BW0VPWSN3M`.
 
 1. Create a GA4 web stream in Google Analytics.
 2. Copy the measurement ID that starts with `G-`.
-3. Create a local `.env.local` file:
+3. To use a different stream locally, create a `.env.local` file:
 
 ```bash
 VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 ```
 
-4. Rebuild and deploy the site.
+4. Update `index.html` with the same measurement ID, then rebuild and deploy the site.
 
 Tracked automatically:
 
