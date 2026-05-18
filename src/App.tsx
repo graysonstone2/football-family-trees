@@ -569,7 +569,7 @@ function App() {
   return (
     <main className="app-shell min-h-screen" style={themeVars}>
       <section className="hero-section border-b">
-        <div className="relative mx-auto flex max-w-7xl flex-col gap-6 px-5 py-7 lg:flex-row lg:items-end lg:justify-between">
+        <div className="site-container relative flex flex-col gap-6 py-7 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <div className="flex items-center gap-3">
               <img alt="" className="h-10 w-10 rounded-lg" src="/football-family-trees.svg" />
@@ -691,7 +691,7 @@ function App() {
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-4 px-5 py-5 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="site-container grid gap-4 py-5 sm:grid-cols-2 lg:grid-cols-4">
         <Stat label="Coaches indexed" value={summary.coachCount.toLocaleString()} />
         <Stat label="Schools covered" value={summary.schoolCount.toLocaleString()} />
         <Stat label="Seasons" value={summary.seasonRange} />
@@ -699,7 +699,7 @@ function App() {
       </section>
 
       {page === 'biggest-trees' && (
-        <section className="mx-auto max-w-7xl px-5 pb-8">
+        <section className="site-container pb-8">
           <div className="rounded-lg border border-[var(--theme-border)] bg-white p-4 shadow-sm">
             <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
               <div>
@@ -739,7 +739,7 @@ function App() {
       )}
 
       {page === 'productive-staffs' && (
-        <section className="mx-auto max-w-7xl px-5 pb-8">
+        <section className="site-container pb-8">
           <div className="rounded-lg border border-[var(--theme-border)] bg-white p-4 shadow-sm">
             <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
               <div>
@@ -786,7 +786,7 @@ function App() {
 
       {page === 'tree' && (
         <>
-      <section className="mx-auto grid max-w-7xl gap-5 px-5 pb-8 xl:grid-cols-[minmax(0,1fr)_360px]">
+      <section className="site-container grid gap-5 pb-8 xl:grid-cols-[minmax(0,1fr)_360px] 2xl:grid-cols-[minmax(0,1fr)_420px]">
         <div className="flex min-h-[620px] flex-col overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white shadow-sm">
           <div className="flex flex-col gap-3 border-b border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
@@ -885,7 +885,7 @@ function App() {
         </aside>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-4 px-5 pb-8 lg:grid-cols-3">
+      <section className="site-container grid gap-4 pb-8 lg:grid-cols-3">
         <InsightPanel title={`Most productive staffs for ${selectedTreeCoach}`}>
           {productiveStaffs.length > 0 ? (
             <div className="space-y-2">

@@ -50,6 +50,17 @@ input {
   color: var(--theme-ink);
 }
 
+.site-container {
+  width: min(calc(100% - 2.5rem), 1680px);
+  margin-inline: auto;
+}
+
+@media (min-width: 1920px) {
+  .site-container {
+    width: min(calc(100% - 4rem), 1840px);
+  }
+}
+
 .hero-section,
 .tray-header {
   background: var(--theme-primary);
