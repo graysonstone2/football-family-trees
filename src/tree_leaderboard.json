@@ -2,7 +2,7 @@
   {
     "rank": 1,
     "coach": "R.C. Slocum",
-    "totalDescendants": 85,
+    "totalDescendants": 84,
     "directDescendants": 6,
     "headCoachStops": 13,
     "firstHeadCoachJob": {
@@ -67,73 +67,6 @@
   },
   {
     "rank": 2,
-    "coach": "Steve Spurrier",
-    "totalDescendants": 75,
-    "directDescendants": 8,
-    "headCoachStops": 23,
-    "firstHeadCoachJob": {
-      "school": "Florida",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "Florida",
-        "year": 1995,
-        "count": 2,
-        "coaches": [
-          "Bob Pruett",
-          "Carl Franks"
-        ]
-      },
-      {
-        "school": "Florida",
-        "year": 1996,
-        "count": 2,
-        "coaches": [
-          "Bob Stoops",
-          "Carl Franks"
-        ]
-      },
-      {
-        "school": "Florida",
-        "year": 1997,
-        "count": 2,
-        "coaches": [
-          "Bob Stoops",
-          "Carl Franks"
-        ]
-      },
-      {
-        "school": "Florida",
-        "year": 1998,
-        "count": 2,
-        "coaches": [
-          "Bob Stoops",
-          "Carl Franks"
-        ]
-      },
-      {
-        "school": "South Carolina",
-        "year": 2008,
-        "count": 2,
-        "coaches": [
-          "Ellis Johnson",
-          "Shane Beamer"
-        ]
-      },
-      {
-        "school": "South Carolina",
-        "year": 2009,
-        "count": 2,
-        "coaches": [
-          "Ellis Johnson",
-          "Shane Beamer"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 3,
     "coach": "Dennis Erickson",
     "totalDescendants": 74,
     "directDescendants": 7,
@@ -195,6 +128,73 @@
         "count": 1,
         "coaches": [
           "Bob DeBesse"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 3,
+    "coach": "Steve Spurrier",
+    "totalDescendants": 73,
+    "directDescendants": 7,
+    "headCoachStops": 23,
+    "firstHeadCoachJob": {
+      "school": "Florida",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "Florida",
+        "year": 1995,
+        "count": 2,
+        "coaches": [
+          "Bob Pruett",
+          "Carl Franks"
+        ]
+      },
+      {
+        "school": "Florida",
+        "year": 1996,
+        "count": 2,
+        "coaches": [
+          "Bob Stoops",
+          "Carl Franks"
+        ]
+      },
+      {
+        "school": "Florida",
+        "year": 1997,
+        "count": 2,
+        "coaches": [
+          "Bob Stoops",
+          "Carl Franks"
+        ]
+      },
+      {
+        "school": "Florida",
+        "year": 1998,
+        "count": 2,
+        "coaches": [
+          "Bob Stoops",
+          "Carl Franks"
+        ]
+      },
+      {
+        "school": "South Carolina",
+        "year": 2008,
+        "count": 2,
+        "coaches": [
+          "Ellis Johnson",
+          "Shane Beamer"
+        ]
+      },
+      {
+        "school": "South Carolina",
+        "year": 2009,
+        "count": 2,
+        "coaches": [
+          "Ellis Johnson",
+          "Shane Beamer"
         ]
       }
     ]
@@ -1014,6 +1014,68 @@
   },
   {
     "rank": 17,
+    "coach": "Gene McDowell",
+    "totalDescendants": 33,
+    "directDescendants": 2,
+    "headCoachStops": 8,
+    "firstHeadCoachJob": {
+      "school": "UCF",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "UCF",
+        "year": 1997,
+        "count": 2,
+        "coaches": [
+          "Brian VanGorder",
+          "Mike Kruczek"
+        ]
+      },
+      {
+        "school": "UCF",
+        "year": 1990,
+        "count": 1,
+        "coaches": [
+          "Mike Kruczek"
+        ]
+      },
+      {
+        "school": "UCF",
+        "year": 1991,
+        "count": 1,
+        "coaches": [
+          "Mike Kruczek"
+        ]
+      },
+      {
+        "school": "UCF",
+        "year": 1992,
+        "count": 1,
+        "coaches": [
+          "Mike Kruczek"
+        ]
+      },
+      {
+        "school": "UCF",
+        "year": 1993,
+        "count": 1,
+        "coaches": [
+          "Mike Kruczek"
+        ]
+      },
+      {
+        "school": "UCF",
+        "year": 1994,
+        "count": 1,
+        "coaches": [
+          "Mike Kruczek"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 18,
     "coach": "Matt Simon",
     "totalDescendants": 33,
     "directDescendants": 1,
@@ -1042,7 +1104,7 @@
     ]
   },
   {
-    "rank": 18,
+    "rank": 19,
     "coach": "Jim Harbaugh",
     "totalDescendants": 32,
     "directDescendants": 9,
@@ -1114,7 +1176,7 @@
     ]
   },
   {
-    "rank": 19,
+    "rank": 20,
     "coach": "Steve Kragthorpe",
     "totalDescendants": 32,
     "directDescendants": 4,
@@ -1179,7 +1241,7 @@
     ]
   },
   {
-    "rank": 20,
+    "rank": 21,
     "coach": "Bobby Ross",
     "totalDescendants": 32,
     "directDescendants": 2,
@@ -1205,68 +1267,6 @@
         "coaches": [
           "George O'Leary",
           "Ralph Friedgen"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 21,
-    "coach": "Gene McDowell",
-    "totalDescendants": 32,
-    "directDescendants": 2,
-    "headCoachStops": 8,
-    "firstHeadCoachJob": {
-      "school": "UCF",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "UCF",
-        "year": 1997,
-        "count": 2,
-        "coaches": [
-          "Brian VanGorder",
-          "Mike Kruczek"
-        ]
-      },
-      {
-        "school": "UCF",
-        "year": 1990,
-        "count": 1,
-        "coaches": [
-          "Mike Kruczek"
-        ]
-      },
-      {
-        "school": "UCF",
-        "year": 1991,
-        "count": 1,
-        "coaches": [
-          "Mike Kruczek"
-        ]
-      },
-      {
-        "school": "UCF",
-        "year": 1992,
-        "count": 1,
-        "coaches": [
-          "Mike Kruczek"
-        ]
-      },
-      {
-        "school": "UCF",
-        "year": 1993,
-        "count": 1,
-        "coaches": [
-          "Mike Kruczek"
-        ]
-      },
-      {
-        "school": "UCF",
-        "year": 1994,
-        "count": 1,
-        "coaches": [
-          "Mike Kruczek"
         ]
       }
     ]
@@ -1587,43 +1587,6 @@
   },
   {
     "rank": 28,
-    "coach": "Grant Teaff",
-    "totalDescendants": 27,
-    "directDescendants": 1,
-    "headCoachStops": 3,
-    "firstHeadCoachJob": {
-      "school": "Baylor",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "Baylor",
-        "year": 1990,
-        "count": 1,
-        "coaches": [
-          "Chuck Reedy"
-        ]
-      },
-      {
-        "school": "Baylor",
-        "year": 1991,
-        "count": 1,
-        "coaches": [
-          "Chuck Reedy"
-        ]
-      },
-      {
-        "school": "Baylor",
-        "year": 1992,
-        "count": 1,
-        "coaches": [
-          "Chuck Reedy"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 29,
     "coach": "Mike Leach",
     "totalDescendants": 26,
     "directDescendants": 10,
@@ -1699,9 +1662,113 @@
     ]
   },
   {
-    "rank": 30,
-    "coach": "Ron Zook",
+    "rank": 29,
+    "coach": "Todd Graham",
     "totalDescendants": 26,
+    "directDescendants": 10,
+    "headCoachStops": 13,
+    "firstHeadCoachJob": {
+      "school": "Tulsa",
+      "year": 2007
+    },
+    "topStaffs": [
+      {
+        "school": "Tulsa",
+        "year": 2007,
+        "count": 3,
+        "coaches": [
+          "Bill Blankenship",
+          "Gus Malzahn",
+          "Matt Wells"
+        ]
+      },
+      {
+        "school": "Tulsa",
+        "year": 2008,
+        "count": 2,
+        "coaches": [
+          "Bill Blankenship",
+          "Matt Wells"
+        ]
+      },
+      {
+        "school": "Tulsa",
+        "year": 2010,
+        "count": 2,
+        "coaches": [
+          "Bill Blankenship",
+          "Chad Morris"
+        ]
+      },
+      {
+        "school": "Pittsburgh",
+        "year": 2011,
+        "count": 2,
+        "coaches": [
+          "Mike Norvell",
+          "Tony Gibson"
+        ]
+      },
+      {
+        "school": "Arizona State",
+        "year": 2016,
+        "count": 2,
+        "coaches": [
+          "Chip Lindsey",
+          "Jay Norvell"
+        ]
+      },
+      {
+        "school": "Tulsa",
+        "year": 2009,
+        "count": 1,
+        "coaches": [
+          "Bill Blankenship"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 30,
+    "coach": "Grant Teaff",
+    "totalDescendants": 26,
+    "directDescendants": 1,
+    "headCoachStops": 3,
+    "firstHeadCoachJob": {
+      "school": "Baylor",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "Baylor",
+        "year": 1990,
+        "count": 1,
+        "coaches": [
+          "Chuck Reedy"
+        ]
+      },
+      {
+        "school": "Baylor",
+        "year": 1991,
+        "count": 1,
+        "coaches": [
+          "Chuck Reedy"
+        ]
+      },
+      {
+        "school": "Baylor",
+        "year": 1992,
+        "count": 1,
+        "coaches": [
+          "Chuck Reedy"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 31,
+    "coach": "Ron Zook",
+    "totalDescendants": 25,
     "directDescendants": 6,
     "headCoachStops": 10,
     "firstHeadCoachJob": {
@@ -1767,9 +1834,9 @@
     ]
   },
   {
-    "rank": 31,
+    "rank": 32,
     "coach": "Ron McBride",
-    "totalDescendants": 26,
+    "totalDescendants": 25,
     "directDescendants": 4,
     "headCoachStops": 13,
     "firstHeadCoachJob": {
@@ -1832,9 +1899,9 @@
     ]
   },
   {
-    "rank": 32,
+    "rank": 33,
     "coach": "Chuck Reedy",
-    "totalDescendants": 26,
+    "totalDescendants": 25,
     "directDescendants": 2,
     "headCoachStops": 4,
     "firstHeadCoachJob": {
@@ -1862,78 +1929,10 @@
     ]
   },
   {
-    "rank": 33,
-    "coach": "Todd Graham",
-    "totalDescendants": 25,
-    "directDescendants": 9,
-    "headCoachStops": 13,
-    "firstHeadCoachJob": {
-      "school": "Tulsa",
-      "year": 2007
-    },
-    "topStaffs": [
-      {
-        "school": "Tulsa",
-        "year": 2007,
-        "count": 3,
-        "coaches": [
-          "Bill Blankenship",
-          "Gus Malzahn",
-          "Matt Wells"
-        ]
-      },
-      {
-        "school": "Tulsa",
-        "year": 2008,
-        "count": 2,
-        "coaches": [
-          "Bill Blankenship",
-          "Matt Wells"
-        ]
-      },
-      {
-        "school": "Tulsa",
-        "year": 2010,
-        "count": 2,
-        "coaches": [
-          "Bill Blankenship",
-          "Chad Morris"
-        ]
-      },
-      {
-        "school": "Pittsburgh",
-        "year": 2011,
-        "count": 2,
-        "coaches": [
-          "Mike Norvell",
-          "Tony Gibson"
-        ]
-      },
-      {
-        "school": "Arizona State",
-        "year": 2016,
-        "count": 2,
-        "coaches": [
-          "Chip Lindsey",
-          "Jay Norvell"
-        ]
-      },
-      {
-        "school": "Arizona State",
-        "year": 2017,
-        "count": 2,
-        "coaches": [
-          "Billy Napier",
-          "Jay Norvell"
-        ]
-      }
-    ]
-  },
-  {
     "rank": 34,
     "coach": "Bill Snyder",
-    "totalDescendants": 25,
-    "directDescendants": 8,
+    "totalDescendants": 24,
+    "directDescendants": 7,
     "headCoachStops": 26,
     "firstHeadCoachJob": {
       "school": "Kansas State",
@@ -1948,15 +1947,6 @@
           "Jim Leavitt",
           "Mike Stoops",
           "Phil Bennett"
-        ]
-      },
-      {
-        "school": "Kansas State",
-        "year": 2004,
-        "count": 2,
-        "coaches": [
-          "Brent Venables",
-          "Darrell Dickey"
         ]
       },
       {
@@ -1989,6 +1979,15 @@
       {
         "school": "Kansas State",
         "year": 2011,
+        "count": 2,
+        "coaches": [
+          "Dana Dimel",
+          "Ricky Rahne"
+        ]
+      },
+      {
+        "school": "Kansas State",
+        "year": 2012,
         "count": 2,
         "coaches": [
           "Dana Dimel",
@@ -2060,73 +2059,6 @@
   },
   {
     "rank": 36,
-    "coach": "Randy Walker",
-    "totalDescendants": 24,
-    "directDescendants": 3,
-    "headCoachStops": 16,
-    "firstHeadCoachJob": {
-      "school": "Miami (OH)",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "Miami (OH)",
-        "year": 1995,
-        "count": 2,
-        "coaches": [
-          "Kevin Wilson",
-          "Terry Hoeppner"
-        ]
-      },
-      {
-        "school": "Miami (OH)",
-        "year": 1996,
-        "count": 2,
-        "coaches": [
-          "Kevin Wilson",
-          "Terry Hoeppner"
-        ]
-      },
-      {
-        "school": "Miami (OH)",
-        "year": 1997,
-        "count": 2,
-        "coaches": [
-          "Kevin Wilson",
-          "Terry Hoeppner"
-        ]
-      },
-      {
-        "school": "Miami (OH)",
-        "year": 1998,
-        "count": 2,
-        "coaches": [
-          "Kevin Wilson",
-          "Terry Hoeppner"
-        ]
-      },
-      {
-        "school": "Northwestern",
-        "year": 2000,
-        "count": 2,
-        "coaches": [
-          "Kevin Wilson",
-          "Pat Fitzgerald"
-        ]
-      },
-      {
-        "school": "Northwestern",
-        "year": 2001,
-        "count": 2,
-        "coaches": [
-          "Kevin Wilson",
-          "Pat Fitzgerald"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 37,
     "coach": "Bill Curry",
     "totalDescendants": 24,
     "directDescendants": 1,
@@ -2142,6 +2074,51 @@
         "count": 1,
         "coaches": [
           "Tommy Bowden"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 37,
+    "coach": "Mike Kruczek",
+    "totalDescendants": 24,
+    "directDescendants": 1,
+    "headCoachStops": 6,
+    "firstHeadCoachJob": {
+      "school": "UCF",
+      "year": 1998
+    },
+    "topStaffs": [
+      {
+        "school": "UCF",
+        "year": 1998,
+        "count": 1,
+        "coaches": [
+          "Gene Chizik"
+        ]
+      },
+      {
+        "school": "UCF",
+        "year": 1999,
+        "count": 1,
+        "coaches": [
+          "Gene Chizik"
+        ]
+      },
+      {
+        "school": "UCF",
+        "year": 2000,
+        "count": 1,
+        "coaches": [
+          "Gene Chizik"
+        ]
+      },
+      {
+        "school": "UCF",
+        "year": 2001,
+        "count": 1,
+        "coaches": [
+          "Gene Chizik"
         ]
       }
     ]
@@ -2241,53 +2218,8 @@
   },
   {
     "rank": 40,
-    "coach": "Mike Kruczek",
-    "totalDescendants": 23,
-    "directDescendants": 1,
-    "headCoachStops": 6,
-    "firstHeadCoachJob": {
-      "school": "UCF",
-      "year": 1998
-    },
-    "topStaffs": [
-      {
-        "school": "UCF",
-        "year": 1998,
-        "count": 1,
-        "coaches": [
-          "Gene Chizik"
-        ]
-      },
-      {
-        "school": "UCF",
-        "year": 1999,
-        "count": 1,
-        "coaches": [
-          "Gene Chizik"
-        ]
-      },
-      {
-        "school": "UCF",
-        "year": 2000,
-        "count": 1,
-        "coaches": [
-          "Gene Chizik"
-        ]
-      },
-      {
-        "school": "UCF",
-        "year": 2001,
-        "count": 1,
-        "coaches": [
-          "Gene Chizik"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 41,
     "coach": "Gene Chizik",
-    "totalDescendants": 22,
+    "totalDescendants": 23,
     "directDescendants": 4,
     "headCoachStops": 6,
     "firstHeadCoachJob": {
@@ -2343,6 +2275,73 @@
         "count": 1,
         "coaches": [
           "Scot Loeffler"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 41,
+    "coach": "Randy Walker",
+    "totalDescendants": 23,
+    "directDescendants": 3,
+    "headCoachStops": 16,
+    "firstHeadCoachJob": {
+      "school": "Miami (OH)",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "Miami (OH)",
+        "year": 1995,
+        "count": 2,
+        "coaches": [
+          "Kevin Wilson",
+          "Terry Hoeppner"
+        ]
+      },
+      {
+        "school": "Miami (OH)",
+        "year": 1996,
+        "count": 2,
+        "coaches": [
+          "Kevin Wilson",
+          "Terry Hoeppner"
+        ]
+      },
+      {
+        "school": "Miami (OH)",
+        "year": 1997,
+        "count": 2,
+        "coaches": [
+          "Kevin Wilson",
+          "Terry Hoeppner"
+        ]
+      },
+      {
+        "school": "Miami (OH)",
+        "year": 1998,
+        "count": 2,
+        "coaches": [
+          "Kevin Wilson",
+          "Terry Hoeppner"
+        ]
+      },
+      {
+        "school": "Northwestern",
+        "year": 2000,
+        "count": 2,
+        "coaches": [
+          "Kevin Wilson",
+          "Pat Fitzgerald"
+        ]
+      },
+      {
+        "school": "Northwestern",
+        "year": 2001,
+        "count": 2,
+        "coaches": [
+          "Kevin Wilson",
+          "Pat Fitzgerald"
         ]
       }
     ]
@@ -2794,61 +2793,6 @@
   },
   {
     "rank": 50,
-    "coach": "Howard Schnellenberger",
-    "totalDescendants": 18,
-    "directDescendants": 3,
-    "headCoachStops": 14,
-    "firstHeadCoachJob": {
-      "school": "Louisville",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "Florida Atlantic",
-        "year": 2009,
-        "count": 2,
-        "coaches": [
-          "Jeff Brohm",
-          "Mike Locksley"
-        ]
-      },
-      {
-        "school": "Florida Atlantic",
-        "year": 2010,
-        "count": 2,
-        "coaches": [
-          "Jeff Brohm",
-          "Mike Locksley"
-        ]
-      },
-      {
-        "school": "Florida Atlantic",
-        "year": 2001,
-        "count": 1,
-        "coaches": [
-          "Charlie Weis"
-        ]
-      },
-      {
-        "school": "Florida Atlantic",
-        "year": 2002,
-        "count": 1,
-        "coaches": [
-          "Charlie Weis"
-        ]
-      },
-      {
-        "school": "Florida Atlantic",
-        "year": 2003,
-        "count": 1,
-        "coaches": [
-          "Charlie Weis"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 51,
     "coach": "Mack Brown",
     "totalDescendants": 17,
     "directDescendants": 5,
@@ -2910,6 +2854,61 @@
         "count": 1,
         "coaches": [
           "Carl Torbush"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 51,
+    "coach": "Howard Schnellenberger",
+    "totalDescendants": 17,
+    "directDescendants": 3,
+    "headCoachStops": 14,
+    "firstHeadCoachJob": {
+      "school": "Louisville",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "Florida Atlantic",
+        "year": 2009,
+        "count": 2,
+        "coaches": [
+          "Jeff Brohm",
+          "Mike Locksley"
+        ]
+      },
+      {
+        "school": "Florida Atlantic",
+        "year": 2010,
+        "count": 2,
+        "coaches": [
+          "Jeff Brohm",
+          "Mike Locksley"
+        ]
+      },
+      {
+        "school": "Florida Atlantic",
+        "year": 2001,
+        "count": 1,
+        "coaches": [
+          "Charlie Weis"
+        ]
+      },
+      {
+        "school": "Florida Atlantic",
+        "year": 2002,
+        "count": 1,
+        "coaches": [
+          "Charlie Weis"
+        ]
+      },
+      {
+        "school": "Florida Atlantic",
+        "year": 2003,
+        "count": 1,
+        "coaches": [
+          "Charlie Weis"
         ]
       }
     ]
@@ -3038,70 +3037,6 @@
   },
   {
     "rank": 54,
-    "coach": "Chris Ault",
-    "totalDescendants": 16,
-    "directDescendants": 4,
-    "headCoachStops": 14,
-    "firstHeadCoachJob": {
-      "school": "Nevada",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "Nevada",
-        "year": 2005,
-        "count": 2,
-        "coaches": [
-          "Ken Wilson",
-          "Tim DeRuyter"
-        ]
-      },
-      {
-        "school": "Nevada",
-        "year": 2006,
-        "count": 2,
-        "coaches": [
-          "Ken Wilson",
-          "Tim DeRuyter"
-        ]
-      },
-      {
-        "school": "Nevada",
-        "year": 2012,
-        "count": 2,
-        "coaches": [
-          "Ken Wilson",
-          "Nick Rolovich"
-        ]
-      },
-      {
-        "school": "Nevada",
-        "year": 1994,
-        "count": 1,
-        "coaches": [
-          "Bobby Petrino"
-        ]
-      },
-      {
-        "school": "Nevada",
-        "year": 2004,
-        "count": 1,
-        "coaches": [
-          "Tim DeRuyter"
-        ]
-      },
-      {
-        "school": "Nevada",
-        "year": 2007,
-        "count": 1,
-        "coaches": [
-          "Ken Wilson"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 55,
     "coach": "Dan Hawkins",
     "totalDescendants": 16,
     "directDescendants": 4,
@@ -3172,7 +3107,7 @@
     ]
   },
   {
-    "rank": 56,
+    "rank": 55,
     "coach": "Houston Nutt",
     "totalDescendants": 16,
     "directDescendants": 3,
@@ -3235,7 +3170,7 @@
     ]
   },
   {
-    "rank": 57,
+    "rank": 56,
     "coach": "John Robinson",
     "totalDescendants": 16,
     "directDescendants": 2,
@@ -3291,7 +3226,7 @@
     ]
   },
   {
-    "rank": 58,
+    "rank": 57,
     "coach": "Phillip Fulmer",
     "totalDescendants": 16,
     "directDescendants": 2,
@@ -3347,6 +3282,70 @@
         "count": 1,
         "coaches": [
           "David Cutcliffe"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 58,
+    "coach": "Chris Ault",
+    "totalDescendants": 15,
+    "directDescendants": 4,
+    "headCoachStops": 14,
+    "firstHeadCoachJob": {
+      "school": "Nevada",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "Nevada",
+        "year": 2005,
+        "count": 2,
+        "coaches": [
+          "Ken Wilson",
+          "Tim DeRuyter"
+        ]
+      },
+      {
+        "school": "Nevada",
+        "year": 2006,
+        "count": 2,
+        "coaches": [
+          "Ken Wilson",
+          "Tim DeRuyter"
+        ]
+      },
+      {
+        "school": "Nevada",
+        "year": 2012,
+        "count": 2,
+        "coaches": [
+          "Ken Wilson",
+          "Nick Rolovich"
+        ]
+      },
+      {
+        "school": "Nevada",
+        "year": 1994,
+        "count": 1,
+        "coaches": [
+          "Bobby Petrino"
+        ]
+      },
+      {
+        "school": "Nevada",
+        "year": 2004,
+        "count": 1,
+        "coaches": [
+          "Tim DeRuyter"
+        ]
+      },
+      {
+        "school": "Nevada",
+        "year": 2007,
+        "count": 1,
+        "coaches": [
+          "Ken Wilson"
         ]
       }
     ]
@@ -4081,68 +4080,6 @@
   },
   {
     "rank": 71,
-    "coach": "Walt Harris",
-    "totalDescendants": 13,
-    "directDescendants": 4,
-    "headCoachStops": 10,
-    "firstHeadCoachJob": {
-      "school": "Pittsburgh",
-      "year": 1997
-    },
-    "topStaffs": [
-      {
-        "school": "Pittsburgh",
-        "year": 2000,
-        "count": 3,
-        "coaches": [
-          "Charlie Partridge",
-          "J.D. Brookhart",
-          "Phil Bennett"
-        ]
-      },
-      {
-        "school": "Pittsburgh",
-        "year": 2001,
-        "count": 3,
-        "coaches": [
-          "Charlie Partridge",
-          "J.D. Brookhart",
-          "Paul Rhoads"
-        ]
-      },
-      {
-        "school": "Pittsburgh",
-        "year": 2002,
-        "count": 3,
-        "coaches": [
-          "Charlie Partridge",
-          "J.D. Brookhart",
-          "Paul Rhoads"
-        ]
-      },
-      {
-        "school": "Pittsburgh",
-        "year": 2003,
-        "count": 3,
-        "coaches": [
-          "Charlie Partridge",
-          "J.D. Brookhart",
-          "Paul Rhoads"
-        ]
-      },
-      {
-        "school": "Pittsburgh",
-        "year": 2004,
-        "count": 2,
-        "coaches": [
-          "Charlie Partridge",
-          "Paul Rhoads"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 72,
     "coach": "Gary Blackney",
     "totalDescendants": 13,
     "directDescendants": 3,
@@ -4180,7 +4117,7 @@
     ]
   },
   {
-    "rank": 73,
+    "rank": 72,
     "coach": "Terry Donahue",
     "totalDescendants": 13,
     "directDescendants": 1,
@@ -4209,7 +4146,7 @@
     ]
   },
   {
-    "rank": 74,
+    "rank": 73,
     "coach": "Brian Kelly",
     "totalDescendants": 12,
     "directDescendants": 7,
@@ -4276,75 +4213,7 @@
     ]
   },
   {
-    "rank": 75,
-    "coach": "Gary Andersen",
-    "totalDescendants": 12,
-    "directDescendants": 6,
-    "headCoachStops": 11,
-    "firstHeadCoachJob": {
-      "school": "Utah State",
-      "year": 2009
-    },
-    "topStaffs": [
-      {
-        "school": "Utah State",
-        "year": 2012,
-        "count": 3,
-        "coaches": [
-          "Dave Aranda",
-          "Matt Wells",
-          "Mike Sanford"
-        ]
-      },
-      {
-        "school": "Utah State",
-        "year": 2009,
-        "count": 2,
-        "coaches": [
-          "Matt Wells",
-          "Mike Sanford"
-        ]
-      },
-      {
-        "school": "Utah State",
-        "year": 2010,
-        "count": 2,
-        "coaches": [
-          "Matt Wells",
-          "Mike Sanford"
-        ]
-      },
-      {
-        "school": "Wisconsin",
-        "year": 2013,
-        "count": 2,
-        "coaches": [
-          "Dave Aranda",
-          "Thomas Hammock"
-        ]
-      },
-      {
-        "school": "Wisconsin",
-        "year": 2014,
-        "count": 2,
-        "coaches": [
-          "Dave Aranda",
-          "Thomas Hammock"
-        ]
-      },
-      {
-        "school": "Oregon State",
-        "year": 2015,
-        "count": 2,
-        "coaches": [
-          "Brent Brennan",
-          "Kalani Sitake"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 76,
+    "rank": 74,
     "coach": "Frank Solich",
     "totalDescendants": 12,
     "directDescendants": 4,
@@ -4406,7 +4275,7 @@
     ]
   },
   {
-    "rank": 77,
+    "rank": 75,
     "coach": "Gary Pinkel",
     "totalDescendants": 12,
     "directDescendants": 4,
@@ -4470,7 +4339,7 @@
     ]
   },
   {
-    "rank": 78,
+    "rank": 76,
     "coach": "Mike Stoops",
     "totalDescendants": 12,
     "directDescendants": 4,
@@ -4540,7 +4409,69 @@
     ]
   },
   {
-    "rank": 79,
+    "rank": 77,
+    "coach": "Walt Harris",
+    "totalDescendants": 12,
+    "directDescendants": 4,
+    "headCoachStops": 10,
+    "firstHeadCoachJob": {
+      "school": "Pittsburgh",
+      "year": 1997
+    },
+    "topStaffs": [
+      {
+        "school": "Pittsburgh",
+        "year": 2000,
+        "count": 3,
+        "coaches": [
+          "Charlie Partridge",
+          "J.D. Brookhart",
+          "Phil Bennett"
+        ]
+      },
+      {
+        "school": "Pittsburgh",
+        "year": 2001,
+        "count": 3,
+        "coaches": [
+          "Charlie Partridge",
+          "J.D. Brookhart",
+          "Paul Rhoads"
+        ]
+      },
+      {
+        "school": "Pittsburgh",
+        "year": 2002,
+        "count": 3,
+        "coaches": [
+          "Charlie Partridge",
+          "J.D. Brookhart",
+          "Paul Rhoads"
+        ]
+      },
+      {
+        "school": "Pittsburgh",
+        "year": 2003,
+        "count": 3,
+        "coaches": [
+          "Charlie Partridge",
+          "J.D. Brookhart",
+          "Paul Rhoads"
+        ]
+      },
+      {
+        "school": "Pittsburgh",
+        "year": 2004,
+        "count": 2,
+        "coaches": [
+          "Charlie Partridge",
+          "Paul Rhoads"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 78,
     "coach": "Bob Toledo",
     "totalDescendants": 12,
     "directDescendants": 3,
@@ -4597,7 +4528,7 @@
     ]
   },
   {
-    "rank": 80,
+    "rank": 79,
     "coach": "Gerry DiNardo",
     "totalDescendants": 12,
     "directDescendants": 3,
@@ -4635,7 +4566,7 @@
     ]
   },
   {
-    "rank": 81,
+    "rank": 80,
     "coach": "Ralph Friedgen",
     "totalDescendants": 12,
     "directDescendants": 3,
@@ -4702,36 +4633,7 @@
     ]
   },
   {
-    "rank": 82,
-    "coach": "Curley Hallman",
-    "totalDescendants": 12,
-    "directDescendants": 2,
-    "headCoachStops": 5,
-    "firstHeadCoachJob": {
-      "school": "Southern Mississippi",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "Southern Mississippi",
-        "year": 1990,
-        "count": 1,
-        "coaches": [
-          "Jeff Bower"
-        ]
-      },
-      {
-        "school": "LSU",
-        "year": 1994,
-        "count": 1,
-        "coaches": [
-          "Phil Bennett"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 83,
+    "rank": 81,
     "coach": "Gene Stallings",
     "totalDescendants": 12,
     "directDescendants": 2,
@@ -4753,7 +4655,7 @@
     ]
   },
   {
-    "rank": 84,
+    "rank": 82,
     "coach": "Rick Minter",
     "totalDescendants": 12,
     "directDescendants": 2,
@@ -4782,7 +4684,7 @@
     ]
   },
   {
-    "rank": 85,
+    "rank": 83,
     "coach": "Dennis Green",
     "totalDescendants": 12,
     "directDescendants": 1,
@@ -4811,101 +4713,72 @@
     ]
   },
   {
-    "rank": 86,
-    "coach": "Jackie Sherrill",
-    "totalDescendants": 12,
-    "directDescendants": 1,
-    "headCoachStops": 13,
-    "firstHeadCoachJob": {
-      "school": "Mississippi State",
-      "year": 1991
-    },
-    "topStaffs": [
-      {
-        "school": "Mississippi State",
-        "year": 1991,
-        "count": 1,
-        "coaches": [
-          "Watson Brown"
-        ]
-      },
-      {
-        "school": "Mississippi State",
-        "year": 1992,
-        "count": 1,
-        "coaches": [
-          "Watson Brown"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 87,
-    "coach": "Jim Grobe",
+    "rank": 84,
+    "coach": "Gary Andersen",
     "totalDescendants": 11,
     "directDescendants": 5,
-    "headCoachStops": 20,
+    "headCoachStops": 11,
     "firstHeadCoachJob": {
-      "school": "Ohio",
-      "year": 1995
+      "school": "Utah State",
+      "year": 2009
     },
     "topStaffs": [
       {
-        "school": "Ohio",
-        "year": 1995,
+        "school": "Utah State",
+        "year": 2012,
         "count": 2,
         "coaches": [
-          "Mike Sewak",
-          "Tim DeRuyter"
+          "Dave Aranda",
+          "Matt Wells"
         ]
       },
       {
-        "school": "Ohio",
-        "year": 1996,
+        "school": "Wisconsin",
+        "year": 2013,
         "count": 2,
         "coaches": [
-          "Mike Sewak",
-          "Tim DeRuyter"
+          "Dave Aranda",
+          "Thomas Hammock"
         ]
       },
       {
-        "school": "Ohio",
-        "year": 1997,
+        "school": "Wisconsin",
+        "year": 2014,
         "count": 2,
         "coaches": [
-          "Tim DeRuyter",
-          "Troy Calhoun"
+          "Dave Aranda",
+          "Thomas Hammock"
         ]
       },
       {
-        "school": "Ohio",
-        "year": 1998,
+        "school": "Oregon State",
+        "year": 2015,
         "count": 2,
         "coaches": [
-          "Tim DeRuyter",
-          "Troy Calhoun"
+          "Brent Brennan",
+          "Kalani Sitake"
         ]
       },
       {
-        "school": "Ohio",
-        "year": 1999,
+        "school": "Utah State",
+        "year": 2009,
         "count": 1,
         "coaches": [
-          "Troy Calhoun"
+          "Matt Wells"
         ]
       },
       {
-        "school": "Ohio",
-        "year": 2000,
+        "school": "Utah State",
+        "year": 2010,
         "count": 1,
         "coaches": [
-          "Troy Calhoun"
+          "Matt Wells"
         ]
       }
     ]
   },
   {
-    "rank": 88,
+    "rank": 85,
     "coach": "Rick Neuheisel",
     "totalDescendants": 11,
     "directDescendants": 5,
@@ -4971,7 +4844,7 @@
     ]
   },
   {
-    "rank": 89,
+    "rank": 86,
     "coach": "Terry Hoeppner",
     "totalDescendants": 11,
     "directDescendants": 5,
@@ -5036,7 +4909,7 @@
     ]
   },
   {
-    "rank": 90,
+    "rank": 87,
     "coach": "Dick Tomey",
     "totalDescendants": 11,
     "directDescendants": 4,
@@ -5099,7 +4972,7 @@
     ]
   },
   {
-    "rank": 91,
+    "rank": 88,
     "coach": "Kevin Sumlin",
     "totalDescendants": 11,
     "directDescendants": 4,
@@ -5137,15 +5010,6 @@
         ]
       },
       {
-        "school": "Texas A&M",
-        "year": 2015,
-        "count": 2,
-        "coaches": [
-          "David Beaty",
-          "Jake Spavital"
-        ]
-      },
-      {
         "school": "Houston",
         "year": 2008,
         "count": 1,
@@ -5160,11 +5024,19 @@
         "coaches": [
           "Dana Holgorsen"
         ]
+      },
+      {
+        "school": "Houston",
+        "year": 2010,
+        "count": 1,
+        "coaches": [
+          "Kliff Kingsbury"
+        ]
       }
     ]
   },
   {
-    "rank": 92,
+    "rank": 89,
     "coach": "Mike DuBose",
     "totalDescendants": 11,
     "directDescendants": 3,
@@ -5215,45 +5087,7 @@
     ]
   },
   {
-    "rank": 93,
-    "coach": "Mike Sherman",
-    "totalDescendants": 11,
-    "directDescendants": 3,
-    "headCoachStops": 4,
-    "firstHeadCoachJob": {
-      "school": "Texas A&M",
-      "year": 2008
-    },
-    "topStaffs": [
-      {
-        "school": "Texas A&M",
-        "year": 2008,
-        "count": 2,
-        "coaches": [
-          "Dino Babers",
-          "Steve Kragthorpe"
-        ]
-      },
-      {
-        "school": "Texas A&M",
-        "year": 2010,
-        "count": 1,
-        "coaches": [
-          "Tim DeRuyter"
-        ]
-      },
-      {
-        "school": "Texas A&M",
-        "year": 2011,
-        "count": 1,
-        "coaches": [
-          "Tim DeRuyter"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 94,
+    "rank": 90,
     "coach": "Ron Turner",
     "totalDescendants": 11,
     "directDescendants": 3,
@@ -5306,7 +5140,7 @@
     ]
   },
   {
-    "rank": 95,
+    "rank": 91,
     "coach": "Bob Wagner",
     "totalDescendants": 11,
     "directDescendants": 2,
@@ -5361,7 +5195,36 @@
     ]
   },
   {
-    "rank": 96,
+    "rank": 92,
+    "coach": "Curley Hallman",
+    "totalDescendants": 11,
+    "directDescendants": 2,
+    "headCoachStops": 5,
+    "firstHeadCoachJob": {
+      "school": "Southern Mississippi",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "Southern Mississippi",
+        "year": 1990,
+        "count": 1,
+        "coaches": [
+          "Jeff Bower"
+        ]
+      },
+      {
+        "school": "LSU",
+        "year": 1994,
+        "count": 1,
+        "coaches": [
+          "Phil Bennett"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 93,
     "coach": "Mike Shula",
     "totalDescendants": 11,
     "directDescendants": 2,
@@ -5392,36 +5255,36 @@
     ]
   },
   {
-    "rank": 97,
-    "coach": "Watson Brown",
+    "rank": 94,
+    "coach": "Jackie Sherrill",
     "totalDescendants": 11,
-    "directDescendants": 2,
-    "headCoachStops": 12,
+    "directDescendants": 1,
+    "headCoachStops": 13,
     "firstHeadCoachJob": {
-      "school": "Vanderbilt",
-      "year": 1990
+      "school": "Mississippi State",
+      "year": 1991
     },
     "topStaffs": [
       {
-        "school": "UAB",
-        "year": 2000,
+        "school": "Mississippi State",
+        "year": 1991,
         "count": 1,
         "coaches": [
-          "Rickey Bustle"
+          "Watson Brown"
         ]
       },
       {
-        "school": "UAB",
-        "year": 2006,
+        "school": "Mississippi State",
+        "year": 1992,
         "count": 1,
         "coaches": [
-          "Jeff Brohm"
+          "Watson Brown"
         ]
       }
     ]
   },
   {
-    "rank": 98,
+    "rank": 95,
     "coach": "Jim Wacker",
     "totalDescendants": 11,
     "directDescendants": 1,
@@ -5474,7 +5337,72 @@
     ]
   },
   {
-    "rank": 99,
+    "rank": 96,
+    "coach": "Jim Grobe",
+    "totalDescendants": 10,
+    "directDescendants": 5,
+    "headCoachStops": 20,
+    "firstHeadCoachJob": {
+      "school": "Ohio",
+      "year": 1995
+    },
+    "topStaffs": [
+      {
+        "school": "Ohio",
+        "year": 1995,
+        "count": 2,
+        "coaches": [
+          "Mike Sewak",
+          "Tim DeRuyter"
+        ]
+      },
+      {
+        "school": "Ohio",
+        "year": 1996,
+        "count": 2,
+        "coaches": [
+          "Mike Sewak",
+          "Tim DeRuyter"
+        ]
+      },
+      {
+        "school": "Ohio",
+        "year": 1997,
+        "count": 2,
+        "coaches": [
+          "Tim DeRuyter",
+          "Troy Calhoun"
+        ]
+      },
+      {
+        "school": "Ohio",
+        "year": 1998,
+        "count": 2,
+        "coaches": [
+          "Tim DeRuyter",
+          "Troy Calhoun"
+        ]
+      },
+      {
+        "school": "Ohio",
+        "year": 1999,
+        "count": 1,
+        "coaches": [
+          "Troy Calhoun"
+        ]
+      },
+      {
+        "school": "Ohio",
+        "year": 2000,
+        "count": 1,
+        "coaches": [
+          "Troy Calhoun"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 97,
     "coach": "Lane Kiffin",
     "totalDescendants": 10,
     "directDescendants": 4,
@@ -5536,7 +5464,7 @@
     ]
   },
   {
-    "rank": 100,
+    "rank": 98,
     "coach": "Charlie Weis",
     "totalDescendants": 10,
     "directDescendants": 3,
@@ -5590,7 +5518,7 @@
     ]
   },
   {
-    "rank": 101,
+    "rank": 99,
     "coach": "Ed Orgeron",
     "totalDescendants": 10,
     "directDescendants": 3,
@@ -5652,7 +5580,7 @@
     ]
   },
   {
-    "rank": 102,
+    "rank": 100,
     "coach": "Frank Beamer",
     "totalDescendants": 10,
     "directDescendants": 3,
@@ -5716,7 +5644,7 @@
     ]
   },
   {
-    "rank": 103,
+    "rank": 101,
     "coach": "June Jones",
     "totalDescendants": 10,
     "directDescendants": 3,
@@ -5769,7 +5697,45 @@
     ]
   },
   {
-    "rank": 104,
+    "rank": 102,
+    "coach": "Mike Sherman",
+    "totalDescendants": 10,
+    "directDescendants": 3,
+    "headCoachStops": 4,
+    "firstHeadCoachJob": {
+      "school": "Texas A&M",
+      "year": 2008
+    },
+    "topStaffs": [
+      {
+        "school": "Texas A&M",
+        "year": 2008,
+        "count": 2,
+        "coaches": [
+          "Dino Babers",
+          "Steve Kragthorpe"
+        ]
+      },
+      {
+        "school": "Texas A&M",
+        "year": 2010,
+        "count": 1,
+        "coaches": [
+          "Tim DeRuyter"
+        ]
+      },
+      {
+        "school": "Texas A&M",
+        "year": 2011,
+        "count": 1,
+        "coaches": [
+          "Tim DeRuyter"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 103,
     "coach": "Sonny Lubick",
     "totalDescendants": 10,
     "directDescendants": 3,
@@ -5784,7 +5750,7 @@
         "year": 2000,
         "count": 2,
         "coaches": [
-          "Greg Brandon",
+          "Gregg Brandon",
           "Steve Fairchild"
         ]
       },
@@ -5823,7 +5789,7 @@
     ]
   },
   {
-    "rank": 105,
+    "rank": 104,
     "coach": "Bob DeBesse",
     "totalDescendants": 10,
     "directDescendants": 2,
@@ -5876,44 +5842,36 @@
     ]
   },
   {
-    "rank": 106,
-    "coach": "Chris Tormey",
+    "rank": 105,
+    "coach": "Watson Brown",
     "totalDescendants": 10,
     "directDescendants": 2,
-    "headCoachStops": 4,
+    "headCoachStops": 12,
     "firstHeadCoachJob": {
-      "school": "Nevada",
-      "year": 2000
+      "school": "Vanderbilt",
+      "year": 1990
     },
     "topStaffs": [
       {
-        "school": "Nevada",
-        "year": 2001,
+        "school": "UAB",
+        "year": 2000,
         "count": 1,
         "coaches": [
-          "John L. Smith"
+          "Rickey Bustle"
         ]
       },
       {
-        "school": "Nevada",
-        "year": 2002,
+        "school": "UAB",
+        "year": 2006,
         "count": 1,
         "coaches": [
-          "Dan Enos"
-        ]
-      },
-      {
-        "school": "Nevada",
-        "year": 2003,
-        "count": 1,
-        "coaches": [
-          "Dan Enos"
+          "Jeff Brohm"
         ]
       }
     ]
   },
   {
-    "rank": 107,
+    "rank": 106,
     "coach": "Gary Moeller",
     "totalDescendants": 10,
     "directDescendants": 1,
@@ -5966,7 +5924,7 @@
     ]
   },
   {
-    "rank": 108,
+    "rank": 107,
     "coach": "Kirby Smart",
     "totalDescendants": 9,
     "directDescendants": 6,
@@ -6039,7 +5997,7 @@
     ]
   },
   {
-    "rank": 109,
+    "rank": 108,
     "coach": "Jim McElwain",
     "totalDescendants": 9,
     "directDescendants": 5,
@@ -6106,7 +6064,7 @@
     ]
   },
   {
-    "rank": 110,
+    "rank": 109,
     "coach": "Jimbo Fisher",
     "totalDescendants": 9,
     "directDescendants": 4,
@@ -6144,15 +6102,6 @@
         ]
       },
       {
-        "school": "Texas A&M",
-        "year": 2021,
-        "count": 2,
-        "coaches": [
-          "Maurice Linguist",
-          "Mike Elko"
-        ]
-      },
-      {
         "school": "Florida State",
         "year": 2010,
         "count": 1,
@@ -6167,11 +6116,19 @@
         "coaches": [
           "Mark Stoops"
         ]
+      },
+      {
+        "school": "Florida State",
+        "year": 2012,
+        "count": 1,
+        "coaches": [
+          "Mark Stoops"
+        ]
       }
     ]
   },
   {
-    "rank": 111,
+    "rank": 110,
     "coach": "Lloyd Carr",
     "totalDescendants": 9,
     "directDescendants": 4,
@@ -6246,73 +6203,7 @@
     ]
   },
   {
-    "rank": 112,
-    "coach": "Andy McCollum",
-    "totalDescendants": 9,
-    "directDescendants": 3,
-    "headCoachStops": 6,
-    "firstHeadCoachJob": {
-      "school": "Middle Tennessee",
-      "year": 1999
-    },
-    "topStaffs": [
-      {
-        "school": "Middle Tennessee",
-        "year": 2000,
-        "count": 2,
-        "coaches": [
-          "Darrell Dickey",
-          "Larry Fedora"
-        ]
-      },
-      {
-        "school": "Middle Tennessee",
-        "year": 2001,
-        "count": 2,
-        "coaches": [
-          "Darrell Dickey",
-          "Larry Fedora"
-        ]
-      },
-      {
-        "school": "Middle Tennessee",
-        "year": 2002,
-        "count": 2,
-        "coaches": [
-          "Darrell Dickey",
-          "Larry Fedora"
-        ]
-      },
-      {
-        "school": "Middle Tennessee",
-        "year": 2003,
-        "count": 2,
-        "coaches": [
-          "Darrell Dickey",
-          "Larry Fedora"
-        ]
-      },
-      {
-        "school": "Middle Tennessee",
-        "year": 2005,
-        "count": 2,
-        "coaches": [
-          "Darrell Dickey",
-          "Steve Campbell"
-        ]
-      },
-      {
-        "school": "Middle Tennessee",
-        "year": 1999,
-        "count": 1,
-        "coaches": [
-          "Larry Fedora"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 113,
+    "rank": 111,
     "coach": "Dave Wannstedt",
     "totalDescendants": 9,
     "directDescendants": 3,
@@ -6376,7 +6267,7 @@
     ]
   },
   {
-    "rank": 114,
+    "rank": 112,
     "coach": "Paul Johnson",
     "totalDescendants": 9,
     "directDescendants": 3,
@@ -6443,7 +6334,44 @@
     ]
   },
   {
-    "rank": 115,
+    "rank": 113,
+    "coach": "Chris Tormey",
+    "totalDescendants": 9,
+    "directDescendants": 2,
+    "headCoachStops": 4,
+    "firstHeadCoachJob": {
+      "school": "Nevada",
+      "year": 2000
+    },
+    "topStaffs": [
+      {
+        "school": "Nevada",
+        "year": 2001,
+        "count": 1,
+        "coaches": [
+          "John L. Smith"
+        ]
+      },
+      {
+        "school": "Nevada",
+        "year": 2002,
+        "count": 1,
+        "coaches": [
+          "Dan Enos"
+        ]
+      },
+      {
+        "school": "Nevada",
+        "year": 2003,
+        "count": 1,
+        "coaches": [
+          "Dan Enos"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 114,
     "coach": "Jeff Bower",
     "totalDescendants": 9,
     "directDescendants": 2,
@@ -6505,7 +6433,7 @@
     ]
   },
   {
-    "rank": 116,
+    "rank": 115,
     "coach": "Jerry Pettibone",
     "totalDescendants": 9,
     "directDescendants": 2,
@@ -6566,7 +6494,7 @@
     ]
   },
   {
-    "rank": 117,
+    "rank": 116,
     "coach": "Greg Schiano",
     "totalDescendants": 8,
     "directDescendants": 7,
@@ -6630,7 +6558,7 @@
     ]
   },
   {
-    "rank": 118,
+    "rank": 117,
     "coach": "Rocky Long",
     "totalDescendants": 8,
     "directDescendants": 6,
@@ -6695,7 +6623,7 @@
     ]
   },
   {
-    "rank": 119,
+    "rank": 118,
     "coach": "Dabo Swinney",
     "totalDescendants": 8,
     "directDescendants": 5,
@@ -6771,7 +6699,7 @@
     ]
   },
   {
-    "rank": 120,
+    "rank": 119,
     "coach": "Mario Cristobal",
     "totalDescendants": 8,
     "directDescendants": 5,
@@ -6837,71 +6765,7 @@
     ]
   },
   {
-    "rank": 121,
-    "coach": "John L. Smith",
-    "totalDescendants": 8,
-    "directDescendants": 3,
-    "headCoachStops": 12,
-    "firstHeadCoachJob": {
-      "school": "Utah State",
-      "year": 1995
-    },
-    "topStaffs": [
-      {
-        "school": "Louisville",
-        "year": 2000,
-        "count": 2,
-        "coaches": [
-          "Jeff Brohm",
-          "Paul Haynes"
-        ]
-      },
-      {
-        "school": "Louisville",
-        "year": 2001,
-        "count": 2,
-        "coaches": [
-          "Jeff Brohm",
-          "Paul Haynes"
-        ]
-      },
-      {
-        "school": "Louisville",
-        "year": 2002,
-        "count": 2,
-        "coaches": [
-          "Jeff Brohm",
-          "Paul Haynes"
-        ]
-      },
-      {
-        "school": "Utah State",
-        "year": 1995,
-        "count": 1,
-        "coaches": [
-          "Bobby Petrino"
-        ]
-      },
-      {
-        "school": "Utah State",
-        "year": 1996,
-        "count": 1,
-        "coaches": [
-          "Bobby Petrino"
-        ]
-      },
-      {
-        "school": "Utah State",
-        "year": 1997,
-        "count": 1,
-        "coaches": [
-          "Bobby Petrino"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 122,
+    "rank": 120,
     "coach": "John Mackovic",
     "totalDescendants": 8,
     "directDescendants": 3,
@@ -6962,7 +6826,7 @@
     ]
   },
   {
-    "rank": 123,
+    "rank": 121,
     "coach": "Mike Riley",
     "totalDescendants": 8,
     "directDescendants": 3,
@@ -7023,7 +6887,7 @@
     ]
   },
   {
-    "rank": 124,
+    "rank": 122,
     "coach": "Al Groh",
     "totalDescendants": 8,
     "directDescendants": 2,
@@ -7084,68 +6948,68 @@
     ]
   },
   {
-    "rank": 125,
-    "coach": "Bobby Petrino",
+    "rank": 123,
+    "coach": "Andy McCollum",
     "totalDescendants": 8,
     "directDescendants": 2,
-    "headCoachStops": 13,
+    "headCoachStops": 6,
     "firstHeadCoachJob": {
-      "school": "Louisville",
-      "year": 2003
+      "school": "Middle Tennessee",
+      "year": 1999
     },
     "topStaffs": [
       {
-        "school": "Louisville",
+        "school": "Middle Tennessee",
+        "year": 1999,
+        "count": 1,
+        "coaches": [
+          "Larry Fedora"
+        ]
+      },
+      {
+        "school": "Middle Tennessee",
+        "year": 2000,
+        "count": 1,
+        "coaches": [
+          "Larry Fedora"
+        ]
+      },
+      {
+        "school": "Middle Tennessee",
+        "year": 2001,
+        "count": 1,
+        "coaches": [
+          "Larry Fedora"
+        ]
+      },
+      {
+        "school": "Middle Tennessee",
+        "year": 2002,
+        "count": 1,
+        "coaches": [
+          "Larry Fedora"
+        ]
+      },
+      {
+        "school": "Middle Tennessee",
         "year": 2003,
         "count": 1,
         "coaches": [
-          "Jeff Brohm"
+          "Larry Fedora"
         ]
       },
       {
-        "school": "Louisville",
-        "year": 2004,
-        "count": 1,
-        "coaches": [
-          "Jeff Brohm"
-        ]
-      },
-      {
-        "school": "Louisville",
+        "school": "Middle Tennessee",
         "year": 2005,
         "count": 1,
         "coaches": [
-          "Jeff Brohm"
-        ]
-      },
-      {
-        "school": "Louisville",
-        "year": 2006,
-        "count": 1,
-        "coaches": [
-          "Jeff Brohm"
-        ]
-      },
-      {
-        "school": "Arkansas",
-        "year": 2009,
-        "count": 1,
-        "coaches": [
-          "John L. Smith"
-        ]
-      },
-      {
-        "school": "Arkansas",
-        "year": 2010,
-        "count": 1,
-        "coaches": [
-          "John L. Smith"
+          "Steve Campbell"
         ]
       }
     ]
   },
   {
-    "rank": 126,
+    "rank": 124,
     "coach": "Joe Raymond Peace",
     "totalDescendants": 8,
     "directDescendants": 2,
@@ -7182,7 +7046,7 @@
     ]
   },
   {
-    "rank": 127,
+    "rank": 125,
     "coach": "Ron Prince",
     "totalDescendants": 8,
     "directDescendants": 2,
@@ -7219,7 +7083,7 @@
     ]
   },
   {
-    "rank": 128,
+    "rank": 126,
     "coach": "George Chaump",
     "totalDescendants": 8,
     "directDescendants": 1,
@@ -7240,7 +7104,7 @@
     ]
   },
   {
-    "rank": 129,
+    "rank": 127,
     "coach": "Brian VanGorder",
     "totalDescendants": 7,
     "directDescendants": 3,
@@ -7263,7 +7127,7 @@
     ]
   },
   {
-    "rank": 130,
+    "rank": 128,
     "coach": "David Bailiff",
     "totalDescendants": 7,
     "directDescendants": 3,
@@ -7327,7 +7191,7 @@
     ]
   },
   {
-    "rank": 131,
+    "rank": 129,
     "coach": "Greg McMackin",
     "totalDescendants": 7,
     "directDescendants": 3,
@@ -7380,7 +7244,71 @@
     ]
   },
   {
-    "rank": 132,
+    "rank": 130,
+    "coach": "John L. Smith",
+    "totalDescendants": 7,
+    "directDescendants": 3,
+    "headCoachStops": 12,
+    "firstHeadCoachJob": {
+      "school": "Utah State",
+      "year": 1995
+    },
+    "topStaffs": [
+      {
+        "school": "Louisville",
+        "year": 2000,
+        "count": 2,
+        "coaches": [
+          "Jeff Brohm",
+          "Paul Haynes"
+        ]
+      },
+      {
+        "school": "Louisville",
+        "year": 2001,
+        "count": 2,
+        "coaches": [
+          "Jeff Brohm",
+          "Paul Haynes"
+        ]
+      },
+      {
+        "school": "Louisville",
+        "year": 2002,
+        "count": 2,
+        "coaches": [
+          "Jeff Brohm",
+          "Paul Haynes"
+        ]
+      },
+      {
+        "school": "Utah State",
+        "year": 1995,
+        "count": 1,
+        "coaches": [
+          "Bobby Petrino"
+        ]
+      },
+      {
+        "school": "Utah State",
+        "year": 1996,
+        "count": 1,
+        "coaches": [
+          "Bobby Petrino"
+        ]
+      },
+      {
+        "school": "Utah State",
+        "year": 1997,
+        "count": 1,
+        "coaches": [
+          "Bobby Petrino"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 131,
     "coach": "Mike Cavan",
     "totalDescendants": 7,
     "directDescendants": 3,
@@ -7410,7 +7338,7 @@
     ]
   },
   {
-    "rank": 133,
+    "rank": 132,
     "coach": "Rich Rodriguez",
     "totalDescendants": 7,
     "directDescendants": 3,
@@ -7469,6 +7397,67 @@
         "count": 1,
         "coaches": [
           "Tony Gibson"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 133,
+    "coach": "Bobby Petrino",
+    "totalDescendants": 7,
+    "directDescendants": 2,
+    "headCoachStops": 13,
+    "firstHeadCoachJob": {
+      "school": "Louisville",
+      "year": 2003
+    },
+    "topStaffs": [
+      {
+        "school": "Louisville",
+        "year": 2003,
+        "count": 1,
+        "coaches": [
+          "Jeff Brohm"
+        ]
+      },
+      {
+        "school": "Louisville",
+        "year": 2004,
+        "count": 1,
+        "coaches": [
+          "Jeff Brohm"
+        ]
+      },
+      {
+        "school": "Louisville",
+        "year": 2005,
+        "count": 1,
+        "coaches": [
+          "Jeff Brohm"
+        ]
+      },
+      {
+        "school": "Louisville",
+        "year": 2006,
+        "count": 1,
+        "coaches": [
+          "Jeff Brohm"
+        ]
+      },
+      {
+        "school": "Arkansas",
+        "year": 2009,
+        "count": 1,
+        "coaches": [
+          "John L. Smith"
+        ]
+      },
+      {
+        "school": "Arkansas",
+        "year": 2010,
+        "count": 1,
+        "coaches": [
+          "John L. Smith"
         ]
       }
     ]
@@ -7637,6 +7626,68 @@
   },
   {
     "rank": 138,
+    "coach": "Gus Malzahn",
+    "totalDescendants": 6,
+    "directDescendants": 5,
+    "headCoachStops": 13,
+    "firstHeadCoachJob": {
+      "school": "Arkansas State",
+      "year": 2012
+    },
+    "topStaffs": [
+      {
+        "school": "Auburn",
+        "year": 2015,
+        "count": 2,
+        "coaches": [
+          "Rhett Lashlee",
+          "Will Muschamp"
+        ]
+      },
+      {
+        "school": "Arkansas State",
+        "year": 2012,
+        "count": 1,
+        "coaches": [
+          "Rhett Lashlee"
+        ]
+      },
+      {
+        "school": "Auburn",
+        "year": 2013,
+        "count": 1,
+        "coaches": [
+          "Rhett Lashlee"
+        ]
+      },
+      {
+        "school": "Auburn",
+        "year": 2014,
+        "count": 1,
+        "coaches": [
+          "Rhett Lashlee"
+        ]
+      },
+      {
+        "school": "Auburn",
+        "year": 2016,
+        "count": 1,
+        "coaches": [
+          "Rhett Lashlee"
+        ]
+      },
+      {
+        "school": "Auburn",
+        "year": 2017,
+        "count": 1,
+        "coaches": [
+          "Chip Lindsey"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 139,
     "coach": "Mike Norvell",
     "totalDescendants": 6,
     "directDescendants": 5,
@@ -7702,7 +7753,7 @@
     ]
   },
   {
-    "rank": 139,
+    "rank": 140,
     "coach": "David Shaw",
     "totalDescendants": 6,
     "directDescendants": 4,
@@ -7769,7 +7820,7 @@
     ]
   },
   {
-    "rank": 140,
+    "rank": 141,
     "coach": "Steve Sarkisian",
     "totalDescendants": 6,
     "directDescendants": 4,
@@ -7832,7 +7883,7 @@
     ]
   },
   {
-    "rank": 141,
+    "rank": 142,
     "coach": "Bryan Harsin",
     "totalDescendants": 6,
     "directDescendants": 3,
@@ -7893,7 +7944,7 @@
     ]
   },
   {
-    "rank": 142,
+    "rank": 143,
     "coach": "Don Nehlen",
     "totalDescendants": 6,
     "directDescendants": 3,
@@ -7955,8 +8006,8 @@
     ]
   },
   {
-    "rank": 143,
-    "coach": "Greg Brandon",
+    "rank": 144,
+    "coach": "Gregg Brandon",
     "totalDescendants": 6,
     "directDescendants": 3,
     "headCoachStops": 6,
@@ -8018,7 +8069,7 @@
     ]
   },
   {
-    "rank": 144,
+    "rank": 145,
     "coach": "Rickey Bustle",
     "totalDescendants": 6,
     "directDescendants": 3,
@@ -8080,7 +8131,7 @@
     ]
   },
   {
-    "rank": 145,
+    "rank": 146,
     "coach": "Tommy West",
     "totalDescendants": 6,
     "directDescendants": 3,
@@ -8142,7 +8193,7 @@
     ]
   },
   {
-    "rank": 146,
+    "rank": 147,
     "coach": "Al Golden",
     "totalDescendants": 6,
     "directDescendants": 2,
@@ -8203,7 +8254,7 @@
     ]
   },
   {
-    "rank": 147,
+    "rank": 148,
     "coach": "Charlie Bailey",
     "totalDescendants": 6,
     "directDescendants": 2,
@@ -8264,7 +8315,7 @@
     ]
   },
   {
-    "rank": 148,
+    "rank": 149,
     "coach": "John Cooper",
     "totalDescendants": 6,
     "directDescendants": 2,
@@ -8325,7 +8376,7 @@
     ]
   },
   {
-    "rank": 149,
+    "rank": 150,
     "coach": "Lee Owens",
     "totalDescendants": 6,
     "directDescendants": 2,
@@ -8374,7 +8425,7 @@
     ]
   },
   {
-    "rank": 150,
+    "rank": 151,
     "coach": "Paul Rhoads",
     "totalDescendants": 6,
     "directDescendants": 2,
@@ -8430,7 +8481,7 @@
     ]
   },
   {
-    "rank": 151,
+    "rank": 152,
     "coach": "Terry Shea",
     "totalDescendants": 6,
     "directDescendants": 2,
@@ -8459,7 +8510,7 @@
     ]
   },
   {
-    "rank": 152,
+    "rank": 153,
     "coach": "Carl Franks",
     "totalDescendants": 6,
     "directDescendants": 1,
@@ -8488,7 +8539,7 @@
     ]
   },
   {
-    "rank": 153,
+    "rank": 154,
     "coach": "Keith Burns",
     "totalDescendants": 6,
     "directDescendants": 1,
@@ -8525,7 +8576,7 @@
     ]
   },
   {
-    "rank": 154,
+    "rank": 155,
     "coach": "Mike Hodges",
     "totalDescendants": 6,
     "directDescendants": 1,
@@ -8554,7 +8605,7 @@
     ]
   },
   {
-    "rank": 155,
+    "rank": 156,
     "coach": "Rip Scherer",
     "totalDescendants": 6,
     "directDescendants": 1,
@@ -8575,7 +8626,7 @@
     ]
   },
   {
-    "rank": 156,
+    "rank": 157,
     "coach": "Ron Cooper",
     "totalDescendants": 6,
     "directDescendants": 1,
@@ -8612,7 +8663,7 @@
     ]
   },
   {
-    "rank": 157,
+    "rank": 158,
     "coach": "Charlie Strong",
     "totalDescendants": 5,
     "directDescendants": 4,
@@ -8653,68 +8704,6 @@
         "count": 1,
         "coaches": [
           "Jeff Traylor"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 158,
-    "coach": "Gus Malzahn",
-    "totalDescendants": 5,
-    "directDescendants": 4,
-    "headCoachStops": 13,
-    "firstHeadCoachJob": {
-      "school": "Arkansas State",
-      "year": 2012
-    },
-    "topStaffs": [
-      {
-        "school": "Auburn",
-        "year": 2015,
-        "count": 2,
-        "coaches": [
-          "Rhett Lashlee",
-          "Will Muschamp"
-        ]
-      },
-      {
-        "school": "Arkansas State",
-        "year": 2012,
-        "count": 1,
-        "coaches": [
-          "Rhett Lashlee"
-        ]
-      },
-      {
-        "school": "Auburn",
-        "year": 2013,
-        "count": 1,
-        "coaches": [
-          "Rhett Lashlee"
-        ]
-      },
-      {
-        "school": "Auburn",
-        "year": 2014,
-        "count": 1,
-        "coaches": [
-          "Rhett Lashlee"
-        ]
-      },
-      {
-        "school": "Auburn",
-        "year": 2016,
-        "count": 1,
-        "coaches": [
-          "Rhett Lashlee"
-        ]
-      },
-      {
-        "school": "Auburn",
-        "year": 2017,
-        "count": 1,
-        "coaches": [
-          "Chip Lindsey"
         ]
       }
     ]
@@ -8931,59 +8920,6 @@
   },
   {
     "rank": 163,
-    "coach": "Mike Sewak",
-    "totalDescendants": 5,
-    "directDescendants": 3,
-    "headCoachStops": 4,
-    "firstHeadCoachJob": {
-      "school": "Georgia Southern",
-      "year": 2002
-    },
-    "topStaffs": [
-      {
-        "school": "Georgia Southern",
-        "year": 2002,
-        "count": 3,
-        "coaches": [
-          "Brent Pry",
-          "Darrell Dickey",
-          "Jeff Monken"
-        ]
-      },
-      {
-        "school": "Georgia Southern",
-        "year": 2003,
-        "count": 3,
-        "coaches": [
-          "Brent Pry",
-          "Darrell Dickey",
-          "Jeff Monken"
-        ]
-      },
-      {
-        "school": "Georgia Southern",
-        "year": 2004,
-        "count": 3,
-        "coaches": [
-          "Brent Pry",
-          "Darrell Dickey",
-          "Jeff Monken"
-        ]
-      },
-      {
-        "school": "Georgia Southern",
-        "year": 2005,
-        "count": 3,
-        "coaches": [
-          "Brent Pry",
-          "Darrell Dickey",
-          "Jeff Monken"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 164,
     "coach": "Paul Chryst",
     "totalDescendants": 5,
     "directDescendants": 3,
@@ -9013,7 +8949,7 @@
     ]
   },
   {
-    "rank": 165,
+    "rank": 164,
     "coach": "Brian Polian",
     "totalDescendants": 5,
     "directDescendants": 2,
@@ -9061,7 +8997,7 @@
     ]
   },
   {
-    "rank": 166,
+    "rank": 165,
     "coach": "Dan Mullen",
     "totalDescendants": 5,
     "directDescendants": 2,
@@ -9098,7 +9034,7 @@
     ]
   },
   {
-    "rank": 167,
+    "rank": 166,
     "coach": "Everett Withers",
     "totalDescendants": 5,
     "directDescendants": 2,
@@ -9127,7 +9063,7 @@
     ]
   },
   {
-    "rank": 168,
+    "rank": 167,
     "coach": "Hugh Freeze",
     "totalDescendants": 5,
     "directDescendants": 2,
@@ -9188,7 +9124,7 @@
     ]
   },
   {
-    "rank": 169,
+    "rank": 168,
     "coach": "Kevin Wilson",
     "totalDescendants": 5,
     "directDescendants": 2,
@@ -9217,7 +9153,7 @@
     ]
   },
   {
-    "rank": 170,
+    "rank": 169,
     "coach": "Ted Roof",
     "totalDescendants": 5,
     "directDescendants": 2,
@@ -9270,7 +9206,7 @@
     ]
   },
   {
-    "rank": 171,
+    "rank": 170,
     "coach": "Bill Mallory",
     "totalDescendants": 5,
     "directDescendants": 1,
@@ -9331,7 +9267,7 @@
     ]
   },
   {
-    "rank": 172,
+    "rank": 171,
     "coach": "Dave Arslanian",
     "totalDescendants": 5,
     "directDescendants": 1,
@@ -9352,7 +9288,7 @@
     ]
   },
   {
-    "rank": 173,
+    "rank": 172,
     "coach": "John Thompson",
     "totalDescendants": 5,
     "directDescendants": 1,
@@ -9381,7 +9317,7 @@
     ]
   },
   {
-    "rank": 174,
+    "rank": 173,
     "coach": "Justin Fuente",
     "totalDescendants": 5,
     "directDescendants": 1,
@@ -9418,36 +9354,7 @@
     ]
   },
   {
-    "rank": 175,
-    "coach": "Pat Fitzgerald",
-    "totalDescendants": 5,
-    "directDescendants": 1,
-    "headCoachStops": 17,
-    "firstHeadCoachJob": {
-      "school": "Northwestern",
-      "year": 2006
-    },
-    "topStaffs": [
-      {
-        "school": "Northwestern",
-        "year": 2006,
-        "count": 1,
-        "coaches": [
-          "Garrick McGee"
-        ]
-      },
-      {
-        "school": "Northwestern",
-        "year": 2007,
-        "count": 1,
-        "coaches": [
-          "Garrick McGee"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 176,
+    "rank": 174,
     "coach": "Tony Levine",
     "totalDescendants": 5,
     "directDescendants": 1,
@@ -9468,7 +9375,7 @@
     ]
   },
   {
-    "rank": 177,
+    "rank": 175,
     "coach": "Dave Clawson",
     "totalDescendants": 4,
     "directDescendants": 4,
@@ -9535,7 +9442,7 @@
     ]
   },
   {
-    "rank": 178,
+    "rank": 176,
     "coach": "Kyle Whittingham",
     "totalDescendants": 4,
     "directDescendants": 4,
@@ -9602,7 +9509,7 @@
     ]
   },
   {
-    "rank": 179,
+    "rank": 177,
     "coach": "Larry Fedora",
     "totalDescendants": 4,
     "directDescendants": 4,
@@ -9669,7 +9576,7 @@
     ]
   },
   {
-    "rank": 180,
+    "rank": 178,
     "coach": "Tom Herman",
     "totalDescendants": 4,
     "directDescendants": 4,
@@ -9734,7 +9641,7 @@
     ]
   },
   {
-    "rank": 181,
+    "rank": 179,
     "coach": "Dana Holgorsen",
     "totalDescendants": 4,
     "directDescendants": 3,
@@ -9798,7 +9705,7 @@
     ]
   },
   {
-    "rank": 182,
+    "rank": 180,
     "coach": "Jerry Moore",
     "totalDescendants": 4,
     "directDescendants": 3,
@@ -9866,7 +9773,7 @@
     ]
   },
   {
-    "rank": 183,
+    "rank": 181,
     "coach": "Joey Jones",
     "totalDescendants": 4,
     "directDescendants": 3,
@@ -9931,7 +9838,7 @@
     ]
   },
   {
-    "rank": 184,
+    "rank": 182,
     "coach": "Kliff Kingsbury",
     "totalDescendants": 4,
     "directDescendants": 3,
@@ -9970,26 +9877,25 @@
       },
       {
         "school": "Texas Tech",
-        "year": 2016,
-        "count": 2,
-        "coaches": [
-          "Eric Morris",
-          "Mike Jinks"
-        ]
-      },
-      {
-        "school": "Texas Tech",
         "year": 2017,
         "count": 2,
         "coaches": [
           "DeShaun Foster",
           "Eric Morris"
         ]
+      },
+      {
+        "school": "Texas Tech",
+        "year": 2016,
+        "count": 1,
+        "coaches": [
+          "Eric Morris"
+        ]
       }
     ]
   },
   {
-    "rank": 185,
+    "rank": 183,
     "coach": "Rick Stockstill",
     "totalDescendants": 4,
     "directDescendants": 3,
@@ -10038,7 +9944,7 @@
     ]
   },
   {
-    "rank": 186,
+    "rank": 184,
     "coach": "Steve Addazio",
     "totalDescendants": 4,
     "directDescendants": 3,
@@ -10101,7 +10007,7 @@
     ]
   },
   {
-    "rank": 187,
+    "rank": 185,
     "coach": "Tim Beckman",
     "totalDescendants": 4,
     "directDescendants": 3,
@@ -10164,7 +10070,7 @@
     ]
   },
   {
-    "rank": 188,
+    "rank": 186,
     "coach": "Art Briles",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10229,7 +10135,7 @@
     ]
   },
   {
-    "rank": 189,
+    "rank": 187,
     "coach": "Barry Odom",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10274,7 +10180,7 @@
     ]
   },
   {
-    "rank": 190,
+    "rank": 188,
     "coach": "Derek Dooley",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10311,7 +10217,7 @@
     ]
   },
   {
-    "rank": 191,
+    "rank": 189,
     "coach": "Doug Marrone",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10358,7 +10264,7 @@
     ]
   },
   {
-    "rank": 192,
+    "rank": 190,
     "coach": "Joe Novak",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10425,7 +10331,7 @@
     ]
   },
   {
-    "rank": 193,
+    "rank": 191,
     "coach": "Larry Porter",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10455,7 +10361,7 @@
     ]
   },
   {
-    "rank": 194,
+    "rank": 192,
     "coach": "Mark Dantonio",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10520,7 +10426,7 @@
     ]
   },
   {
-    "rank": 195,
+    "rank": 193,
     "coach": "Matt Wells",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10557,7 +10463,56 @@
     ]
   },
   {
-    "rank": 196,
+    "rank": 194,
+    "coach": "Mike Sewak",
+    "totalDescendants": 4,
+    "directDescendants": 2,
+    "headCoachStops": 4,
+    "firstHeadCoachJob": {
+      "school": "Georgia Southern",
+      "year": 2002
+    },
+    "topStaffs": [
+      {
+        "school": "Georgia Southern",
+        "year": 2002,
+        "count": 2,
+        "coaches": [
+          "Brent Pry",
+          "Jeff Monken"
+        ]
+      },
+      {
+        "school": "Georgia Southern",
+        "year": 2003,
+        "count": 2,
+        "coaches": [
+          "Brent Pry",
+          "Jeff Monken"
+        ]
+      },
+      {
+        "school": "Georgia Southern",
+        "year": 2004,
+        "count": 2,
+        "coaches": [
+          "Brent Pry",
+          "Jeff Monken"
+        ]
+      },
+      {
+        "school": "Georgia Southern",
+        "year": 2005,
+        "count": 2,
+        "coaches": [
+          "Brent Pry",
+          "Jeff Monken"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 195,
     "coach": "Skip Holtz",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10586,7 +10541,7 @@
     ]
   },
   {
-    "rank": 197,
+    "rank": 196,
     "coach": "Steve Campbell",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10647,7 +10602,7 @@
     ]
   },
   {
-    "rank": 198,
+    "rank": 197,
     "coach": "Tom O'Brien",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10708,7 +10663,7 @@
     ]
   },
   {
-    "rank": 199,
+    "rank": 198,
     "coach": "Will Muschamp",
     "totalDescendants": 4,
     "directDescendants": 2,
@@ -10754,7 +10709,7 @@
     ]
   },
   {
-    "rank": 200,
+    "rank": 199,
     "coach": "Fred Goldsmith",
     "totalDescendants": 4,
     "directDescendants": 1,
@@ -10807,28 +10762,7 @@
     ]
   },
   {
-    "rank": 201,
-    "coach": "Garrick McGee",
-    "totalDescendants": 4,
-    "directDescendants": 1,
-    "headCoachStops": 2,
-    "firstHeadCoachJob": {
-      "school": "UAB",
-      "year": 2012
-    },
-    "topStaffs": [
-      {
-        "school": "UAB",
-        "year": 2012,
-        "count": 1,
-        "coaches": [
-          "Jeff Brohm"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 202,
+    "rank": 200,
     "coach": "Gary Nord",
     "totalDescendants": 4,
     "directDescendants": 1,
@@ -10849,7 +10783,7 @@
     ]
   },
   {
-    "rank": 203,
+    "rank": 201,
     "coach": "Jeff Horton",
     "totalDescendants": 4,
     "directDescendants": 1,
@@ -10878,7 +10812,7 @@
     ]
   },
   {
-    "rank": 204,
+    "rank": 202,
     "coach": "Jim Sweeney",
     "totalDescendants": 4,
     "directDescendants": 1,
@@ -10923,7 +10857,7 @@
     ]
   },
   {
-    "rank": 205,
+    "rank": 203,
     "coach": "Joe Hollis",
     "totalDescendants": 4,
     "directDescendants": 1,
@@ -10960,7 +10894,36 @@
     ]
   },
   {
-    "rank": 206,
+    "rank": 204,
+    "coach": "Pat Fitzgerald",
+    "totalDescendants": 4,
+    "directDescendants": 1,
+    "headCoachStops": 17,
+    "firstHeadCoachJob": {
+      "school": "Northwestern",
+      "year": 2006
+    },
+    "topStaffs": [
+      {
+        "school": "Northwestern",
+        "year": 2006,
+        "count": 1,
+        "coaches": [
+          "Garrick McGee"
+        ]
+      },
+      {
+        "school": "Northwestern",
+        "year": 2007,
+        "count": 1,
+        "coaches": [
+          "Garrick McGee"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 205,
     "coach": "Rick Rasnick",
     "totalDescendants": 4,
     "directDescendants": 1,
@@ -10989,7 +10952,7 @@
     ]
   },
   {
-    "rank": 207,
+    "rank": 206,
     "coach": "Darrell Hazell",
     "totalDescendants": 3,
     "directDescendants": 3,
@@ -11050,7 +11013,7 @@
     ]
   },
   {
-    "rank": 208,
+    "rank": 207,
     "coach": "Jeff Monken",
     "totalDescendants": 3,
     "directDescendants": 3,
@@ -11112,7 +11075,7 @@
     ]
   },
   {
-    "rank": 209,
+    "rank": 208,
     "coach": "Jeff Tedford",
     "totalDescendants": 3,
     "directDescendants": 3,
@@ -11165,7 +11128,7 @@
     ]
   },
   {
-    "rank": 210,
+    "rank": 209,
     "coach": "Matt Luke",
     "totalDescendants": 3,
     "directDescendants": 3,
@@ -11196,7 +11159,7 @@
     ]
   },
   {
-    "rank": 211,
+    "rank": 210,
     "coach": "Mike MacIntyre",
     "totalDescendants": 3,
     "directDescendants": 3,
@@ -11234,7 +11197,7 @@
     ]
   },
   {
-    "rank": 212,
+    "rank": 211,
     "coach": "Ryan Silverfield",
     "totalDescendants": 3,
     "directDescendants": 3,
@@ -11273,7 +11236,7 @@
     ]
   },
   {
-    "rank": 213,
+    "rank": 212,
     "coach": "Willie Fritz",
     "totalDescendants": 3,
     "directDescendants": 3,
@@ -11320,7 +11283,7 @@
     ]
   },
   {
-    "rank": 214,
+    "rank": 213,
     "coach": "Bill Walsh",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11360,7 +11323,7 @@
     ]
   },
   {
-    "rank": 215,
+    "rank": 214,
     "coach": "Buddy Teevens",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11389,7 +11352,7 @@
     ]
   },
   {
-    "rank": 216,
+    "rank": 215,
     "coach": "Chip Kelly",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11438,7 +11401,7 @@
     ]
   },
   {
-    "rank": 217,
+    "rank": 216,
     "coach": "Clay Helton",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11467,7 +11430,7 @@
     ]
   },
   {
-    "rank": 218,
+    "rank": 217,
     "coach": "Craig Bohl",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11529,7 +11492,7 @@
     ]
   },
   {
-    "rank": 219,
+    "rank": 218,
     "coach": "Dave Doeren",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11559,7 +11522,7 @@
     ]
   },
   {
-    "rank": 220,
+    "rank": 219,
     "coach": "Fitz Hill",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11589,36 +11552,7 @@
     ]
   },
   {
-    "rank": 221,
-    "coach": "Jeff Brohm",
-    "totalDescendants": 3,
-    "directDescendants": 2,
-    "headCoachStops": 12,
-    "firstHeadCoachJob": {
-      "school": "Western Kentucky",
-      "year": 2014
-    },
-    "topStaffs": [
-      {
-        "school": "Western Kentucky",
-        "year": 2015,
-        "count": 1,
-        "coaches": [
-          "Tyson Helton"
-        ]
-      },
-      {
-        "school": "Louisville",
-        "year": 2023,
-        "count": 1,
-        "coaches": [
-          "Shawn Clark"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 222,
+    "rank": 220,
     "coach": "Jeff Jagodzinski",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11649,7 +11583,7 @@
     ]
   },
   {
-    "rank": 223,
+    "rank": 221,
     "coach": "Joe Glenn",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11715,7 +11649,7 @@
     ]
   },
   {
-    "rank": 224,
+    "rank": 222,
     "coach": "Larry Smith",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11737,7 +11671,7 @@
     ]
   },
   {
-    "rank": 225,
+    "rank": 223,
     "coach": "Luke Fickell",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11790,7 +11724,7 @@
     ]
   },
   {
-    "rank": 226,
+    "rank": 224,
     "coach": "Mark Stoops",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11839,19 +11773,11 @@
         "coaches": [
           "Jon Sumrall"
         ]
-      },
-      {
-        "school": "Kentucky",
-        "year": 2022,
-        "count": 1,
-        "coaches": [
-          "Jon Sumrall"
-        ]
       }
     ]
   },
   {
-    "rank": 227,
+    "rank": 225,
     "coach": "Matt Rhule",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11914,7 +11840,7 @@
     ]
   },
   {
-    "rank": 228,
+    "rank": 226,
     "coach": "Mike Locksley",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -11939,19 +11865,11 @@
         "coaches": [
           "Scotty Walden"
         ]
-      },
-      {
-        "school": "Maryland",
-        "year": 2020,
-        "count": 1,
-        "coaches": [
-          "Scotty Walden"
-        ]
       }
     ]
   },
   {
-    "rank": 229,
+    "rank": 227,
     "coach": "Nick Rolovich",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -12014,7 +11932,7 @@
     ]
   },
   {
-    "rank": 230,
+    "rank": 228,
     "coach": "Rob Ianello",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -12044,7 +11962,7 @@
     ]
   },
   {
-    "rank": 231,
+    "rank": 229,
     "coach": "Shane Montgomery",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -12083,7 +12001,7 @@
     ]
   },
   {
-    "rank": 232,
+    "rank": 230,
     "coach": "Steve Logan",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -12144,7 +12062,7 @@
     ]
   },
   {
-    "rank": 233,
+    "rank": 231,
     "coach": "Todd Monken",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -12181,7 +12099,7 @@
     ]
   },
   {
-    "rank": 234,
+    "rank": 232,
     "coach": "Tom Allen",
     "totalDescendants": 3,
     "directDescendants": 2,
@@ -12219,7 +12137,7 @@
     ]
   },
   {
-    "rank": 235,
+    "rank": 233,
     "coach": "Bill McCartney",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12240,7 +12158,7 @@
     ]
   },
   {
-    "rank": 236,
+    "rank": 234,
     "coach": "Dana Dimel",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12277,7 +12195,7 @@
     ]
   },
   {
-    "rank": 237,
+    "rank": 235,
     "coach": "Dean Pees",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12306,7 +12224,28 @@
     ]
   },
   {
-    "rank": 238,
+    "rank": 236,
+    "coach": "Garrick McGee",
+    "totalDescendants": 3,
+    "directDescendants": 1,
+    "headCoachStops": 2,
+    "firstHeadCoachJob": {
+      "school": "UAB",
+      "year": 2012
+    },
+    "topStaffs": [
+      {
+        "school": "UAB",
+        "year": 2012,
+        "count": 1,
+        "coaches": [
+          "Jeff Brohm"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 237,
     "coach": "Jeff Woodruff",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12335,7 +12274,7 @@
     ]
   },
   {
-    "rank": 239,
+    "rank": 238,
     "coach": "Jim Corrigall",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12380,7 +12319,7 @@
     ]
   },
   {
-    "rank": 240,
+    "rank": 239,
     "coach": "Ken Karcher",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12401,7 +12340,7 @@
     ]
   },
   {
-    "rank": 241,
+    "rank": 240,
     "coach": "Larry Blakeney",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12430,7 +12369,7 @@
     ]
   },
   {
-    "rank": 242,
+    "rank": 241,
     "coach": "Randy Edsall",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12467,7 +12406,7 @@
     ]
   },
   {
-    "rank": 243,
+    "rank": 242,
     "coach": "Randy Shannon",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12496,7 +12435,7 @@
     ]
   },
   {
-    "rank": 244,
+    "rank": 243,
     "coach": "Ruffin McNeill",
     "totalDescendants": 3,
     "directDescendants": 1,
@@ -12549,7 +12488,7 @@
     ]
   },
   {
-    "rank": 245,
+    "rank": 244,
     "coach": "Bo Pelini",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12614,7 +12553,7 @@
     ]
   },
   {
-    "rank": 246,
+    "rank": 245,
     "coach": "Butch Jones",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12659,7 +12598,7 @@
     ]
   },
   {
-    "rank": 247,
+    "rank": 246,
     "coach": "Charley Molnar",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12690,7 +12629,7 @@
     ]
   },
   {
-    "rank": 248,
+    "rank": 247,
     "coach": "Curtis Johnson",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12735,7 +12674,7 @@
     ]
   },
   {
-    "rank": 249,
+    "rank": 248,
     "coach": "D.J. Durkin",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12766,7 +12705,7 @@
     ]
   },
   {
-    "rank": 250,
+    "rank": 249,
     "coach": "Eliah Drinkwitz",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12795,7 +12734,7 @@
     ]
   },
   {
-    "rank": 251,
+    "rank": 250,
     "coach": "Gary Barnett",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12856,7 +12795,7 @@
     ]
   },
   {
-    "rank": 252,
+    "rank": 251,
     "coach": "Gary Darnell",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12919,7 +12858,7 @@
     ]
   },
   {
-    "rank": 253,
+    "rank": 252,
     "coach": "Geoff Collins",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -12964,7 +12903,7 @@
     ]
   },
   {
-    "rank": 254,
+    "rank": 253,
     "coach": "J.D. Brookhart",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13004,7 +12943,7 @@
     ]
   },
   {
-    "rank": 255,
+    "rank": 254,
     "coach": "Jerry Kill",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13071,7 +13010,7 @@
     ]
   },
   {
-    "rank": 256,
+    "rank": 255,
     "coach": "Josh Heupel",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13124,7 +13063,7 @@
     ]
   },
   {
-    "rank": 257,
+    "rank": 256,
     "coach": "Kevin Morris",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13155,7 +13094,7 @@
     ]
   },
   {
-    "rank": 258,
+    "rank": 257,
     "coach": "Mark Helfrich",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13200,7 +13139,7 @@
     ]
   },
   {
-    "rank": 259,
+    "rank": 258,
     "coach": "Mark Mangino",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13245,7 +13184,7 @@
     ]
   },
   {
-    "rank": 260,
+    "rank": 259,
     "coach": "Mark Whipple",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13301,7 +13240,7 @@
     ]
   },
   {
-    "rank": 261,
+    "rank": 260,
     "coach": "Matt Campbell",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13362,7 +13301,7 @@
     ]
   },
   {
-    "rank": 262,
+    "rank": 261,
     "coach": "Mike Price",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13423,7 +13362,7 @@
     ]
   },
   {
-    "rank": 263,
+    "rank": 262,
     "coach": "Neal Brown",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13484,7 +13423,7 @@
     ]
   },
   {
-    "rank": 264,
+    "rank": 263,
     "coach": "Philip Montgomery",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13537,7 +13476,7 @@
     ]
   },
   {
-    "rank": 265,
+    "rank": 264,
     "coach": "Rich Brooks",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13602,7 +13541,7 @@
     ]
   },
   {
-    "rank": 266,
+    "rank": 265,
     "coach": "Sam Pittman",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13640,7 +13579,7 @@
     ]
   },
   {
-    "rank": 267,
+    "rank": 266,
     "coach": "Scott Satterfield",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13701,7 +13640,7 @@
     ]
   },
   {
-    "rank": 268,
+    "rank": 267,
     "coach": "Scott Shafer",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13740,7 +13679,7 @@
     ]
   },
   {
-    "rank": 269,
+    "rank": 268,
     "coach": "Sonny Dykes",
     "totalDescendants": 2,
     "directDescendants": 2,
@@ -13777,7 +13716,7 @@
     ]
   },
   {
-    "rank": 270,
+    "rank": 269,
     "coach": "Bill Callahan",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -13822,7 +13761,7 @@
     ]
   },
   {
-    "rank": 271,
+    "rank": 270,
     "coach": "Brian Knorr",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -13859,7 +13798,7 @@
     ]
   },
   {
-    "rank": 272,
+    "rank": 271,
     "coach": "Bruce Snyder",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -13888,7 +13827,7 @@
     ]
   },
   {
-    "rank": 273,
+    "rank": 272,
     "coach": "Cam Cameron",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -13917,7 +13856,7 @@
     ]
   },
   {
-    "rank": 274,
+    "rank": 273,
     "coach": "Dave Aranda",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -13938,7 +13877,7 @@
     ]
   },
   {
-    "rank": 275,
+    "rank": 274,
     "coach": "David Bennett",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -13959,7 +13898,7 @@
     ]
   },
   {
-    "rank": 276,
+    "rank": 275,
     "coach": "Frank Spaziani",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -13996,28 +13935,7 @@
     ]
   },
   {
-    "rank": 277,
-    "coach": "Fred Akers",
-    "totalDescendants": 2,
-    "directDescendants": 1,
-    "headCoachStops": 1,
-    "firstHeadCoachJob": {
-      "school": "Purdue",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "Purdue",
-        "year": 1990,
-        "count": 1,
-        "coaches": [
-          "Phil Bennett"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 278,
+    "rank": 276,
     "coach": "Gerald Weatherbie",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14038,7 +13956,7 @@
     ]
   },
   {
-    "rank": 279,
+    "rank": 277,
     "coach": "Jay Hopson",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14075,7 +13993,28 @@
     ]
   },
   {
-    "rank": 280,
+    "rank": 278,
+    "coach": "Jeff Brohm",
+    "totalDescendants": 2,
+    "directDescendants": 1,
+    "headCoachStops": 12,
+    "firstHeadCoachJob": {
+      "school": "Western Kentucky",
+      "year": 2014
+    },
+    "topStaffs": [
+      {
+        "school": "Western Kentucky",
+        "year": 2015,
+        "count": 1,
+        "coaches": [
+          "Tyson Helton"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 279,
     "coach": "Jeremy Pruitt",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14096,7 +14035,7 @@
     ]
   },
   {
-    "rank": 281,
+    "rank": 280,
     "coach": "Jim L. Mora",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14117,7 +14056,7 @@
     ]
   },
   {
-    "rank": 282,
+    "rank": 281,
     "coach": "Keith Gilbertson",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14146,7 +14085,7 @@
     ]
   },
   {
-    "rank": 283,
+    "rank": 282,
     "coach": "Ken Niumatalolo",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14183,7 +14122,7 @@
     ]
   },
   {
-    "rank": 284,
+    "rank": 283,
     "coach": "Lincoln Riley",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14220,28 +14159,7 @@
     ]
   },
   {
-    "rank": 285,
-    "coach": "Pat Sullivan",
-    "totalDescendants": 2,
-    "directDescendants": 1,
-    "headCoachStops": 6,
-    "firstHeadCoachJob": {
-      "school": "TCU",
-      "year": 1992
-    },
-    "topStaffs": [
-      {
-        "school": "TCU",
-        "year": 1997,
-        "count": 1,
-        "coaches": [
-          "Phil Bennett"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 286,
+    "rank": 284,
     "coach": "Paul Haynes",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14286,7 +14204,7 @@
     ]
   },
   {
-    "rank": 287,
+    "rank": 285,
     "coach": "Paul Schudel",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14323,7 +14241,7 @@
     ]
   },
   {
-    "rank": 288,
+    "rank": 286,
     "coach": "Tom Arth",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14352,7 +14270,7 @@
     ]
   },
   {
-    "rank": 289,
+    "rank": 287,
     "coach": "Troy Calhoun",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14389,7 +14307,7 @@
     ]
   },
   {
-    "rank": 290,
+    "rank": 288,
     "coach": "Vic Koenning",
     "totalDescendants": 2,
     "directDescendants": 1,
@@ -14426,7 +14344,7 @@
     ]
   },
   {
-    "rank": 291,
+    "rank": 289,
     "coach": "Andy Avalos",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14463,7 +14381,7 @@
     ]
   },
   {
-    "rank": 292,
+    "rank": 290,
     "coach": "Bill Clark",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14524,7 +14442,7 @@
     ]
   },
   {
-    "rank": 293,
+    "rank": 291,
     "coach": "Bill Lynch",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14569,7 +14487,7 @@
     ]
   },
   {
-    "rank": 294,
+    "rank": 292,
     "coach": "Bill Stewart",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14590,7 +14508,7 @@
     ]
   },
   {
-    "rank": 295,
+    "rank": 293,
     "coach": "Billy Brewer",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14619,7 +14537,7 @@
     ]
   },
   {
-    "rank": 296,
+    "rank": 294,
     "coach": "Billy Napier",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14640,7 +14558,7 @@
     ]
   },
   {
-    "rank": 297,
+    "rank": 295,
     "coach": "Blake Anderson",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14669,7 +14587,7 @@
     ]
   },
   {
-    "rank": 298,
+    "rank": 296,
     "coach": "Bob Pruett",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14714,7 +14632,7 @@
     ]
   },
   {
-    "rank": 299,
+    "rank": 297,
     "coach": "Bobby Hauck",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14735,7 +14653,7 @@
     ]
   },
   {
-    "rank": 300,
+    "rank": 298,
     "coach": "Brent Venables",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14764,7 +14682,7 @@
     ]
   },
   {
-    "rank": 301,
+    "rank": 299,
     "coach": "Brian Newberry",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14785,7 +14703,7 @@
     ]
   },
   {
-    "rank": 302,
+    "rank": 300,
     "coach": "Carl Torbush",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14806,7 +14724,7 @@
     ]
   },
   {
-    "rank": 303,
+    "rank": 301,
     "coach": "Chad Morris",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14835,7 +14753,7 @@
     ]
   },
   {
-    "rank": 304,
+    "rank": 302,
     "coach": "Chan Gailey",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14856,7 +14774,7 @@
     ]
   },
   {
-    "rank": 305,
+    "rank": 303,
     "coach": "Chip Lindsey",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14893,7 +14811,7 @@
     ]
   },
   {
-    "rank": 306,
+    "rank": 304,
     "coach": "Chris Creighton",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14930,7 +14848,7 @@
     ]
   },
   {
-    "rank": 307,
+    "rank": 305,
     "coach": "Chuck Martin",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14951,7 +14869,7 @@
     ]
   },
   {
-    "rank": 308,
+    "rank": 306,
     "coach": "Chuck Stobart",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -14980,7 +14898,7 @@
     ]
   },
   {
-    "rank": 309,
+    "rank": 307,
     "coach": "Dan Enos",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15001,7 +14919,7 @@
     ]
   },
   {
-    "rank": 310,
+    "rank": 308,
     "coach": "Dan Lanning",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15022,7 +14940,7 @@
     ]
   },
   {
-    "rank": 311,
+    "rank": 309,
     "coach": "Danny Hope",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15067,7 +14985,7 @@
     ]
   },
   {
-    "rank": 312,
+    "rank": 310,
     "coach": "Dave Christensen",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15096,7 +15014,7 @@
     ]
   },
   {
-    "rank": 313,
+    "rank": 311,
     "coach": "Deion Sanders",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15117,7 +15035,7 @@
     ]
   },
   {
-    "rank": 314,
+    "rank": 312,
     "coach": "Derek Mason",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15138,7 +15056,7 @@
     ]
   },
   {
-    "rank": 315,
+    "rank": 313,
     "coach": "Dino Babers",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15183,7 +15101,7 @@
     ]
   },
   {
-    "rank": 316,
+    "rank": 314,
     "coach": "Doug Graber",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15244,7 +15162,28 @@
     ]
   },
   {
-    "rank": 317,
+    "rank": 315,
+    "coach": "Fred Akers",
+    "totalDescendants": 1,
+    "directDescendants": 1,
+    "headCoachStops": 1,
+    "firstHeadCoachJob": {
+      "school": "Purdue",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "Purdue",
+        "year": 1990,
+        "count": 1,
+        "coaches": [
+          "Phil Bennett"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 316,
     "coach": "Gary Crowton",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15273,7 +15212,7 @@
     ]
   },
   {
-    "rank": 318,
+    "rank": 317,
     "coach": "Glen Mason",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15294,7 +15233,7 @@
     ]
   },
   {
-    "rank": 319,
+    "rank": 318,
     "coach": "Herm Edwards",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15323,7 +15262,7 @@
     ]
   },
   {
-    "rank": 320,
+    "rank": 319,
     "coach": "Jake Dickert",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15344,7 +15283,7 @@
     ]
   },
   {
-    "rank": 321,
+    "rank": 320,
     "coach": "Jason Candle",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15365,7 +15304,7 @@
     ]
   },
   {
-    "rank": 322,
+    "rank": 321,
     "coach": "Jay Norvell",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15418,7 +15357,7 @@
     ]
   },
   {
-    "rank": 323,
+    "rank": 322,
     "coach": "Jedd Fisch",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15439,7 +15378,7 @@
     ]
   },
   {
-    "rank": 324,
+    "rank": 323,
     "coach": "Jeff Tisdel",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15460,7 +15399,7 @@
     ]
   },
   {
-    "rank": 325,
+    "rank": 324,
     "coach": "Jerry Baldwin",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15481,7 +15420,7 @@
     ]
   },
   {
-    "rank": 326,
+    "rank": 325,
     "coach": "Jim Donnan",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15518,7 +15457,7 @@
     ]
   },
   {
-    "rank": 327,
+    "rank": 326,
     "coach": "Jim Young",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15539,7 +15478,7 @@
     ]
   },
   {
-    "rank": 328,
+    "rank": 327,
     "coach": "Joe Moglia",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15560,7 +15499,7 @@
     ]
   },
   {
-    "rank": 329,
+    "rank": 328,
     "coach": "Joey McGuire",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15597,7 +15536,7 @@
     ]
   },
   {
-    "rank": 330,
+    "rank": 329,
     "coach": "John Bonamego",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15626,7 +15565,7 @@
     ]
   },
   {
-    "rank": 331,
+    "rank": 330,
     "coach": "John Bunting",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15647,7 +15586,7 @@
     ]
   },
   {
-    "rank": 332,
+    "rank": 331,
     "coach": "Jonathan Smith",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15700,7 +15639,7 @@
     ]
   },
   {
-    "rank": 333,
+    "rank": 332,
     "coach": "Kane Wommack",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15737,7 +15676,7 @@
     ]
   },
   {
-    "rank": 334,
+    "rank": 333,
     "coach": "Kim Helton",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15782,7 +15721,7 @@
     ]
   },
   {
-    "rank": 335,
+    "rank": 334,
     "coach": "LaVell Edwards",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15827,7 +15766,7 @@
     ]
   },
   {
-    "rank": 336,
+    "rank": 335,
     "coach": "Manny Diaz",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15856,7 +15795,7 @@
     ]
   },
   {
-    "rank": 337,
+    "rank": 336,
     "coach": "Marcus Freeman",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15885,7 +15824,7 @@
     ]
   },
   {
-    "rank": 338,
+    "rank": 337,
     "coach": "Matt Viator",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15906,7 +15845,7 @@
     ]
   },
   {
-    "rank": 339,
+    "rank": 338,
     "coach": "Mike Archer",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15927,7 +15866,7 @@
     ]
   },
   {
-    "rank": 340,
+    "rank": 339,
     "coach": "Mike Bloomgren",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -15988,7 +15927,7 @@
     ]
   },
   {
-    "rank": 341,
+    "rank": 340,
     "coach": "Mike DeBord",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16025,7 +15964,7 @@
     ]
   },
   {
-    "rank": 342,
+    "rank": 341,
     "coach": "Mike Houston",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16078,7 +16017,7 @@
     ]
   },
   {
-    "rank": 343,
+    "rank": 342,
     "coach": "Mike Jinks",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16103,19 +16042,11 @@
         "coaches": [
           "Sean Lewis"
         ]
-      },
-      {
-        "school": "Bowling Green",
-        "year": 2018,
-        "count": 1,
-        "coaches": [
-          "Sean Lewis"
-        ]
       }
     ]
   },
   {
-    "rank": 344,
+    "rank": 343,
     "coach": "Mike Sanford",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16144,7 +16075,7 @@
     ]
   },
   {
-    "rank": 345,
+    "rank": 344,
     "coach": "P.J. Fleck",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16173,7 +16104,7 @@
     ]
   },
   {
-    "rank": 346,
+    "rank": 345,
     "coach": "Pat Narduzzi",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16189,6 +16120,27 @@
         "count": 1,
         "coaches": [
           "Matt Canada"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 346,
+    "coach": "Pat Sullivan",
+    "totalDescendants": 1,
+    "directDescendants": 1,
+    "headCoachStops": 6,
+    "firstHeadCoachJob": {
+      "school": "TCU",
+      "year": 1992
+    },
+    "topStaffs": [
+      {
+        "school": "TCU",
+        "year": 1997,
+        "count": 1,
+        "coaches": [
+          "Phil Bennett"
         ]
       }
     ]
@@ -16224,27 +16176,6 @@
   },
   {
     "rank": 348,
-    "coach": "Phil Bennett",
-    "totalDescendants": 1,
-    "directDescendants": 1,
-    "headCoachStops": 6,
-    "firstHeadCoachJob": {
-      "school": "SMU",
-      "year": 2002
-    },
-    "topStaffs": [
-      {
-        "school": "SMU",
-        "year": 2004,
-        "count": 1,
-        "coaches": [
-          "Darrell Dickey"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 349,
     "coach": "Rod Carey",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16305,7 +16236,7 @@
     ]
   },
   {
-    "rank": 350,
+    "rank": 349,
     "coach": "Rod Dowhower",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16334,7 +16265,7 @@
     ]
   },
   {
-    "rank": 351,
+    "rank": 350,
     "coach": "Ron English",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16363,7 +16294,7 @@
     ]
   },
   {
-    "rank": 352,
+    "rank": 351,
     "coach": "Ryan Day",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16400,7 +16331,7 @@
     ]
   },
   {
-    "rank": 353,
+    "rank": 352,
     "coach": "Scotty Walden",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16421,7 +16352,7 @@
     ]
   },
   {
-    "rank": 354,
+    "rank": 353,
     "coach": "Shane Beamer",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16450,7 +16381,7 @@
     ]
   },
   {
-    "rank": 355,
+    "rank": 354,
     "coach": "Steve Mariucci",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16471,7 +16402,7 @@
     ]
   },
   {
-    "rank": 356,
+    "rank": 355,
     "coach": "Sylvester Croom",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16516,7 +16447,7 @@
     ]
   },
   {
-    "rank": 357,
+    "rank": 356,
     "coach": "Ted Tollner",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16553,7 +16484,7 @@
     ]
   },
   {
-    "rank": 358,
+    "rank": 357,
     "coach": "Tim Albin",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16582,7 +16513,7 @@
     ]
   },
   {
-    "rank": 359,
+    "rank": 358,
     "coach": "Tim DeRuyter",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16627,7 +16558,7 @@
     ]
   },
   {
-    "rank": 360,
+    "rank": 359,
     "coach": "Todd Berry",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16672,7 +16603,7 @@
     ]
   },
   {
-    "rank": 361,
+    "rank": 360,
     "coach": "Tony Sanchez",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16709,7 +16640,7 @@
     ]
   },
   {
-    "rank": 362,
+    "rank": 361,
     "coach": "Tracy Claeys",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16730,7 +16661,7 @@
     ]
   },
   {
-    "rank": 363,
+    "rank": 362,
     "coach": "Turner Gill",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16751,7 +16682,7 @@
     ]
   },
   {
-    "rank": 364,
+    "rank": 363,
     "coach": "Tyson Helton",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16772,7 +16703,7 @@
     ]
   },
   {
-    "rank": 365,
+    "rank": 364,
     "coach": "Tyson Summers",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16793,7 +16724,7 @@
     ]
   },
   {
-    "rank": 366,
+    "rank": 365,
     "coach": "Will Healy",
     "totalDescendants": 1,
     "directDescendants": 1,
@@ -16830,7 +16761,7 @@
     ]
   },
   {
-    "rank": 367,
+    "rank": 366,
     "coach": "Al Kincaid",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16842,7 +16773,7 @@
     "topStaffs": []
   },
   {
-    "rank": 368,
+    "rank": 367,
     "coach": "Al Luginbill",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16854,7 +16785,7 @@
     "topStaffs": []
   },
   {
-    "rank": 369,
+    "rank": 368,
     "coach": "Al Molde",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16866,7 +16797,7 @@
     "topStaffs": []
   },
   {
-    "rank": 370,
+    "rank": 369,
     "coach": "Alex Golesh",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16878,7 +16809,7 @@
     "topStaffs": []
   },
   {
-    "rank": 371,
+    "rank": 370,
     "coach": "Andrew H. White",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16890,7 +16821,7 @@
     "topStaffs": []
   },
   {
-    "rank": 372,
+    "rank": 371,
     "coach": "Barry Wilson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16902,7 +16833,7 @@
     "topStaffs": []
   },
   {
-    "rank": 373,
+    "rank": 372,
     "coach": "Biff Poggi",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16914,7 +16845,7 @@
     "topStaffs": []
   },
   {
-    "rank": 374,
+    "rank": 373,
     "coach": "Bill Belichick",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16926,7 +16857,7 @@
     "topStaffs": []
   },
   {
-    "rank": 375,
+    "rank": 374,
     "coach": "Bill Blankenship",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16938,7 +16869,7 @@
     "topStaffs": []
   },
   {
-    "rank": 376,
+    "rank": 375,
     "coach": "Bill Cubit",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16950,7 +16881,7 @@
     "topStaffs": []
   },
   {
-    "rank": 377,
+    "rank": 376,
     "coach": "Bill Doba",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16962,7 +16893,7 @@
     "topStaffs": []
   },
   {
-    "rank": 378,
+    "rank": 377,
     "coach": "Bill Dooley",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16974,7 +16905,7 @@
     "topStaffs": []
   },
   {
-    "rank": 379,
+    "rank": 378,
     "coach": "Bill O'Brien",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16986,7 +16917,7 @@
     "topStaffs": []
   },
   {
-    "rank": 380,
+    "rank": 379,
     "coach": "Blake Harrell",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -16998,7 +16929,7 @@
     "topStaffs": []
   },
   {
-    "rank": 381,
+    "rank": 380,
     "coach": "Bob Davie",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17010,7 +16941,7 @@
     "topStaffs": []
   },
   {
-    "rank": 382,
+    "rank": 381,
     "coach": "Bob Sutton",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17022,7 +16953,7 @@
     "topStaffs": []
   },
   {
-    "rank": 383,
+    "rank": 382,
     "coach": "Bobby Johnson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17034,7 +16965,7 @@
     "topStaffs": []
   },
   {
-    "rank": 384,
+    "rank": 383,
     "coach": "Bobby Keasler",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17046,7 +16977,7 @@
     "topStaffs": []
   },
   {
-    "rank": 385,
+    "rank": 384,
     "coach": "Bobby Wallace",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17058,7 +16989,7 @@
     "topStaffs": []
   },
   {
-    "rank": 386,
+    "rank": 385,
     "coach": "Bobby Wilder",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17070,7 +17001,7 @@
     "topStaffs": []
   },
   {
-    "rank": 387,
+    "rank": 386,
     "coach": "Bobby Williams",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17082,7 +17013,7 @@
     "topStaffs": []
   },
   {
-    "rank": 388,
+    "rank": 387,
     "coach": "Boots Donnelly",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17094,7 +17025,7 @@
     "topStaffs": []
   },
   {
-    "rank": 389,
+    "rank": 388,
     "coach": "Brad Lambert",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17106,7 +17037,7 @@
     "topStaffs": []
   },
   {
-    "rank": 390,
+    "rank": 389,
     "coach": "Brad Wright",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17118,7 +17049,7 @@
     "topStaffs": []
   },
   {
-    "rank": 391,
+    "rank": 390,
     "coach": "Brent Brennan",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17130,7 +17061,7 @@
     "topStaffs": []
   },
   {
-    "rank": 392,
+    "rank": 391,
     "coach": "Brent Guy",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17142,7 +17073,7 @@
     "topStaffs": []
   },
   {
-    "rank": 393,
+    "rank": 392,
     "coach": "Brent Key",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17154,7 +17085,7 @@
     "topStaffs": []
   },
   {
-    "rank": 394,
+    "rank": 393,
     "coach": "Brent Pry",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17166,7 +17097,7 @@
     "topStaffs": []
   },
   {
-    "rank": 395,
+    "rank": 394,
     "coach": "Brian Smith",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17178,7 +17109,7 @@
     "topStaffs": []
   },
   {
-    "rank": 396,
+    "rank": 395,
     "coach": "Bronco Mendenhall",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17190,7 +17121,7 @@
     "topStaffs": []
   },
   {
-    "rank": 397,
+    "rank": 396,
     "coach": "Bryant Haines",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17202,7 +17133,7 @@
     "topStaffs": []
   },
   {
-    "rank": 398,
+    "rank": 397,
     "coach": "Bryant Vincent",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17214,7 +17145,7 @@
     "topStaffs": []
   },
   {
-    "rank": 399,
+    "rank": 398,
     "coach": "Carl Pelini",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17226,7 +17157,7 @@
     "topStaffs": []
   },
   {
-    "rank": 400,
+    "rank": 399,
     "coach": "Chad Lunsford",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17238,7 +17169,7 @@
     "topStaffs": []
   },
   {
-    "rank": 401,
+    "rank": 400,
     "coach": "Charles Huff",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17250,7 +17181,7 @@
     "topStaffs": []
   },
   {
-    "rank": 402,
+    "rank": 401,
     "coach": "Charlie Partridge",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17262,7 +17193,7 @@
     "topStaffs": []
   },
   {
-    "rank": 403,
+    "rank": 402,
     "coach": "Charlie Sadler",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17274,7 +17205,7 @@
     "topStaffs": []
   },
   {
-    "rank": 404,
+    "rank": 403,
     "coach": "Chris Ash",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17286,7 +17217,7 @@
     "topStaffs": []
   },
   {
-    "rank": 405,
+    "rank": 404,
     "coach": "Chris Hatcher",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17298,7 +17229,7 @@
     "topStaffs": []
   },
   {
-    "rank": 406,
+    "rank": 405,
     "coach": "Chris Klieman",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17310,7 +17241,7 @@
     "topStaffs": []
   },
   {
-    "rank": 407,
+    "rank": 406,
     "coach": "Chris Scelfo",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17322,7 +17253,7 @@
     "topStaffs": []
   },
   {
-    "rank": 408,
+    "rank": 407,
     "coach": "Chuck Long",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17334,7 +17265,7 @@
     "topStaffs": []
   },
   {
-    "rank": 409,
+    "rank": 408,
     "coach": "Chuck Shelton",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17346,7 +17277,7 @@
     "topStaffs": []
   },
   {
-    "rank": 410,
+    "rank": 409,
     "coach": "Clark Lea",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17358,7 +17289,7 @@
     "topStaffs": []
   },
   {
-    "rank": 411,
+    "rank": 410,
     "coach": "Corky Nelson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17370,7 +17301,7 @@
     "topStaffs": []
   },
   {
-    "rank": 412,
+    "rank": 411,
     "coach": "Craig Cirbus",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17382,7 +17313,7 @@
     "topStaffs": []
   },
   {
-    "rank": 413,
+    "rank": 412,
     "coach": "Curt Cignetti",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17394,7 +17325,7 @@
     "topStaffs": []
   },
   {
-    "rank": 414,
+    "rank": 413,
     "coach": "Danny Ford",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17406,7 +17337,7 @@
     "topStaffs": []
   },
   {
-    "rank": 415,
+    "rank": 414,
     "coach": "Danny Gonzales",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17418,7 +17349,7 @@
     "topStaffs": []
   },
   {
-    "rank": 416,
+    "rank": 415,
     "coach": "Danny Rocco",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17430,11 +17361,11 @@
     "topStaffs": []
   },
   {
-    "rank": 417,
+    "rank": 416,
     "coach": "Darrell Dickey",
     "totalDescendants": 0,
     "directDescendants": 0,
-    "headCoachStops": 5,
+    "headCoachStops": 9,
     "firstHeadCoachJob": {
       "school": "North Texas",
       "year": 1998
@@ -17442,19 +17373,7 @@
     "topStaffs": []
   },
   {
-    "rank": 418,
-    "coach": "Darryl Dickey",
-    "totalDescendants": 0,
-    "directDescendants": 0,
-    "headCoachStops": 4,
-    "firstHeadCoachJob": {
-      "school": "North Texas",
-      "year": 2000
-    },
-    "topStaffs": []
-  },
-  {
-    "rank": 419,
+    "rank": 417,
     "coach": "Dave Baldwin",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17466,7 +17385,7 @@
     "topStaffs": []
   },
   {
-    "rank": 420,
+    "rank": 418,
     "coach": "Dave Kragthorpe",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17478,7 +17397,7 @@
     "topStaffs": []
   },
   {
-    "rank": 421,
+    "rank": 419,
     "coach": "Dave Roberts",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17490,7 +17409,7 @@
     "topStaffs": []
   },
   {
-    "rank": 422,
+    "rank": 420,
     "coach": "David Beaty",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17502,7 +17421,7 @@
     "topStaffs": []
   },
   {
-    "rank": 423,
+    "rank": 421,
     "coach": "David Braun",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17514,7 +17433,7 @@
     "topStaffs": []
   },
   {
-    "rank": 424,
+    "rank": 422,
     "coach": "David McWilliams",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17526,7 +17445,7 @@
     "topStaffs": []
   },
   {
-    "rank": 425,
+    "rank": 423,
     "coach": "David Rader",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17538,7 +17457,7 @@
     "topStaffs": []
   },
   {
-    "rank": 426,
+    "rank": 424,
     "coach": "Dell McGee",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17550,7 +17469,7 @@
     "topStaffs": []
   },
   {
-    "rank": 427,
+    "rank": 425,
     "coach": "Dennis Parker",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17562,7 +17481,7 @@
     "topStaffs": []
   },
   {
-    "rank": 428,
+    "rank": 426,
     "coach": "DeShaun Foster",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17574,7 +17493,7 @@
     "topStaffs": []
   },
   {
-    "rank": 429,
+    "rank": 427,
     "coach": "Dick Crum",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17586,7 +17505,7 @@
     "topStaffs": []
   },
   {
-    "rank": 430,
+    "rank": 428,
     "coach": "Dick Flynn",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17598,7 +17517,7 @@
     "topStaffs": []
   },
   {
-    "rank": 431,
+    "rank": 429,
     "coach": "Dick MacPherson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17610,7 +17529,7 @@
     "topStaffs": []
   },
   {
-    "rank": 432,
+    "rank": 430,
     "coach": "Doc Holliday",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17622,7 +17541,7 @@
     "topStaffs": []
   },
   {
-    "rank": 433,
+    "rank": 431,
     "coach": "Don Brown",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17634,7 +17553,7 @@
     "topStaffs": []
   },
   {
-    "rank": 434,
+    "rank": 432,
     "coach": "Don Strock",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17646,7 +17565,7 @@
     "topStaffs": []
   },
   {
-    "rank": 435,
+    "rank": 433,
     "coach": "Don Treadwell",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17658,7 +17577,7 @@
     "topStaffs": []
   },
   {
-    "rank": 436,
+    "rank": 434,
     "coach": "Doug Martin",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17670,7 +17589,7 @@
     "topStaffs": []
   },
   {
-    "rank": 437,
+    "rank": 435,
     "coach": "Dowell Loggains",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17682,7 +17601,7 @@
     "topStaffs": []
   },
   {
-    "rank": 438,
+    "rank": 436,
     "coach": "Earle Bruce",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17694,7 +17613,7 @@
     "topStaffs": []
   },
   {
-    "rank": 439,
+    "rank": 437,
     "coach": "Ed Zaunbrecher",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17706,7 +17625,7 @@
     "topStaffs": []
   },
   {
-    "rank": 440,
+    "rank": 438,
     "coach": "Eddie George",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17718,7 +17637,7 @@
     "topStaffs": []
   },
   {
-    "rank": 441,
+    "rank": 439,
     "coach": "Ellis Johnson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17730,7 +17649,7 @@
     "topStaffs": []
   },
   {
-    "rank": 442,
+    "rank": 440,
     "coach": "Eric Morris",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17742,7 +17661,7 @@
     "topStaffs": []
   },
   {
-    "rank": 443,
+    "rank": 441,
     "coach": "Fisher DeBerry",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17754,7 +17673,7 @@
     "topStaffs": []
   },
   {
-    "rank": 444,
+    "rank": 442,
     "coach": "Forrest Gregg",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17766,7 +17685,7 @@
     "topStaffs": []
   },
   {
-    "rank": 445,
+    "rank": 443,
     "coach": "Fran Brown",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17778,7 +17697,7 @@
     "topStaffs": []
   },
   {
-    "rank": 446,
+    "rank": 444,
     "coach": "Francis Peay",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17790,7 +17709,7 @@
     "topStaffs": []
   },
   {
-    "rank": 447,
+    "rank": 445,
     "coach": "Frank Ellwood",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17802,7 +17721,7 @@
     "topStaffs": []
   },
   {
-    "rank": 448,
+    "rank": 446,
     "coach": "Frank Reich",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17814,7 +17733,7 @@
     "topStaffs": []
   },
   {
-    "rank": 449,
+    "rank": 447,
     "coach": "Frank Wilson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17826,7 +17745,7 @@
     "topStaffs": []
   },
   {
-    "rank": 450,
+    "rank": 448,
     "coach": "Fred von Appen",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17838,7 +17757,7 @@
     "topStaffs": []
   },
   {
-    "rank": 451,
+    "rank": 449,
     "coach": "G. J. Kinne",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17850,7 +17769,19 @@
     "topStaffs": []
   },
   {
-    "rank": 452,
+    "rank": 450,
+    "coach": "G.J. Kinne",
+    "totalDescendants": 0,
+    "directDescendants": 0,
+    "headCoachStops": 1,
+    "firstHeadCoachJob": {
+      "school": "Texas State",
+      "year": 2023
+    },
+    "topStaffs": []
+  },
+  {
+    "rank": 451,
     "coach": "George Perles",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17862,7 +17793,7 @@
     "topStaffs": []
   },
   {
-    "rank": 453,
+    "rank": 452,
     "coach": "Gerad Parker",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17874,7 +17805,7 @@
     "topStaffs": []
   },
   {
-    "rank": 454,
+    "rank": 453,
     "coach": "Gerry Faust",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17886,7 +17817,7 @@
     "topStaffs": []
   },
   {
-    "rank": 455,
+    "rank": 454,
     "coach": "Greg Davis",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17898,7 +17829,7 @@
     "topStaffs": []
   },
   {
-    "rank": 456,
+    "rank": 455,
     "coach": "Greg Robinson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17910,7 +17841,7 @@
     "topStaffs": []
   },
   {
-    "rank": 457,
+    "rank": 456,
     "coach": "Hayden Fry",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17922,7 +17853,7 @@
     "topStaffs": []
   },
   {
-    "rank": 458,
+    "rank": 457,
     "coach": "Herb Deromedi",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17934,7 +17865,7 @@
     "topStaffs": []
   },
   {
-    "rank": 459,
+    "rank": 458,
     "coach": "J. D. Brookhart",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17946,7 +17877,7 @@
     "topStaffs": []
   },
   {
-    "rank": 460,
+    "rank": 459,
     "coach": "Jack Bicknell",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17958,7 +17889,7 @@
     "topStaffs": []
   },
   {
-    "rank": 461,
+    "rank": 460,
     "coach": "Jack Bicknell Jr.",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17970,7 +17901,7 @@
     "topStaffs": []
   },
   {
-    "rank": 462,
+    "rank": 461,
     "coach": "Jack Crowe",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -17982,11 +17913,11 @@
     "topStaffs": []
   },
   {
-    "rank": 463,
+    "rank": 462,
     "coach": "Jake Spavital",
     "totalDescendants": 0,
     "directDescendants": 0,
-    "headCoachStops": 5,
+    "headCoachStops": 4,
     "firstHeadCoachJob": {
       "school": "Texas State",
       "year": 2019
@@ -17994,7 +17925,7 @@
     "topStaffs": []
   },
   {
-    "rank": 464,
+    "rank": 463,
     "coach": "James P. Taylor",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18006,7 +17937,7 @@
     "topStaffs": []
   },
   {
-    "rank": 465,
+    "rank": 464,
     "coach": "Jamey Chadwell",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18018,7 +17949,7 @@
     "topStaffs": []
   },
   {
-    "rank": 466,
+    "rank": 465,
     "coach": "Jason Eck",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18030,7 +17961,7 @@
     "topStaffs": []
   },
   {
-    "rank": 467,
+    "rank": 466,
     "coach": "Jay Sawvel",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18042,7 +17973,7 @@
     "topStaffs": []
   },
   {
-    "rank": 468,
+    "rank": 467,
     "coach": "Jeff Choate",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18054,7 +17985,7 @@
     "topStaffs": []
   },
   {
-    "rank": 469,
+    "rank": 468,
     "coach": "Jeff Genyk",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18066,7 +17997,7 @@
     "topStaffs": []
   },
   {
-    "rank": 470,
+    "rank": 469,
     "coach": "Jeff Hafley",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18078,7 +18009,7 @@
     "topStaffs": []
   },
   {
-    "rank": 471,
+    "rank": 470,
     "coach": "Jeff Lebby",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18090,7 +18021,7 @@
     "topStaffs": []
   },
   {
-    "rank": 472,
+    "rank": 471,
     "coach": "Jeff Quinn",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18102,7 +18033,7 @@
     "topStaffs": []
   },
   {
-    "rank": 473,
+    "rank": 472,
     "coach": "Jeff Scott",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18114,7 +18045,7 @@
     "topStaffs": []
   },
   {
-    "rank": 474,
+    "rank": 473,
     "coach": "Jeff Traylor",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18126,7 +18057,7 @@
     "topStaffs": []
   },
   {
-    "rank": 475,
+    "rank": 474,
     "coach": "Jerry Berndt",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18138,7 +18069,7 @@
     "topStaffs": []
   },
   {
-    "rank": 476,
+    "rank": 475,
     "coach": "Jim Bob Helduser",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18150,7 +18081,7 @@
     "topStaffs": []
   },
   {
-    "rank": 477,
+    "rank": 476,
     "coach": "Jim Caldwell",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18162,7 +18093,7 @@
     "topStaffs": []
   },
   {
-    "rank": 478,
+    "rank": 477,
     "coach": "Jim Colletto",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18174,7 +18105,7 @@
     "topStaffs": []
   },
   {
-    "rank": 479,
+    "rank": 478,
     "coach": "Jim Harkema",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18186,7 +18117,7 @@
     "topStaffs": []
   },
   {
-    "rank": 480,
+    "rank": 479,
     "coach": "Jim Hilyer",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18198,7 +18129,7 @@
     "topStaffs": []
   },
   {
-    "rank": 481,
+    "rank": 480,
     "coach": "Jim Hofher",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18210,7 +18141,7 @@
     "topStaffs": []
   },
   {
-    "rank": 482,
+    "rank": 481,
     "coach": "Jim Leavitt",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18222,7 +18153,7 @@
     "topStaffs": []
   },
   {
-    "rank": 483,
+    "rank": 482,
     "coach": "Jim Reid",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18234,7 +18165,7 @@
     "topStaffs": []
   },
   {
-    "rank": 484,
+    "rank": 483,
     "coach": "Jim Strong",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18246,7 +18177,7 @@
     "topStaffs": []
   },
   {
-    "rank": 485,
+    "rank": 484,
     "coach": "Jim Walden",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18258,7 +18189,7 @@
     "topStaffs": []
   },
   {
-    "rank": 486,
+    "rank": 485,
     "coach": "Jim Ward",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18270,7 +18201,7 @@
     "topStaffs": []
   },
   {
-    "rank": 487,
+    "rank": 486,
     "coach": "Jimmy Lake",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18282,7 +18213,7 @@
     "topStaffs": []
   },
   {
-    "rank": 488,
+    "rank": 487,
     "coach": "Jimmy Rogers",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18294,7 +18225,7 @@
     "topStaffs": []
   },
   {
-    "rank": 489,
+    "rank": 488,
     "coach": "Joe Harasymiak",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18306,7 +18237,7 @@
     "topStaffs": []
   },
   {
-    "rank": 490,
+    "rank": 489,
     "coach": "Joe Krivak",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18318,7 +18249,7 @@
     "topStaffs": []
   },
   {
-    "rank": 491,
+    "rank": 490,
     "coach": "Joe Lee Dunn",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18330,7 +18261,7 @@
     "topStaffs": []
   },
   {
-    "rank": 492,
+    "rank": 491,
     "coach": "Joe Moorhead",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18342,7 +18273,7 @@
     "topStaffs": []
   },
   {
-    "rank": 493,
+    "rank": 492,
     "coach": "Joe Paterno",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18354,7 +18285,7 @@
     "topStaffs": []
   },
   {
-    "rank": 494,
+    "rank": 493,
     "coach": "Joe Tiller",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18366,7 +18297,7 @@
     "topStaffs": []
   },
   {
-    "rank": 495,
+    "rank": 494,
     "coach": "John Blake",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18378,7 +18309,7 @@
     "topStaffs": []
   },
   {
-    "rank": 496,
+    "rank": 495,
     "coach": "John Bobo",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18390,7 +18321,7 @@
     "topStaffs": []
   },
   {
-    "rank": 497,
+    "rank": 496,
     "coach": "John Gutekunst",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18402,7 +18333,7 @@
     "topStaffs": []
   },
   {
-    "rank": 498,
+    "rank": 497,
     "coach": "John Jenkins",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18414,7 +18345,7 @@
     "topStaffs": []
   },
   {
-    "rank": 499,
+    "rank": 498,
     "coach": "John Ralston",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18426,7 +18357,7 @@
     "topStaffs": []
   },
   {
-    "rank": 500,
+    "rank": 499,
     "coach": "Joker Phillips",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18438,7 +18369,7 @@
     "topStaffs": []
   },
   {
-    "rank": 501,
+    "rank": 500,
     "coach": "Jon Embree",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18450,7 +18381,7 @@
     "topStaffs": []
   },
   {
-    "rank": 502,
+    "rank": 501,
     "coach": "Jon Sumrall",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18462,7 +18393,7 @@
     "topStaffs": []
   },
   {
-    "rank": 503,
+    "rank": 502,
     "coach": "Joseph O. King",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18474,7 +18405,7 @@
     "topStaffs": []
   },
   {
-    "rank": 504,
+    "rank": 503,
     "coach": "Justin Wilcox",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18486,7 +18417,7 @@
     "topStaffs": []
   },
   {
-    "rank": 505,
+    "rank": 504,
     "coach": "K. C. Keeler",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18498,7 +18429,7 @@
     "topStaffs": []
   },
   {
-    "rank": 506,
+    "rank": 505,
     "coach": "Kalani Sitake",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18510,7 +18441,7 @@
     "topStaffs": []
   },
   {
-    "rank": 507,
+    "rank": 506,
     "coach": "Kalen DeBoer",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18522,7 +18453,7 @@
     "topStaffs": []
   },
   {
-    "rank": 508,
+    "rank": 507,
     "coach": "Ken Wilson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18534,7 +18465,7 @@
     "topStaffs": []
   },
   {
-    "rank": 509,
+    "rank": 508,
     "coach": "Kenni Burns",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18546,7 +18477,7 @@
     "topStaffs": []
   },
   {
-    "rank": 510,
+    "rank": 509,
     "coach": "Kenny Dillingham",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18558,7 +18489,7 @@
     "topStaffs": []
   },
   {
-    "rank": 511,
+    "rank": 510,
     "coach": "Kevin Steele",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18570,7 +18501,7 @@
     "topStaffs": []
   },
   {
-    "rank": 512,
+    "rank": 511,
     "coach": "Kirk Ferentz",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18582,7 +18513,7 @@
     "topStaffs": []
   },
   {
-    "rank": 513,
+    "rank": 512,
     "coach": "Kyle Flood",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18594,7 +18525,7 @@
     "topStaffs": []
   },
   {
-    "rank": 514,
+    "rank": 513,
     "coach": "Lance Leipold",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18606,7 +18537,7 @@
     "topStaffs": []
   },
   {
-    "rank": 515,
+    "rank": 514,
     "coach": "Lance Taylor",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18618,7 +18549,7 @@
     "topStaffs": []
   },
   {
-    "rank": 516,
+    "rank": 515,
     "coach": "Larry Marmie",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18630,7 +18561,7 @@
     "topStaffs": []
   },
   {
-    "rank": 517,
+    "rank": 516,
     "coach": "Lou Tepper",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18642,7 +18573,7 @@
     "topStaffs": []
   },
   {
-    "rank": 518,
+    "rank": 517,
     "coach": "Lovie Smith",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18654,7 +18585,7 @@
     "topStaffs": []
   },
   {
-    "rank": 519,
+    "rank": 518,
     "coach": "Major Applewhite",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18666,7 +18597,7 @@
     "topStaffs": []
   },
   {
-    "rank": 520,
+    "rank": 519,
     "coach": "Marcus Arroyo",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18678,7 +18609,7 @@
     "topStaffs": []
   },
   {
-    "rank": 521,
+    "rank": 520,
     "coach": "Mark Carney",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18690,7 +18621,7 @@
     "topStaffs": []
   },
   {
-    "rank": 522,
+    "rank": 521,
     "coach": "Mark Duffner",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18702,7 +18633,7 @@
     "topStaffs": []
   },
   {
-    "rank": 523,
+    "rank": 522,
     "coach": "Mark Hudspeth",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18714,7 +18645,7 @@
     "topStaffs": []
   },
   {
-    "rank": 524,
+    "rank": 523,
     "coach": "Mark Snyder",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18726,7 +18657,7 @@
     "topStaffs": []
   },
   {
-    "rank": 525,
+    "rank": 524,
     "coach": "Matt Canada",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18738,7 +18669,7 @@
     "topStaffs": []
   },
   {
-    "rank": 526,
+    "rank": 525,
     "coach": "Matt Drinkall",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18750,7 +18681,7 @@
     "topStaffs": []
   },
   {
-    "rank": 527,
+    "rank": 526,
     "coach": "Matt Entz",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18762,7 +18693,7 @@
     "topStaffs": []
   },
   {
-    "rank": 528,
+    "rank": 527,
     "coach": "Maurice Linguist",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18774,7 +18705,7 @@
     "topStaffs": []
   },
   {
-    "rank": 529,
+    "rank": 528,
     "coach": "Mel Tucker",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18786,7 +18717,7 @@
     "topStaffs": []
   },
   {
-    "rank": 530,
+    "rank": 529,
     "coach": "Michael Desormeaux",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18798,7 +18729,7 @@
     "topStaffs": []
   },
   {
-    "rank": 531,
+    "rank": 530,
     "coach": "Michael Haywood",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18810,7 +18741,7 @@
     "topStaffs": []
   },
   {
-    "rank": 532,
+    "rank": 531,
     "coach": "Michael T. Johnson",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18822,7 +18753,7 @@
     "topStaffs": []
   },
   {
-    "rank": 533,
+    "rank": 532,
     "coach": "Mick Dennehy",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18834,7 +18765,7 @@
     "topStaffs": []
   },
   {
-    "rank": 534,
+    "rank": 533,
     "coach": "Mike Elko",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18846,7 +18777,7 @@
     "topStaffs": []
   },
   {
-    "rank": 535,
+    "rank": 534,
     "coach": "Mike London",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18858,7 +18789,7 @@
     "topStaffs": []
   },
   {
-    "rank": 536,
+    "rank": 535,
     "coach": "Mike Neu",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18870,7 +18801,7 @@
     "topStaffs": []
   },
   {
-    "rank": 537,
+    "rank": 536,
     "coach": "Mike Sheppard",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18882,7 +18813,7 @@
     "topStaffs": []
   },
   {
-    "rank": 538,
+    "rank": 537,
     "coach": "Mike Uremovich",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18894,7 +18825,7 @@
     "topStaffs": []
   },
   {
-    "rank": 539,
+    "rank": 538,
     "coach": "Moe Ankney",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18906,7 +18837,7 @@
     "topStaffs": []
   },
   {
-    "rank": 540,
+    "rank": 539,
     "coach": "Nate Dreiling",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18918,7 +18849,7 @@
     "topStaffs": []
   },
   {
-    "rank": 541,
+    "rank": 540,
     "coach": "Neil Callaway",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18930,7 +18861,7 @@
     "topStaffs": []
   },
   {
-    "rank": 542,
+    "rank": 541,
     "coach": "Nelson Stokley",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18942,7 +18873,7 @@
     "topStaffs": []
   },
   {
-    "rank": 543,
+    "rank": 542,
     "coach": "Nicholas F. Martin",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18954,7 +18885,7 @@
     "topStaffs": []
   },
   {
-    "rank": 544,
+    "rank": 543,
     "coach": "Norm Chow",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18966,7 +18897,7 @@
     "topStaffs": []
   },
   {
-    "rank": 545,
+    "rank": 544,
     "coach": "Nuʻu Tafisi",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18978,7 +18909,7 @@
     "topStaffs": []
   },
   {
-    "rank": 546,
+    "rank": 545,
     "coach": "P. J. Fleck",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -18990,7 +18921,7 @@
     "topStaffs": []
   },
   {
-    "rank": 547,
+    "rank": 546,
     "coach": "Patricia S. Phillips",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -19002,7 +18933,7 @@
     "topStaffs": []
   },
   {
-    "rank": 548,
+    "rank": 547,
     "coach": "Paul Pasqualoni",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -19014,7 +18945,7 @@
     "topStaffs": []
   },
   {
-    "rank": 549,
+    "rank": 548,
     "coach": "Paul Roach",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -19026,7 +18957,7 @@
     "topStaffs": []
   },
   {
-    "rank": 550,
+    "rank": 549,
     "coach": "Paul Wulff",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -19038,7 +18969,7 @@
     "topStaffs": []
   },
   {
-    "rank": 551,
+    "rank": 550,
     "coach": "Pete Cordelli",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -19050,7 +18981,7 @@
     "topStaffs": []
   },
   {
-    "rank": 552,
+    "rank": 551,
     "coach": "Pete Lembo",
     "totalDescendants": 0,
     "directDescendants": 0,
@@ -19058,6 +18989,18 @@
     "firstHeadCoachJob": {
       "school": "Ball State",
       "year": 2011
+    },
+    "topStaffs": []
+  },
+  {
+    "rank": 552,
+    "coach": "Phil Bennett",
+    "totalDescendants": 0,
+    "directDescendants": 0,
+    "headCoachStops": 6,
+    "firstHeadCoachJob": {
+      "school": "SMU",
+      "year": 2002
     },
     "topStaffs": []
   },
