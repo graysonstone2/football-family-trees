@@ -10152,7 +10152,6 @@
       "oc": "Andy Ludwig",
       "other": [
         "John Baxter",
-        "Tim Skipper",
         "Kelly Skipper",
         "David Berkheimer",
         "John Mitchell",
@@ -11983,7 +11982,6 @@
       "dc": "George Lumpkin",
       "other": [
         "Dan Morrison",
-        "Timmy Chang",
         "Mouse Davis",
         "Mike Cavanaugh",
         "Rich Miano",
@@ -24352,7 +24350,6 @@
         "Mike Sabock",
         "Dan Roushar",
         "Brian Anderson",
-        "P.J. Fleck",
         "Jim Zebrowski",
         "Pat Narduzzi",
         "Matt Canada"
@@ -24366,7 +24363,6 @@
         "Mike Sabock",
         "Dan Roushar",
         "Brian Anderson",
-        "P.J. Fleck",
         "Jim Zebrowski",
         "Pat Narduzzi",
         "Mike Uremovich"
@@ -24380,7 +24376,6 @@
         "Mike Sabock",
         "Dan Roushar",
         "Brian Anderson",
-        "P.J. Fleck",
         "Jim Zebrowski",
         "Pat Narduzzi",
         "Mike Uremovich"
@@ -24394,7 +24389,6 @@
         "Mike Sabock",
         "Dan Roushar",
         "Brian Anderson",
-        "P.J. Fleck",
         "Jim Zebrowski",
         "Sam Pittman",
         "Mike Uremovich"
@@ -33797,7 +33791,6 @@
         "Bill Bedenbaugh",
         "Dana Holgorsen",
         "Lyle Setencich",
-        "Sonny Cumbie",
         "Art Briles",
         "Ruffin McNeill",
         "Dave Aranda",
@@ -33810,8 +33803,7 @@
       "other": [
         "Sonny Dykes",
         "Bill Bedenbaugh",
-        "Dana Holgorsen",
-        "Sonny Cumbie"
+        "Dana Holgorsen"
       ]
     },
     "2004": {
@@ -33865,7 +33857,6 @@
       "oc": "Dana Holgorsen",
       "other": [
         "Lincoln Riley",
-        "Sonny Cumbie",
         "Clay McGuire",
         "Bryce O'Hara",
         "Seth Littrell"
@@ -33887,10 +33878,7 @@
     },
     "2010": {
       "hc": "Tommy Tuberville",
-      "oc": [
-        "Neal Brown",
-        "Sonny Cumbie"
-      ],
+      "oc": "Neal Brown",
       "dc": "Chad Glasgow",
       "other": [
         "Tommy Mainord",
@@ -33898,7 +33886,8 @@
         "Robert Prunty",
         "Chad Scott",
         "Matt Moore",
-        "Otis Mounds"
+        "Otis Mounds",
+        "Sonny Cumbie"
       ]
     },
     "2011": {
@@ -33932,7 +33921,10 @@
     "2013": {
       "hc": "Kliff Kingsbury",
       "dc": "Matt Wallerstedt",
-      "oc": "Eric Morris",
+      "oc": [
+        "Eric Morris",
+        "Sonny Cumbie"
+      ],
       "other": [
         "Kevin Curtis",
         "Mike Jinks",
