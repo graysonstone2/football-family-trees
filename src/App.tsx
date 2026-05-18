@@ -1045,8 +1045,8 @@ function StaffLeaderboardRow({ entry, onOpenTree }: { entry: StaffLeaderboardEnt
         <span className="mt-1 block text-sm font-bold text-[var(--theme-muted)]">
           {entry.coach}'s staff
         </span>
-        <span className="mt-1 block truncate text-xs font-bold text-[var(--theme-muted)]">
-          {entry.coaches.slice(0, 5).join(', ')}
+        <span className="mt-1 block text-xs font-bold leading-5 text-[var(--theme-muted)]">
+          {entry.coaches.join(', ')}
         </span>
       </span>
       <span className="leaderboard-metrics">

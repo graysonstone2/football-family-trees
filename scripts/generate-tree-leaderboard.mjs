@@ -9,6 +9,16 @@ const staffOutputPath = join(rootDir, 'src', 'staff_leaderboard.json');
 const data = JSON.parse(readFileSync(dataPath, 'utf8'));
 
 const formatCoachName = (name) => name.trim().replace(/\s+/g, ' ');
+const splitCoachNames = (title, value) => {
+  if (title === 'hc') {
+    return [value];
+  }
+
+  return value
+    .split(/\s*(?:,|\/|\band\b)\s*/i)
+    .map(formatCoachName)
+    .filter(Boolean);
+};
 
 const addCoach = (coaches, school, year, title, name) => {
   if (!name || !name.trim()) {
@@ -26,14 +36,13 @@ const buildCoachSet = () => {
   Object.entries(data).forEach(([school, seasons]) => {
     Object.entries(seasons).forEach(([year, roster]) => {
       Object.entries(roster).forEach(([title, value]) => {
-        if (Array.isArray(value)) {
-          value.forEach((coach) => addCoach(coaches, school, year, title, coach));
-          return;
-        }
+        const coachNames = Array.isArray(value)
+          ? value
+          : typeof value === 'string'
+            ? splitCoachNames(title, value)
+            : [];
 
-        if (typeof value === 'string') {
-          addCoach(coaches, school, year, title, value);
-        }
+        coachNames.forEach((coach) => addCoach(coaches, school, year, title, coach));
       });
     });
   });
@@ -55,18 +64,16 @@ const collectAssistantYears = (school, year) => {
       return;
     }
 
-    if (Array.isArray(value)) {
-      value.forEach((coach) => {
-        const cleanName = formatCoachName(coach);
-        assistants[cleanName] = [...(assistants[cleanName] ?? []), year];
-      });
-      return;
-    }
+    const coachNames = Array.isArray(value)
+      ? value
+      : typeof value === 'string'
+        ? splitCoachNames(title, value)
+        : [];
 
-    if (typeof value === 'string') {
-      const cleanName = formatCoachName(value);
+    coachNames.forEach((coach) => {
+      const cleanName = formatCoachName(coach);
       assistants[cleanName] = [...(assistants[cleanName] ?? []), year];
-    }
+    });
   });
 
   return assistants;

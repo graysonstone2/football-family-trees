@@ -42,6 +42,16 @@ let datasetStartYear: number | null = null;
 
 const byYear = (a: CoachJob, b: CoachJob) => a.year - b.year;
 const formatCoachName = (name: string) => name.trim().replace(/\s+/g, ' ');
+const splitCoachNames = (title: CoachRole, value: string) => {
+  if (title === 'hc') {
+    return [value];
+  }
+
+  return value
+    .split(/\s*(?:,|\/|\band\b)\s*/i)
+    .map(formatCoachName)
+    .filter(Boolean);
+};
 
 const addCoach = (
   coaches: CoachSet,
@@ -69,14 +79,13 @@ export const buildCoachSet = () => {
   Object.entries(data).forEach(([school, seasons]) => {
     Object.entries(seasons).forEach(([year, roster]) => {
       Object.entries(roster).forEach(([title, value]) => {
-        if (Array.isArray(value)) {
-          value.forEach((coach) => addCoach(coaches, school, year, title, coach));
-          return;
-        }
+        const coachNames = Array.isArray(value)
+          ? value
+          : typeof value === 'string'
+            ? splitCoachNames(title, value)
+            : [];
 
-        if (typeof value === 'string') {
-          addCoach(coaches, school, year, title, value);
-        }
+        coachNames.forEach((coach) => addCoach(coaches, school, year, title, coach));
       });
     });
   });
@@ -129,18 +138,16 @@ const collectAssistantYears = (school: string, year: number) => {
       return;
     }
 
-    if (Array.isArray(value)) {
-      value.forEach((coach) => {
-        const cleanName = formatCoachName(coach);
-        assistants[cleanName] = [...(assistants[cleanName] ?? []), year];
-      });
-      return;
-    }
+    const coachNames = Array.isArray(value)
+      ? value
+      : typeof value === 'string'
+        ? splitCoachNames(title, value)
+        : [];
 
-    if (typeof value === 'string') {
-      const cleanName = formatCoachName(value);
+    coachNames.forEach((coach) => {
+      const cleanName = formatCoachName(coach);
       assistants[cleanName] = [...(assistants[cleanName] ?? []), year];
-    }
+    });
   });
 
   return assistants;
