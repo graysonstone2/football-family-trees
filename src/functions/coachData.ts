@@ -42,6 +42,16 @@ let datasetStartYear: number | null = null;
 
 const byYear = (a: CoachJob, b: CoachJob) => a.year - b.year;
 const formatCoachName = (name: string) => name.trim().replace(/\s+/g, ' ');
+const hasHeadCoach = (roster: Roster) => {
+  const headCoach = roster.hc;
+
+  if (Array.isArray(headCoach)) {
+    return headCoach.some((coach) => coach.trim());
+  }
+
+  return Boolean(headCoach?.trim());
+};
+
 const splitCoachNames = (title: CoachRole, value: string) => {
   if (title === 'hc') {
     return [value];
@@ -112,7 +122,11 @@ export const findCoachName = (query: string) => {
 
 export const getDatasetSummary = (): DatasetSummary => {
   const coaches = buildCoachSet();
-  const seasons = Object.values(data).flatMap((school) => Object.keys(school).map(Number));
+  const seasons = Object.values(data).flatMap((school) =>
+    Object.entries(school)
+      .filter(([, roster]) => hasHeadCoach(roster))
+      .map(([year]) => Number(year)),
+  );
   const headCoachCount = Object.values(coaches).filter((jobs) =>
     jobs.some((job) => job.title === 'hc'),
   ).length;
