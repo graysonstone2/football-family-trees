@@ -4517,7 +4517,7 @@
     "2001": {
       "hc": "Urban Meyer",
       "dc": "Tim Beckman",
-      "oc": "Stanislaus Dobrickiwicz",
+      "oc": "Gregg Brandon",
       "other": [
         "Greg Brandon",
         "Stan Watson"
@@ -14789,10 +14789,7 @@
     "2021": {
       "hc": "Billy Napier",
       "oc": "Michael Desormeaux",
-      "dc": "Patrick Toney",
-      "other": [
-        "Michael Desormeaux"
-      ]
+      "dc": "Patrick Toney"
     },
     "2022": {
       "hc": "Michael Desormeaux",
@@ -16380,7 +16377,7 @@
     },
     "2008": {
       "hc": "Les Miles",
-      "dc": "Doug Mallory and Bradley Dale Peveto",
+      "dc": "Doug Mallory, Bradley Dale Peveto",
       "oc": "Gary Crowton",
       "other": [
         "Earl Lane",
@@ -20087,7 +20084,7 @@
     },
     "2018": {
       "hc": "Joe Moorhead",
-      "dc": "Bob Shoop",
+      "dc": "Chris Wilson, Geoff Collins",
       "oc": "Luke Getsy",
       "other": [
         "Andrew Breiner",
@@ -20100,7 +20097,7 @@
     "2019": {
       "hc": "Joe Moorhead",
       "dc": "Bob Shoop",
-      "oc": "Luke Getsy",
+      "oc": "John Hevesy, Billy Gonzales",
       "other": [
         "Andrew Breiner",
         "Marcus Johnson",
@@ -20112,7 +20109,7 @@
     "2020": {
       "hc": "Mike Leach",
       "dc": "Zach Arnett",
-      "oc": "Steve Spurrier Jr.",
+      "oc": "John Hevesy, Billy Gonzales",
       "other": [
         "Matt Brock",
         "Darcel McBath",
@@ -20125,7 +20122,7 @@
     "2021": {
       "hc": "Mike Leach",
       "dc": "Zach Arnett",
-      "oc": "Steve Spurrier Jr.",
+      "oc": "John Hevesy, Billy Gonzales",
       "other": [
         "Mason Miller",
         "Dave Nichol",
@@ -20224,7 +20221,7 @@
     },
     "2013": {
       "hc": "Dan Mullen",
-      "dc": "Chris Wilson and Geoff Collins",
+      "dc": "Chris Wilson, Geoff Collins",
       "oc": "Les Koenning",
       "other": [
         "Scott Sallach",
@@ -20240,7 +20237,7 @@
     "2014": {
       "hc": "Dan Mullen",
       "dc": "Geoff Collins",
-      "oc": "John Hevesy and Billy Gonzales",
+      "oc": "John Hevesy, Billy Gonzales",
       "other": [
         "Scott Sallach",
         "Greg Knox",
@@ -20255,7 +20252,7 @@
     "2015": {
       "hc": "Dan Mullen",
       "dc": "Manny Diaz",
-      "oc": "John Hevesy and Billy Gonzales",
+      "oc": "John Hevesy, Billy Gonzales",
       "other": [
         "Scott Sallach",
         "Greg Knox",
@@ -20270,7 +20267,7 @@
     "2016": {
       "hc": "Dan Mullen",
       "dc": "Peter Sirmon",
-      "oc": "John Hevesy and Billy Gonzales",
+      "oc": "John Hevesy, Billy Gonzales",
       "other": [
         "Scott Sallach",
         "Greg Knox",
@@ -20903,7 +20900,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Mike Judge",
-        "Jeff Monken",
         "Steve Johanning",
         "Danny O'Rourke",
         "Kevin Downing"
@@ -20915,7 +20911,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Mike Judge",
-        "Jeff Monken",
         "Steve Johanning",
         "Danny O'Rourke",
         "Kevin Downing"
@@ -20975,7 +20970,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Steve Johns",
-        "Kenny Niumatalolo",
         "Keith Jones",
         "Joe Speed",
         "Mick Yokitis"
@@ -20987,7 +20981,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Steve Johns",
-        "Kenny Niumatalolo",
         "Keith Jones",
         "Joe Speed",
         "Mick Yokitis"
@@ -20999,7 +20992,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Steve Johns",
-        "Kenny Niumatalolo",
         "Keith Jones",
         "Joe Speed",
         "Mick Yokitis"
@@ -21011,7 +21003,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Steve Johns",
-        "Kenny Niumatalolo",
         "Keith Jones",
         "Joe DuPaix",
         "Mick Yokitis"
@@ -21023,7 +21014,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Steve Johns",
-        "Kenny Niumatalolo",
         "Keith Jones",
         "Joe DuPaix",
         "Mick Yokitis"
@@ -21035,7 +21025,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Steve Johns",
-        "Kenny Niumatalolo",
         "Keith Jones",
         "Joe DuPaix",
         "Mick Yokitis"
@@ -21047,7 +21036,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Steve Johns",
-        "Kenny Niumatalolo",
         "Keith Jones",
         "Joe DuPaix",
         "Mick Yokitis"
@@ -21059,7 +21047,6 @@
       "oc": "Ivin Jasper",
       "other": [
         "Steve Johns",
-        "Kenny Niumatalolo",
         "Keith Jones",
         "Joe DuPaix",
         "Mick Yokitis"
@@ -21078,11 +21065,10 @@
     },
     "2001": {
       "hc": "Charlie Weatherbie",
-      "dc": "Kenny Niumatalolo",
-      "oc": "Ivin Jasper",
+      "oc": "Mark Hudspeth",
+      "dc": "Rick Lantz",
       "other": [
         "Brian Bohannon",
-        "Mark Hudspeth",
         "T.C. Taylor",
         "John Perry"
       ]
@@ -21095,7 +21081,8 @@
         "Brian Bohannon",
         "Ashley Ingram",
         "Danny O'Rourke",
-        "Keenan Reynolds"
+        "Ken Niumatalolo",
+        "Jeff Monken"
       ]
     },
     "2003": {
@@ -21106,7 +21093,8 @@
         "Brian Bohannon",
         "Ashley Ingram",
         "Danny O'Rourke",
-        "Keenan Reynolds"
+        "Ken Niumatalolo",
+        "Jeff Monken"
       ]
     },
     "2004": {
@@ -21117,7 +21105,8 @@
         "Brian Bohannon",
         "Ashley Ingram",
         "Danny O'Rourke",
-        "Keenan Reynolds"
+        "Ken Niumatalolo",
+        "Jeff Monken"
       ]
     },
     "2005": {
@@ -21128,7 +21117,8 @@
         "Brian Bohannon",
         "Ashley Ingram",
         "Danny O'Rourke",
-        "Keenan Reynolds"
+        "Ken Niumatalolo",
+        "Jeff Monken"
       ]
     },
     "2006": {
@@ -21139,7 +21129,8 @@
         "Brian Bohannon",
         "Ashley Ingram",
         "Danny O'Rourke",
-        "Keenan Reynolds"
+        "Ken Niumatalolo",
+        "Jeff Monken"
       ]
     },
     "2007": {
@@ -21150,7 +21141,8 @@
         "Brian Bohannon",
         "Ashley Ingram",
         "Danny O'Rourke",
-        "Keenan Reynolds"
+        "Ken Niumatalolo",
+        "Jeff Monken"
       ]
     },
     "2008": {
@@ -21160,8 +21152,7 @@
       "other": [
         "Brian Bohannon",
         "Ashley Ingram",
-        "Danny O'Rourke",
-        "Keenan Reynolds"
+        "Danny O'Rourke"
       ]
     },
     "2025": {
@@ -24369,7 +24360,7 @@
       "dc": "Greg Schiano",
       "other": [
         "Tony Alford",
-        "Billy Davis",
+        "Bill Davis",
         "Tim Hinton",
         "Larry Johnson",
         "Kerry Coombs",
@@ -24488,7 +24479,7 @@
     },
     "2012": {
       "hc": "Urban Meyer",
-      "dc": "Luke Fickell and Everett Withers",
+      "dc": "Luke Fickell, Everett Withers",
       "oc": "Tom Herman",
       "other": [
         "Ed Warinner",
@@ -24501,7 +24492,7 @@
     },
     "2013": {
       "hc": "Urban Meyer",
-      "dc": "Luke Fickell and Everett Withers",
+      "dc": "Luke Fickell, Everett Withers",
       "oc": "Tom Herman",
       "other": [
         "Ed Warinner",
@@ -24527,8 +24518,8 @@
     },
     "2015": {
       "hc": "Urban Meyer",
-      "dc": "Luke Fickell and Chris Ash",
-      "oc": "Ed Warinner and Tim Beck",
+      "dc": "Luke Fickell, Chris Ash",
+      "oc": "Ed Warinner, Tim Beck",
       "other": [
         "Tim Hinton",
         "Kerry Coombs",
@@ -24539,8 +24530,8 @@
     },
     "2016": {
       "hc": "Urban Meyer",
-      "dc": "Greg Schiano and Luke Fickell",
-      "oc": "Ed Warinner and Tim Beck",
+      "dc": "Greg Schiano, Luke Fickell",
+      "oc": "Ed Warinner, Tim Beck",
       "other": [
         "Tim Hinton",
         "Kerry Coombs",
@@ -24819,7 +24810,6 @@
       "oc": "Kevin Wilson",
       "dc": "Brent Venables",
       "other": [
-        "Mark Mangino",
         "Cale Gundy",
         "Jay Norvell"
       ]
@@ -24829,7 +24819,6 @@
       "oc": "Kevin Wilson",
       "dc": "Brent Venables",
       "other": [
-        "Mark Mangino",
         "Cale Gundy",
         "Jay Norvell"
       ]
@@ -25316,7 +25305,6 @@
       "other": [
         "Bob Connelly",
         "Joe DeForest",
-        "Larry Coker",
         "Doug Meacham"
       ]
     },
@@ -31477,14 +31465,14 @@
         "Ken Rucker",
         "Steve Marshall",
         "Todd Middleton",
-        "Sumlin Kevin",
+        "Kevin Sumlin",
         "Melvin Smith"
       ]
     },
     "2001": {
       "hc": "R.C. Slocum",
       "dc": "Mike Hankwitz",
-      "oc": "Sumlin Kevin",
+      "oc": "Kevin Sumlin",
       "other": [
         "Ken Rucker",
         "Steve Marshall",
