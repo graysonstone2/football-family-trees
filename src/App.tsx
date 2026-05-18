@@ -591,22 +591,33 @@ function App() {
             </div>
           </div>
 
-          <div className="theme-control w-full max-w-[190px] self-end lg:absolute lg:right-5 lg:top-5">
-            <label className="mb-1 block text-[10px] font-black uppercase tracking-wide text-[var(--theme-accent)]" htmlFor="team-theme">
-              Team Theme
-            </label>
-            <select
-              className="theme-select w-full rounded-md px-2 py-2 text-xs font-black uppercase tracking-wide"
-              id="team-theme"
-              onChange={(event) => setSelectedThemeSchool(event.target.value)}
-              value={selectedThemeSchool}
+          <div className="header-actions flex w-full max-w-xs items-end justify-between gap-3 self-end lg:absolute lg:right-5 lg:top-5 lg:w-auto lg:max-w-none lg:justify-end">
+            <a
+              className="support-link rounded-md px-3 py-2 text-xs font-black uppercase tracking-wide"
+              href="https://buymeacoffee.com/stoneg"
+              onClick={() => trackEvent('support_link_click')}
+              rel="noreferrer"
+              target="_blank"
             >
-              {TEAM_THEMES.map((theme) => (
-                <option key={theme.school} value={theme.school}>
-                  {theme.school}
-                </option>
-              ))}
-            </select>
+              Buy me a coffee
+            </a>
+            <div className="theme-control w-full max-w-[190px]">
+              <label className="mb-1 block text-[10px] font-black uppercase tracking-wide text-[var(--theme-accent)]" htmlFor="team-theme">
+                Team Theme
+              </label>
+              <select
+                className="theme-select w-full rounded-md px-2 py-2 text-xs font-black uppercase tracking-wide"
+                id="team-theme"
+                onChange={(event) => setSelectedThemeSchool(event.target.value)}
+                value={selectedThemeSchool}
+              >
+                {TEAM_THEMES.map((theme) => (
+                  <option key={theme.school} value={theme.school}>
+                    {theme.school}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           {page === 'tree' && (

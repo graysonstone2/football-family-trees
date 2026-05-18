@@ -76,6 +76,20 @@ input {
   color: var(--theme-ink);
 }
 
+.support-link {
+  border: 1px solid color-mix(in srgb, var(--theme-accent) 72%, transparent);
+  background: color-mix(in srgb, var(--theme-accent) 18%, transparent);
+  color: var(--theme-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.support-link:hover,
+.support-link:focus-visible {
+  background: var(--theme-accent);
+  color: var(--theme-accent-text);
+}
+
 .primary-button {
   background: var(--theme-line);
   color: var(--theme-primary-text);
