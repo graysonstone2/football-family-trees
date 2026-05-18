@@ -199,8 +199,25 @@ const formatYears = (years: number[]) => {
     return 'Root coach';
   }
 
-  const sorted = [...years].sort((a, b) => a - b);
-  return sorted.length === 1 ? String(sorted[0]) : `${sorted[0]}-${sorted[sorted.length - 1]}`;
+  const sorted = Array.from(new Set(years)).sort((a, b) => a - b);
+  const ranges: string[] = [];
+  let rangeStart = sorted[0];
+  let rangeEnd = sorted[0];
+
+  sorted.slice(1).forEach((year) => {
+    if (year === rangeEnd + 1) {
+      rangeEnd = year;
+      return;
+    }
+
+    ranges.push(rangeStart === rangeEnd ? String(rangeStart) : `${rangeStart}-${rangeEnd}`);
+    rangeStart = year;
+    rangeEnd = year;
+  });
+
+  ranges.push(rangeStart === rangeEnd ? String(rangeStart) : `${rangeStart}-${rangeEnd}`);
+
+  return ranges.join(', ');
 };
 
 const getEdgeLabel = (mode: TreeMode, node: CoachTreeNode, parentNode?: CoachTreeNode | null) => {

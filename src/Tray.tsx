@@ -30,22 +30,62 @@ const formatYears = (years: number[]) => {
     return 'Origin coach';
   }
 
-  const sorted = [...years].sort((a, b) => a - b);
-  return sorted.length === 1 ? String(sorted[0]) : `${sorted[0]}-${sorted[sorted.length - 1]}`;
+  const sorted = Array.from(new Set(years)).sort((a, b) => a - b);
+  const ranges: string[] = [];
+  let rangeStart = sorted[0];
+  let rangeEnd = sorted[0];
+
+  sorted.slice(1).forEach((year) => {
+    if (year === rangeEnd + 1) {
+      rangeEnd = year;
+      return;
+    }
+
+    ranges.push(rangeStart === rangeEnd ? String(rangeStart) : `${rangeStart}-${rangeEnd}`);
+    rangeStart = year;
+    rangeEnd = year;
+  });
+
+  ranges.push(rangeStart === rangeEnd ? String(rangeStart) : `${rangeStart}-${rangeEnd}`);
+
+  return ranges.join(', ');
 };
 
 const groupJobs = (history: CoachJob[]) => {
-  const groups = new Map<string, CoachJob[]>();
+  const sortedJobs = [...history].sort((a, b) => {
+    if (a.year !== b.year) {
+      return a.year - b.year;
+    }
 
-  history.forEach((job) => {
-    const key = `${job.school}-${job.title}`;
-    groups.set(key, [...(groups.get(key) ?? []), job]);
+    if (a.school !== b.school) {
+      return a.school.localeCompare(b.school);
+    }
+
+    return a.title.localeCompare(b.title);
+  });
+  const groups: CoachJob[][] = [];
+
+  sortedJobs.forEach((job) => {
+    const currentGroup = groups[groups.length - 1];
+    const previousJob = currentGroup?.[currentGroup.length - 1];
+    const continuesCurrentGroup =
+      previousJob &&
+      previousJob.school === job.school &&
+      previousJob.title === job.title &&
+      job.year <= previousJob.year + 1;
+
+    if (continuesCurrentGroup) {
+      currentGroup.push(job);
+      return;
+    }
+
+    groups.push([job]);
   });
 
-  return Array.from(groups.values()).map((jobs) => ({
+  return groups.map((jobs) => ({
     school: jobs[0].school,
     title: jobs[0].title,
-    years: jobs.map((job) => job.year).sort((a, b) => a - b),
+    years: Array.from(new Set(jobs.map((job) => job.year))).sort((a, b) => a - b),
   }));
 };
 
