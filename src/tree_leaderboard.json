@@ -1970,7 +1970,7 @@
   {
     "rank": 31,
     "coach": "Pat Dye",
-    "totalDescendants": 40,
+    "totalDescendants": 39,
     "directDescendants": 3,
     "headCoachStops": 3,
     "firstHeadCoachJob": {
@@ -2612,69 +2612,6 @@
   },
   {
     "rank": 42,
-    "coach": "Bill Curry",
-    "totalDescendants": 32,
-    "directDescendants": 3,
-    "headCoachStops": 10,
-    "firstHeadCoachJob": {
-      "school": "Kentucky",
-      "year": 1990
-    },
-    "topStaffs": [
-      {
-        "school": "Kentucky",
-        "year": 1990,
-        "count": 2,
-        "coaches": [
-          "Joker Phillips",
-          "Tommy Bowden"
-        ]
-      },
-      {
-        "school": "Kentucky",
-        "year": 1992,
-        "count": 2,
-        "coaches": [
-          "Joker Phillips",
-          "Lovie Smith"
-        ]
-      },
-      {
-        "school": "Kentucky",
-        "year": 1991,
-        "count": 1,
-        "coaches": [
-          "Joker Phillips"
-        ]
-      },
-      {
-        "school": "Kentucky",
-        "year": 1993,
-        "count": 1,
-        "coaches": [
-          "Joker Phillips"
-        ]
-      },
-      {
-        "school": "Kentucky",
-        "year": 1994,
-        "count": 1,
-        "coaches": [
-          "Joker Phillips"
-        ]
-      },
-      {
-        "school": "Kentucky",
-        "year": 1995,
-        "count": 1,
-        "coaches": [
-          "Joker Phillips"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 43,
     "coach": "Hal Mumme",
     "totalDescendants": 32,
     "directDescendants": 2,
@@ -2713,7 +2650,7 @@
     ]
   },
   {
-    "rank": 44,
+    "rank": 43,
     "coach": "Todd Graham",
     "totalDescendants": 31,
     "directDescendants": 12,
@@ -2779,6 +2716,69 @@
         "coaches": [
           "Dan Lanning",
           "Mike Norvell"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 44,
+    "coach": "Bill Curry",
+    "totalDescendants": 31,
+    "directDescendants": 3,
+    "headCoachStops": 10,
+    "firstHeadCoachJob": {
+      "school": "Kentucky",
+      "year": 1990
+    },
+    "topStaffs": [
+      {
+        "school": "Kentucky",
+        "year": 1990,
+        "count": 2,
+        "coaches": [
+          "Joker Phillips",
+          "Tommy Bowden"
+        ]
+      },
+      {
+        "school": "Kentucky",
+        "year": 1992,
+        "count": 2,
+        "coaches": [
+          "Joker Phillips",
+          "Lovie Smith"
+        ]
+      },
+      {
+        "school": "Kentucky",
+        "year": 1991,
+        "count": 1,
+        "coaches": [
+          "Joker Phillips"
+        ]
+      },
+      {
+        "school": "Kentucky",
+        "year": 1993,
+        "count": 1,
+        "coaches": [
+          "Joker Phillips"
+        ]
+      },
+      {
+        "school": "Kentucky",
+        "year": 1994,
+        "count": 1,
+        "coaches": [
+          "Joker Phillips"
+        ]
+      },
+      {
+        "school": "Kentucky",
+        "year": 1995,
+        "count": 1,
+        "coaches": [
+          "Joker Phillips"
         ]
       }
     ]
@@ -2999,75 +2999,6 @@
   },
   {
     "rank": 48,
-    "coach": "Tommy Bowden",
-    "totalDescendants": 29,
-    "directDescendants": 7,
-    "headCoachStops": 12,
-    "firstHeadCoachJob": {
-      "school": "Tulane",
-      "year": 1997
-    },
-    "topStaffs": [
-      {
-        "school": "Clemson",
-        "year": 2006,
-        "count": 3,
-        "coaches": [
-          "Billy Napier",
-          "Dabo Swinney",
-          "Willie Simmons"
-        ]
-      },
-      {
-        "school": "Clemson",
-        "year": 2008,
-        "count": 3,
-        "coaches": [
-          "Billy Napier",
-          "Dabo Swinney",
-          "Jeff Scott"
-        ]
-      },
-      {
-        "school": "Tulane",
-        "year": 1998,
-        "count": 2,
-        "coaches": [
-          "Chris Scelfo",
-          "Rich Rodriguez"
-        ]
-      },
-      {
-        "school": "Clemson",
-        "year": 2003,
-        "count": 2,
-        "coaches": [
-          "Billy Napier",
-          "Rick Stockstill"
-        ]
-      },
-      {
-        "school": "Clemson",
-        "year": 2004,
-        "count": 2,
-        "coaches": [
-          "Billy Napier",
-          "Rick Stockstill"
-        ]
-      },
-      {
-        "school": "Clemson",
-        "year": 2007,
-        "count": 2,
-        "coaches": [
-          "Billy Napier",
-          "Dabo Swinney"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 49,
     "coach": "Mike Bellotti",
     "totalDescendants": 29,
     "directDescendants": 5,
@@ -3133,7 +3064,7 @@
     ]
   },
   {
-    "rank": 50,
+    "rank": 49,
     "coach": "Mike Price",
     "totalDescendants": 29,
     "directDescendants": 4,
@@ -3192,6 +3123,75 @@
         "count": 1,
         "coaches": [
           "Bill Doba"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 50,
+    "coach": "Tommy Bowden",
+    "totalDescendants": 28,
+    "directDescendants": 7,
+    "headCoachStops": 12,
+    "firstHeadCoachJob": {
+      "school": "Tulane",
+      "year": 1997
+    },
+    "topStaffs": [
+      {
+        "school": "Clemson",
+        "year": 2006,
+        "count": 3,
+        "coaches": [
+          "Billy Napier",
+          "Dabo Swinney",
+          "Willie Simmons"
+        ]
+      },
+      {
+        "school": "Clemson",
+        "year": 2008,
+        "count": 3,
+        "coaches": [
+          "Billy Napier",
+          "Dabo Swinney",
+          "Jeff Scott"
+        ]
+      },
+      {
+        "school": "Tulane",
+        "year": 1998,
+        "count": 2,
+        "coaches": [
+          "Chris Scelfo",
+          "Rich Rodriguez"
+        ]
+      },
+      {
+        "school": "Clemson",
+        "year": 2003,
+        "count": 2,
+        "coaches": [
+          "Billy Napier",
+          "Rick Stockstill"
+        ]
+      },
+      {
+        "school": "Clemson",
+        "year": 2004,
+        "count": 2,
+        "coaches": [
+          "Billy Napier",
+          "Rick Stockstill"
+        ]
+      },
+      {
+        "school": "Clemson",
+        "year": 2007,
+        "count": 2,
+        "coaches": [
+          "Billy Napier",
+          "Dabo Swinney"
         ]
       }
     ]
@@ -8320,73 +8320,6 @@
   },
   {
     "rank": 135,
-    "coach": "Rich Rodriguez",
-    "totalDescendants": 11,
-    "directDescendants": 5,
-    "headCoachStops": 17,
-    "firstHeadCoachJob": {
-      "school": "West Virginia",
-      "year": 2001
-    },
-    "topStaffs": [
-      {
-        "school": "Michigan",
-        "year": 2009,
-        "count": 3,
-        "coaches": [
-          "Jay Hopson",
-          "Scott Shafer",
-          "Tony Gibson"
-        ]
-      },
-      {
-        "school": "West Virginia",
-        "year": 2005,
-        "count": 2,
-        "coaches": [
-          "Butch Jones",
-          "Tony Gibson"
-        ]
-      },
-      {
-        "school": "West Virginia",
-        "year": 2006,
-        "count": 2,
-        "coaches": [
-          "Butch Jones",
-          "Tony Gibson"
-        ]
-      },
-      {
-        "school": "Michigan",
-        "year": 2010,
-        "count": 2,
-        "coaches": [
-          "Jay Hopson",
-          "Tony Gibson"
-        ]
-      },
-      {
-        "school": "Arizona",
-        "year": 2012,
-        "count": 2,
-        "coaches": [
-          "Frank Reich",
-          "Tony Gibson"
-        ]
-      },
-      {
-        "school": "West Virginia",
-        "year": 2001,
-        "count": 1,
-        "coaches": [
-          "Tony Gibson"
-        ]
-      }
-    ]
-  },
-  {
-    "rank": 136,
     "coach": "Lane Kiffin",
     "totalDescendants": 11,
     "directDescendants": 4,
@@ -8450,7 +8383,7 @@
     ]
   },
   {
-    "rank": 137,
+    "rank": 136,
     "coach": "Ed Orgeron",
     "totalDescendants": 11,
     "directDescendants": 3,
@@ -8512,7 +8445,7 @@
     ]
   },
   {
-    "rank": 138,
+    "rank": 137,
     "coach": "George Perles",
     "totalDescendants": 11,
     "directDescendants": 3,
@@ -8571,7 +8504,7 @@
     ]
   },
   {
-    "rank": 139,
+    "rank": 138,
     "coach": "Joe Raymond Peace",
     "totalDescendants": 11,
     "directDescendants": 3,
@@ -8610,7 +8543,7 @@
     ]
   },
   {
-    "rank": 140,
+    "rank": 139,
     "coach": "Mike Shula",
     "totalDescendants": 11,
     "directDescendants": 2,
@@ -8641,7 +8574,7 @@
     ]
   },
   {
-    "rank": 141,
+    "rank": 140,
     "coach": "Rip Scherer",
     "totalDescendants": 11,
     "directDescendants": 2,
@@ -8670,7 +8603,7 @@
     ]
   },
   {
-    "rank": 142,
+    "rank": 141,
     "coach": "David Shaw",
     "totalDescendants": 10,
     "directDescendants": 5,
@@ -8741,7 +8674,7 @@
     ]
   },
   {
-    "rank": 143,
+    "rank": 142,
     "coach": "Mike Riley",
     "totalDescendants": 10,
     "directDescendants": 5,
@@ -8803,7 +8736,7 @@
     ]
   },
   {
-    "rank": 144,
+    "rank": 143,
     "coach": "Gary Darnell",
     "totalDescendants": 10,
     "directDescendants": 4,
@@ -8870,7 +8803,7 @@
     ]
   },
   {
-    "rank": 145,
+    "rank": 144,
     "coach": "June Jones",
     "totalDescendants": 10,
     "directDescendants": 4,
@@ -8926,6 +8859,72 @@
         "count": 1,
         "coaches": [
           "Timmy Chang"
+        ]
+      }
+    ]
+  },
+  {
+    "rank": 145,
+    "coach": "Rich Rodriguez",
+    "totalDescendants": 10,
+    "directDescendants": 4,
+    "headCoachStops": 17,
+    "firstHeadCoachJob": {
+      "school": "West Virginia",
+      "year": 2001
+    },
+    "topStaffs": [
+      {
+        "school": "Michigan",
+        "year": 2009,
+        "count": 3,
+        "coaches": [
+          "Jay Hopson",
+          "Scott Shafer",
+          "Tony Gibson"
+        ]
+      },
+      {
+        "school": "West Virginia",
+        "year": 2005,
+        "count": 2,
+        "coaches": [
+          "Butch Jones",
+          "Tony Gibson"
+        ]
+      },
+      {
+        "school": "West Virginia",
+        "year": 2006,
+        "count": 2,
+        "coaches": [
+          "Butch Jones",
+          "Tony Gibson"
+        ]
+      },
+      {
+        "school": "Michigan",
+        "year": 2010,
+        "count": 2,
+        "coaches": [
+          "Jay Hopson",
+          "Tony Gibson"
+        ]
+      },
+      {
+        "school": "West Virginia",
+        "year": 2001,
+        "count": 1,
+        "coaches": [
+          "Tony Gibson"
+        ]
+      },
+      {
+        "school": "West Virginia",
+        "year": 2002,
+        "count": 1,
+        "coaches": [
+          "Tony Gibson"
         ]
       }
     ]
