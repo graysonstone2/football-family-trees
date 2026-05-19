@@ -6,6 +6,7 @@ import {
   buildReverseTree,
   buildTree,
   findCoachName,
+  getCoachNames,
   getDatasetSummary,
 } from './functions/coachData';
 import { trackEvent, trackPageView } from './functions/analytics';
@@ -290,6 +291,7 @@ function App() {
   const [staffLeaderboardMinCount, setStaffLeaderboardMinCount] = useState('0');
   const [staffLeaderboardSchool, setStaffLeaderboardSchool] = useState('');
   const [selectedThemeSchool, setSelectedThemeSchool] = useState(getInitialTheme);
+  const [showCoachSuggestions, setShowCoachSuggestions] = useState(false);
   const canvasRef = useRef<HTMLDivElement>(null);
   const exportRef = useRef<HTMLDivElement>(null);
 
@@ -327,6 +329,27 @@ function App() {
   const bestBranchDebuts = useMemo(() => getBestBranchDebuts(forwardHierarchy), [forwardHierarchy]);
   const biggestTrees = useMemo(() => treeLeaderboard as TreeLeaderboardEntry[], []);
   const productiveStaffLeaderboard = useMemo(() => staffLeaderboard as StaffLeaderboardEntry[], []);
+  const coachOptions = useMemo(() => getCoachNames(), []);
+  const coachSuggestions = useMemo(() => {
+    const query = coach.trim().toLowerCase();
+
+    if (!query) {
+      return [];
+    }
+
+    return coachOptions
+      .filter((name) => name.toLowerCase().includes(query))
+      .sort((a, b) => {
+        const aStarts = a.toLowerCase().startsWith(query) ? 0 : 1;
+        const bStarts = b.toLowerCase().startsWith(query) ? 0 : 1;
+
+        return aStarts - bStarts || a.localeCompare(b);
+      })
+      .slice(0, 8);
+  }, [coach, coachOptions]);
+  const exactCoachName = useMemo(() => findCoachName(coach), [coach]);
+  const shouldShowCoachSuggestions =
+    coachSuggestions.length > 0 && (showCoachSuggestions || !exactCoachName);
   const treeLeaderboardSchoolOptions = useMemo(
     () =>
       Array.from(
@@ -485,7 +508,15 @@ function App() {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    runSearch();
+    setShowCoachSuggestions(false);
+
+    const submittedCoach = exactCoachName ?? coachSuggestions[0] ?? coach;
+    runSearch(submittedCoach);
+  };
+
+  const chooseCoachSuggestion = (coachName: string) => {
+    setShowCoachSuggestions(false);
+    runSearch(coachName);
   };
 
   const exportTree = async () => {
@@ -632,15 +663,22 @@ function App() {
               <label className="mb-2 block text-sm font-semibold text-[var(--theme-accent)]" htmlFor="coach-search">
                 Coach search
               </label>
-              <div className="flex gap-2 rounded-lg bg-white p-2 shadow-xl shadow-black/20">
+              <div className="search-box relative flex gap-2 rounded-lg bg-white p-2 shadow-xl shadow-black/20">
                 <input
+                  aria-autocomplete="list"
+                  aria-controls="coach-search-suggestions"
+                  aria-expanded={shouldShowCoachSuggestions}
+                  autoComplete="off"
                   id="coach-search"
                   className="min-w-0 flex-1 rounded-md border border-transparent px-4 py-3 text-base font-semibold text-[var(--theme-ink)] outline-none focus:border-[var(--theme-accent)]"
                   placeholder="Try Nick Saban, Mack Brown, Urban Meyer..."
+                  role="combobox"
                   value={coach}
                   onChange={(event) => {
                     setCoach(event.target.value);
+                    setShowCoachSuggestions(true);
                   }}
+                  onFocus={() => setShowCoachSuggestions(true)}
                 />
                 <button
                   className="primary-button rounded-md px-5 py-3 text-sm font-black uppercase tracking-wide transition focus:outline-none focus:ring-2 focus:ring-[var(--theme-accent)]"
@@ -648,6 +686,28 @@ function App() {
                 >
                   Search
                 </button>
+                {shouldShowCoachSuggestions && (
+                  <div
+                    className="coach-suggestions"
+                    id="coach-search-suggestions"
+                    role="listbox"
+                  >
+                    {coachSuggestions.map((suggestion) => (
+                      <button
+                        className="coach-suggestion"
+                        key={suggestion}
+                        onPointerDown={(event) => {
+                          event.preventDefault();
+                          chooseCoachSuggestion(suggestion);
+                        }}
+                        role="option"
+                        type="button"
+                      >
+                        {suggestion}
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
             </form>
           )}
