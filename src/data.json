@@ -31,7 +31,10 @@
     },
     "1993": {
       "hc": "Fisher DeBerry",
-      "oc": "Paul Hamilton",
+      "oc": [
+        "Paul Hamilton",
+        "Troy Calhoun"
+      ],
       "dc": "Cal McCombs",
       "other": [
         "Jim Grobe",
@@ -41,7 +44,10 @@
     },
     "1994": {
       "hc": "Fisher DeBerry",
-      "oc": "Paul Hamilton",
+      "oc": [
+        "Paul Hamilton",
+        "Troy Calhoun"
+      ],
       "dc": "Cal McCombs",
       "other": [
         "Jim Grobe",
@@ -331,7 +337,8 @@
         "Jake Campbell",
         "Matt Weikert",
         "Tim Cross"
-      ]
+      ],
+      "dc": "Brian Knorr"
     },
     "2023": {
       "hc": "Troy Calhoun",
@@ -342,7 +349,8 @@
         "Matt Weikert",
         "Taylor Stubblefield",
         "Tim Cross"
-      ]
+      ],
+      "dc": "Brian Knorr"
     },
     "2024": {
       "hc": "Troy Calhoun",
@@ -479,7 +487,8 @@
       "hc": "J.D. Brookhart"
     },
     "2006": {
-      "hc": "J.D. Brookhart"
+      "hc": "J.D. Brookhart",
+      "oc": "Joe Moorhead"
     },
     "2007": {
       "hc": "J.D. Brookhart",
@@ -835,7 +844,10 @@
     },
     "2000": {
       "hc": "Mike DuBose",
-      "dc": "Charlie Harbison",
+      "dc": [
+        "Charlie Harbison",
+        "Ellis Johnson"
+      ],
       "oc": "Neil Callaway",
       "other": [
         "Ronnie Cottrell",
@@ -877,7 +889,10 @@
     "2003": {
       "hc": "Mike Shula",
       "dc": "Joe Kines",
-      "oc": "Dave Rader",
+      "oc": [
+        "Dave Rader",
+        "David Rader"
+      ],
       "other": [
         "Sparky Woods",
         "Paul Randolph",
@@ -891,7 +906,10 @@
     "2004": {
       "hc": "Mike Shula",
       "dc": "Joe Kines",
-      "oc": "Dave Rader",
+      "oc": [
+        "Dave Rader",
+        "David Rader"
+      ],
       "other": [
         "Sparky Woods",
         "Paul Randolph",
@@ -905,7 +923,10 @@
     "2005": {
       "hc": "Mike Shula",
       "dc": "Joe Kines",
-      "oc": "Dave Rader",
+      "oc": [
+        "Dave Rader",
+        "David Rader"
+      ],
       "other": [
         "Sparky Woods",
         "Curt Cignetti",
@@ -919,7 +940,10 @@
     "2006": {
       "hc": "Mike Shula",
       "dc": "Joe Kines",
-      "oc": "Dave Rader",
+      "oc": [
+        "Dave Rader",
+        "David Rader"
+      ],
       "other": [
         "Sparky Woods",
         "Curt Cignetti",
@@ -1244,16 +1268,20 @@
       "hc": "Jerry Moore"
     },
     "1993": {
-      "hc": "Jerry Moore"
+      "hc": "Jerry Moore",
+      "dc": "Ruffin McNeill"
     },
     "1994": {
-      "hc": "Jerry Moore"
+      "hc": "Jerry Moore",
+      "dc": "Ruffin McNeill"
     },
     "1995": {
-      "hc": "Jerry Moore"
+      "hc": "Jerry Moore",
+      "dc": "Ruffin McNeill"
     },
     "1996": {
-      "hc": "Jerry Moore"
+      "hc": "Jerry Moore",
+      "dc": "Ruffin McNeill"
     },
     "1997": {
       "hc": "Jerry Moore"
@@ -1439,7 +1467,10 @@
     "2017": {
       "hc": "Scott Satterfield",
       "dc": "Nate Woody",
-      "oc": "Frank Ponce",
+      "oc": [
+        "Frank Ponce",
+        "Shawn Clark"
+      ],
       "other": [
         "Dwayne Ledford",
         "Stu Holt",
@@ -1565,7 +1596,6 @@
       "oc": "Duane Akina",
       "dc": "Larry Mac Duff",
       "other": [
-        "Guy Morriss",
         "Rich Ellerson",
         "Rob Ianello"
       ]
@@ -1621,7 +1651,10 @@
     "2000": {
       "hc": "Dick Tomey",
       "dc": "Rich Ellerson",
-      "oc": "Rick Dykes",
+      "oc": [
+        "Rick Dykes",
+        "Dino Babers"
+      ],
       "other": [
         "Jeff Hecklinski",
         "Jon Aylward",
@@ -2267,7 +2300,8 @@
         "Joe Connolly",
         "Prentice Gill",
         "Kevin Mawae",
-        "Charlie Fisher"
+        "Charlie Fisher",
+        "Dave Christensen"
       ]
     },
     "2021": {
@@ -2350,7 +2384,10 @@
     },
     "1993": {
       "hc": "Danny Ford",
-      "oc": "Greg Davis",
+      "oc": [
+        "Greg Davis",
+        "Rockey Felker"
+      ],
       "dc": "Joe Kines",
       "other": [
         "Fitz Hill"
@@ -2361,21 +2398,24 @@
       "dc": "Joe Kines",
       "other": [
         "Fitz Hill"
-      ]
+      ],
+      "oc": "Rockey Felker"
     },
     "1995": {
       "hc": "Danny Ford",
       "dc": "Joe Lee Dunn",
       "other": [
         "Fitz Hill"
-      ]
+      ],
+      "oc": "Rockey Felker"
     },
     "1996": {
       "hc": "Danny Ford",
       "dc": "Miles Aldridge",
       "other": [
         "Fitz Hill"
-      ]
+      ],
+      "oc": "Rockey Felker"
     },
     "1997": {
       "hc": "Danny Ford",
@@ -2418,7 +2458,8 @@
         "Tracy Rocker",
         "Dave Wommack",
         "Chris Vaughn",
-        "Tim Horton"
+        "Tim Horton",
+        "David Lee"
       ]
     },
     "2002": {
@@ -2429,7 +2470,8 @@
         "James Shibest",
         "Tracy Rocker",
         "Chris Vaughn",
-        "Tim Horton"
+        "Tim Horton",
+        "David Lee"
       ]
     },
     "2003": {
@@ -2916,7 +2958,10 @@
     },
     "2010": {
       "hc": "Steve Roberts",
-      "oc": "Doug Ruse",
+      "oc": [
+        "Doug Ruse",
+        "Hugh Freeze"
+      ],
       "dc": "Kevin Corless",
       "other": [
         "Kevin Peoples"
@@ -2941,7 +2986,10 @@
     "2013": {
       "hc": "Bryan Harsin",
       "dc": "John Thompson",
-      "oc": "Bush Hamdan",
+      "oc": [
+        "Bush Hamdan",
+        "Eliah Drinkwitz"
+      ],
       "other": [
         "Elijah Drinkwitz",
         "Kenneth Garrett"
@@ -3440,7 +3488,10 @@
     },
     "2023": {
       "hc": "Jeff Monken",
-      "oc": "Drew Thatcher",
+      "oc": [
+        "Drew Thatcher",
+        "Matt Drinkall"
+      ],
       "dc": "Nate Woody"
     },
     "2024": {
@@ -3463,7 +3514,8 @@
       "dc": "Wayne Hall",
       "other": [
         "Larry Blakeney",
-        "Neil Callaway"
+        "Neil Callaway",
+        "Pat Sullivan"
       ]
     },
     "1991": {
@@ -3471,7 +3523,8 @@
       "oc": "Tommy Bowden",
       "dc": "Wayne Hall",
       "other": [
-        "Neil Callaway"
+        "Neil Callaway",
+        "Pat Sullivan"
       ]
     },
     "1992": {
@@ -3571,7 +3624,10 @@
     "2002": {
       "hc": "Tommy Tuberville",
       "dc": "Gene Chizik",
-      "oc": "Bob Petrino",
+      "oc": [
+        "Bob Petrino",
+        "Bobby Petrino"
+      ],
       "other": [
         "Hugh Nall",
         "Eddie Gran",
@@ -4117,7 +4173,10 @@
     "2014": {
       "hc": "Bryan Harsin",
       "dc": "Marcel Yates",
-      "oc": "Mike Sanford Jr.",
+      "oc": [
+        "Mike Sanford Jr.",
+        "Mike Sanford"
+      ],
       "other": [
         "Kent Riddle",
         "Scott Huff",
@@ -4183,7 +4242,10 @@
     },
     "2019": {
       "hc": "Bryan Harsin",
-      "dc": "Jeff Schmedding",
+      "dc": [
+        "Jeff Schmedding",
+        "Spencer Danielson"
+      ],
       "oc": "Zak Hill",
       "other": [
         "Brad Bedell",
@@ -4226,7 +4288,10 @@
     "2022": {
       "hc": "Andy Avalos",
       "dc": "Spencer Danielson",
-      "oc": "Tim Plough",
+      "oc": [
+        "Tim Plough",
+        "Dirk Koetter"
+      ],
       "other": [
         "Frank Maile",
         "Kane Ioane",
@@ -4616,7 +4681,10 @@
     },
     "2019": {
       "hc": "Steve Addazio",
-      "dc": "Bill Sheridan",
+      "dc": [
+        "Bill Sheridan",
+        "Jim Reid"
+      ],
       "oc": "Mike Bajakian",
       "other": [
         "Anthony Campanile",
@@ -4735,11 +4803,15 @@
     },
     "2000": {
       "hc": "Gary Blackney",
-      "oc": "Jim Hofher",
+      "oc": [
+        "Jim Hofher",
+        "Tom Lichtenberg"
+      ],
       "other": [
         "David Shaw",
         "Stan Drayton"
-      ]
+      ],
+      "dc": "Tim Beckman"
     },
     "2001": {
       "hc": "Urban Meyer",
@@ -4772,7 +4844,10 @@
     },
     "2004": {
       "hc": "Gregg Brandon",
-      "dc": "Tommy Thigpen",
+      "dc": [
+        "Tommy Thigpen",
+        "Tim Beckman"
+      ],
       "oc": "Greg Studrawa",
       "other": [
         "Matt Campbell"
@@ -5019,7 +5094,8 @@
       "dc": "Mike Donnelly",
       "other": [
         "Dave Clawson"
-      ]
+      ],
+      "oc": "Jim Ward"
     },
     "1992": {
       "hc": "Jim Ward",
@@ -5368,7 +5444,8 @@
       "oc": "Roger French",
       "dc": "Dick Felt",
       "other": [
-        "Tom Holmoe"
+        "Tom Holmoe",
+        "Norm Chow"
       ]
     },
     "1991": {
@@ -5376,28 +5453,41 @@
       "oc": "Roger French",
       "dc": "Ken Schmidt",
       "other": [
-        "Tom Holmoe"
+        "Tom Holmoe",
+        "Norm Chow"
       ]
     },
     "1992": {
       "hc": "LaVell Edwards",
       "oc": "Roger French",
-      "dc": "Ken Schmidt"
+      "dc": "Ken Schmidt",
+      "other": [
+        "Norm Chow"
+      ]
     },
     "1993": {
       "hc": "LaVell Edwards",
       "oc": "Roger French",
-      "dc": "Ken Schmidt"
+      "dc": "Ken Schmidt",
+      "other": [
+        "Norm Chow"
+      ]
     },
     "1994": {
       "hc": "LaVell Edwards",
       "oc": "Roger French",
-      "dc": "Ken Schmidt"
+      "dc": "Ken Schmidt",
+      "other": [
+        "Norm Chow"
+      ]
     },
     "1995": {
       "hc": "LaVell Edwards",
       "oc": "Roger French",
-      "dc": "Ken Schmidt"
+      "dc": "Ken Schmidt",
+      "other": [
+        "Norm Chow"
+      ]
     },
     "1996": {
       "hc": "LaVell Edwards",
@@ -5756,19 +5846,23 @@
   },
   "Central Michigan": {
     "1990": {
-      "hc": "Herb Deromedi"
+      "hc": "Herb Deromedi",
+      "dc": "Dick Flynn"
     },
     "1991": {
       "hc": "Herb Deromedi",
-      "oc": "Tom Kearly"
+      "oc": "Tom Kearly",
+      "dc": "Dick Flynn"
     },
     "1992": {
       "hc": "Herb Deromedi",
-      "oc": "Tom Kearly"
+      "oc": "Tom Kearly",
+      "dc": "Dick Flynn"
     },
     "1993": {
       "hc": "Herb Deromedi",
-      "oc": "Tom Kearly"
+      "oc": "Tom Kearly",
+      "dc": "Dick Flynn"
     },
     "1994": {
       "hc": "Dick Flynn",
@@ -5795,14 +5889,16 @@
       "oc": "Tom Kearly",
       "other": [
         "Butch Jones"
-      ]
+      ],
+      "dc": "Brian VanGorder"
     },
     "1999": {
       "hc": "Dick Flynn",
       "oc": "Tom Kearly",
       "other": [
         "Butch Jones"
-      ]
+      ],
+      "dc": "Brian VanGorder"
     },
     "2000": {
       "hc": "Mike DeBord",
@@ -5820,7 +5916,10 @@
     "2001": {
       "hc": "Mike DeBord",
       "dc": "Jim Schlosser",
-      "oc": "Bill Cubit",
+      "oc": [
+        "Bill Cubit",
+        "Butch Jones"
+      ],
       "other": [
         "Max Glowacki",
         "Jon Hook",
@@ -5831,7 +5930,10 @@
     },
     "2002": {
       "hc": "Mike DeBord",
-      "oc": "Bill Cubit",
+      "oc": [
+        "Bill Cubit",
+        "Butch Jones"
+      ],
       "other": [
         "Jon Hook",
         "Jeff Edmonds",
@@ -5839,7 +5941,8 @@
       ]
     },
     "2003": {
-      "hc": "Mike DeBord"
+      "hc": "Mike DeBord",
+      "oc": "Butch Jones"
     },
     "2004": {
       "hc": "Brian Kelly",
@@ -6172,7 +6275,10 @@
     },
     "2022": {
       "hc": "Will Healy",
-      "oc": "Tyler Atkins",
+      "oc": [
+        "Tyler Atkins",
+        "Mark Carney"
+      ],
       "other": [
         "Joe Cox",
         "Cade Massey"
@@ -6282,7 +6388,10 @@
     },
     "2001": {
       "hc": "Rick Minter",
-      "oc": "Tom Lichtenberg",
+      "oc": [
+        "Tom Lichtenberg",
+        "Dave Baldwin"
+      ],
       "other": [
         "John Harbaugh",
         "Pat Narduzzi",
@@ -6336,7 +6445,10 @@
     "2006": {
       "hc": "Mark Dantonio",
       "dc": "Pat Narduzzi",
-      "oc": "Don Treadwell",
+      "oc": [
+        "Don Treadwell",
+        "Jeff Quinn"
+      ],
       "other": [
         "Harlon Barnett",
         "Dan Enos",
@@ -6577,7 +6689,10 @@
         "Rick Stockstill",
         "Clyde Christensen"
       ],
-      "dc": "Miles Aldridge"
+      "dc": [
+        "Miles Aldridge",
+        "Ellis Johnson"
+      ]
     },
     "1995": {
       "hc": "Tommy West",
@@ -6585,7 +6700,10 @@
         "Rick Stockstill",
         "Clyde Christensen"
       ],
-      "dc": "Miles Aldridge"
+      "dc": [
+        "Miles Aldridge",
+        "Ellis Johnson"
+      ]
     },
     "1996": {
       "hc": "Tommy West",
@@ -6621,7 +6739,10 @@
     },
     "2000": {
       "hc": "Tommy Bowden",
-      "oc": "Rodney Allison",
+      "oc": [
+        "Rodney Allison",
+        "Rich Rodriguez"
+      ],
       "dc": "Reggie Herring",
       "other": [
         "Brad Scott",
@@ -6836,7 +6957,11 @@
     "2015": {
       "hc": "Dabo Swinney",
       "dc": "Brent Venables",
-      "oc": "Tony Elliott & Jeff Scott",
+      "oc": [
+        "Tony Elliott & Jeff Scott",
+        "Tony Elliott",
+        "Jeff Scott"
+      ],
       "other": [
         "Danny Pearman",
         "Marion Hobby",
@@ -6849,7 +6974,11 @@
     "2016": {
       "hc": "Dabo Swinney",
       "dc": "Brent Venables",
-      "oc": "Tony Elliott & Jeff Scott",
+      "oc": [
+        "Tony Elliott & Jeff Scott",
+        "Tony Elliott",
+        "Jeff Scott"
+      ],
       "other": [
         "Danny Pearman",
         "Marion Hobby",
@@ -7135,7 +7264,10 @@
     "2017": {
       "hc": "Joe Moglia",
       "dc": "Mickey Matthews",
-      "oc": "Dave Patenaude",
+      "oc": [
+        "Dave Patenaude",
+        "Jamey Chadwell"
+      ],
       "other": [
         "Patrick Covington",
         "Shane Meyer",
@@ -7145,14 +7277,16 @@
         "Adrian Mauldin",
         "Louis Lepis",
         "Tim Beck",
-        "Benny Sapp",
-        "Jamey Chadwell"
+        "Benny Sapp"
       ]
     },
     "2018": {
       "hc": "Joe Moglia",
       "dc": "Marvin Sanders",
-      "oc": "Willy Korn",
+      "oc": [
+        "Willy Korn",
+        "Jamey Chadwell"
+      ],
       "other": [
         "Patrick Covington",
         "Craig Stevens",
@@ -7260,7 +7394,8 @@
       "oc": "Gary Barnett",
       "dc": "Mike Hankwitz",
       "other": [
-        "Ron Vanderlinden"
+        "Ron Vanderlinden",
+        "Jon Embree"
       ]
     },
     "1992": {
@@ -7278,7 +7413,8 @@
       "dc": "Mike Hankwitz",
       "other": [
         "Karl Dorrell",
-        "Bob Simmons"
+        "Bob Simmons",
+        "Jon Embree"
       ]
     },
     "1994": {
@@ -7289,7 +7425,8 @@
       ],
       "dc": "Mike Hankwitz",
       "other": [
-        "Bob Simmons"
+        "Bob Simmons",
+        "Jon Embree"
       ]
     },
     "1995": {
@@ -7298,23 +7435,33 @@
       "dc": "A.J. Christoff",
       "other": [
         "Fred von Appen",
-        "Troy Taylor"
+        "Troy Taylor",
+        "Jon Embree"
       ]
     },
     "1996": {
       "hc": "Rick Neuheisel",
       "oc": "Karl Dorrell",
-      "dc": "A.J. Christoff"
+      "dc": "A.J. Christoff",
+      "other": [
+        "Jon Embree"
+      ]
     },
     "1997": {
       "hc": "Rick Neuheisel",
       "oc": "Karl Dorrell",
-      "dc": "A.J. Christoff"
+      "dc": "A.J. Christoff",
+      "other": [
+        "Jon Embree"
+      ]
     },
     "1998": {
       "hc": "Rick Neuheisel",
       "oc": "Karl Dorrell",
-      "dc": "A.J. Christoff"
+      "dc": "A.J. Christoff",
+      "other": [
+        "Jon Embree"
+      ]
     },
     "1999": {
       "hc": "Gary Barnett",
@@ -7325,7 +7472,8 @@
       ],
       "other": [
         "Pat Fitzgerald",
-        "Gregg Brandon"
+        "Gregg Brandon",
+        "Jon Embree"
       ]
     },
     "2000": {
@@ -7999,20 +8147,25 @@
       "oc": "Todd Berry",
       "dc": "Chris Thurmond",
       "other": [
-        "Ruffin McNeill"
+        "Ruffin McNeill",
+        "Jeff Jagodzinski"
       ]
     },
     "1993": {
       "hc": "Steve Logan",
       "oc": "Todd Berry",
-      "dc": "Larry Coyer"
+      "dc": "Larry Coyer",
+      "other": [
+        "Jeff Jagodzinski"
+      ]
     },
     "1994": {
       "hc": "Steve Logan",
       "oc": "Todd Berry",
       "dc": "Paul Jette",
       "other": [
-        "Doug Martin"
+        "Doug Martin",
+        "Jeff Jagodzinski"
       ]
     },
     "1995": {
@@ -8020,13 +8173,17 @@
       "oc": "Todd Berry",
       "dc": "Paul Jette",
       "other": [
-        "Doug Martin"
+        "Doug Martin",
+        "Jeff Jagodzinski"
       ]
     },
     "1996": {
       "hc": "Steve Logan",
       "oc": "Doug Martin",
-      "dc": "Paul Jette"
+      "dc": "Paul Jette",
+      "other": [
+        "Jeff Jagodzinski"
+      ]
     },
     "1997": {
       "hc": "Steve Logan",
@@ -8044,7 +8201,8 @@
       "dc": "Tim Rose"
     },
     "2000": {
-      "hc": "Steve Logan"
+      "hc": "Steve Logan",
+      "oc": "Doug Martin"
     },
     "2001": {
       "hc": "Steve Logan",
@@ -8350,37 +8508,41 @@
     },
     "1993": {
       "hc": "Ron Cooper",
-      "oc": [
-        "Richard Wilson",
+      "oc": "Richard Wilson",
+      "dc": "Thomas Roggeman",
+      "other": [
         "Todd Monken"
-      ],
-      "dc": "Thomas Roggeman"
+      ]
     },
     "1994": {
       "hc": "Ron Cooper",
-      "oc": [
-        "Richard Wilson",
-        "Todd Monken"
-      ],
+      "oc": "Richard Wilson",
       "dc": "Thomas Roggeman",
       "other": [
-        "Stan Drayton"
+        "Stan Drayton",
+        "Todd Monken"
       ]
     },
     "1995": {
       "hc": "Rick Rasnick",
       "dc": "Sam Gruneisen",
-      "oc": "Todd Monken"
+      "other": [
+        "Todd Monken"
+      ]
     },
     "1996": {
       "hc": "Rick Rasnick",
       "dc": "Sam Gruneisen",
-      "oc": "Todd Monken"
+      "other": [
+        "Todd Monken"
+      ]
     },
     "1997": {
       "hc": "Rick Rasnick",
       "dc": "Sam Gruneisen",
-      "oc": "Todd Monken"
+      "other": [
+        "Todd Monken"
+      ]
     },
     "1998": {
       "hc": "Rick Rasnick",
@@ -8791,7 +8953,10 @@
     },
     "2010": {
       "hc": "Mario Cristobal",
-      "dc": "Phil Galiano",
+      "dc": [
+        "Phil Galiano",
+        "Geoff Collins"
+      ],
       "oc": "Scott Satterfield",
       "other": [
         "Alex Mirabal",
@@ -8864,7 +9029,10 @@
     },
     "2016": {
       "hc": "Ron Turner",
-      "dc": "Matt House",
+      "dc": [
+        "Matt House",
+        "Ron Cooper"
+      ],
       "oc": "Greg Moss",
       "other": [
         "Cameron Turner",
@@ -8919,7 +9087,10 @@
     },
     "2021": {
       "hc": "Butch Davis",
-      "dc": "Jeff Copp",
+      "dc": [
+        "Jeff Copp",
+        "Everett Withers"
+      ],
       "oc": "Andrew Breiner",
       "other": [
         "Bryant Wright",
@@ -8992,7 +9163,8 @@
       "hc": "Steve Spurrier",
       "dc": "Bob Pruett",
       "other": [
-        "Charlie Strong"
+        "Charlie Strong",
+        "Ron Zook"
       ]
     },
     "1995": {
@@ -9000,7 +9172,8 @@
       "oc": "Carl Franks",
       "dc": "Bob Pruett",
       "other": [
-        "Jay Hopson"
+        "Jay Hopson",
+        "Ron Zook"
       ]
     },
     "1996": {
@@ -9053,7 +9226,8 @@
         "Lawrence Wright",
         "Jimmy Ray Stephens",
         "Dwayne Dixon"
-      ]
+      ],
+      "oc": "Buddy Teevens"
     },
     "2002": {
       "hc": "Ron Zook",
@@ -9438,12 +9612,16 @@
       ]
     },
     "2005": {
-      "hc": "Howard Schnellenberger"
+      "hc": "Howard Schnellenberger",
+      "oc": "Gary Nord"
     },
     "2006": {
       "hc": "Howard Schnellenberger",
       "dc": "Kurt Van Valkenburgh",
-      "oc": "Daryl Jackson",
+      "oc": [
+        "Daryl Jackson",
+        "Gary Nord"
+      ],
       "other": [
         "David Serna",
         "Fred O'Connor",
@@ -10046,7 +10224,10 @@
     },
     "2022": {
       "hc": "Mike Norvell",
-      "dc": "Adam Fuller",
+      "dc": [
+        "Adam Fuller",
+        "Randy Shannon"
+      ],
       "oc": "Alex Atkins",
       "other": [
         "John Papuchis",
@@ -10059,7 +10240,10 @@
     },
     "2023": {
       "hc": "Mike Norvell",
-      "dc": "Adam Fuller",
+      "dc": [
+        "Adam Fuller",
+        "Randy Shannon"
+      ],
       "oc": "Alex Atkins",
       "other": [
         "John Papuchis",
@@ -10137,7 +10321,10 @@
     "1999": {
       "hc": "Pat Hill",
       "oc": "Andy Ludwig",
-      "dc": "Kevin Coyle",
+      "dc": [
+        "Kevin Coyle",
+        "Ruffin McNeill"
+      ],
       "other": [
         "Trent Miles"
       ]
@@ -10603,7 +10790,8 @@
         "David Johnson",
         "Tony Ball",
         "Mike Bobo",
-        "Tyson Summers"
+        "Tyson Summers",
+        "Kirby Smart"
       ]
     },
     "2006": {
@@ -11188,7 +11376,10 @@
     "2020": {
       "hc": "Chad Lunsford",
       "dc": "Brandon Bailey",
-      "oc": "Doug Ruse",
+      "oc": [
+        "Doug Ruse",
+        "Bob DeBesse"
+      ],
       "other": [
         "Kevin Whitley",
         "Victor Cabral",
@@ -11311,7 +11502,6 @@
     },
     "2012": {
       "hc": "Bill Curry",
-      "dc": "John Thompson",
       "oc": "John Bond",
       "other": [
         "Mike Riddle",
@@ -11376,7 +11566,8 @@
         "Chris Scelfo",
         "P.J. Volker",
         "Keary Colbert",
-        "Rick Minter"
+        "Rick Minter",
+        "Jeff Jagodzinski"
       ]
     },
     "2017": {
@@ -11915,7 +12106,10 @@
     "1996": {
       "hc": "Fred von Appen",
       "oc": "Guy Benjamin",
-      "dc": "Don Lindsey"
+      "dc": "Don Lindsey",
+      "other": [
+        "Trent Miles"
+      ]
     },
     "1997": {
       "hc": "Fred von Appen",
@@ -12300,7 +12494,10 @@
     },
     "2000": {
       "hc": "Dana Dimel",
-      "dc": "Dick Bumpas",
+      "dc": [
+        "Dick Bumpas",
+        "Mark Stoops"
+      ],
       "oc": "Dave Warner",
       "other": [
         "Steve Broussard",
@@ -12391,31 +12588,27 @@
     "2008": {
       "hc": "Kevin Sumlin",
       "dc": "John Skladany",
-      "oc": [
-        "Dana Holgorsen",
-        "Kliff Kingsbury"
-      ],
+      "oc": "Dana Holgorsen",
       "other": [
         "Jason Phillips",
         "Bill Yeoman",
         "Robertson Stadium",
         "Zach Tuiasosopo",
-        "Tony Levine"
+        "Tony Levine",
+        "Kliff Kingsbury"
       ]
     },
     "2009": {
       "hc": "Kevin Sumlin",
       "dc": "John Skladany",
-      "oc": [
-        "Dana Holgorsen",
-        "Kliff Kingsbury"
-      ],
+      "oc": "Dana Holgorsen",
       "other": [
         "Jason Phillips",
         "Bill Yeoman",
         "Brian Stewart",
         "Tony Levine",
-        "Jake Spavital"
+        "Jake Spavital",
+        "Kliff Kingsbury"
       ]
     },
     "2010": {
@@ -13060,12 +13253,16 @@
         "Anthony Thompson",
         "Billy Lynch",
         "Steve Addazio",
-        "Jon Fabris"
+        "Jon Fabris",
+        "Matt Canada"
       ]
     },
     "2005": {
       "hc": "Terry Hoeppner",
-      "oc": "Roy Wittke",
+      "oc": [
+        "Roy Wittke",
+        "Bill Lynch"
+      ],
       "other": [
         "Gerald Carr",
         "Billy Lynch",
@@ -13149,7 +13346,10 @@
     "2012": {
       "hc": "Kevin Wilson",
       "dc": "Doug Mallory",
-      "oc": "Rod Smith",
+      "oc": [
+        "Rod Smith",
+        "Seth Littrell"
+      ],
       "other": [
         "Kevin Johns",
         "Mark Hagen",
@@ -13235,7 +13435,8 @@
         "Nick Sheridan",
         "Mike Hart",
         "Kane Wommack"
-      ]
+      ],
+      "oc": "Mike DeBord"
     },
     "2019": {
       "hc": "Tom Allen",
@@ -13281,7 +13482,10 @@
     "2023": {
       "hc": "Tom Allen",
       "dc": "Matt Guerrieri",
-      "oc": "Walt Bell",
+      "oc": [
+        "Walt Bell",
+        "Rod Carey"
+      ],
       "other": [
         "Grant Heard",
         "Deland McCullough"
@@ -13328,7 +13532,8 @@
       "oc": "Carl Jackson",
       "dc": "Bill Brashier",
       "other": [
-        "Mark Stoops"
+        "Mark Stoops",
+        "Mike Stoops"
       ]
     },
     "1992": {
@@ -13381,7 +13586,8 @@
       "oc": "Don Patterson",
       "dc": "Bob Elliott",
       "other": [
-        "Bret Bielema"
+        "Bret Bielema",
+        "Chuck Long"
       ]
     },
     "1999": {
@@ -13389,7 +13595,8 @@
       "oc": "Ken O'Keefe",
       "dc": "Norm Parker",
       "other": [
-        "Bret Bielema"
+        "Bret Bielema",
+        "Chuck Long"
       ]
     },
     "2000": {
@@ -14011,7 +14218,10 @@
     "2015": {
       "hc": "Paul Rhoads",
       "dc": "Wally Burnham",
-      "oc": "Todd Sturdy",
+      "oc": [
+        "Todd Sturdy",
+        "Mark Mangino"
+      ],
       "other": [
         "Bill Bleil",
         "Shane Burnham",
@@ -14225,7 +14435,10 @@
     "2001": {
       "hc": "Terry Allen",
       "dc": "Tom Hayes",
-      "oc": "Del Miller",
+      "oc": [
+        "Del Miller",
+        "Rip Scherer"
+      ],
       "other": [
         "Mark Farley",
         "Pat Henderson",
@@ -14271,7 +14484,10 @@
     },
     "2005": {
       "hc": "Mark Mangino",
-      "dc": "Bill Young",
+      "dc": [
+        "Bill Young",
+        "Dave Doeren"
+      ],
       "oc": "Nick Quartaro",
       "other": [
         "Pat Henderson",
@@ -14343,8 +14559,14 @@
     },
     "2011": {
       "hc": "Turner Gill",
-      "dc": "Vic Shealy",
-      "oc": "Chuck Long",
+      "dc": [
+        "Vic Shealy",
+        "Carl Torbush"
+      ],
+      "oc": [
+        "Chuck Long",
+        "David Beaty"
+      ],
       "other": [
         "Reggie Mitchell",
         "J.B. Grimes",
@@ -14483,7 +14705,10 @@
     "2021": {
       "hc": "Lance Leipold",
       "dc": "Brian Borland",
-      "oc": "Andy Kotelnicki",
+      "oc": [
+        "Andy Kotelnicki",
+        "Mike DeBord"
+      ],
       "other": [
         "Chris Simpson",
         "Zac Woodfin",
@@ -14671,21 +14896,29 @@
         "Greg Peterson",
         "Rob Snyder",
         "South Curtis",
-        "Michael Smith"
+        "Michael Smith",
+        "Paul Dunn"
       ]
     },
     "2002": {
       "hc": "Bill Snyder",
-      "dc": "Bob Elliott",
+      "dc": [
+        "Bob Elliott",
+        "Bret Bielema"
+      ],
       "oc": "Greg Peterson",
       "other": [
         "Rob Snyder",
-        "Michael Smith"
+        "Michael Smith",
+        "Paul Dunn"
       ]
     },
     "2003": {
       "hc": "Bill Snyder",
-      "dc": "Bob Elliott",
+      "dc": [
+        "Bob Elliott",
+        "Bret Bielema"
+      ],
       "oc": "Greg Peterson",
       "other": [
         "Rob Snyder",
@@ -15080,7 +15313,6 @@
         "Harold Jackson",
         "Chris Hatcher",
         "Mark Nelson",
-        "Paul Dunn",
         "Randy Sanders",
         "Paul Culberson"
       ]
@@ -15093,7 +15325,6 @@
         "Harold Jackson",
         "Chris Hatcher",
         "Mark Nelson",
-        "Paul Dunn",
         "Randy Sanders",
         "Paul Culberson"
       ]
@@ -15103,7 +15334,8 @@
       "other": [
         "Ron McBride",
         "Ron Caragher"
-      ]
+      ],
+      "dc": "Mike Archer"
     },
     "2004": {
       "hc": "Rich Brooks",
@@ -15803,7 +16035,10 @@
     },
     "2007": {
       "hc": "Rickey Bustle",
-      "oc": "Ron Hudson",
+      "oc": [
+        "Ron Hudson",
+        "Blake Anderson"
+      ],
       "dc": "Brent Pry",
       "other": [
         "Gerald Broussard",
@@ -15926,7 +16161,7 @@
     },
     "2017": {
       "hc": "Mark Hudspeth",
-      "oc": "Rob Sale",
+      "oc": "Will Hall",
       "dc": "Charlie Harbison",
       "other": [
         "Michael Desormeaux"
@@ -16088,7 +16323,10 @@
     "2004": {
       "hc": "Charlie Weatherbie",
       "dc": "Bob Trott",
-      "oc": "Mickey Fein",
+      "oc": [
+        "Mickey Fein",
+        "Todd Berry"
+      ],
       "other": [
         "Dave Broussard",
         "Bill Bleil",
@@ -16100,7 +16338,10 @@
     "2005": {
       "hc": "Charlie Weatherbie",
       "dc": "Bob Trott",
-      "oc": "Mickey Fei",
+      "oc": [
+        "Mickey Fei",
+        "Todd Berry"
+      ],
       "other": [
         "Dave Broussard",
         "Bill Bleil",
@@ -17552,7 +17793,10 @@
     "2000": {
       "hc": "Bob Pruett",
       "dc": "Bob Morris",
-      "oc": "Larry Kueck",
+      "oc": [
+        "Larry Kueck",
+        "Ed Zaunbrecher"
+      ],
       "other": [
         "Mark Gale",
         "Edmond Jackson",
@@ -17563,7 +17807,10 @@
     "2001": {
       "hc": "Bob Pruett",
       "dc": "Bill Wilt",
-      "oc": "Larry Kueck",
+      "oc": [
+        "Larry Kueck",
+        "Ed Zaunbrecher"
+      ],
       "other": [
         "David Speed",
         "Curtis Jones"
@@ -18091,7 +18338,6 @@
         "Bryan Stinespring",
         "Chris Beatty",
         "Aziz Shittu",
-        "Anthony Tucker",
         "Tyler Bowen",
         "Matt Barnes",
         "Aazaar Abdul-Rahim"
@@ -18129,7 +18375,8 @@
         "Elijah Brooks",
         "Henry Baker",
         "Mike Miller",
-        "Joker Phillips"
+        "Joker Phillips",
+        "Ron Zook"
       ]
     },
     "2022": {
@@ -18171,6 +18418,9 @@
       "dc": [
         "Brian Williams",
         "Aazaar Abdul-Rahim"
+      ],
+      "other": [
+        "Ron Zook"
       ]
     },
     "2025": {
@@ -18179,6 +18429,9 @@
       "dc": [
         "Ted Monachino",
         "Aazaar Abdul-Rahim"
+      ],
+      "other": [
+        "Ron Zook"
       ]
     }
   },
@@ -18530,7 +18783,10 @@
     },
     "2000": {
       "hc": "Rip Scherer",
-      "dc": "Joe Lee Dunn",
+      "dc": [
+        "Joe Lee Dunn",
+        "Tommy West"
+      ],
       "oc": "Rusty Burns",
       "other": [
         "James Spiva",
@@ -18696,7 +18952,10 @@
     "2015": {
       "hc": "Justin Fuente",
       "dc": "Galen Scott",
-      "oc": "Brad Cornelsen",
+      "oc": [
+        "Brad Cornelsen",
+        "Darrell Dickey"
+      ],
       "other": [
         "James Shibest",
         "Bradley Dale Peveto",
@@ -18706,7 +18965,10 @@
     "2016": {
       "hc": "Mike Norvell",
       "dc": "Chris Ball",
-      "oc": "Chip Long",
+      "oc": [
+        "Chip Long",
+        "Darrell Dickey"
+      ],
       "other": [
         "Dan Lanning",
         "Holmon Wiggins",
@@ -18722,7 +18984,10 @@
     "2017": {
       "hc": "Mike Norvell",
       "dc": "Chris Ball",
-      "oc": "Kenny Dillingham",
+      "oc": [
+        "Kenny Dillingham",
+        "Darrell Dickey"
+      ],
       "other": [
         "Larry Porter",
         "Dan Lanning",
@@ -18856,6 +19121,9 @@
       "dc": [
         "Greg McMackin",
         "Tommy Tuberville"
+      ],
+      "other": [
+        "Randy Shannon"
       ]
     },
     "1994": {
@@ -18904,7 +19172,8 @@
       "oc": "Larry Coker",
       "dc": "Bill Miller",
       "other": [
-        "Curtis Johnson"
+        "Curtis Johnson",
+        "Randy Shannon"
       ]
     },
     "1998": {
@@ -19698,7 +19967,8 @@
       "dc": "Jim Herrmann",
       "other": [
         "Brady Hoke",
-        "Stan Parrish"
+        "Stan Parrish",
+        "Scot Loeffler"
       ]
     },
     "1999": {
@@ -19707,7 +19977,8 @@
       "dc": "Jim Herrmann",
       "other": [
         "Brady Hoke",
-        "Stan Parrish"
+        "Stan Parrish",
+        "Scot Loeffler"
       ]
     },
     "2000": {
@@ -19820,7 +20091,8 @@
       "hc": "Rich Rodriguez",
       "other": [
         "Jay Hopson"
-      ]
+      ],
+      "dc": "Scott Shafer"
     },
     "2009": {
       "hc": "Rich Rodriguez",
@@ -20051,7 +20323,8 @@
         "Mike Elston",
         "Jay Harbaugh",
         "Ben Herbert",
-        "Kirk Campbell"
+        "Kirk Campbell",
+        "Rick Minter"
       ]
     },
     "2024": {
@@ -20209,7 +20482,8 @@
       "hc": "John L. Smith",
       "other": [
         "Paul Haynes"
-      ]
+      ],
+      "oc": "Dave Baldwin"
     },
     "2004": {
       "hc": "John L. Smith",
@@ -20565,6 +20839,10 @@
         "Mike McCarty",
         "Willie Prude",
         "Darby Rich"
+      ],
+      "oc": [
+        "Blake Anderson",
+        "Steve Campbell"
       ]
     },
     "2003": {
@@ -20577,10 +20855,12 @@
         "Mike McCarty",
         "Willie Prude",
         "Darby Rich"
-      ]
+      ],
+      "oc": "Blake Anderson"
     },
     "2004": {
-      "hc": "Andy McCollum"
+      "hc": "Andy McCollum",
+      "oc": "Blake Anderson"
     },
     "2005": {
       "hc": "Andy McCollum",
@@ -20648,7 +20928,10 @@
     },
     "2011": {
       "hc": "Rick Stockstill",
-      "oc": "Buster Faulkner",
+      "oc": [
+        "Buster Faulkner",
+        "Willie Simmons"
+      ],
       "dc": "Steve Ellis",
       "other": [
         "Justin Watts",
@@ -20903,7 +21186,10 @@
     },
     "2001": {
       "hc": "Glen Mason",
-      "dc": "Greg Hudson",
+      "dc": [
+        "Greg Hudson",
+        "Moe Ankney"
+      ],
       "oc": "Mitch Browning",
       "other": [
         "Charles McEndoo",
@@ -20915,7 +21201,10 @@
     },
     "2002": {
       "hc": "Glen Mason",
-      "dc": "Greg Hudson",
+      "dc": [
+        "Greg Hudson",
+        "Moe Ankney"
+      ],
       "oc": "Mitch Browning",
       "other": [
         "Charles McEndoo",
@@ -21123,8 +21412,14 @@
     },
     "2020": {
       "hc": "P.J. Fleck",
-      "dc": "Joe Rossi",
-      "oc": "Mike Sanford Jr.",
+      "dc": [
+        "Joe Rossi",
+        "Joe Harasymiak"
+      ],
+      "oc": [
+        "Mike Sanford Jr.",
+        "Mike Sanford"
+      ],
       "other": [
         "Brian Callahan",
         "Matt Simon",
@@ -21140,8 +21435,14 @@
     },
     "2021": {
       "hc": "P.J. Fleck",
-      "dc": "Joe Rossi",
-      "oc": "Mike Sanford Jr.",
+      "dc": [
+        "Joe Rossi",
+        "Joe Harasymiak"
+      ],
+      "oc": [
+        "Mike Sanford Jr.",
+        "Mike Sanford"
+      ],
       "other": [
         "Brian Callahan",
         "Matt Simon",
@@ -21391,7 +21692,10 @@
     },
     "2011": {
       "hc": "Dan Mullen",
-      "dc": "Chris Wilson",
+      "dc": [
+        "Chris Wilson",
+        "Geoff Collins"
+      ],
       "oc": "Les Koenning",
       "other": [
         "Scott Sallach",
@@ -21406,7 +21710,10 @@
     },
     "2012": {
       "hc": "Dan Mullen",
-      "dc": "Chris Wilson",
+      "dc": [
+        "Chris Wilson",
+        "Geoff Collins"
+      ],
       "oc": "Les Koenning",
       "other": [
         "Scott Sallach",
@@ -21713,7 +22020,10 @@
     },
     "2000": {
       "hc": "Larry Smith",
-      "dc": "Matt Eberflus",
+      "dc": [
+        "Matt Eberflus",
+        "Moe Ankney"
+      ],
       "oc": "Bill Cubit",
       "other": [
         "Bruce Walker",
@@ -21943,7 +22253,10 @@
     },
     "2016": {
       "hc": "Barry Odom",
-      "dc": "DeMontie Cross",
+      "dc": [
+        "DeMontie Cross",
+        "Ryan Walters"
+      ],
       "oc": "Josh Heupel",
       "other": [
         "Andy Hill",
@@ -22135,7 +22448,8 @@
         "Mark Hudspeth",
         "T.C. Taylor",
         "John Perry"
-      ]
+      ],
+      "dc": "Tim DeRuyter"
     },
     "2001": {
       "hc": "Charlie Weatherbie",
@@ -22372,7 +22686,8 @@
       ]
     },
     "2022": {
-      "hc": "Ken Niumatalolo"
+      "hc": "Ken Niumatalolo",
+      "dc": "Brian Newberry"
     },
     "2023": {
       "hc": "Brian Newberry",
@@ -23028,7 +23343,6 @@
       "other": [
         "Ron Hudson",
         "James Spady",
-        "Andy Buh",
         "Mike Bradeson"
       ]
     },
@@ -23248,7 +23562,8 @@
       "other": [
         "Matthew Phair",
         "Danny Gonzales"
-      ]
+      ],
+      "dc": "Bronco Mendenhall"
     },
     "2003": {
       "hc": "Rocky Long",
@@ -23281,7 +23596,10 @@
     "2006": {
       "hc": "Rocky Long",
       "dc": "Osia Lewis",
-      "oc": "Dan Dodd",
+      "oc": [
+        "Dan Dodd",
+        "Bob Toledo"
+      ],
       "other": [
         "Bob Stanley",
         "Danny Gonzales",
@@ -23305,7 +23623,8 @@
         "Danny Gonzales",
         "Troy Reffett",
         "Mark Cosgrove"
-      ]
+      ],
+      "oc": "Dave Baldwin"
     },
     "2009": {
       "hc": "Mike Locksley",
@@ -23409,7 +23728,10 @@
     "2017": {
       "hc": "Bob Davie",
       "dc": "Kevin Cosgrove",
-      "oc": "Calvin Magee",
+      "oc": [
+        "Calvin Magee",
+        "Bob DeBesse"
+      ],
       "other": [
         "Alex Gerke",
         "Chris Bootcheck",
@@ -23497,7 +23819,10 @@
     },
     "2023": {
       "hc": "Danny Gonzales",
-      "oc": "Derek Warehime",
+      "oc": [
+        "Derek Warehime",
+        "Bryant Vincent"
+      ],
       "other": [
         "David Howes",
         "Saga Tuitele",
@@ -24300,7 +24625,8 @@
     "1994": {
       "hc": "Charlie Sadler",
       "other": [
-        "Sam Pittman"
+        "Sam Pittman",
+        "Trent Miles"
       ]
     },
     "1995": {
@@ -24361,7 +24687,8 @@
         "Brian Anderson",
         "Jim Zebrowski",
         "Pat Narduzzi",
-        "Mike Uremovich"
+        "Mike Uremovich",
+        "Matt Canada"
       ]
     },
     "2002": {
@@ -24374,13 +24701,17 @@
         "Brian Anderson",
         "Jim Zebrowski",
         "Pat Narduzzi",
-        "Mike Uremovich"
+        "Mike Uremovich",
+        "Matt Canada"
       ]
     },
     "2003": {
       "hc": "Joe Novak",
       "dc": "Scott Shafer",
-      "oc": "John Bond",
+      "oc": [
+        "John Bond",
+        "Matt Canada"
+      ],
       "other": [
         "Mike Sabock",
         "Dan Roushar",
@@ -24451,7 +24782,8 @@
       "other": [
         "P.J. Fleck",
         "John Hauser"
-      ]
+      ],
+      "dc": "Tracy Claeys"
     },
     "2009": {
       "hc": "Jerry Kill",
@@ -25171,7 +25503,10 @@
     },
     "2007": {
       "hc": "Charlie Weis",
-      "dc": "Corwin Brown",
+      "dc": [
+        "Corwin Brown",
+        "Rick Minter"
+      ],
       "oc": "Michael Haywood",
       "other": [
         "Bill Lewis",
@@ -25221,7 +25556,10 @@
     "2011": {
       "hc": "Brian Kelly",
       "dc": "Bob Diaco",
-      "oc": "Chuck Martin",
+      "oc": [
+        "Chuck Martin",
+        "Charley Molnar"
+      ],
       "other": [
         "Tim Hinton",
         "Mike Elston",
@@ -25275,7 +25613,10 @@
     },
     "2015": {
       "hc": "Brian Kelly",
-      "oc": "Mike Sanford Jr.",
+      "oc": [
+        "Mike Sanford Jr.",
+        "Mike Sanford"
+      ],
       "dc": "Brian VanGorder",
       "other": [
         "Mike Elston",
@@ -25290,7 +25631,10 @@
     },
     "2016": {
       "hc": "Brian Kelly",
-      "oc": "Mike Sanford Jr.",
+      "oc": [
+        "Mike Sanford Jr.",
+        "Mike Sanford"
+      ],
       "dc": "Brian VanGorder",
       "other": [
         "Mike Elston",
@@ -25840,11 +26184,15 @@
       ]
     },
     "2000": {
-      "hc": "John Cooper"
+      "hc": "John Cooper",
+      "oc": "Chuck Stobart"
     },
     "2001": {
       "hc": "Jim Tressel",
-      "dc": "Mark Dantonio",
+      "dc": [
+        "Mark Dantonio",
+        "Mark Snyder"
+      ],
       "oc": "Jim Bollman",
       "other": [
         "Bill Conley",
@@ -25868,7 +26216,10 @@
     },
     "2003": {
       "hc": "Jim Tressel",
-      "dc": "Mark Snyder",
+      "dc": [
+        "Mark Snyder",
+        "Mark Dantonio"
+      ],
       "oc": "Jim Bollman",
       "other": [
         "Bill Conley",
@@ -26021,7 +26372,10 @@
     },
     "2014": {
       "hc": "Urban Meyer",
-      "dc": "Luke Fickell",
+      "dc": [
+        "Luke Fickell",
+        "Chris Ash"
+      ],
       "oc": "Tom Herman",
       "other": [
         "Ed Warinner",
@@ -26070,7 +26424,10 @@
     },
     "2017": {
       "hc": "Urban Meyer",
-      "oc": "Kevin Wilson",
+      "oc": [
+        "Kevin Wilson",
+        "Ryan Day"
+      ],
       "dc": "Greg Schiano",
       "other": [
         "Tony Alford",
@@ -26172,7 +26529,8 @@
       "hc": "Ryan Day",
       "oc": [
         "Chip Kelly",
-        "Brian Hartline"
+        "Brian Hartline",
+        "Bill O'Brien"
       ],
       "dc": "Jim Knowles"
     },
@@ -26282,7 +26640,10 @@
     "2001": {
       "hc": "Bob Stoops",
       "dc": "Mike Stoops",
-      "oc": "Chuck Long",
+      "oc": [
+        "Chuck Long",
+        "Mark Mangino"
+      ],
       "other": [
         "Brent Venables",
         "Cale Gundy",
@@ -26295,7 +26656,10 @@
     "2002": {
       "hc": "Bob Stoops",
       "dc": "Mike Stoops",
-      "oc": "Chuck Long",
+      "oc": [
+        "Chuck Long",
+        "Kevin Wilson"
+      ],
       "other": [
         "Brent Venables",
         "Cale Gundy",
@@ -26320,7 +26684,10 @@
     },
     "2004": {
       "hc": "Bob Stoops",
-      "dc": "Brent Venables",
+      "dc": [
+        "Brent Venables",
+        "Bo Pelini"
+      ],
       "oc": "Chuck Long",
       "other": [
         "Kevin Sumlin",
@@ -26492,7 +26859,10 @@
     },
     "2018": {
       "hc": "Lincoln Riley",
-      "dc": "Mike Stoops",
+      "dc": [
+        "Mike Stoops",
+        "Ruffin McNeill"
+      ],
       "other": [
         "Bill Bedenbaugh",
         "Dennis Simmons",
@@ -26543,7 +26913,8 @@
         "Calvin Thibodeaux",
         "Brian Odom",
         "DeMarco Murray",
-        "Joe Jon Finley"
+        "Joe Jon Finley",
+        "Bob Stoops"
       ]
     },
     "2022": {
@@ -26576,7 +26947,8 @@
       "hc": "Brent Venables",
       "oc": [
         "Joe Jon Finley",
-        "Kevin Johns"
+        "Kevin Johns",
+        "Seth Littrell"
       ],
       "dc": [
         "Zac Alley",
@@ -26704,7 +27076,8 @@
       "other": [
         "Joe DeForest"
       ],
-      "hc": "Les Miles"
+      "hc": "Les Miles",
+      "oc": "Mike Gundy"
     },
     "2002": {
       "hc": "Les Miles",
@@ -27183,7 +27556,10 @@
     "2010": {
       "hc": "Houston Nutt",
       "dc": "Tyrone Nix",
-      "oc": "Dave Rader",
+      "oc": [
+        "Dave Rader",
+        "David Rader"
+      ],
       "other": [
         "Mike Markuson",
         "Ron Dickerson Jr.",
@@ -27395,27 +27771,42 @@
   "Oregon": {
     "1990": {
       "hc": "Rich Brooks",
-      "oc": "Mike Belotti",
+      "oc": [
+        "Mike Belotti",
+        "Mike Bellotti"
+      ],
       "dc": "Denny Schuler"
     },
     "1991": {
       "hc": "Rich Brooks",
-      "oc": "Mike Belotti",
+      "oc": [
+        "Mike Belotti",
+        "Mike Bellotti"
+      ],
       "dc": "Denny Schuler"
     },
     "1992": {
       "hc": "Rich Brooks",
-      "oc": "Mike Belotti",
+      "oc": [
+        "Mike Belotti",
+        "Mike Bellotti"
+      ],
       "dc": "Denny Schuler"
     },
     "1993": {
       "hc": "Rich Brooks",
-      "oc": "Mike Belotti",
+      "oc": [
+        "Mike Belotti",
+        "Mike Bellotti"
+      ],
       "dc": "Nick Aliotti"
     },
     "1994": {
       "hc": "Rich Brooks",
-      "oc": "Mike Belotti",
+      "oc": [
+        "Mike Belotti",
+        "Mike Bellotti"
+      ],
       "dc": "Nick Aliotti"
     },
     "1995": {
@@ -27463,10 +27854,12 @@
       "hc": "Mike Bellotti",
       "other": [
         "Chris Petersen"
-      ]
+      ],
+      "oc": "Jeff Tedford"
     },
     "2001": {
-      "hc": "Mike Bellotti"
+      "hc": "Mike Bellotti",
+      "oc": "Jeff Tedford"
     },
     "2002": {
       "hc": "Mike Bellotti"
@@ -27895,7 +28288,10 @@
     "2004": {
       "hc": "Mike Riley",
       "dc": "Mark Banker",
-      "oc": "Danny Langsdorf",
+      "oc": [
+        "Danny Langsdorf",
+        "Paul Chryst"
+      ],
       "other": [
         "Nigel Burton",
         "Lee Hull",
@@ -28641,7 +29037,10 @@
     "2000": {
       "hc": "Walt Harris",
       "oc": "J.D. Brookhart",
-      "dc": "Larry Coyer",
+      "dc": [
+        "Larry Coyer",
+        "Paul Rhoads"
+      ],
       "other": [
         "David Blackwell",
         "Curtis Bray",
@@ -28665,7 +29064,6 @@
         "Curtis Bray",
         "David Blackwell",
         "Charlie Fisher",
-        "Paul Dunn",
         "Tom Freeman",
         "Louis Carpenter",
         "Brian Deal",
@@ -28680,7 +29078,6 @@
         "Bill Bleil",
         "Charlie Partridge",
         "Brian Deal",
-        "Paul Dunn",
         "Curtis Bray",
         "David Blackwell",
         "Charlie Fisher",
@@ -29158,7 +29555,8 @@
       "other": [
         "Paul Randolph",
         "David Beaty"
-      ]
+      ],
+      "oc": "Major Applewhite"
     },
     "2007": {
       "hc": "David Bailiff",
@@ -29201,7 +29599,7 @@
     "2010": {
       "hc": "David Bailiff",
       "dc": "Chuck Driesbach",
-      "oc": null,
+      "oc": "David Beaty",
       "other": [
         "Darryl Mason",
         "John Reagan",
@@ -29843,7 +30241,8 @@
       ]
     },
     "2004": {
-      "hc": "Fitz Hill"
+      "hc": "Fitz Hill",
+      "dc": "Keith Burns"
     },
     "2005": {
       "hc": "Dick Tomey",
@@ -29870,7 +30269,10 @@
     "2007": {
       "hc": "Dick Tomey",
       "dc": "Keith Burns",
-      "oc": "Steve Morton",
+      "oc": [
+        "Steve Morton",
+        "Marcus Arroyo"
+      ],
       "other": [
         "Ken Margerum",
         "Charles Nash",
@@ -29892,7 +30294,10 @@
     "2009": {
       "hc": "Dick Tomey",
       "dc": "Keith Burns",
-      "oc": "Steve Morton",
+      "oc": [
+        "Steve Morton",
+        "Brent Brennan"
+      ],
       "other": [
         "Charles Nash",
         "Ken Margerum",
@@ -30452,7 +30857,10 @@
     "2005": {
       "hc": "Steve Spurrier",
       "oc": "Steve Spurrier Jr.",
-      "dc": "Tyrone Nix",
+      "dc": [
+        "Tyrone Nix",
+        "John Thompson"
+      ],
       "other": [
         "John Hunt",
         "Fred Chatham",
@@ -30552,7 +30960,8 @@
         "G.A. Mangus",
         "Kurt Roper",
         "Jeep Hunter"
-      ]
+      ],
+      "oc": "Shawn Elliott"
     },
     "2013": {
       "hc": "Steve Spurrier",
@@ -30564,7 +30973,8 @@
         "G.A. Mangus",
         "Kurt Roper",
         "Jeep Hunter"
-      ]
+      ],
+      "oc": "Shawn Elliott"
     },
     "2014": {
       "hc": "Steve Spurrier",
@@ -30576,7 +30986,8 @@
         "G.A. Mangus",
         "Kurt Roper",
         "Jeep Hunter"
-      ]
+      ],
+      "oc": "Shawn Elliott"
     },
     "2015": {
       "hc": "Steve Spurrier",
@@ -30785,7 +31196,6 @@
     },
     "2000": {
       "hc": "Jeff Bower",
-      "dc": "John Thompson",
       "oc": "Chris Klenakis",
       "other": [
         "Randy Butler",
@@ -30829,7 +31239,10 @@
     "2003": {
       "hc": "Jeff Bower",
       "dc": "Tyrone Nix",
-      "oc": "Chris Klenakis",
+      "oc": [
+        "Chris Klenakis",
+        "Rip Scherer"
+      ],
       "other": [
         "Jay Hopson",
         "Mitch Rodrigue",
@@ -30941,7 +31354,10 @@
     },
     "2012": {
       "hc": "Ellis Johnson",
-      "dc": "Tom Sims",
+      "dc": [
+        "Tom Sims",
+        "Tommy West"
+      ],
       "oc": "Steve Buckley",
       "other": [
         "John Wozniak",
@@ -31222,7 +31638,10 @@
     "2003": {
       "hc": "Buddy Teevens",
       "dc": "A.J. Christoff",
-      "oc": "Mike Sanford",
+      "oc": [
+        "Mike Sanford",
+        "Bill Cubit"
+      ],
       "other": [
         "Norv McKenzie",
         "David Kelly",
@@ -31312,31 +31731,30 @@
     },
     "2011": {
       "hc": "David Shaw",
-      "oc": [
-        "Pep Hamilton",
-        "Mike Bloomgren"
+      "oc": "Pep Hamilton",
+      "dc": [
+        "Jason Tarver",
+        "Derek Mason"
       ],
-      "dc": "Jason Tarver",
       "other": [
         "Tim Drevno",
         "Mike Sanford",
         "Greg Roman",
         "Shannon Turley",
-        "Brian Polian"
+        "Brian Polian",
+        "Mike Bloomgren"
       ]
     },
     "2012": {
       "hc": "David Shaw",
-      "oc": [
-        "Pep Hamilton",
-        "Mike Bloomgren"
-      ],
+      "oc": "Pep Hamilton",
       "dc": "Derek Mason",
       "other": [
         "Tim Drevno",
         "Mike Sanford",
         "Tavita Pritchard",
-        "Shannon Turley"
+        "Shannon Turley",
+        "Mike Bloomgren"
       ]
     },
     "2013": {
@@ -31884,10 +32302,12 @@
       "hc": "Jim Wacker",
       "other": [
         "Rocky Long"
-      ]
+      ],
+      "oc": "Bob DeBesse"
     },
     "1991": {
-      "hc": "Jim Wacker"
+      "hc": "Jim Wacker",
+      "oc": "Bob DeBesse"
     },
     "1992": {
       "hc": "Pat Sullivan",
@@ -32048,7 +32468,10 @@
     "2009": {
       "hc": "Gary Patterson",
       "dc": "Dick Bumpas",
-      "oc": "Mike Schultz",
+      "oc": [
+        "Mike Schultz",
+        "Justin Fuente"
+      ],
       "other": [
         "Jarrett Anderson",
         "Dan Sharp",
@@ -32320,12 +32743,18 @@
     "1997": {
       "hc": "Ron Dickerson",
       "oc": "Lew Carpenter",
-      "dc": "Ron McCrone"
+      "dc": [
+        "Ron McCrone",
+        "Mike MacIntyre"
+      ]
     },
     "1998": {
       "hc": "Bobby Wallace",
       "oc": "Al Kincaid",
-      "dc": "Raymond Monica",
+      "dc": [
+        "Raymond Monica",
+        "Mike MacIntyre"
+      ],
       "other": [
         "Tim Stowers"
       ]
@@ -32443,7 +32872,8 @@
       "dc": "Chuck Heater",
       "oc": [
         "Ryan Day",
-        "Scot Loeffler"
+        "Scot Loeffler",
+        "Matt Rhule"
       ],
       "other": [
         "Justin Frye",
@@ -32529,7 +32959,10 @@
     },
     "2019": {
       "hc": "Rod Carey",
-      "dc": "Jeff Knowles",
+      "dc": [
+        "Jeff Knowles",
+        "Fran Brown"
+      ],
       "oc": "Mike Uremovich",
       "other": [
         "Walter Stewart",
@@ -33040,12 +33473,18 @@
     "1995": {
       "hc": "R.C. Slocum",
       "oc": "Steve Ensminger",
-      "dc": "Phil Bennett"
+      "dc": "Phil Bennett",
+      "other": [
+        "Mike Sherman"
+      ]
     },
     "1996": {
       "hc": "R.C. Slocum",
       "oc": "Steve Ensminger",
-      "dc": "Phil Bennett"
+      "dc": "Phil Bennett",
+      "other": [
+        "Mike Sherman"
+      ]
     },
     "1997": {
       "hc": "R.C. Slocum",
@@ -33072,12 +33511,16 @@
         "Ken Rucker",
         "Todd Middleton",
         "Melvin Smith"
-      ]
+      ],
+      "oc": "Steve Kragthorpe"
     },
     "2001": {
       "hc": "R.C. Slocum",
       "dc": "Mike Hankwitz",
-      "oc": "Kevin Sumlin",
+      "oc": [
+        "Kevin Sumlin",
+        "Dino Babers"
+      ],
       "other": [
         "Ken Rucker",
         "Todd Middleton",
@@ -33086,7 +33529,10 @@
     },
     "2002": {
       "hc": "R.C. Slocum",
-      "oc": "Kevin Sumlin",
+      "oc": [
+        "Kevin Sumlin",
+        "Dino Babers"
+      ],
       "dc": "Mike Hankwitz",
       "other": [
         "Lee Fobbs",
@@ -33423,7 +33869,8 @@
       "dc": "David Bailiff"
     },
     "2000": {
-      "hc": "Bob DeBesse"
+      "hc": "Bob DeBesse",
+      "dc": "David Bailiff"
     },
     "2001": {
       "hc": "Bob DeBesse"
@@ -33585,7 +34032,10 @@
     },
     "2015": {
       "hc": "Dennis Franchione",
-      "dc": "Brad Franchione",
+      "dc": [
+        "Brad Franchione",
+        "John Thompson"
+      ],
       "oc": "Mike Schultz",
       "other": [
         "Brad Bedell",
@@ -33764,7 +34214,8 @@
         "Ruffin McNeill",
         "Dave Aranda",
         "Manny Matsakis"
-      ]
+      ],
+      "dc": "Greg McMackin"
     },
     "2001": {
       "hc": "Mike Leach",
@@ -34137,7 +34588,10 @@
     "2000": {
       "hc": "Gary Pinkel",
       "dc": "Tom Amstutz",
-      "oc": "Rob Spence",
+      "oc": [
+        "Rob Spence",
+        "Dave Christensen"
+      ],
       "other": [
         "Stan Watson",
         "Brian Wright",
@@ -34771,11 +35225,13 @@
       "oc": "Brud Bicknell",
       "other": [
         "Jay Hopson"
-      ]
+      ],
+      "dc": "Bob Pruett"
     },
     "1993": {
       "hc": "Buddy Teevens",
-      "oc": "Brud Bicknell"
+      "oc": "Brud Bicknell",
+      "dc": "Bob Pruett"
     },
     "1994": {
       "hc": "Buddy Teevens",
@@ -34986,7 +35442,10 @@
     },
     "2014": {
       "hc": "Curtis Johnson",
-      "dc": "Lionel Washington",
+      "dc": [
+        "Lionel Washington",
+        "Jon Sumrall"
+      ],
       "oc": "Eric Price",
       "other": [
         "Barry Lamb",
@@ -35263,7 +35722,10 @@
     "2008": {
       "hc": "Todd Graham",
       "dc": "Keith Patterson",
-      "oc": "Herb Hand",
+      "oc": [
+        "Herb Hand",
+        "Gus Malzahn"
+      ],
       "other": [
         "Bill Blankenship",
         "Greg Peterson",
@@ -35804,7 +36266,8 @@
       "oc": "Homer Smith",
       "dc": "Bob Field",
       "other": [
-        "Bobby Hauck"
+        "Bobby Hauck",
+        "Rick Neuheisel"
       ]
     },
     "1991": {
@@ -35812,7 +36275,8 @@
       "oc": "Homer Smith",
       "dc": "Bob Field",
       "other": [
-        "Bobby Hauck"
+        "Bobby Hauck",
+        "Rick Neuheisel"
       ]
     },
     "1992": {
@@ -35820,13 +36284,17 @@
       "oc": "Homer Smith",
       "dc": "Bob Field",
       "other": [
-        "Bobby Hauck"
+        "Bobby Hauck",
+        "Rick Neuheisel"
       ]
     },
     "1993": {
       "hc": "Terry Donahue",
       "oc": "Homer Smith",
-      "dc": "Bob Field"
+      "dc": "Bob Field",
+      "other": [
+        "Rick Neuheisel"
+      ]
     },
     "1994": {
       "hc": "Terry Donahue",
@@ -35926,7 +36394,8 @@
         "Eric Bieniemy",
         "Dino Babers",
         "Gary DeLoach",
-        "Jim Colletto"
+        "Jim Colletto",
+        "Jon Embree"
       ]
     },
     "2006": {
@@ -36081,7 +36550,8 @@
       "other": [
         "Rip Scherer",
         "DeShaun Foster"
-      ]
+      ],
+      "oc": "Jedd Fisch"
     },
     "2018": {
       "hc": "Chip Kelly",
@@ -36148,7 +36618,8 @@
   },
   "UNLV": {
     "1990": {
-      "hc": "Jim Strong"
+      "hc": "Jim Strong",
+      "dc": "Ron Cooper"
     },
     "1991": {
       "hc": "Jim Strong"
@@ -36255,7 +36726,10 @@
     "2007": {
       "hc": "Mike Sanford",
       "dc": "Vance Bedford",
-      "oc": "Noel Mazzone",
+      "oc": [
+        "Noel Mazzone",
+        "Todd Berry"
+      ],
       "other": [
         "Bruce Snyder",
         "Joe Hubbard",
@@ -37348,7 +37822,10 @@
     "2007": {
       "hc": "Brent Guy",
       "dc": "Mark Johnson",
-      "oc": "Mike Santiago",
+      "oc": [
+        "Mike Santiago",
+        "Darrell Dickey"
+      ],
       "other": [
         "Dave Brown",
         "Will Prater",
@@ -37361,7 +37838,10 @@
     "2008": {
       "hc": "Brent Guy",
       "dc": "Mark Johnson",
-      "oc": "Mike Santiago",
+      "oc": [
+        "Mike Santiago",
+        "Darrell Dickey"
+      ],
       "other": [
         "Dave Brown",
         "Will Prater",
@@ -37502,7 +37982,10 @@
     "2019": {
       "hc": "Gary Andersen",
       "dc": "Justin Ena",
-      "oc": "Mike Sanford Jr.",
+      "oc": [
+        "Mike Sanford Jr.",
+        "Mike Sanford"
+      ],
       "other": [
         "Stacey Collins",
         "Frank Maile",
@@ -37613,38 +38096,57 @@
     "1994": {
       "hc": "Charlie Bailey",
       "oc": "Darrell Dickey",
-      "dc": "Pete Kuharchek"
+      "dc": "Pete Kuharchek",
+      "other": [
+        "Sean Kugler"
+      ]
     },
     "1995": {
       "hc": "Charlie Bailey",
       "oc": "Darrell Dickey",
-      "dc": "Pete Kuharchek"
+      "dc": "Pete Kuharchek",
+      "other": [
+        "Sean Kugler"
+      ]
     },
     "1996": {
       "hc": "Charlie Bailey",
       "oc": "Darrell Dickey",
-      "dc": "Ronnie Jones"
+      "dc": "Ronnie Jones",
+      "other": [
+        "Sean Kugler"
+      ]
     },
     "1997": {
       "hc": "Charlie Bailey",
       "oc": "Gary Nord",
-      "dc": "Ronnie Jones"
+      "dc": "Ronnie Jones",
+      "other": [
+        "Sean Kugler"
+      ]
     },
     "1998": {
       "hc": "Charlie Bailey",
       "oc": "Gary Nord",
-      "dc": "Ronnie Jones"
+      "dc": "Ronnie Jones",
+      "other": [
+        "Sean Kugler"
+      ]
     },
     "1999": {
       "hc": "Charlie Bailey",
       "oc": "Gary Nord",
-      "dc": "Ronnie Jones"
+      "dc": "Ronnie Jones",
+      "other": [
+        "Sean Kugler"
+      ]
     },
     "2000": {
       "hc": "Gary Nord",
       "other": [
         "Steve Lineweaver",
-        "Aaron Price"
+        "Aaron Price",
+        "Sean Kugler"
       ]
     },
     "2001": {
@@ -37653,7 +38155,8 @@
         "Chuck Heater",
         "Rick Kaczenski",
         "Aaron Price"
-      ]
+      ],
+      "dc": "Bob Wagner"
     },
     "2002": {
       "hc": "Gary Nord",
@@ -38333,7 +38836,10 @@
     "2000": {
       "hc": "Frank Beamer",
       "dc": "Bud Foster",
-      "oc": "Ricky Bustle",
+      "oc": [
+        "Ricky Bustle",
+        "Rickey Bustle"
+      ],
       "other": [
         "Jim Cavanaugh",
         "Tony Ball",
@@ -38345,7 +38851,10 @@
     "2001": {
       "hc": "Frank Beamer",
       "dc": "Bud Foster",
-      "oc": "Bryan Stinespring",
+      "oc": [
+        "Bryan Stinespring",
+        "Rickey Bustle"
+      ],
       "other": [
         "Jim Cavanaugh",
         "Tony Ball",
@@ -38744,7 +39253,10 @@
     "2001": {
       "hc": "Jim Grobe",
       "dc": "Dean Hood",
-      "oc": "Steed Lobotzke",
+      "oc": [
+        "Steed Lobotzke",
+        "Troy Calhoun"
+      ],
       "other": [
         "Chris Beatty",
         "Ray McCartney",
@@ -38757,7 +39269,10 @@
     "2002": {
       "hc": "Jim Grobe",
       "dc": "Dean Hood",
-      "oc": "Steed Lobotzke",
+      "oc": [
+        "Steed Lobotzke",
+        "Troy Calhoun"
+      ],
       "other": [
         "Chris Beatty",
         "Ray McCartney",
@@ -38834,7 +39349,10 @@
     },
     "2008": {
       "hc": "Jim Grobe",
-      "dc": "Dean Hood",
+      "dc": [
+        "Dean Hood",
+        "Brad Lambert"
+      ],
       "oc": "Steed Lobotzke",
       "other": [
         "Chris Beatty",
@@ -38970,7 +39488,10 @@
     },
     "2018": {
       "hc": "Dave Clawson",
-      "dc": "Lyle Hemphill",
+      "dc": [
+        "Lyle Hemphill",
+        "Jay Sawvel"
+      ],
       "oc": "Warren Ruggiero",
       "other": [
         "Kevin Higgins",
@@ -39093,7 +39614,8 @@
     },
     "1993": {
       "hc": "Jim Lambright",
-      "oc": "Jeff Woodruff"
+      "oc": "Jeff Woodruff",
+      "dc": "Chris Tormey"
     },
     "1994": {
       "hc": "Jim Lambright",
@@ -39128,7 +39650,10 @@
     "2000": {
       "hc": "Rick Neuheisel",
       "dc": "Tim Hundley",
-      "oc": "Karl Dorrell",
+      "oc": [
+        "Karl Dorrell",
+        "Keith Gilbertson"
+      ],
       "other": [
         "Chuck Heater",
         "Bobby Hauck",
@@ -39293,7 +39818,11 @@
       ]
     },
     "2014": {
-      "hc": "Chris Petersen"
+      "hc": "Chris Petersen",
+      "oc": "Jonathan Smith",
+      "other": [
+        "Jimmy Lake"
+      ]
     },
     "2015": {
       "hc": "Chris Petersen",
@@ -40007,7 +40536,8 @@
         "Brian Brohm",
         "Mike Cassity",
         "Don Dunn"
-      ]
+      ],
+      "oc": "Tyson Helton"
     },
     "2015": {
       "hc": "Jeff Brohm",
@@ -40243,7 +40773,8 @@
       "dc": "Scott Shafer",
       "other": [
         "Steve Morrison",
-        "Ryan Cubit"
+        "Ryan Cubit",
+        "Tim Lester"
       ]
     },
     "2006": {
@@ -40305,7 +40836,8 @@
         "Tim Daoust",
         "Jake Moreland",
         "Mike Grant",
-        "Rick Kravitz"
+        "Rick Kravitz",
+        "Rich Nagy"
       ]
     },
     "2011": {
@@ -40316,7 +40848,8 @@
         "Tim Daoust",
         "Jake Moreland",
         "Mike Grant",
-        "Rick Kravitz"
+        "Rick Kravitz",
+        "Rich Nagy"
       ]
     },
     "2012": {
@@ -40625,7 +41158,10 @@
     "2002": {
       "hc": "Rich Rodriguez",
       "oc": "Calvin Magee",
-      "dc": "Jeff Casteel",
+      "dc": [
+        "Jeff Casteel",
+        "Todd Graham"
+      ],
       "other": [
         "Rick Trickett",
         "Herb Hand",
@@ -40924,7 +41460,8 @@
       "dc": "Dan McCarney",
       "other": [
         "Lance Leipold",
-        "Rob Ianello"
+        "Rob Ianello",
+        "Bill Callahan"
       ]
     },
     "1992": {
@@ -40933,7 +41470,8 @@
       "dc": "Dan McCarney",
       "other": [
         "Lance Leipold",
-        "Rob Ianello"
+        "Rob Ianello",
+        "Bill Callahan"
       ]
     },
     "1993": {
@@ -40942,13 +41480,17 @@
       "dc": "Dan McCarney",
       "other": [
         "Lance Leipold",
-        "Rob Ianello"
+        "Rob Ianello",
+        "Bill Callahan"
       ]
     },
     "1994": {
       "hc": "Barry Alvarez",
       "oc": "Brad Childress",
-      "dc": "Dan McCarney"
+      "dc": "Dan McCarney",
+      "other": [
+        "Bill Callahan"
+      ]
     },
     "1995": {
       "hc": "Barry Alvarez",
@@ -41765,7 +42307,8 @@
       "hc": "Bill Lynch"
     },
     "2003": {
-      "hc": "Brady Hoke"
+      "hc": "Brady Hoke",
+      "oc": "Don Treadwell"
     },
     "2004": {
       "hc": "Brady Hoke",
@@ -41888,13 +42431,16 @@
       "hc": "Mike Neu"
     },
     "2017": {
-      "hc": "Mike Neu"
+      "hc": "Mike Neu",
+      "dc": "David Elson"
     },
     "2018": {
-      "hc": "Mike Neu"
+      "hc": "Mike Neu",
+      "dc": "David Elson"
     },
     "2019": {
-      "hc": "Mike Neu"
+      "hc": "Mike Neu",
+      "dc": "David Elson"
     },
     "2020": {
       "hc": "Mike Neu"
@@ -41998,7 +42544,8 @@
       "hc": "Kevin Steele"
     },
     "2002": {
-      "hc": "Kevin Steele"
+      "hc": "Kevin Steele",
+      "oc": "Dave Baldwin"
     },
     "2003": {
       "hc": "Guy Morriss"
@@ -42339,20 +42886,32 @@
     "1997": {
       "hc": "Tom Holmoe",
       "oc": "Doug Cosbie",
-      "dc": "Lyle Setencich"
+      "dc": "Lyle Setencich",
+      "other": [
+        "Troy Taylor"
+      ]
     },
     "1998": {
       "hc": "Tom Holmoe",
       "oc": "Doug Cosbie",
-      "dc": "Lyle Setencich"
+      "dc": "Lyle Setencich",
+      "other": [
+        "Troy Taylor"
+      ]
     },
     "1999": {
       "hc": "Tom Holmoe",
       "oc": "Steve Hagen",
-      "dc": "Lyle Setencich"
+      "dc": "Lyle Setencich",
+      "other": [
+        "Troy Taylor"
+      ]
     },
     "2000": {
-      "hc": "Tom Holmoe"
+      "hc": "Tom Holmoe",
+      "other": [
+        "Troy Taylor"
+      ]
     },
     "2001": {
       "hc": "Tom Holmoe",
@@ -42597,7 +43156,10 @@
     },
     "2020": {
       "hc": "Justin Wilcox",
-      "dc": "Peter Sirmon",
+      "dc": [
+        "Peter Sirmon",
+        "Tim DeRuyter"
+      ],
       "oc": "Bill Musgrave",
       "other": [
         "Marques Tuiasosopo",
@@ -43085,7 +43647,8 @@
         "Rick Rasnick",
         "Keith Murphy",
         "Wayne Bradford"
-      ]
+      ],
+      "oc": "Charley Molnar"
     },
     "2001": {
       "hc": "Dean Pees",
@@ -43110,7 +43673,8 @@
         "Rick Rasnick",
         "Wayne Bradford",
         "Keith Murphy"
-      ]
+      ],
+      "oc": "Doug Martin"
     },
     "2004": {
       "hc": "Doug Martin",
@@ -43504,7 +44068,10 @@
     "2006": {
       "hc": "Joe Tiller",
       "dc": "Brock Spack",
-      "oc": "Jim Chaney",
+      "oc": [
+        "Jim Chaney",
+        "Ed Zaunbrecher"
+      ],
       "other": [
         "Blaine Bennett",
         "Greg Olson",
@@ -43518,7 +44085,10 @@
     "2007": {
       "hc": "Joe Tiller",
       "dc": "Brock Spack",
-      "oc": "Bill Legg",
+      "oc": [
+        "Bill Legg",
+        "Ed Zaunbrecher"
+      ],
       "other": [
         "Blaine Bennett",
         "Greg Olson",
@@ -43532,7 +44102,10 @@
     "2008": {
       "hc": "Joe Tiller",
       "dc": "Brock Spack",
-      "oc": "Bill Legg",
+      "oc": [
+        "Bill Legg",
+        "Ed Zaunbrecher"
+      ],
       "other": [
         "Blaine Bennett",
         "Greg Olson",
@@ -43628,7 +44201,10 @@
     },
     "2016": {
       "hc": "Darrell Hazell",
-      "dc": "Ross Els",
+      "dc": [
+        "Ross Els",
+        "Marcus Freeman"
+      ],
       "oc": "Terry Malone",
       "other": [
         "Jared Parker",
@@ -45053,7 +45629,10 @@
     },
     "2006": {
       "hc": "Mack Brown",
-      "dc": "Duane Akina",
+      "dc": [
+        "Duane Akina",
+        "Gene Chizik"
+      ],
       "oc": "Greg Davis",
       "other": [
         "Bruce Chambers",
@@ -45151,7 +45730,10 @@
     },
     "2013": {
       "hc": "Mack Brown",
-      "dc": "Greg Robinson",
+      "dc": [
+        "Greg Robinson",
+        "Manny Diaz"
+      ],
       "oc": "Major Applewhite",
       "other": [
         "Bruce Chambers",
@@ -45524,7 +46106,10 @@
     },
     "2011": {
       "hc": "George O'Leary",
-      "dc": "John Skladany",
+      "dc": [
+        "John Skladany",
+        "Ted Roof"
+      ],
       "oc": "Charlie Taaffe",
       "other": [
         "Brent Key",
@@ -45537,7 +46122,10 @@
     },
     "2012": {
       "hc": "George O'Leary",
-      "dc": "Jim Fleming",
+      "dc": [
+        "Jim Fleming",
+        "Tyson Summers"
+      ],
       "oc": "Charlie Taaffe",
       "other": [
         "Brent Key",
@@ -45552,7 +46140,10 @@
     },
     "2013": {
       "hc": "George O'Leary",
-      "dc": "Jim Fleming",
+      "dc": [
+        "Jim Fleming",
+        "Tyson Summers"
+      ],
       "oc": "Charlie Taaffe",
       "other": [
         "Brent Key",
@@ -45642,7 +46233,8 @@
         "Anthony Tucker",
         "B.J. Daniels",
         "Corey Bell"
-      ]
+      ],
+      "oc": "Jeff Lebby"
     },
     "2020": {
       "hc": "Josh Heupel",
@@ -45715,13 +46307,19 @@
   "Virginia": {
     "1990": {
       "hc": "George Welsh",
-      "oc": "Gary Tranquill",
+      "oc": [
+        "Gary Tranquill",
+        "Tom O'Brien"
+      ],
       "dc": "Frank Spaziani"
     },
     "1991": {
       "hc": "George Welsh",
       "oc": "Tom O'Brien",
-      "dc": "Rick Lantz",
+      "dc": [
+        "Rick Lantz",
+        "Frank Spaziani"
+      ],
       "other": [
         "Mike Archer"
       ]
@@ -45978,7 +46576,8 @@
         "Vincent Brown",
         "Tom O'Brien",
         "Larry Lewis",
-        "Marques Hagans"
+        "Marques Hagans",
+        "Mike Archer"
       ]
     },
     "2015": {
@@ -45992,7 +46591,8 @@
         "Vincent Brown",
         "Tom O'Brien",
         "Larry Lewis",
-        "Marques Hagans"
+        "Marques Hagans",
+        "Mike Archer"
       ]
     },
     "2016": {
@@ -46152,7 +46752,6 @@
     },
     "2010": {
       "hc": "Bobby Wilder",
-      "dc": "Rich Nagy",
       "oc": "Brian Scott",
       "other": [
         "Zac Kuhr",
@@ -46162,7 +46761,6 @@
     },
     "2011": {
       "hc": "Bobby Wilder",
-      "dc": "Rich Nagy",
       "oc": "Brian Scott",
       "other": [
         "Zac Kuhr",
@@ -46172,7 +46770,6 @@
     },
     "2012": {
       "hc": "Bobby Wilder",
-      "dc": "Rich Nagy",
       "oc": "Brian Scott",
       "other": [
         "Zac Kuhr",
