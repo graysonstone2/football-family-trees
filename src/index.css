@@ -544,7 +544,7 @@ button.insight-row {
   min-width: 168px;
 }
 
-.leaderboard-filter span {
+.leaderboard-filter label {
   color: var(--theme-muted);
   font-size: 10px;
   font-weight: 900;
@@ -638,6 +638,21 @@ button.insight-row {
 }
 
 @media (max-width: 720px) {
+  .header-actions {
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .header-actions .support-link {
+    text-align: center;
+  }
+
+  .header-actions .theme-control {
+    max-width: none;
+  }
+
   .tree-canvas {
     padding: 12px;
     -webkit-overflow-scrolling: touch;

@@ -1,12 +1,11 @@
 import { toBlob } from 'html-to-image';
-import { CSSProperties, FormEvent, ReactNode, useEffect, useMemo, useRef, useState } from 'react';
+import { CSSProperties, FormEvent, ReactNode, useEffect, useId, useMemo, useRef, useState } from 'react';
 import Tray from './Tray';
 import {
   CoachTreeNode,
   buildReverseTree,
   buildTree,
   findCoachName,
-  getCoachNames,
   getDatasetSummary,
 } from './functions/coachData';
 import { trackEvent, trackPageView } from './functions/analytics';
@@ -265,7 +264,6 @@ const getBestBranchDebuts = (root?: TreeNodeWithChildren | null) => {
 };
 
 function App() {
-  const coachNames = useMemo(() => getCoachNames(), []);
   const summary = useMemo(() => getDatasetSummary(), []);
   const initialParams = useMemo(() => getInitialParams(), []);
   const initialTree = useMemo(
@@ -286,7 +284,6 @@ function App() {
   const [exportStatus, setExportStatus] = useState('');
   const [isExporting, setIsExporting] = useState(false);
   const [directOnly, setDirectOnly] = useState(false);
-  const [isFocused, setIsFocused] = useState(false);
   const [treeLeaderboardMinDescendants, setTreeLeaderboardMinDescendants] = useState('0');
   const [treeLeaderboardSchool, setTreeLeaderboardSchool] = useState('');
   const [staffLeaderboardEra, setStaffLeaderboardEra] = useState('');
@@ -446,21 +443,7 @@ function App() {
     window.localStorage.setItem('team-theme', selectedThemeSchool);
   }, [selectedThemeSchool]);
 
-  const suggestions = useMemo(() => {
-    const query = coach.trim().toLowerCase();
-
-    if (query.length < 2) {
-      return [];
-    }
-
-    return coachNames
-      .filter((name) => name.toLowerCase().startsWith(query))
-      .concat(coachNames.filter((name) => !name.toLowerCase().startsWith(query) && name.toLowerCase().includes(query)))
-      .slice(0, 8);
-  }, [coach, coachNames]);
-
   const runSearch = (coachName = coach, selectedMode = mode) => {
-    setIsFocused(false);
     const exactName = findCoachName(coachName);
 
     if (!exactName) {
@@ -503,7 +486,6 @@ function App() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     runSearch();
-    setIsFocused(false);
   };
 
   const exportTree = async () => {
@@ -656,12 +638,9 @@ function App() {
                   className="min-w-0 flex-1 rounded-md border border-transparent px-4 py-3 text-base font-semibold text-[var(--theme-ink)] outline-none focus:border-[var(--theme-accent)]"
                   placeholder="Try Nick Saban, Mack Brown, Urban Meyer..."
                   value={coach}
-                  onBlur={() => window.setTimeout(() => setIsFocused(false), 120)}
                   onChange={(event) => {
                     setCoach(event.target.value);
-                    setIsFocused(true);
                   }}
-                  onFocus={() => setIsFocused(true)}
                 />
                 <button
                   className="primary-button rounded-md px-5 py-3 text-sm font-black uppercase tracking-wide transition focus:outline-none focus:ring-2 focus:ring-[var(--theme-accent)]"
@@ -670,22 +649,6 @@ function App() {
                   Search
                 </button>
               </div>
-
-              {isFocused && suggestions.length > 0 && (
-                <div className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-lg border border-[var(--theme-border)] bg-white text-[var(--theme-ink)] shadow-2xl">
-                  {suggestions.map((suggestion) => (
-                    <button
-                      className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-semibold hover:bg-[var(--theme-primary-soft)]"
-                      key={suggestion}
-                      onMouseDown={() => runSearch(suggestion)}
-                      type="button"
-                    >
-                      <span>{suggestion}</span>
-                      <span className="text-xs uppercase tracking-wide text-[var(--theme-muted)]">select</span>
-                    </button>
-                  ))}
-                </div>
-              )}
             </form>
           )}
         </div>
@@ -1033,17 +996,19 @@ function FilterSelect({
   options: Array<{ label: string; value: string }>;
   value: string;
 }) {
+  const id = useId();
+
   return (
-    <label className="leaderboard-filter">
-      <span>{label}</span>
-      <select onChange={(event) => onChange(event.target.value)} value={value}>
+    <div className="leaderboard-filter">
+      <label htmlFor={id}>{label}</label>
+      <select id={id} onChange={(event) => onChange(event.target.value)} value={value}>
         {options.map((option) => (
           <option key={`${label}-${option.value}`} value={option.value}>
             {option.label}
           </option>
         ))}
       </select>
-    </label>
+    </div>
   );
 }
 
