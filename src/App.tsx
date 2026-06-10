@@ -276,11 +276,17 @@ function App() {
   const [treeData, setTreeData] = useState<CoachTreeNode[] | null>(initialTree);
   const [page, setPage] = useState<AppPage>(initialParams.page);
   const [selectedNode, setSelectedNode] = useState<CoachTreeNode | null>(initialTree?.[0] ?? null);
-  const [message, setMessage] = useState(
-    initialTree && initialTree.length > 1
-      ? `${initialTree[0].id}'s ${modeCopy[initialParams.mode].title} includes ${initialTree.length - 1} ${modeCopy[initialParams.mode].plural} in this dataset.`
-      : '',
-  );
+  const [message, setMessage] = useState(() => {
+    if (!initialTree || initialTree.length === 0) {
+      return '';
+    }
+
+    if (initialTree.length > 1) {
+      return `${initialTree[0].id}'s ${modeCopy[initialParams.mode].title} includes ${initialTree.length - 1} ${modeCopy[initialParams.mode].plural} in this dataset.`;
+    }
+
+    return `${initialTree[0].id} is present, but ${modeCopy[initialParams.mode].empty}.`;
+  });
   const [selectedSchool, setSelectedSchool] = useState(initialParams.school);
   const [exportStatus, setExportStatus] = useState('');
   const [isExporting, setIsExporting] = useState(false);

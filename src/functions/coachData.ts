@@ -243,15 +243,19 @@ export const buildTree = (rootCoach: string): CoachTreeNode[] | null => {
     visited.add(currentCoach.id);
 
     const coachJobs = coaches[currentCoach.id] ?? [];
+    const isRoot = currentCoach.parent === undefined;
     const wasHeadCoachLater = coachJobs.some((job) => {
-      if (currentCoach.parent === undefined) {
+      if (isRoot) {
         return job.title === 'hc';
       }
 
       return job.title === 'hc' && job.year >= currentCoach.cutoffYear;
     });
 
-    if (!wasHeadCoachLater) {
+    // Keep the root coach even if they never became a head coach, so their job
+    // history still renders. Non-root branches are pruned unless the coach went
+    // on to a head-coaching job.
+    if (!wasHeadCoachLater && !isRoot) {
       continue;
     }
 
