@@ -164,6 +164,30 @@ const flattenHierarchy = (node: TreeNodeWithChildren): TreeNodeWithChildren[] =>
 
 const getHeadCoachJobs = (node: CoachTreeNode) => node.history.filter((job) => job.title === 'hc');
 
+const NON_HC_ROLE_LABELS: Record<string, string> = {
+  oc: 'Offensive coordinator',
+  dc: 'Defensive coordinator',
+  other: 'Assistant',
+};
+
+// Label for the card of a coach who never held a head-coaching job, based on
+// the most frequent coordinator role they held (falling back to "Assistant").
+const getNonHeadCoachRoleLabel = (node: CoachTreeNode) => {
+  const counts: Record<string, number> = {};
+  node.history.forEach((job) => {
+    if (job.title === 'hc') {
+      return;
+    }
+    counts[job.title] = (counts[job.title] ?? 0) + 1;
+  });
+
+  const coordinator = (['dc', 'oc'] as const)
+    .filter((role) => counts[role])
+    .sort((a, b) => counts[b] - counts[a])[0];
+
+  return NON_HC_ROLE_LABELS[coordinator ?? 'other'] ?? 'Assistant';
+};
+
 const getSchools = (node: CoachTreeNode) =>
   Array.from(new Set(node.history.map((job) => job.school))).slice(0, 3);
 
@@ -1253,7 +1277,7 @@ function CoachCard({
       </span>
       <span className="coach-card-name">{node.id}</span>
       <span className="coach-card-meta">
-        {firstHeadCoachJob ? `${firstHeadCoachJob.school}, ${firstHeadCoachJob.year}` : 'Head coach'}
+        {firstHeadCoachJob ? `${firstHeadCoachJob.school}, ${firstHeadCoachJob.year}` : getNonHeadCoachRoleLabel(node)}
       </span>
       <span className="coach-card-bottom">
         <span className="coach-card-years">{formatYears(node.years)}</span>
