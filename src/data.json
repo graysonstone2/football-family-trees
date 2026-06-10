@@ -582,15 +582,19 @@
       "hc": "Terry Bowden",
       "dc": "Chuck Amato",
       "other": [
-        "Wayne Bolt",
-        "A.J. Milwee",
         "Alan Arrington",
+        "Jeff Bowden",
+        "Trent Boykin",
+        "Terrell Buckley",
+        "A.J. Milwee",
+        "John Pont",
         "Todd Stroud",
-        "Randy Clements",
-        "Scot Sloan",
-        "A.J. Pratt"
-      ],
-      "oc": "John Peterson"
+        "Mike Woodford",
+        "Matt Arshinkoff",
+        "Danny Breyer",
+        "Jason Morgan",
+        "Kyle Futch"
+      ]
     },
     "2013": {
       "hc": "Terry Bowden",
@@ -5057,18 +5061,25 @@
     },
     "2023": {
       "hc": "Scot Loeffler",
-      "oc": "Max Warner Greg Nosal",
-      "dc": "Steve Morrison",
+      "oc": [
+        "Greg Nosal",
+        "Max Warner"
+      ],
+      "dc": [
+        "Steve Morrison",
+        "Sammy Lawanson"
+      ],
       "other": [
-        "Eric Lewis",
-        "Brian White",
-        "Cole Forney",
+        "Alex Bayer",
+        "Julian Campenni",
         "Erik Campbell",
-        "Jim Haeg",
-        "Jim Hermann",
-        "Marcus White",
-        "Max Lerner",
-        "Joe Vindigni"
+        "Derrick Jackson",
+        "Beyah Rasool",
+        "Brian White",
+        "Grant Strock",
+        "Brady Thomas",
+        "Johnny Caughman",
+        "Jack McCarthy"
       ]
     },
     "2024": {
@@ -5633,14 +5644,14 @@
       "oc": "Brandon Doman",
       "other": [
         "Lance Reynolds",
-        "Barry Lamb",
-        "Kelly Poppinga",
-        "Mark Atuaia",
+        "Mark Weber",
+        "Joe DuPaix",
         "Ben Cahoon",
-        "Nick Howell",
-        "Joe DuPaix"
-      ],
-      "dc": "Jaime Hill"
+        "Steve Kaufusi",
+        "Paul Tidwell",
+        "Kelly Poppinga",
+        "Nick Howell"
+      ]
     },
     "2012": {
       "hc": "Bronco Mendenhall",
@@ -5713,13 +5724,16 @@
       "oc": "Ty Detmer",
       "other": [
         "Ed Lamb",
+        "Mike Empey",
         "Reno Mahe",
         "Ben Cahoon",
-        "Mike Empey",
-        "Jernaro Gilford",
+        "Steve Clark",
         "Steve Kaufusi",
-        "Tevita Ofahengaue",
-        "Jason Shumway"
+        "Jernaro Gilford",
+        "Jan Jorgensen",
+        "Vince Feula",
+        "Dallas Reynolds",
+        "Harvey Unga"
       ]
     },
     "2018": {
@@ -7276,18 +7290,17 @@
       ]
     },
     "2017": {
-      "hc": "Jamey Chadwell",
+      "hc": "Joe Moglia",
       "dc": "Mickey Matthews",
       "oc": "Jamey Chadwell",
       "other": [
+        "Cory Bailey",
+        "Curt Baldus",
         "Patrick Covington",
-        "Shane Meyer",
+        "Bill Durkin",
+        "Ryan Goodman",
         "Willie Korn",
-        "Brian Gabriel",
-        "Craig Stevens",
-        "Adrian Mauldin",
-        "Louis Lepis",
-        "Benny Sapp"
+        "Nick Jones"
       ]
     },
     "2018": {
@@ -9196,16 +9209,15 @@
     "2001": {
       "hc": "Steve Spurrier",
       "dc": "Jon Hoke",
-      "oc": "Buddy Teevens",
       "other": [
-        "Bob Sanders",
         "Jim Collins",
-        "Gilles Cristol",
-        "Buddy Alexander",
+        "Dwayne Dixon",
+        "Lawson Holland",
+        "Ricky Hunley",
+        "John Hunt",
         "Jerry Odom",
-        "Lawrence Wright",
         "Jimmy Ray Stephens",
-        "Dwayne Dixon"
+        "Buddy Teevens"
       ]
     },
     "2002": {
@@ -15707,80 +15719,82 @@
     },
     "2000": {
       "hc": "Ken Karcher",
+      "dc": "Dennis Danielson",
       "other": [
-        "Bill Gillespie",
-        "Howard Kinney",
-        "Ivan Jasper",
-        "Ed King",
-        "Matt Knoll",
-        "Jim Lampen"
-      ],
-      "dc": "Craig Dickenson",
-      "oc": "Maurice Harris"
+        "Bob Lord",
+        "Bernard Clark",
+        "Ron Estay",
+        "Jesse Riley",
+        "Frank Rocco Jr.",
+        "Pete Sundheim"
+      ]
     },
     "2001": {
       "hc": "Ken Karcher",
+      "oc": "Frank Rocco Jr.",
+      "dc": "Dennis Danielson",
       "other": [
-        "Bill Gillespie",
-        "Howard Kinney",
-        "Ivan Jasper",
-        "Ed King",
-        "Matt Knoll",
-        "Jim Lampen"
-      ],
-      "dc": "Craig Dickenson",
-      "oc": "Maurice Harris"
+        "Bernard Clark",
+        "Kyle Cooper",
+        "Mike Hand",
+        "Mike Jones",
+        "Donald Smith",
+        "Pete Sundheim"
+      ]
     },
     "2002": {
       "hc": "Ken Karcher",
+      "oc": "Frank Rocco Jr.",
+      "dc": "Dennis Danielson",
       "other": [
-        "Bill Gillespie",
-        "Howard Kinney",
-        "Ivan Jasper",
-        "Ed King",
-        "Matt Knoll",
-        "Jim Lampen"
-      ],
-      "dc": "Craig Dickenson",
-      "oc": "Maurice Harris"
+        "Bernard Clark",
+        "Kyle Cooper",
+        "Mike Gebbia",
+        "Mike Hand",
+        "Donald Smith",
+        "Pete Sundheim"
+      ]
     },
     "2003": {
       "hc": "Ken Karcher",
+      "oc": "Frank Rocco Jr.",
+      "dc": "Steve Carson",
       "other": [
-        "Bill Gillespie",
-        "Howard Kinney",
-        "Ivan Jasper",
-        "Jim Lampen",
-        "Russ Huesman",
-        "Andy Richman"
-      ],
-      "dc": "Gregory McMahon",
-      "oc": "Ed King"
+        "Bernard Clark",
+        "Mike Gebbia",
+        "Mike Hand",
+        "Mickey Mays",
+        "Charlie Skalaski",
+        "Pete Sundheim"
+      ]
     },
     "2004": {
       "hc": "Ken Karcher",
+      "dc": "Steve Carson",
       "other": [
-        "Bill Gillespie",
-        "Howard Kinney",
-        "Ivan Jasper",
-        "Jim Lampen",
-        "Andy Richman"
-      ],
-      "dc": "Russ Huesman",
-      "oc": "Ed King"
+        "Pete Sundheim",
+        "Mike Hand",
+        "Frank Hickson",
+        "Mickey Mays",
+        "Biff Parson",
+        "Marshall Roberts",
+        "Charlie Skalaski",
+        "Robert Wimberly"
+      ]
     },
     "2005": {
       "hc": "Ken Karcher",
+      "dc": "Steve Carson",
       "other": [
-        "Bill Gillespie",
-        "Howard Kinney",
-        "Ivan Jasper",
-        "Jim Lampen",
-        "Andy Richman",
-        "Dave Williams"
-      ],
-      "dc": "Rusty Russell",
-      "oc": "Ed King"
+        "Pete Sundheim",
+        "Frank Hickson",
+        "Mickey Mays",
+        "Blaine McCorkle",
+        "Biff Parson",
+        "Marshall Roberts",
+        "Charlie Skalaski",
+        "Robert Wimberly"
+      ]
     },
     "2006": {
       "hc": "Danny Rocco",
@@ -36912,14 +36926,15 @@
       "dc": "Dennis Therrell",
       "oc": "Todd Berry",
       "other": [
-        "J.D. Williams",
-        "Keith Uperesa",
-        "Kris Cinkovich",
-        "Chad Germer",
-        "Aaron Alford",
         "Mike Bradeson",
-        "Tyler Kasten",
-        "Brent Myers"
+        "Andre Patterson",
+        "Jed Stugart",
+        "DeAndre Smith",
+        "Keith Uperesa",
+        "Gary Bernardi",
+        "Kris Cinkovich",
+        "Rhett Brooks",
+        "Shane Steichen"
       ]
     },
     "2010": {
@@ -46927,24 +46942,30 @@
     "2006": {},
     "2007": {},
     "2008": {
+      "hc": "Bobby Wilder",
+      "oc": "Brian Scott",
+      "dc": "Andy Rondeau",
       "other": [
         "Michael Zyskowski",
-        "Bill Dee",
         "Chip West",
-        "Scott Boone",
         "Dealton Cotton",
         "Ron Whitcomb",
-        "John Allen",
-        "Brandon Hourigan"
-      ],
-      "dc": "Andy Rondeau",
-      "oc": "Brian Scott",
-      "hc": "Bobby Wilder"
+        "Zohn Burden",
+        "Keita Malloy"
+      ]
     },
     "2009": {
       "hc": "Bobby Wilder",
       "oc": "Brian Scott",
-      "dc": "Andy Rondeau"
+      "dc": "Andy Rondeau",
+      "other": [
+        "Michael Zyskowski",
+        "Chip West",
+        "Dealton Cotton",
+        "Ron Whitcomb",
+        "Zohn Burden",
+        "Keita Malloy"
+      ]
     },
     "2010": {
       "hc": "Bobby Wilder",

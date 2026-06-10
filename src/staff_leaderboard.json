@@ -23148,6 +23148,17 @@
   },
   {
     "rank": 1980,
+    "coach": "Joe Moglia",
+    "coachRank": 370,
+    "school": "Coastal Carolina",
+    "year": 2017,
+    "count": 1,
+    "coaches": [
+      "Jamey Chadwell"
+    ]
+  },
+  {
+    "rank": 1981,
     "coach": "David Cutcliffe",
     "coachRank": 138,
     "school": "Duke",
@@ -23158,7 +23169,7 @@
     ]
   },
   {
-    "rank": 1981,
+    "rank": 1982,
     "coach": "Jim McElwain",
     "coachRank": 183,
     "school": "Florida",
@@ -23169,7 +23180,7 @@
     ]
   },
   {
-    "rank": 1982,
+    "rank": 1983,
     "coach": "Jeff Tedford",
     "coachRank": 218,
     "school": "Fresno State",
@@ -23180,7 +23191,7 @@
     ]
   },
   {
-    "rank": 1983,
+    "rank": 1984,
     "coach": "Tyson Summers",
     "coachRank": 404,
     "school": "Georgia Southern",
@@ -23191,7 +23202,7 @@
     ]
   },
   {
-    "rank": 1984,
+    "rank": 1985,
     "coach": "Matt Campbell",
     "coachRank": 294,
     "school": "Iowa State",
@@ -23202,7 +23213,7 @@
     ]
   },
   {
-    "rank": 1985,
+    "rank": 1986,
     "coach": "Mark Hudspeth",
     "coachRank": 380,
     "school": "Louisiana",
@@ -23213,7 +23224,7 @@
     ]
   },
   {
-    "rank": 1986,
+    "rank": 1987,
     "coach": "Mark Richt",
     "coachRank": 60,
     "school": "Miami (FL)",
@@ -23224,7 +23235,7 @@
     ]
   },
   {
-    "rank": 1987,
+    "rank": 1988,
     "coach": "Jim Harbaugh",
     "coachRank": 37,
     "school": "Michigan",
@@ -23235,7 +23246,7 @@
     ]
   },
   {
-    "rank": 1988,
+    "rank": 1989,
     "coach": "Mike Riley",
     "coachRank": 153,
     "school": "Nebraska",
@@ -23246,7 +23257,7 @@
     ]
   },
   {
-    "rank": 1989,
+    "rank": 1990,
     "coach": "Jay Norvell",
     "coachRank": 363,
     "school": "Nevada",
@@ -23257,7 +23268,7 @@
     ]
   },
   {
-    "rank": 1990,
+    "rank": 1991,
     "coach": "Rod Carey",
     "coachRank": 394,
     "school": "Northern Illinois",
@@ -23268,7 +23279,7 @@
     ]
   },
   {
-    "rank": 1991,
+    "rank": 1992,
     "coach": "Frank Solich",
     "coachRank": 72,
     "school": "Ohio",
@@ -23279,7 +23290,7 @@
     ]
   },
   {
-    "rank": 1992,
+    "rank": 1993,
     "coach": "David Bailiff",
     "coachRank": 141,
     "school": "Rice",
@@ -23290,7 +23301,7 @@
     ]
   },
   {
-    "rank": 1993,
+    "rank": 1994,
     "coach": "Jay Hopson",
     "coachRank": 362,
     "school": "Southern Mississippi",
@@ -23301,7 +23312,7 @@
     ]
   },
   {
-    "rank": 1994,
+    "rank": 1995,
     "coach": "David Shaw",
     "coachRank": 142,
     "school": "Stanford",
@@ -23312,7 +23323,7 @@
     ]
   },
   {
-    "rank": 1995,
+    "rank": 1996,
     "coach": "Dino Babers",
     "coachRank": 352,
     "school": "Syracuse",
@@ -23323,7 +23334,7 @@
     ]
   },
   {
-    "rank": 1996,
+    "rank": 1997,
     "coach": "Gary Patterson",
     "coachRank": 84,
     "school": "TCU",
@@ -23334,7 +23345,7 @@
     ]
   },
   {
-    "rank": 1997,
+    "rank": 1998,
     "coach": "Butch Jones",
     "coachRank": 335,
     "school": "Tennessee",
@@ -23345,7 +23356,7 @@
     ]
   },
   {
-    "rank": 1998,
+    "rank": 1999,
     "coach": "Neal Brown",
     "coachRank": 295,
     "school": "Troy",
@@ -23356,7 +23367,7 @@
     ]
   },
   {
-    "rank": 1999,
+    "rank": 2000,
     "coach": "Clay Helton",
     "coachRank": 262,
     "school": "USC",
@@ -23367,7 +23378,7 @@
     ]
   },
   {
-    "rank": 2000,
+    "rank": 2001,
     "coach": "Kyle Whittingham",
     "coachRank": 96,
     "school": "Utah",
@@ -23378,7 +23389,7 @@
     ]
   },
   {
-    "rank": 2001,
+    "rank": 2002,
     "coach": "Dave Clawson",
     "coachRank": 217,
     "school": "Wake Forest",
@@ -23389,7 +23400,7 @@
     ]
   },
   {
-    "rank": 2002,
+    "rank": 2003,
     "coach": "Mike Leach",
     "coachRank": 48,
     "school": "Washington State",
@@ -23400,7 +23411,7 @@
     ]
   },
   {
-    "rank": 2003,
+    "rank": 2004,
     "coach": "Craig Bohl",
     "coachRank": 202,
     "school": "Wyoming",
@@ -23411,7 +23422,7 @@
     ]
   },
   {
-    "rank": 2004,
+    "rank": 2005,
     "coach": "Scott Satterfield",
     "coachRank": 299,
     "school": "Appalachian State",
@@ -23422,7 +23433,7 @@
     ]
   },
   {
-    "rank": 2005,
+    "rank": 2006,
     "coach": "Herm Edwards",
     "coachRank": 313,
     "school": "Arizona State",
@@ -23433,7 +23444,7 @@
     ]
   },
   {
-    "rank": 2006,
+    "rank": 2007,
     "coach": "Chad Morris",
     "coachRank": 337,
     "school": "Arkansas",
@@ -23444,7 +23455,7 @@
     ]
   },
   {
-    "rank": 2007,
+    "rank": 2008,
     "coach": "Gus Malzahn",
     "coachRank": 136,
     "school": "Auburn",
@@ -23455,7 +23466,7 @@
     ]
   },
   {
-    "rank": 2008,
+    "rank": 2009,
     "coach": "Bryan Harsin",
     "coachRank": 163,
     "school": "Boise State",
@@ -23466,7 +23477,7 @@
     ]
   },
   {
-    "rank": 2009,
+    "rank": 2010,
     "coach": "Steve Addazio",
     "coachRank": 179,
     "school": "Boston College",
@@ -23477,7 +23488,7 @@
     ]
   },
   {
-    "rank": 2010,
+    "rank": 2011,
     "coach": "Luke Fickell",
     "coachRank": 204,
     "school": "Cincinnati",
@@ -23488,7 +23499,7 @@
     ]
   },
   {
-    "rank": 2011,
+    "rank": 2012,
     "coach": "Joe Moglia",
     "coachRank": 370,
     "school": "Coastal Carolina",
@@ -23499,7 +23510,7 @@
     ]
   },
   {
-    "rank": 2012,
+    "rank": 2013,
     "coach": "David Cutcliffe",
     "coachRank": 138,
     "school": "Duke",
@@ -23510,7 +23521,7 @@
     ]
   },
   {
-    "rank": 2013,
+    "rank": 2014,
     "coach": "Willie Taggart",
     "coachRank": 108,
     "school": "Florida State",
@@ -23521,7 +23532,7 @@
     ]
   },
   {
-    "rank": 2014,
+    "rank": 2015,
     "coach": "Jeff Tedford",
     "coachRank": 218,
     "school": "Fresno State",
@@ -23532,7 +23543,7 @@
     ]
   },
   {
-    "rank": 2015,
+    "rank": 2016,
     "coach": "Nick Rolovich",
     "coachRank": 270,
     "school": "Hawaii",
@@ -23543,7 +23554,7 @@
     ]
   },
   {
-    "rank": 2016,
+    "rank": 2017,
     "coach": "Tom Allen",
     "coachRank": 272,
     "school": "Indiana",
@@ -23554,7 +23565,7 @@
     ]
   },
   {
-    "rank": 2017,
+    "rank": 2018,
     "coach": "Matt Campbell",
     "coachRank": 294,
     "school": "Iowa State",
@@ -23565,7 +23576,7 @@
     ]
   },
   {
-    "rank": 2018,
+    "rank": 2019,
     "coach": "Billy Napier",
     "coachRank": 330,
     "school": "Louisiana",
@@ -23576,7 +23587,7 @@
     ]
   },
   {
-    "rank": 2019,
+    "rank": 2020,
     "coach": "Ed Orgeron",
     "coachRank": 124,
     "school": "LSU",
@@ -23587,7 +23598,7 @@
     ]
   },
   {
-    "rank": 2020,
+    "rank": 2021,
     "coach": "Mark Richt",
     "coachRank": 60,
     "school": "Miami (FL)",
@@ -23598,7 +23609,7 @@
     ]
   },
   {
-    "rank": 2021,
+    "rank": 2022,
     "coach": "P. J. Fleck",
     "coachRank": 198,
     "school": "Minnesota",
@@ -23609,7 +23620,7 @@
     ]
   },
   {
-    "rank": 2022,
+    "rank": 2023,
     "coach": "Barry Odom",
     "coachRank": 229,
     "school": "Missouri",
@@ -23620,7 +23631,7 @@
     ]
   },
   {
-    "rank": 2023,
+    "rank": 2024,
     "coach": "Jay Norvell",
     "coachRank": 363,
     "school": "Nevada",
@@ -23631,7 +23642,7 @@
     ]
   },
   {
-    "rank": 2024,
+    "rank": 2025,
     "coach": "Rod Carey",
     "coachRank": 394,
     "school": "Northern Illinois",
@@ -23642,7 +23653,7 @@
     ]
   },
   {
-    "rank": 2025,
+    "rank": 2026,
     "coach": "Brian Kelly",
     "coachRank": 100,
     "school": "Notre Dame",
@@ -23653,7 +23664,7 @@
     ]
   },
   {
-    "rank": 2026,
+    "rank": 2027,
     "coach": "Frank Solich",
     "coachRank": 72,
     "school": "Ohio",
@@ -23664,7 +23675,7 @@
     ]
   },
   {
-    "rank": 2027,
+    "rank": 2028,
     "coach": "Lincoln Riley",
     "coachRank": 320,
     "school": "Oklahoma",
@@ -23675,7 +23686,7 @@
     ]
   },
   {
-    "rank": 2028,
+    "rank": 2029,
     "coach": "Matt Luke",
     "coachRank": 258,
     "school": "Ole Miss",
@@ -23686,7 +23697,7 @@
     ]
   },
   {
-    "rank": 2029,
+    "rank": 2030,
     "coach": "Mario Cristobal",
     "coachRank": 117,
     "school": "Oregon",
@@ -23697,7 +23708,7 @@
     ]
   },
   {
-    "rank": 2030,
+    "rank": 2031,
     "coach": "Jonathan Smith",
     "coachRank": 374,
     "school": "Oregon State",
@@ -23708,7 +23719,7 @@
     ]
   },
   {
-    "rank": 2031,
+    "rank": 2032,
     "coach": "Rocky Long",
     "coachRank": 151,
     "school": "San Diego State",
@@ -23719,7 +23730,7 @@
     ]
   },
   {
-    "rank": 2032,
+    "rank": 2033,
     "coach": "Sonny Dykes",
     "coachRank": 301,
     "school": "SMU",
@@ -23730,7 +23741,7 @@
     ]
   },
   {
-    "rank": 2033,
+    "rank": 2034,
     "coach": "Jay Hopson",
     "coachRank": 362,
     "school": "Southern Mississippi",
@@ -23741,7 +23752,7 @@
     ]
   },
   {
-    "rank": 2034,
+    "rank": 2035,
     "coach": "Gary Patterson",
     "coachRank": 84,
     "school": "TCU",
@@ -23752,7 +23763,7 @@
     ]
   },
   {
-    "rank": 2035,
+    "rank": 2036,
     "coach": "Geoff Collins",
     "coachRank": 290,
     "school": "Temple",
@@ -23763,7 +23774,7 @@
     ]
   },
   {
-    "rank": 2036,
+    "rank": 2037,
     "coach": "Jeremy Pruitt",
     "coachRank": 316,
     "school": "Tennessee",
@@ -23774,7 +23785,7 @@
     ]
   },
   {
-    "rank": 2037,
+    "rank": 2038,
     "coach": "Bill Clark",
     "coachRank": 328,
     "school": "UAB",
@@ -23785,7 +23796,7 @@
     ]
   },
   {
-    "rank": 2038,
+    "rank": 2039,
     "coach": "Chip Kelly",
     "coachRank": 195,
     "school": "UCLA",
@@ -23796,7 +23807,7 @@
     ]
   },
   {
-    "rank": 2039,
+    "rank": 2040,
     "coach": "Tony Sanchez",
     "coachRank": 401,
     "school": "UNLV",
@@ -23807,7 +23818,7 @@
     ]
   },
   {
-    "rank": 2040,
+    "rank": 2041,
     "coach": "Kyle Whittingham",
     "coachRank": 96,
     "school": "Utah",
@@ -23818,7 +23829,7 @@
     ]
   },
   {
-    "rank": 2041,
+    "rank": 2042,
     "coach": "Dave Clawson",
     "coachRank": 217,
     "school": "Wake Forest",
@@ -23829,7 +23840,7 @@
     ]
   },
   {
-    "rank": 2042,
+    "rank": 2043,
     "coach": "Chris Petersen",
     "coachRank": 91,
     "school": "Washington",
@@ -23840,7 +23851,7 @@
     ]
   },
   {
-    "rank": 2043,
+    "rank": 2044,
     "coach": "Mike Leach",
     "coachRank": 48,
     "school": "Washington State",
@@ -23851,7 +23862,7 @@
     ]
   },
   {
-    "rank": 2044,
+    "rank": 2045,
     "coach": "Craig Bohl",
     "coachRank": 202,
     "school": "Wyoming",
@@ -23862,7 +23873,7 @@
     ]
   },
   {
-    "rank": 2045,
+    "rank": 2046,
     "coach": "Eliah Drinkwitz",
     "coachRank": 288,
     "school": "Appalachian State",
@@ -23873,7 +23884,7 @@
     ]
   },
   {
-    "rank": 2046,
+    "rank": 2047,
     "coach": "Herm Edwards",
     "coachRank": 313,
     "school": "Arizona State",
@@ -23884,7 +23895,7 @@
     ]
   },
   {
-    "rank": 2047,
+    "rank": 2048,
     "coach": "Chad Morris",
     "coachRank": 337,
     "school": "Arkansas",
@@ -23895,7 +23906,7 @@
     ]
   },
   {
-    "rank": 2048,
+    "rank": 2049,
     "coach": "Jeff Monken",
     "coachRank": 256,
     "school": "Army",
@@ -23906,7 +23917,7 @@
     ]
   },
   {
-    "rank": 2049,
+    "rank": 2050,
     "coach": "Gus Malzahn",
     "coachRank": 136,
     "school": "Auburn",
@@ -23917,7 +23928,7 @@
     ]
   },
   {
-    "rank": 2050,
+    "rank": 2051,
     "coach": "Matt Rhule",
     "coachRank": 268,
     "school": "Baylor",
@@ -23928,7 +23939,7 @@
     ]
   },
   {
-    "rank": 2051,
+    "rank": 2052,
     "coach": "Bryan Harsin",
     "coachRank": 163,
     "school": "Boise State",
@@ -23939,7 +23950,7 @@
     ]
   },
   {
-    "rank": 2052,
+    "rank": 2053,
     "coach": "Will Healy",
     "coachRank": 405,
     "school": "Charlotte",
@@ -23950,7 +23961,7 @@
     ]
   },
   {
-    "rank": 2053,
+    "rank": 2054,
     "coach": "Luke Fickell",
     "coachRank": 204,
     "school": "Cincinnati",
@@ -23961,7 +23972,7 @@
     ]
   },
   {
-    "rank": 2054,
+    "rank": 2055,
     "coach": "Geoff Collins",
     "coachRank": 290,
     "school": "Georgia Tech",
@@ -23972,7 +23983,7 @@
     ]
   },
   {
-    "rank": 2055,
+    "rank": 2056,
     "coach": "Nick Rolovich",
     "coachRank": 270,
     "school": "Hawaii",
@@ -23983,7 +23994,7 @@
     ]
   },
   {
-    "rank": 2056,
+    "rank": 2057,
     "coach": "Matt Campbell",
     "coachRank": 294,
     "school": "Iowa State",
@@ -23994,7 +24005,7 @@
     ]
   },
   {
-    "rank": 2057,
+    "rank": 2058,
     "coach": "Mark Stoops",
     "coachRank": 267,
     "school": "Kentucky",
@@ -24005,7 +24016,7 @@
     ]
   },
   {
-    "rank": 2058,
+    "rank": 2059,
     "coach": "Billy Napier",
     "coachRank": 330,
     "school": "Louisiana",
@@ -24016,7 +24027,7 @@
     ]
   },
   {
-    "rank": 2059,
+    "rank": 2060,
     "coach": "Ed Orgeron",
     "coachRank": 124,
     "school": "LSU",
@@ -24027,7 +24038,7 @@
     ]
   },
   {
-    "rank": 2060,
+    "rank": 2061,
     "coach": "Barry Odom",
     "coachRank": 229,
     "school": "Missouri",
@@ -24038,7 +24049,7 @@
     ]
   },
   {
-    "rank": 2061,
+    "rank": 2062,
     "coach": "Ken Niumatalolo",
     "coachRank": 376,
     "school": "Navy",
@@ -24049,7 +24060,7 @@
     ]
   },
   {
-    "rank": 2062,
+    "rank": 2063,
     "coach": "Jay Norvell",
     "coachRank": 363,
     "school": "Nevada",
@@ -24060,7 +24071,7 @@
     ]
   },
   {
-    "rank": 2063,
+    "rank": 2064,
     "coach": "Frank Solich",
     "coachRank": 72,
     "school": "Ohio",
@@ -24071,7 +24082,7 @@
     ]
   },
   {
-    "rank": 2064,
+    "rank": 2065,
     "coach": "Lincoln Riley",
     "coachRank": 320,
     "school": "Oklahoma",
@@ -24082,7 +24093,7 @@
     ]
   },
   {
-    "rank": 2065,
+    "rank": 2066,
     "coach": "Jonathan Smith",
     "coachRank": 374,
     "school": "Oregon State",
@@ -24093,7 +24104,7 @@
     ]
   },
   {
-    "rank": 2066,
+    "rank": 2067,
     "coach": "Sonny Dykes",
     "coachRank": 301,
     "school": "SMU",
@@ -24104,7 +24115,7 @@
     ]
   },
   {
-    "rank": 2067,
+    "rank": 2068,
     "coach": "Jay Hopson",
     "coachRank": 362,
     "school": "Southern Mississippi",
@@ -24115,7 +24126,7 @@
     ]
   },
   {
-    "rank": 2068,
+    "rank": 2069,
     "coach": "Gary Patterson",
     "coachRank": 84,
     "school": "TCU",
@@ -24126,7 +24137,7 @@
     ]
   },
   {
-    "rank": 2069,
+    "rank": 2070,
     "coach": "Rod Carey",
     "coachRank": 394,
     "school": "Temple",
@@ -24137,7 +24148,7 @@
     ]
   },
   {
-    "rank": 2070,
+    "rank": 2071,
     "coach": "Willie Fritz",
     "coachRank": 259,
     "school": "Tulane",
@@ -24148,7 +24159,7 @@
     ]
   },
   {
-    "rank": 2071,
+    "rank": 2072,
     "coach": "Bill Clark",
     "coachRank": 328,
     "school": "UAB",
@@ -24159,7 +24170,7 @@
     ]
   },
   {
-    "rank": 2072,
+    "rank": 2073,
     "coach": "Josh Heupel",
     "coachRank": 292,
     "school": "UCF",
@@ -24170,7 +24181,7 @@
     ]
   },
   {
-    "rank": 2073,
+    "rank": 2074,
     "coach": "Chip Kelly",
     "coachRank": 195,
     "school": "UCLA",
@@ -24181,7 +24192,7 @@
     ]
   },
   {
-    "rank": 2074,
+    "rank": 2075,
     "coach": "Tony Sanchez",
     "coachRank": 401,
     "school": "UNLV",
@@ -24192,7 +24203,7 @@
     ]
   },
   {
-    "rank": 2075,
+    "rank": 2076,
     "coach": "Chris Petersen",
     "coachRank": 91,
     "school": "Washington",
@@ -24203,7 +24214,7 @@
     ]
   },
   {
-    "rank": 2076,
+    "rank": 2077,
     "coach": "Mike Leach",
     "coachRank": 48,
     "school": "Washington State",
@@ -24214,7 +24225,7 @@
     ]
   },
   {
-    "rank": 2077,
+    "rank": 2078,
     "coach": "Sam Pittman",
     "coachRank": 298,
     "school": "Arkansas",
@@ -24225,7 +24236,7 @@
     ]
   },
   {
-    "rank": 2078,
+    "rank": 2079,
     "coach": "Jeff Monken",
     "coachRank": 256,
     "school": "Army",
@@ -24236,7 +24247,7 @@
     ]
   },
   {
-    "rank": 2079,
+    "rank": 2080,
     "coach": "Dave Aranda",
     "coachRank": 312,
     "school": "Baylor",
@@ -24247,7 +24258,7 @@
     ]
   },
   {
-    "rank": 2080,
+    "rank": 2081,
     "coach": "Bryan Harsin",
     "coachRank": 163,
     "school": "Boise State",
@@ -24258,7 +24269,7 @@
     ]
   },
   {
-    "rank": 2081,
+    "rank": 2082,
     "coach": "Jim McElwain",
     "coachRank": 183,
     "school": "Central Michigan",
@@ -24269,7 +24280,7 @@
     ]
   },
   {
-    "rank": 2082,
+    "rank": 2083,
     "coach": "Will Healy",
     "coachRank": 405,
     "school": "Charlotte",
@@ -24280,7 +24291,7 @@
     ]
   },
   {
-    "rank": 2083,
+    "rank": 2084,
     "coach": "Luke Fickell",
     "coachRank": 204,
     "school": "Cincinnati",
@@ -24291,7 +24302,7 @@
     ]
   },
   {
-    "rank": 2084,
+    "rank": 2085,
     "coach": "Mike Houston",
     "coachRank": 382,
     "school": "East Carolina",
@@ -24302,7 +24313,7 @@
     ]
   },
   {
-    "rank": 2085,
+    "rank": 2086,
     "coach": "Willie Taggart",
     "coachRank": 108,
     "school": "Florida Atlantic",
@@ -24313,7 +24324,7 @@
     ]
   },
   {
-    "rank": 2086,
+    "rank": 2087,
     "coach": "Mike Norvell",
     "coachRank": 197,
     "school": "Florida State",
@@ -24324,7 +24335,7 @@
     ]
   },
   {
-    "rank": 2087,
+    "rank": 2088,
     "coach": "Geoff Collins",
     "coachRank": 290,
     "school": "Georgia Tech",
@@ -24335,7 +24346,7 @@
     ]
   },
   {
-    "rank": 2088,
+    "rank": 2089,
     "coach": "Todd Graham",
     "coachRank": 41,
     "school": "Hawaii",
@@ -24346,7 +24357,7 @@
     ]
   },
   {
-    "rank": 2089,
+    "rank": 2090,
     "coach": "Tom Allen",
     "coachRank": 272,
     "school": "Indiana",
@@ -24357,7 +24368,7 @@
     ]
   },
   {
-    "rank": 2090,
+    "rank": 2091,
     "coach": "Mark Stoops",
     "coachRank": 267,
     "school": "Kentucky",
@@ -24368,7 +24379,7 @@
     ]
   },
   {
-    "rank": 2091,
+    "rank": 2092,
     "coach": "Billy Napier",
     "coachRank": 330,
     "school": "Louisiana",
@@ -24379,7 +24390,7 @@
     ]
   },
   {
-    "rank": 2092,
+    "rank": 2093,
     "coach": "Manny Diaz",
     "coachRank": 378,
     "school": "Miami (FL)",
@@ -24390,7 +24401,7 @@
     ]
   },
   {
-    "rank": 2093,
+    "rank": 2094,
     "coach": "P. J. Fleck",
     "coachRank": 198,
     "school": "Minnesota",
@@ -24401,7 +24412,7 @@
     ]
   },
   {
-    "rank": 2094,
+    "rank": 2095,
     "coach": "Mike Leach",
     "coachRank": 48,
     "school": "Mississippi State",
@@ -24412,7 +24423,7 @@
     ]
   },
   {
-    "rank": 2095,
+    "rank": 2096,
     "coach": "Eliah Drinkwitz",
     "coachRank": 288,
     "school": "Missouri",
@@ -24423,7 +24434,7 @@
     ]
   },
   {
-    "rank": 2096,
+    "rank": 2097,
     "coach": "Ken Niumatalolo",
     "coachRank": 376,
     "school": "Navy",
@@ -24434,7 +24445,7 @@
     ]
   },
   {
-    "rank": 2097,
+    "rank": 2098,
     "coach": "Jay Norvell",
     "coachRank": 363,
     "school": "Nevada",
@@ -24445,7 +24456,7 @@
     ]
   },
   {
-    "rank": 2098,
+    "rank": 2099,
     "coach": "Frank Solich",
     "coachRank": 72,
     "school": "Ohio",
@@ -24456,7 +24467,7 @@
     ]
   },
   {
-    "rank": 2099,
+    "rank": 2100,
     "coach": "Ryan Day",
     "coachRank": 296,
     "school": "Ohio State",
@@ -24467,7 +24478,7 @@
     ]
   },
   {
-    "rank": 2100,
+    "rank": 2101,
     "coach": "Lincoln Riley",
     "coachRank": 320,
     "school": "Oklahoma",
@@ -24478,7 +24489,7 @@
     ]
   },
   {
-    "rank": 2101,
+    "rank": 2102,
     "coach": "Lane Kiffin",
     "coachRank": 131,
     "school": "Ole Miss",
@@ -24489,7 +24500,7 @@
     ]
   },
   {
-    "rank": 2102,
+    "rank": 2103,
     "coach": "Jonathan Smith",
     "coachRank": 374,
     "school": "Oregon State",
@@ -24500,7 +24511,7 @@
     ]
   },
   {
-    "rank": 2103,
+    "rank": 2104,
     "coach": "James Franklin",
     "coachRank": 177,
     "school": "Penn State",
@@ -24511,7 +24522,7 @@
     ]
   },
   {
-    "rank": 2104,
+    "rank": 2105,
     "coach": "Greg Schiano",
     "coachRank": 59,
     "school": "Rutgers",
@@ -24522,7 +24533,7 @@
     ]
   },
   {
-    "rank": 2105,
+    "rank": 2106,
     "coach": "Jay Hopson",
     "coachRank": 362,
     "school": "Southern Mississippi",
@@ -24533,7 +24544,7 @@
     ]
   },
   {
-    "rank": 2106,
+    "rank": 2107,
     "coach": "Gary Patterson",
     "coachRank": 84,
     "school": "TCU",
@@ -24544,7 +24555,7 @@
     ]
   },
   {
-    "rank": 2107,
+    "rank": 2108,
     "coach": "Rod Carey",
     "coachRank": 394,
     "school": "Temple",
@@ -24555,7 +24566,7 @@
     ]
   },
   {
-    "rank": 2108,
+    "rank": 2109,
     "coach": "Tom Herman",
     "coachRank": 221,
     "school": "Texas",
@@ -24566,7 +24577,7 @@
     ]
   },
   {
-    "rank": 2109,
+    "rank": 2110,
     "coach": "Jimbo Fisher",
     "coachRank": 144,
     "school": "Texas A&M",
@@ -24577,7 +24588,7 @@
     ]
   },
   {
-    "rank": 2110,
+    "rank": 2111,
     "coach": "Willie Fritz",
     "coachRank": 259,
     "school": "Tulane",
@@ -24588,7 +24599,7 @@
     ]
   },
   {
-    "rank": 2111,
+    "rank": 2112,
     "coach": "Bill Clark",
     "coachRank": 328,
     "school": "UAB",
@@ -24599,7 +24610,7 @@
     ]
   },
   {
-    "rank": 2112,
+    "rank": 2113,
     "coach": "Josh Heupel",
     "coachRank": 292,
     "school": "UCF",
@@ -24610,7 +24621,7 @@
     ]
   },
   {
-    "rank": 2113,
+    "rank": 2114,
     "coach": "Chip Kelly",
     "coachRank": 195,
     "school": "UCLA",
@@ -24621,7 +24632,7 @@
     ]
   },
   {
-    "rank": 2114,
+    "rank": 2115,
     "coach": "Neal Brown",
     "coachRank": 295,
     "school": "West Virginia",
@@ -24632,7 +24643,7 @@
     ]
   },
   {
-    "rank": 2115,
+    "rank": 2116,
     "coach": "Craig Bohl",
     "coachRank": 202,
     "school": "Wyoming",
@@ -24643,7 +24654,7 @@
     ]
   },
   {
-    "rank": 2116,
+    "rank": 2117,
     "coach": "Nick Saban",
     "coachRank": 7,
     "school": "Alabama",
@@ -24654,7 +24665,7 @@
     ]
   },
   {
-    "rank": 2117,
+    "rank": 2118,
     "coach": "Jedd Fisch",
     "coachRank": 364,
     "school": "Arizona",
@@ -24665,7 +24676,7 @@
     ]
   },
   {
-    "rank": 2118,
+    "rank": 2119,
     "coach": "Jeff Monken",
     "coachRank": 256,
     "school": "Army",
@@ -24676,7 +24687,7 @@
     ]
   },
   {
-    "rank": 2119,
+    "rank": 2120,
     "coach": "Bryan Harsin",
     "coachRank": 163,
     "school": "Auburn",
@@ -24687,7 +24698,7 @@
     ]
   },
   {
-    "rank": 2120,
+    "rank": 2121,
     "coach": "Andy Avalos",
     "coachRank": 327,
     "school": "Boise State",
@@ -24698,7 +24709,7 @@
     ]
   },
   {
-    "rank": 2121,
+    "rank": 2122,
     "coach": "Will Healy",
     "coachRank": 405,
     "school": "Charlotte",
@@ -24709,7 +24720,7 @@
     ]
   },
   {
-    "rank": 2122,
+    "rank": 2123,
     "coach": "Mike Houston",
     "coachRank": 382,
     "school": "East Carolina",
@@ -24720,7 +24731,7 @@
     ]
   },
   {
-    "rank": 2123,
+    "rank": 2124,
     "coach": "Mike Norvell",
     "coachRank": 197,
     "school": "Florida State",
@@ -24731,7 +24742,7 @@
     ]
   },
   {
-    "rank": 2124,
+    "rank": 2125,
     "coach": "Geoff Collins",
     "coachRank": 290,
     "school": "Georgia Tech",
@@ -24742,7 +24753,7 @@
     ]
   },
   {
-    "rank": 2125,
+    "rank": 2126,
     "coach": "Bret Bielema",
     "coachRank": 86,
     "school": "Illinois",
@@ -24753,7 +24764,7 @@
     ]
   },
   {
-    "rank": 2126,
+    "rank": 2127,
     "coach": "Mark Stoops",
     "coachRank": 267,
     "school": "Kentucky",
@@ -24764,7 +24775,7 @@
     ]
   },
   {
-    "rank": 2127,
+    "rank": 2128,
     "coach": "Billy Napier",
     "coachRank": 330,
     "school": "Louisiana",
@@ -24775,7 +24786,7 @@
     ]
   },
   {
-    "rank": 2128,
+    "rank": 2129,
     "coach": "Terry Bowden",
     "coachRank": 43,
     "school": "Louisiana-Monroe",
@@ -24786,7 +24797,7 @@
     ]
   },
   {
-    "rank": 2129,
+    "rank": 2130,
     "coach": "Ryan Silverfield",
     "coachRank": 297,
     "school": "Memphis",
@@ -24797,7 +24808,7 @@
     ]
   },
   {
-    "rank": 2130,
+    "rank": 2131,
     "coach": "Manny Diaz",
     "coachRank": 378,
     "school": "Miami (FL)",
@@ -24808,7 +24819,7 @@
     ]
   },
   {
-    "rank": 2131,
+    "rank": 2132,
     "coach": "Jim Harbaugh",
     "coachRank": 37,
     "school": "Michigan",
@@ -24819,7 +24830,7 @@
     ]
   },
   {
-    "rank": 2132,
+    "rank": 2133,
     "coach": "P. J. Fleck",
     "coachRank": 198,
     "school": "Minnesota",
@@ -24830,7 +24841,7 @@
     ]
   },
   {
-    "rank": 2133,
+    "rank": 2134,
     "coach": "Mike Leach",
     "coachRank": 48,
     "school": "Mississippi State",
@@ -24841,7 +24852,7 @@
     ]
   },
   {
-    "rank": 2134,
+    "rank": 2135,
     "coach": "Ken Niumatalolo",
     "coachRank": 376,
     "school": "Navy",
@@ -24852,7 +24863,7 @@
     ]
   },
   {
-    "rank": 2135,
+    "rank": 2136,
     "coach": "Jay Norvell",
     "coachRank": 363,
     "school": "Nevada",
@@ -24863,7 +24874,7 @@
     ]
   },
   {
-    "rank": 2136,
+    "rank": 2137,
     "coach": "Ryan Day",
     "coachRank": 296,
     "school": "Ohio State",
@@ -24874,7 +24885,7 @@
     ]
   },
   {
-    "rank": 2137,
+    "rank": 2138,
     "coach": "Lane Kiffin",
     "coachRank": 131,
     "school": "Ole Miss",
@@ -24885,7 +24896,7 @@
     ]
   },
   {
-    "rank": 2138,
+    "rank": 2139,
     "coach": "James Franklin",
     "coachRank": 177,
     "school": "Penn State",
@@ -24896,7 +24907,7 @@
     ]
   },
   {
-    "rank": 2139,
+    "rank": 2140,
     "coach": "Greg Schiano",
     "coachRank": 59,
     "school": "Rutgers",
@@ -24907,7 +24918,7 @@
     ]
   },
   {
-    "rank": 2140,
+    "rank": 2141,
     "coach": "Kane Wommack",
     "coachRank": 375,
     "school": "South Alabama",
@@ -24918,7 +24929,7 @@
     ]
   },
   {
-    "rank": 2141,
+    "rank": 2142,
     "coach": "Rod Carey",
     "coachRank": 394,
     "school": "Temple",
@@ -24929,7 +24940,7 @@
     ]
   },
   {
-    "rank": 2142,
+    "rank": 2143,
     "coach": "Josh Heupel",
     "coachRank": 292,
     "school": "Tennessee",
@@ -24940,7 +24951,7 @@
     ]
   },
   {
-    "rank": 2143,
+    "rank": 2144,
     "coach": "Jimbo Fisher",
     "coachRank": 144,
     "school": "Texas A&M",
@@ -24951,7 +24962,7 @@
     ]
   },
   {
-    "rank": 2144,
+    "rank": 2145,
     "coach": "Matt Wells",
     "coachRank": 239,
     "school": "Texas Tech",
@@ -24962,7 +24973,7 @@
     ]
   },
   {
-    "rank": 2145,
+    "rank": 2146,
     "coach": "Bill Clark",
     "coachRank": 328,
     "school": "UAB",
@@ -24973,7 +24984,7 @@
     ]
   },
   {
-    "rank": 2146,
+    "rank": 2147,
     "coach": "Gus Malzahn",
     "coachRank": 136,
     "school": "UCF",
@@ -24984,7 +24995,7 @@
     ]
   },
   {
-    "rank": 2147,
+    "rank": 2148,
     "coach": "Chip Kelly",
     "coachRank": 195,
     "school": "UCLA",
@@ -24995,7 +25006,7 @@
     ]
   },
   {
-    "rank": 2148,
+    "rank": 2149,
     "coach": "Neal Brown",
     "coachRank": 295,
     "school": "West Virginia",
@@ -25006,7 +25017,7 @@
     ]
   },
   {
-    "rank": 2149,
+    "rank": 2150,
     "coach": "Tyson Helton",
     "coachRank": 403,
     "school": "Western Kentucky",
@@ -25017,7 +25028,7 @@
     ]
   },
   {
-    "rank": 2150,
+    "rank": 2151,
     "coach": "Craig Bohl",
     "coachRank": 202,
     "school": "Wyoming",
@@ -25028,7 +25039,7 @@
     ]
   },
   {
-    "rank": 2151,
+    "rank": 2152,
     "coach": "Nick Saban",
     "coachRank": 7,
     "school": "Alabama",
@@ -25039,7 +25050,7 @@
     ]
   },
   {
-    "rank": 2152,
+    "rank": 2153,
     "coach": "Jeff Monken",
     "coachRank": 256,
     "school": "Army",
@@ -25050,7 +25061,7 @@
     ]
   },
   {
-    "rank": 2153,
+    "rank": 2154,
     "coach": "Andy Avalos",
     "coachRank": 327,
     "school": "Boise State",
@@ -25061,7 +25072,7 @@
     ]
   },
   {
-    "rank": 2154,
+    "rank": 2155,
     "coach": "Will Healy",
     "coachRank": 405,
     "school": "Charlotte",
@@ -25072,7 +25083,7 @@
     ]
   },
   {
-    "rank": 2155,
+    "rank": 2156,
     "coach": "Mike Houston",
     "coachRank": 382,
     "school": "East Carolina",
@@ -25083,7 +25094,7 @@
     ]
   },
   {
-    "rank": 2156,
+    "rank": 2157,
     "coach": "Jeff Tedford",
     "coachRank": 218,
     "school": "Fresno State",
@@ -25094,7 +25105,7 @@
     ]
   },
   {
-    "rank": 2157,
+    "rank": 2158,
     "coach": "Geoff Collins",
     "coachRank": 290,
     "school": "Georgia Tech",
@@ -25105,7 +25116,7 @@
     ]
   },
   {
-    "rank": 2158,
+    "rank": 2159,
     "coach": "Bret Bielema",
     "coachRank": 86,
     "school": "Illinois",
@@ -25116,7 +25127,7 @@
     ]
   },
   {
-    "rank": 2159,
+    "rank": 2160,
     "coach": "Scott Satterfield",
     "coachRank": 299,
     "school": "Louisville",
@@ -25127,7 +25138,7 @@
     ]
   },
   {
-    "rank": 2160,
+    "rank": 2161,
     "coach": "Jim Harbaugh",
     "coachRank": 37,
     "school": "Michigan",
@@ -25138,7 +25149,7 @@
     ]
   },
   {
-    "rank": 2161,
+    "rank": 2162,
     "coach": "Mike Leach",
     "coachRank": 48,
     "school": "Mississippi State",
@@ -25149,7 +25160,7 @@
     ]
   },
   {
-    "rank": 2162,
+    "rank": 2163,
     "coach": "Ken Niumatalolo",
     "coachRank": 376,
     "school": "Navy",
@@ -25160,7 +25171,7 @@
     ]
   },
   {
-    "rank": 2163,
+    "rank": 2164,
     "coach": "Marcus Freeman",
     "coachRank": 379,
     "school": "Notre Dame",
@@ -25171,7 +25182,7 @@
     ]
   },
   {
-    "rank": 2164,
+    "rank": 2165,
     "coach": "Tim Albin",
     "coachRank": 398,
     "school": "Ohio",
@@ -25182,7 +25193,7 @@
     ]
   },
   {
-    "rank": 2165,
+    "rank": 2166,
     "coach": "Ryan Day",
     "coachRank": 296,
     "school": "Ohio State",
@@ -25193,7 +25204,7 @@
     ]
   },
   {
-    "rank": 2166,
+    "rank": 2167,
     "coach": "Brent Venables",
     "coachRank": 334,
     "school": "Oklahoma",
@@ -25204,7 +25215,7 @@
     ]
   },
   {
-    "rank": 2167,
+    "rank": 2168,
     "coach": "Mike Gundy",
     "coachRank": 85,
     "school": "Oklahoma State",
@@ -25215,7 +25226,7 @@
     ]
   },
   {
-    "rank": 2168,
+    "rank": 2169,
     "coach": "Dan Lanning",
     "coachRank": 343,
     "school": "Oregon",
@@ -25226,7 +25237,7 @@
     ]
   },
   {
-    "rank": 2169,
+    "rank": 2170,
     "coach": "Jonathan Smith",
     "coachRank": 374,
     "school": "Oregon State",
@@ -25237,7 +25248,7 @@
     ]
   },
   {
-    "rank": 2170,
+    "rank": 2171,
     "coach": "James Franklin",
     "coachRank": 177,
     "school": "Penn State",
@@ -25248,7 +25259,7 @@
     ]
   },
   {
-    "rank": 2171,
+    "rank": 2172,
     "coach": "Greg Schiano",
     "coachRank": 59,
     "school": "Rutgers",
@@ -25259,7 +25270,7 @@
     ]
   },
   {
-    "rank": 2172,
+    "rank": 2173,
     "coach": "Kane Wommack",
     "coachRank": 375,
     "school": "South Alabama",
@@ -25270,7 +25281,7 @@
     ]
   },
   {
-    "rank": 2173,
+    "rank": 2174,
     "coach": "Josh Heupel",
     "coachRank": 292,
     "school": "Tennessee",
@@ -25281,7 +25292,7 @@
     ]
   },
   {
-    "rank": 2174,
+    "rank": 2175,
     "coach": "Steve Sarkisian",
     "coachRank": 180,
     "school": "Texas",
@@ -25292,7 +25303,7 @@
     ]
   },
   {
-    "rank": 2175,
+    "rank": 2176,
     "coach": "Joey McGuire",
     "coachRank": 371,
     "school": "Texas Tech",
@@ -25303,7 +25314,7 @@
     ]
   },
   {
-    "rank": 2176,
+    "rank": 2177,
     "coach": "Chip Kelly",
     "coachRank": 195,
     "school": "UCLA",
@@ -25314,7 +25325,7 @@
     ]
   },
   {
-    "rank": 2177,
+    "rank": 2178,
     "coach": "Jake Dickert",
     "coachRank": 361,
     "school": "Washington State",
@@ -25325,7 +25336,7 @@
     ]
   },
   {
-    "rank": 2178,
+    "rank": 2179,
     "coach": "Craig Bohl",
     "coachRank": 202,
     "school": "Wyoming",
@@ -25336,7 +25347,7 @@
     ]
   },
   {
-    "rank": 2179,
+    "rank": 2180,
     "coach": "Andy Avalos",
     "coachRank": 327,
     "school": "Boise State",
@@ -25347,7 +25358,7 @@
     ]
   },
   {
-    "rank": 2180,
+    "rank": 2181,
     "coach": "Deion Sanders",
     "coachRank": 349,
     "school": "Colorado",
@@ -25358,7 +25369,7 @@
     ]
   },
   {
-    "rank": 2181,
+    "rank": 2182,
     "coach": "Mike Houston",
     "coachRank": 382,
     "school": "East Carolina",
@@ -25369,7 +25380,7 @@
     ]
   },
   {
-    "rank": 2182,
+    "rank": 2183,
     "coach": "Jim Harbaugh",
     "coachRank": 37,
     "school": "Michigan",
@@ -25380,7 +25391,7 @@
     ]
   },
   {
-    "rank": 2183,
+    "rank": 2184,
     "coach": "Danny Gonzales",
     "coachRank": 344,
     "school": "New Mexico",
@@ -25391,7 +25402,7 @@
     ]
   },
   {
-    "rank": 2184,
+    "rank": 2185,
     "coach": "Marcus Freeman",
     "coachRank": 379,
     "school": "Notre Dame",
@@ -25402,7 +25413,7 @@
     ]
   },
   {
-    "rank": 2185,
+    "rank": 2186,
     "coach": "Tim Albin",
     "coachRank": 398,
     "school": "Ohio",
@@ -25413,7 +25424,7 @@
     ]
   },
   {
-    "rank": 2186,
+    "rank": 2187,
     "coach": "Brent Venables",
     "coachRank": 334,
     "school": "Oklahoma",
@@ -25424,7 +25435,7 @@
     ]
   },
   {
-    "rank": 2187,
+    "rank": 2188,
     "coach": "Jonathan Smith",
     "coachRank": 374,
     "school": "Oregon State",
@@ -25435,7 +25446,7 @@
     ]
   },
   {
-    "rank": 2188,
+    "rank": 2189,
     "coach": "James Franklin",
     "coachRank": 177,
     "school": "Penn State",
@@ -25446,7 +25457,7 @@
     ]
   },
   {
-    "rank": 2189,
+    "rank": 2190,
     "coach": "Greg Schiano",
     "coachRank": 59,
     "school": "Rutgers",
@@ -25457,7 +25468,7 @@
     ]
   },
   {
-    "rank": 2190,
+    "rank": 2191,
     "coach": "Kane Wommack",
     "coachRank": 375,
     "school": "South Alabama",
@@ -25468,7 +25479,7 @@
     ]
   },
   {
-    "rank": 2191,
+    "rank": 2192,
     "coach": "Shane Beamer",
     "coachRank": 396,
     "school": "South Carolina",
@@ -25479,7 +25490,7 @@
     ]
   },
   {
-    "rank": 2192,
+    "rank": 2193,
     "coach": "Steve Sarkisian",
     "coachRank": 180,
     "school": "Texas",
@@ -25490,7 +25501,7 @@
     ]
   },
   {
-    "rank": 2193,
+    "rank": 2194,
     "coach": "Joey McGuire",
     "coachRank": 371,
     "school": "Texas Tech",
@@ -25501,7 +25512,7 @@
     ]
   },
   {
-    "rank": 2194,
+    "rank": 2195,
     "coach": "Chip Kelly",
     "coachRank": 195,
     "school": "UCLA",
@@ -25512,7 +25523,7 @@
     ]
   },
   {
-    "rank": 2195,
+    "rank": 2196,
     "coach": "Craig Bohl",
     "coachRank": 202,
     "school": "Wyoming",
@@ -25523,7 +25534,7 @@
     ]
   },
   {
-    "rank": 2196,
+    "rank": 2197,
     "coach": "Jeff Monken",
     "coachRank": 256,
     "school": "Army",
@@ -25534,7 +25545,7 @@
     ]
   },
   {
-    "rank": 2197,
+    "rank": 2198,
     "coach": "Mike Houston",
     "coachRank": 382,
     "school": "East Carolina",
@@ -25545,7 +25556,7 @@
     ]
   },
   {
-    "rank": 2198,
+    "rank": 2199,
     "coach": "Kenni Burns",
     "coachRank": 377,
     "school": "Kent State",
@@ -25556,7 +25567,7 @@
     ]
   },
   {
-    "rank": 2199,
+    "rank": 2200,
     "coach": "Tim Albin",
     "coachRank": 398,
     "school": "Ohio",
@@ -25567,7 +25578,7 @@
     ]
   },
   {
-    "rank": 2200,
+    "rank": 2201,
     "coach": "Greg Schiano",
     "coachRank": 59,
     "school": "Rutgers",
@@ -25578,7 +25589,7 @@
     ]
   },
   {
-    "rank": 2201,
+    "rank": 2202,
     "coach": "Shane Beamer",
     "coachRank": 396,
     "school": "South Carolina",
@@ -25589,7 +25600,7 @@
     ]
   },
   {
-    "rank": 2202,
+    "rank": 2203,
     "coach": "Joey McGuire",
     "coachRank": 371,
     "school": "Texas Tech",

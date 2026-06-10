@@ -18132,12 +18132,20 @@
     "coach": "Joe Moglia",
     "totalDescendants": 1,
     "directDescendants": 1,
-    "headCoachStops": 6,
+    "headCoachStops": 7,
     "firstHeadCoachJob": {
       "school": "Coastal Carolina",
       "year": 2012
     },
     "topStaffs": [
+      {
+        "school": "Coastal Carolina",
+        "year": 2017,
+        "count": 1,
+        "coaches": [
+          "Jamey Chadwell"
+        ]
+      },
       {
         "school": "Coastal Carolina",
         "year": 2018,
@@ -20068,10 +20076,10 @@
     "coach": "Jamey Chadwell",
     "totalDescendants": 0,
     "directDescendants": 0,
-    "headCoachStops": 8,
+    "headCoachStops": 7,
     "firstHeadCoachJob": {
       "school": "Coastal Carolina",
-      "year": 2017
+      "year": 2019
     },
     "topStaffs": []
   },
