@@ -68,3 +68,44 @@ export default tseslint.config({
   },
 })
 ```
+
+## Coach Comp API
+
+The "Which Coach Are You?" feature calls a single backend endpoint that asks Claude to
+comp your career against a fixed corpus of 200 college football coaches
+(`api/_lib/coach_comp_corpus.json`). See `COACH_COMP.md` for the full design.
+
+### Local dev
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+npm run dev:api   # coach-comp API on http://localhost:8787
+npm run dev       # vite dev server; proxies /api -> :8787
+```
+
+The dev API is `scripts/coach-comp-dev-server.mjs` (plain `node:http`, no extra deps).
+`PORT` overrides the default 8787.
+
+### Deploy
+
+On Vercel no config is needed: the `api/` directory is picked up automatically and
+`api/coach-comp.mjs` becomes the `POST /api/coach-comp` serverless function
+(`maxDuration: 300`). Set `ANTHROPIC_API_KEY` in the Vercel project environment.
+The static site and the function share an origin, so the function intentionally sends
+no CORS headers.
+
+### Contract
+
+Types live in `src/coachComp/types.ts`; the structured-output JSON schema that mirrors
+them is `api/_lib/schema.mjs`.
+
+- **Request** — `POST /api/coach-comp` with JSON `CoachCompRequest`:
+  `{ careerText: string, answers: Record<string, string> }`. `careerText` is the
+  extracted resume text (min 120 chars, truncated at 15k); `answers` is optional quiz
+  answers keyed `q1`..`q10` (each truncated at 600 chars).
+- **Response** — `200` with `CoachCompResponse`: `{ comp: CoachCompResult }` — the full
+  dossier (coach comp, OVR/POT, grades, badges, career stops, buyout, scouting report,
+  runner-ups, ...).
+- **Errors** — JSON `{ error: string, reason?: string }`: `400` for bad input
+  (`reason: "thin"` when `careerText` is too short), `502` when the model output can't
+  be validated, `503` when Claude is rate-limited/overloaded, `500` otherwise.

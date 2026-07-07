@@ -1,5 +1,6 @@
 import { toBlob } from 'html-to-image';
 import { CSSProperties, FormEvent, ReactNode, useEffect, useId, useMemo, useRef, useState } from 'react';
+import CoachComp from './CoachComp';
 import Tray from './Tray';
 import {
   CoachTreeNode,
@@ -43,7 +44,7 @@ const MIN_STAFF_OPTIONS = [
   { label: '5 future HCs', value: '5' },
 ];
 type TreeMode = 'forward' | 'reverse';
-type AppPage = 'tree' | 'biggest-trees' | 'productive-staffs';
+type AppPage = 'tree' | 'biggest-trees' | 'productive-staffs' | 'coach-comp';
 type InitialParams = {
   coach: string;
   mode: TreeMode;
@@ -120,7 +121,10 @@ const getInitialParams = (): InitialParams => {
   const params = new URLSearchParams(window.location.search);
   const mode = params.get('mode') === 'reverse' ? 'reverse' : 'forward';
   const pageParam = params.get('page');
-  const page = pageParam === 'biggest-trees' || pageParam === 'productive-staffs' ? pageParam : 'tree';
+  const page =
+    pageParam === 'biggest-trees' || pageParam === 'productive-staffs' || pageParam === 'coach-comp'
+      ? pageParam
+      : 'tree';
 
   return {
     coach: params.get('coach') || DEFAULT_COACH,
@@ -629,6 +633,7 @@ function App() {
               {page === 'tree' && 'Trace coaching trees in both directions.'}
               {page === 'biggest-trees' && 'The biggest coaching trees.'}
               {page === 'productive-staffs' && 'The most productive staffs.'}
+              {page === 'coach-comp' && 'Which coach are you?'}
             </h1>
             <p className="hero-copy mt-3 max-w-2xl text-sm leading-6">
               {page === 'tree' &&
@@ -637,6 +642,8 @@ function App() {
                 'Rank every head coach by total descendant branches, then jump straight into the full tree.'}
               {page === 'productive-staffs' &&
                 'Find the single-season staffs with the most assistants who became head coaches in this dataset.'}
+              {page === 'coach-comp' &&
+                'Upload your LinkedIn or resume and the search committee will tell you which college football coach had your career.'}
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               <PageButton active={page === 'tree'} onClick={() => setPage('tree')}>
@@ -647,6 +654,9 @@ function App() {
               </PageButton>
               <PageButton active={page === 'productive-staffs'} onClick={() => setPage('productive-staffs')}>
                 Productive staffs
+              </PageButton>
+              <PageButton active={page === 'coach-comp'} onClick={() => setPage('coach-comp')}>
+                Coach Comp
               </PageButton>
             </div>
           </div>
@@ -834,6 +844,12 @@ function App() {
               ))}
             </div>
           </div>
+        </section>
+      )}
+
+      {page === 'coach-comp' && (
+        <section className="site-container pb-8">
+          <CoachComp onOpenCoachTree={openCoachTree} />
         </section>
       )}
 

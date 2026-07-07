@@ -1,6 +1,7 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
+  readonly VITE_COACH_COMP_API?: string;
   readonly VITE_GA_MEASUREMENT_ID?: string;
 }
 
