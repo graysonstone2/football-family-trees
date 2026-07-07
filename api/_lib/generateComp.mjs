@@ -10,7 +10,11 @@ import Anthropic from '@anthropic-ai/sdk';
 import { COACH_COMP_SCHEMA } from './schema.mjs';
 
 const MODEL = 'claude-opus-4-8';
+const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-5.1';
 const MAX_OUTPUT_TOKENS = 6000;
+// GPT-5-family models spend completion tokens on reasoning before writing the
+// dossier, so give the OpenAI path extra headroom.
+const OPENAI_MAX_COMPLETION_TOKENS = 12000;
 const MIN_CAREER_TEXT_CHARS = 120;
 const MAX_CAREER_TEXT_CHARS = 15000;
 const MAX_ANSWER_CHARS = 600;
@@ -77,6 +81,92 @@ let client;
 function getClient() {
   if (!client) client = new Anthropic(); // reads ANTHROPIC_API_KEY from env
   return client;
+}
+
+// Provider selection: Anthropic when a key is present, else OpenAI. Lets the
+// endpoint run on whichever key the deployment has.
+function pickProvider() {
+  if (process.env.ANTHROPIC_API_KEY) return 'anthropic';
+  if (process.env.OPENAI_API_KEY) return 'openai';
+  throw new CoachCompError(
+    500,
+    'The scouting department has no credentials on file.',
+    'no_provider',
+  );
+}
+
+async function callAnthropic(userMessage) {
+  const response = await getClient().messages.create({
+    model: MODEL,
+    max_tokens: MAX_OUTPUT_TOKENS,
+    // System prompt in array form so the big stable block (persona + rules +
+    // ~18k-token corpus) carries a cache breakpoint — after the first request
+    // it bills at ~0.1x. Only the user message varies per request.
+    system: [
+      {
+        type: 'text',
+        text: SYSTEM_PROMPT,
+        cache_control: { type: 'ephemeral' },
+      },
+    ],
+    messages: [{ role: 'user', content: userMessage }],
+    output_config: {
+      format: { type: 'json_schema', schema: COACH_COMP_SCHEMA },
+    },
+  });
+
+  const textBlock = response.content.find((block) => block.type === 'text');
+  if (!textBlock || response.stop_reason === 'refusal') {
+    throw new CoachCompError(
+      502,
+      'The scout put down the pen on this one. Reword your career text and try again.',
+      'no_output',
+    );
+  }
+  return textBlock.text;
+}
+
+async function callOpenAI(userMessage) {
+  const request = {
+    model: OPENAI_MODEL,
+    max_completion_tokens: OPENAI_MAX_COMPLETION_TOKENS,
+    messages: [
+      { role: 'system', content: SYSTEM_PROMPT },
+      { role: 'user', content: userMessage },
+    ],
+    response_format: {
+      type: 'json_schema',
+      json_schema: { name: 'coach_comp_dossier', strict: true, schema: COACH_COMP_SCHEMA },
+    },
+  };
+
+  const res = await fetch('https://api.openai.com/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+    },
+    body: JSON.stringify(request),
+  });
+
+  if (res.status === 429 || res.status >= 500) {
+    throw new CoachCompError(503, 'The scout is swamped. Try again in a minute.');
+  }
+  if (!res.ok) {
+    console.error('openai error:', res.status, (await res.text()).slice(0, 500));
+    throw new CoachCompError(502, 'The dossier came back smudged. Try again.', 'provider_error');
+  }
+
+  const data = await res.json();
+  const message = data.choices?.[0]?.message;
+  if (!message || message.refusal || !message.content) {
+    throw new CoachCompError(
+      502,
+      'The scout put down the pen on this one. Reword your career text and try again.',
+      'no_output',
+    );
+  }
+  return message.content;
 }
 
 function validateCareerText(careerText) {
@@ -169,38 +259,14 @@ function postValidate(comp) {
 export async function generateCoachComp({ careerText, answers } = {}) {
   const cleanCareerText = validateCareerText(careerText);
   const cleanAnswers = sanitizeAnswers(answers);
+  const userMessage = buildUserMessage(cleanCareerText, cleanAnswers);
 
-  const response = await getClient().messages.create({
-    model: MODEL,
-    max_tokens: MAX_OUTPUT_TOKENS,
-    // System prompt in array form so the big stable block (persona + rules +
-    // ~18k-token corpus) carries a cache breakpoint — after the first request
-    // it bills at ~0.1x. Only the user message varies per request.
-    system: [
-      {
-        type: 'text',
-        text: SYSTEM_PROMPT,
-        cache_control: { type: 'ephemeral' },
-      },
-    ],
-    messages: [{ role: 'user', content: buildUserMessage(cleanCareerText, cleanAnswers) }],
-    output_config: {
-      format: { type: 'json_schema', schema: COACH_COMP_SCHEMA },
-    },
-  });
-
-  const textBlock = response.content.find((block) => block.type === 'text');
-  if (!textBlock || response.stop_reason === 'refusal') {
-    throw new CoachCompError(
-      502,
-      'The scout put down the pen on this one. Reword your career text and try again.',
-      'no_output',
-    );
-  }
+  const raw =
+    pickProvider() === 'anthropic' ? await callAnthropic(userMessage) : await callOpenAI(userMessage);
 
   let comp;
   try {
-    comp = JSON.parse(textBlock.text);
+    comp = JSON.parse(raw);
   } catch {
     throw new CoachCompError(
       502,

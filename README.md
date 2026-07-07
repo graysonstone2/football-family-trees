@@ -71,26 +71,32 @@ export default tseslint.config({
 
 ## Coach Comp API
 
-The "Which Coach Are You?" feature calls a single backend endpoint that asks Claude to
+The "Which Coach Are You?" feature calls a single backend endpoint that asks an LLM to
 comp your career against a fixed corpus of 200 college football coaches
 (`api/_lib/coach_comp_corpus.json`). See `COACH_COMP.md` for the full design.
+
+The provider is picked from the environment: `ANTHROPIC_API_KEY` → Claude
+(`claude-opus-4-8`), otherwise `OPENAI_API_KEY` → GPT (`gpt-5.1`, override with
+`OPENAI_MODEL`).
 
 ### Local dev
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
+export ANTHROPIC_API_KEY=sk-ant-...   # or: export OPENAI_API_KEY=sk-...
 npm run dev:api   # coach-comp API on http://localhost:8787
 npm run dev       # vite dev server; proxies /api -> :8787
 ```
 
 The dev API is `scripts/coach-comp-dev-server.mjs` (plain `node:http`, no extra deps).
-`PORT` overrides the default 8787.
+`PORT` overrides the default 8787. `MOCK_COACH_COMP=1` skips the model call and returns
+a canned dossier for frontend work.
 
 ### Deploy
 
 On Vercel no config is needed: the `api/` directory is picked up automatically and
 `api/coach-comp.mjs` becomes the `POST /api/coach-comp` serverless function
-(`maxDuration: 300`). Set `ANTHROPIC_API_KEY` in the Vercel project environment.
+(`maxDuration: 300`). Set `ANTHROPIC_API_KEY` (or `OPENAI_API_KEY`) in the Vercel
+project environment.
 The static site and the function share an origin, so the function intentionally sends
 no CORS headers.
 
