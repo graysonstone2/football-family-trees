@@ -119,40 +119,39 @@ const directMentorsOf = (() => {
   };
 })();
 
-/** Mentor closure out to MAX_ANCESTOR_DEPTH hops, as coach -> hop count. */
-const ancestorsOf = (() => {
-  const cache = new Map();
+/**
+ * Mentor closure out to MAX_ANCESTOR_DEPTH hops: coach -> { hops, through }.
+ *
+ * `blocked` coaches can be reached but never traversed *through*. Without that,
+ * "Pete Golding and Lane Kiffin both branch off Pat Hill" gets reported for a
+ * game Kiffin is coaching in — and Golding's only route to Pat Hill is through
+ * Kiffin, so the claim is just "Golding worked for Kiffin" wearing a hat.
+ */
+const ancestorsOf = (coach, blocked) => {
+  const found = new Map();
+  let frontier = [{ id: coach, through: null }];
 
-  return (coach) => {
-    const cached = cache.get(coach);
-    if (cached) {
-      return cached;
-    }
+  for (let depth = 1; depth <= MAX_ANCESTOR_DEPTH; depth += 1) {
+    const next = [];
 
-    const depths = new Map();
-    let frontier = [coach];
+    frontier.forEach(({ id, through }) => {
+      directMentorsOf(id).forEach((_stops, mentor) => {
+        if (mentor === coach || found.has(mentor)) {
+          return;
+        }
 
-    for (let depth = 1; depth <= MAX_ANCESTOR_DEPTH; depth += 1) {
-      const next = [];
-
-      frontier.forEach((current) => {
-        directMentorsOf(current).forEach((_stops, mentor) => {
-          if (mentor === coach || depths.has(mentor)) {
-            return;
-          }
-
-          depths.set(mentor, depth);
-          next.push(mentor);
-        });
+        found.set(mentor, { hops: depth, through });
+        if (!blocked.has(mentor)) {
+          next.push({ id: mentor, through: through ?? mentor });
+        }
       });
+    });
 
-      frontier = next;
-    }
+    frontier = next;
+  }
 
-    cache.set(coach, depths);
-    return depths;
-  };
-})();
+  return found;
+};
 
 const headCoachSeasons = (coach) =>
   new Set((coaches[coach] ?? []).filter((job) => job.title === 'hc').map((job) => job.year)).size;
@@ -288,20 +287,27 @@ const connectionsFor = (homeStaff, awayStaff, inGame) => {
       }
 
       // No shared boss, but both sit inside the same coach's tree a hop or two up.
-      const aAncestors = ancestorsOf(a.coach);
-      const bAncestors = ancestorsOf(b.coach);
+      const aAncestors = ancestorsOf(a.coach, inGame);
+      const bAncestors = ancestorsOf(b.coach, inGame);
       Array.from(aAncestors.keys())
         .filter((name) => bAncestors.has(name) && !inGame.has(name))
-        .map((name) => ({ name, hops: aAncestors.get(name) + bAncestors.get(name) }))
+        .map((name) => {
+          const from = aAncestors.get(name);
+          const to = bAncestors.get(name);
+          return { name, hops: from.hops + to.hops, aThrough: from.through, bThrough: to.through };
+        })
         .sort((x, y) => x.hops - y.hops || headCoachSeasons(y.name) - headCoachSeasons(x.name) || x.name.localeCompare(y.name))
         .slice(0, MAX_ANCESTORS_PER_PAIR)
-        .forEach(({ name, hops }) => {
+        .forEach(({ name, hops, aThrough, bThrough }) => {
           connections.push({
             type: 'shared-ancestor',
             a,
             b,
             via: name,
             hops,
+            // The intermediate hire on each side, so the claim can be checked.
+            aThrough,
+            bThrough,
             weight: WEIGHT.sharedAncestor * factor,
           });
         });
@@ -334,10 +340,11 @@ const headlineFor = (game, connections) => {
   }
 
   if (top.type === 'shared-mentor') {
-    return `${top.a.coach} (${roleWord[top.a.role]}) and ${top.b.coach} (${roleWord[top.b.role]}) both worked for ${top.via}.`;
+    return `${top.a.coach} (${top.aStops}) and ${top.b.coach} (${top.bStops}) both worked for ${top.via}.`;
   }
 
-  return `${top.a.coach} and ${top.b.coach} both sit inside ${top.via}'s tree.`;
+  const route = (coach, through) => (through ? `${coach} via ${through}` : coach);
+  return `${route(top.a.coach, top.aThrough)} and ${route(top.b.coach, top.bThrough)} both trace back to ${top.via}.`;
 };
 
 /**
@@ -432,6 +439,8 @@ schedule.games.forEach((game) => {
       stops: c.stops ?? null,
       protege: c.protege ?? null,
       hops: c.hops ?? null,
+      aThrough: c.aThrough ?? null,
+      bThrough: c.bThrough ?? null,
       weight: Math.round(c.weight * 10) / 10,
     })),
   });

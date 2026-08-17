@@ -205,6 +205,25 @@ function CoachLink({ children, onOpenCoachTree }: { children: string; onOpenCoac
   );
 }
 
+/** How one side reaches the shared ancestor: straight there, or via one hire. */
+function Route({
+  onOpenCoachTree,
+  through,
+}: {
+  onOpenCoachTree: (coach: string) => void;
+  through: string | null;
+}) {
+  if (!through) {
+    return <>worked for him directly</>;
+  }
+
+  return (
+    <>
+      through <CoachLink onOpenCoachTree={onOpenCoachTree}>{through}</CoachLink>
+    </>
+  );
+}
+
 function ConnectionCard({
   connection,
   game,
@@ -247,9 +266,11 @@ function ConnectionCard({
         )}
         {connection.type === 'shared-ancestor' && (
           <>
-            <CoachLink onOpenCoachTree={onOpenCoachTree}>{a.coach}</CoachLink> ({label(a, true)}) and{' '}
-            <CoachLink onOpenCoachTree={onOpenCoachTree}>{b.coach}</CoachLink> ({label(b, false)}) both branch off{' '}
-            <CoachLink onOpenCoachTree={onOpenCoachTree}>{via}</CoachLink>, one hire removed.
+            Both trace back to <CoachLink onOpenCoachTree={onOpenCoachTree}>{via}</CoachLink>:{' '}
+            <CoachLink onOpenCoachTree={onOpenCoachTree}>{a.coach}</CoachLink> ({label(a, true)}){' '}
+            <Route onOpenCoachTree={onOpenCoachTree} through={connection.aThrough} />, and{' '}
+            <CoachLink onOpenCoachTree={onOpenCoachTree}>{b.coach}</CoachLink> ({label(b, false)}){' '}
+            <Route onOpenCoachTree={onOpenCoachTree} through={connection.bThrough} />.
           </>
         )}
       </p>

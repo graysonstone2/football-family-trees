@@ -23,6 +23,9 @@ export type LineageConnection = {
   stops: string | null;
   protege: string | null;
   hops: number | null;
+  /** For a two-hop tie, the coach each side came through. Null means direct. */
+  aThrough: string | null;
+  bThrough: string | null;
   weight: number;
 };
 
