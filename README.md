@@ -1,5 +1,28 @@
 # React + TypeScript + Vite
 
+## Refreshing a season
+
+`scripts/refresh-season.py` pulls one season of coaching staffs and schedule off the
+Wikipedia season pages:
+
+```bash
+python3 scripts/refresh-season.py 2026     # writes src/data.json + src/schedule_2026.json
+npm run generate:schedule-lineage          # rescores every matchup (also runs in prebuild)
+```
+
+Only the head coach, coordinators, and named assistants are taken; player-transfer and
+poll tables are skipped. Programs whose season page does not exist yet fall back to the
+head coach on their program page, so a mid-summer run is correct but thin — rerun it at
+kickoff and again after the season for the rest of the staffs. Coach names are matched
+against the spellings already in `src/data.json` so a refresh never forks a coach's
+history. Downloaded wikitext is cached under `scripts/.wiki-cache/` (gitignored); pass
+`--offline` to rebuild from the cache, or delete the folder to force a fresh fetch.
+
+The schedule tab scores each game on how much coaching lineage the two staffs share.
+That scoring lives in `scripts/generate-schedule-lineage.mjs`, which uses the same
+mentor rules as `buildReverseTree` in `src/functions/coachData.ts`, and writes
+`src/schedule_lineage_2026.json`.
+
 ## Google Analytics
 
 This app ships with the GA4 tag for `G-BW0VPWSN3M`.

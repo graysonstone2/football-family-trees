@@ -1,5 +1,16 @@
 import { toBlob } from 'html-to-image';
-import { CSSProperties, FormEvent, ReactNode, useEffect, useId, useMemo, useRef, useState } from 'react';
+import {
+  CSSProperties,
+  FormEvent,
+  ReactNode,
+  Suspense,
+  lazy,
+  useEffect,
+  useId,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import CoachComp from './CoachComp';
 import Tray from './Tray';
 import {
@@ -11,6 +22,7 @@ import {
   getDatasetSummary,
 } from './functions/coachData';
 import { trackEvent, trackPageView } from './functions/analytics';
+import { SCHEDULE_VIEWS, ScheduleView } from './functions/scheduleView';
 import { getRecordPct, getRecordTone, getSchoolRecord } from './functions/schoolRecords';
 import { DEFAULT_THEME, TEAM_THEMES, getThemeVars } from './functions/teamThemes';
 import { getTeamLogo } from './functions/teamLogos';
@@ -21,6 +33,9 @@ type TreeNodeWithChildren = CoachTreeNode & {
   depth: number;
   children: TreeNodeWithChildren[];
 };
+
+// The 2026 schedule ships with its own lineage data; load it only when asked for.
+const Schedule = lazy(() => import('./Schedule'));
 
 const DEFAULT_COACH = 'Nick Saban';
 const ERA_OPTIONS = [
@@ -44,12 +59,15 @@ const MIN_STAFF_OPTIONS = [
   { label: '5 future HCs', value: '5' },
 ];
 type TreeMode = 'forward' | 'reverse';
-type AppPage = 'tree' | 'biggest-trees' | 'productive-staffs' | 'coach-comp';
+type AppPage = 'tree' | 'biggest-trees' | 'productive-staffs' | 'schedule' | 'coach-comp';
 type InitialParams = {
   coach: string;
+  game: string | null;
   mode: TreeMode;
   page: AppPage;
+  patriarch: string;
   school: string;
+  view: ScheduleView;
 };
 
 type TreeLeaderboardEntry = {
@@ -113,24 +131,35 @@ const groupByParent = (nodes: CoachTreeNode[]) => {
   return childrenByParent;
 };
 
+const PAGE_PARAMS: AppPage[] = ['biggest-trees', 'productive-staffs', 'schedule', 'coach-comp'];
+
 const getInitialParams = (): InitialParams => {
   if (typeof window === 'undefined') {
-    return { coach: DEFAULT_COACH, mode: 'forward', page: 'tree', school: '' };
+    return {
+      coach: DEFAULT_COACH,
+      game: null,
+      mode: 'forward',
+      page: 'tree',
+      patriarch: '',
+      school: '',
+      view: 'ranked',
+    };
   }
 
   const params = new URLSearchParams(window.location.search);
   const mode = params.get('mode') === 'reverse' ? 'reverse' : 'forward';
-  const pageParam = params.get('page');
-  const page =
-    pageParam === 'biggest-trees' || pageParam === 'productive-staffs' || pageParam === 'coach-comp'
-      ? pageParam
-      : 'tree';
+  const pageParam = params.get('page') as AppPage | null;
+  const page = pageParam && PAGE_PARAMS.includes(pageParam) ? pageParam : 'tree';
+  const viewParam = params.get('view') as ScheduleView | null;
 
   return {
     coach: params.get('coach') || DEFAULT_COACH,
+    game: params.get('game'),
     mode,
     page,
+    patriarch: params.get('patriarch') || '',
     school: params.get('school') || '',
+    view: viewParam && SCHEDULE_VIEWS.includes(viewParam) ? viewParam : 'ranked',
   };
 };
 
@@ -303,6 +332,9 @@ function App() {
   const [coach, setCoach] = useState(initialParams.coach);
   const [treeData, setTreeData] = useState<CoachTreeNode[] | null>(initialTree);
   const [page, setPage] = useState<AppPage>(initialParams.page);
+  const [scheduleGameId, setScheduleGameId] = useState<string | null>(initialParams.game);
+  const [scheduleView, setScheduleView] = useState<ScheduleView>(initialParams.view);
+  const [schedulePatriarch, setSchedulePatriarch] = useState(initialParams.patriarch);
   const [selectedNode, setSelectedNode] = useState<CoachTreeNode | null>(initialTree?.[0] ?? null);
   const [message, setMessage] = useState(() => {
     if (!initialTree || initialTree.length === 0) {
@@ -486,11 +518,22 @@ function App() {
     if (selectedSchool) {
       params.set('school', selectedSchool);
     }
+    if (page === 'schedule') {
+      if (scheduleGameId) {
+        params.set('game', scheduleGameId);
+      }
+      if (scheduleView !== 'ranked') {
+        params.set('view', scheduleView);
+      }
+      if (schedulePatriarch) {
+        params.set('patriarch', schedulePatriarch);
+      }
+    }
 
     const nextUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
     window.history.replaceState(null, '', nextUrl);
     trackPageView(`${window.location.pathname}${window.location.search}`);
-  }, [coach, mode, page, selectedSchool]);
+  }, [coach, mode, page, scheduleGameId, schedulePatriarch, scheduleView, selectedSchool]);
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -633,6 +676,7 @@ function App() {
               {page === 'tree' && 'Trace coaching trees in both directions.'}
               {page === 'biggest-trees' && 'The biggest coaching trees.'}
               {page === 'productive-staffs' && 'The most productive staffs.'}
+              {page === 'schedule' && 'The 2026 schedule, by family tree.'}
               {page === 'coach-comp' && 'Which coach are you?'}
             </h1>
             <p className="hero-copy mt-3 max-w-2xl text-sm leading-6">
@@ -642,6 +686,8 @@ function App() {
                 'Rank every head coach by total descendant branches, then jump straight into the full tree.'}
               {page === 'productive-staffs' &&
                 'Find the single-season staffs with the most assistants who became head coaches in this dataset.'}
+              {page === 'schedule' &&
+                'Open any 2026 matchup to see which coaches on the two sidelines came out of the same tree, then rank the whole season by how tangled it gets.'}
               {page === 'coach-comp' &&
                 'Upload your LinkedIn or resume and the search committee will tell you which college football coach had your career.'}
             </p>
@@ -654,6 +700,9 @@ function App() {
               </PageButton>
               <PageButton active={page === 'productive-staffs'} onClick={() => setPage('productive-staffs')}>
                 Productive staffs
+              </PageButton>
+              <PageButton active={page === 'schedule'} onClick={() => setPage('schedule')}>
+                2026 schedule
               </PageButton>
               <PageButton active={page === 'coach-comp'} onClick={() => setPage('coach-comp')}>
                 Coach Comp
@@ -844,6 +893,28 @@ function App() {
               ))}
             </div>
           </div>
+        </section>
+      )}
+
+      {page === 'schedule' && (
+        <section className="site-container pb-8">
+          <Suspense
+            fallback={
+              <div className="rounded-lg border border-[var(--theme-border)] bg-white p-6 shadow-sm">
+                <p className="text-sm font-bold text-[var(--theme-muted)]">Loading the 2026 schedule...</p>
+              </div>
+            }
+          >
+            <Schedule
+              onChangePatriarch={setSchedulePatriarch}
+              onChangeView={setScheduleView}
+              onOpenCoachTree={openCoachTree}
+              onSelectGame={setScheduleGameId}
+              patriarch={schedulePatriarch}
+              selectedGameId={scheduleGameId}
+              view={scheduleView}
+            />
+          </Suspense>
         </section>
       )}
 

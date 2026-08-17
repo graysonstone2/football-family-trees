@@ -382,6 +382,11 @@
       "hc": "Troy Calhoun",
       "oc": "Mike Thiessen",
       "dc": "Brian Knorr"
+    },
+    "2026": {
+      "hc": "Troy Calhoun",
+      "oc": "Mike Thiessen",
+      "dc": "Steve Russ"
     }
   },
   "Akron": {
@@ -745,6 +750,10 @@
       "other": [
         "J.D. Brookhart"
       ]
+    },
+    "2026": {
+      "hc": "Joe Moorhead",
+      "dc": "Tim Tibesar"
     }
   },
   "Alabama": {
@@ -1272,6 +1281,28 @@
         "Tyler Hughes",
         "David Ballou"
       ]
+    },
+    "2026": {
+      "hc": "Kalen DeBoer",
+      "oc": "Ryan Grubb",
+      "dc": [
+        "Kane Wommack",
+        "Maurice Linguist"
+      ],
+      "other": [
+        "Adrian Klemm",
+        "Bryan Ellis",
+        "Christian Robinson",
+        "Chuck Morrell",
+        "David Ballou",
+        "Derrick Nix",
+        "Freddie Roach",
+        "Jason Jones",
+        "Jay Nunez",
+        "Richard Owens",
+        "Robert Gillespie",
+        "Tyler Hughes"
+      ]
     }
   },
   "Appalachian State": {
@@ -1589,6 +1620,11 @@
     },
     "2025": {
       "hc": "Dowell Loggains",
+      "dc": "D. J. Smith"
+    },
+    "2026": {
+      "hc": "Dowell Loggains",
+      "oc": "Mike Anthony",
       "dc": "D. J. Smith"
     }
   },
@@ -1997,6 +2033,33 @@
       "hc": "Brent Brennan",
       "oc": "Seth Doege",
       "dc": "Danny Gonzales"
+    },
+    "2026": {
+      "hc": "Brent Brennan",
+      "oc": "Seth Doege",
+      "dc": "Danny Gonzales",
+      "other": [
+        "Bobby Wade",
+        "Brett Arce",
+        "Chip Vaney",
+        "Chuck Cecil",
+        "Craig Naivar",
+        "Cullen Carroll",
+        "Greg Stewart",
+        "Jamie Feldermann",
+        "Joe Salave'a",
+        "Josh Bringuel",
+        "Josh Miller",
+        "Josh Oglesby",
+        "Lyle Moevao",
+        "Mike Nesbitt",
+        "Mike Williams",
+        "Quinn Thomas",
+        "Ronley Lakalaka",
+        "Ronnie Palmer",
+        "Tariq Thompson",
+        "Tyler Osborne"
+      ]
     }
   },
   "Arizona State": {
@@ -2391,6 +2454,11 @@
       "dc": "Brian Ward"
     },
     "2025": {
+      "hc": "Kenny Dillingham",
+      "oc": "Marcus Arroyo",
+      "dc": "Brian Ward"
+    },
+    "2026": {
       "hc": "Kenny Dillingham",
       "oc": "Marcus Arroyo",
       "dc": "Brian Ward"
@@ -2804,6 +2872,27 @@
         "Nick Perry",
         "Ben Sowders"
       ]
+    },
+    "2026": {
+      "hc": "Ryan Silverfield",
+      "oc": "Tim Cramsey",
+      "dc": [
+        "Deron Wilson",
+        "Ron Roberts"
+      ],
+      "other": [
+        "Chad Lunsford",
+        "Clint Trickett",
+        "David Johnson",
+        "Eddie Hicks",
+        "Jeff Myers",
+        "Kynjee’ Cotton",
+        "Larry Smith",
+        "Marcus Johnson",
+        "Marion Hobby",
+        "Morgan Turner",
+        "Noah Franklin"
+      ]
     }
   },
   "Arkansas State": {
@@ -3133,6 +3222,11 @@
     "2025": {
       "hc": "Butch Jones",
       "oc": "Keith Heckendorf",
+      "dc": "Griff McCarley"
+    },
+    "2026": {
+      "hc": "Butch Jones",
+      "oc": "Garrett Altman",
       "dc": "Griff McCarley"
     }
   },
@@ -3520,6 +3614,29 @@
       "hc": "Jeff Monken",
       "oc": "Cody Worley",
       "dc": "Nate Woody"
+    },
+    "2026": {
+      "hc": "Jeff Monken",
+      "oc": "Cody Worley",
+      "dc": [
+        "Daryl Dixon",
+        "Nate Woody"
+      ],
+      "other": [
+        "Aaron Smith",
+        "Blake Powers",
+        "Cheston Blackshear",
+        "Collin Shank",
+        "Danny Verpaele",
+        "Drew Thatcher",
+        "John Loose",
+        "Justin Weaver",
+        "Matt Drinkall",
+        "Mike Viti",
+        "Sean Cronin",
+        "Sean Saturnio",
+        "Tristan Yeomans"
+      ]
     }
   },
   "Auburn": {
@@ -3982,6 +4099,27 @@
       "other": [
         "Chad Lunsford"
       ]
+    },
+    "2026": {
+      "hc": "Alex Golesh",
+      "oc": [
+        "Joel Gordon",
+        "Kodi Burns"
+      ],
+      "dc": [
+        "D. J. Durkin",
+        "Tim Banks"
+      ],
+      "other": [
+        "Brad Wilson",
+        "Coleman Hutzler",
+        "Demarcus Van Dyke",
+        "Jacob Bronowski",
+        "Larry Porter",
+        "Larry Scott",
+        "Tyler Hudanick",
+        "Vontrell King-Williams"
+      ]
     }
   },
   "Boise State": {
@@ -4357,6 +4495,39 @@
       "dc": [
         "Erik Chinander",
         "Tyler Stockton"
+      ]
+    },
+    "2026": {
+      "hc": "Spencer Danielson",
+      "oc": [
+        "Nate Potter",
+        "Zak Hill"
+      ],
+      "dc": [
+        "Erik Chinander",
+        "Terrence Brown"
+      ],
+      "other": [
+        "Alvis Whitted",
+        "Benjamin Hilgart",
+        "Chris Strausser",
+        "Collin McKelvey",
+        "D. J. Killings",
+        "Demitri Washington",
+        "Derrick McMahen",
+        "Devon McPeek",
+        "Dirk Koetter",
+        "Frank Maile",
+        "Jabril Frazier",
+        "James Montgomery",
+        "Josh Price",
+        "Justin Udy",
+        "Kenny Zamberlin",
+        "Marques White",
+        "Stacy Collins",
+        "Stiles Satterlee",
+        "Tim Keane",
+        "Tom Keay"
       ]
     }
   },
@@ -4772,6 +4943,10 @@
       "hc": "Bill O'Brien",
       "oc": "Will Lawing",
       "dc": "Tim Lewis"
+    },
+    "2026": {
+      "hc": "Bill O'Brien",
+      "dc": "Ted Roof"
     }
   },
   "Bowling Green": {
@@ -5091,6 +5266,26 @@
       "hc": "Eddie George",
       "oc": "Travis Partridge",
       "dc": "Brandon Fisher"
+    },
+    "2026": {
+      "hc": "Eddie George",
+      "oc": "Greg Nosal",
+      "dc": "Joe Bowden",
+      "other": [
+        "Baron May",
+        "Bruce Johnson",
+        "Christopher Contratto",
+        "Clyde Simmons",
+        "Dewayne Alexander",
+        "Greg Froelich",
+        "Jack McCarthy",
+        "Jaylon Bowden",
+        "Josh Crawford",
+        "Lorenzo Styles",
+        "Richard McNutt",
+        "Scott Stolz",
+        "Spencer McCourt"
+      ]
     }
   },
   "Buffalo": {
@@ -5439,6 +5634,9 @@
       "hc": "Pete Lembo",
       "oc": "Dave Patenaude",
       "dc": "Joe Bowen"
+    },
+    "2026": {
+      "hc": "Pete Lembo"
     }
   },
   "BYU": {
@@ -5845,6 +6043,22 @@
         "Harvey Unga",
         "Sione Po'uha"
       ]
+    },
+    "2026": {
+      "hc": "Kalani Sitake",
+      "oc": "Aaron Roderick",
+      "dc": "Kelly Poppinga",
+      "other": [
+        "Chad Kauha'aha'a",
+        "Demario Warren",
+        "Fesi Sitake",
+        "Harvey Unga",
+        "Justin Ena",
+        "Kevin M. Gilbride",
+        "Lewis Walker",
+        "Sione Po'uha",
+        "T.J. Woods"
+      ]
     }
   },
   "Central Michigan": {
@@ -6151,6 +6365,9 @@
         "Derek Fulton"
       ],
       "dc": "Sean Cronin"
+    },
+    "2026": {
+      "hc": "Matt Drinkall"
     }
   },
   "Charlotte": {
@@ -6325,6 +6542,19 @@
         "Vince Reynolds",
         "Allen Rudolph",
         "Paul Turner"
+      ]
+    },
+    "2026": {
+      "hc": "Tim Albin",
+      "oc": "Todd Fitch",
+      "dc": "Nate Faanes",
+      "other": [
+        "Allen Rudolph",
+        "Brian Haines",
+        "Brian Metz",
+        "Paul Turner",
+        "Tariq Drake",
+        "Tre' Bell"
       ]
     }
   },
@@ -6653,6 +6883,20 @@
       "dc": [
         "Tyson Veidt",
         "Cortney Braswell"
+      ]
+    },
+    "2026": {
+      "hc": "Scott Satterfield",
+      "oc": [
+        "Nic Cardwell",
+        "Pete Thomas"
+      ],
+      "dc": [
+        "Cortney Braswell",
+        "Nate Woody"
+      ],
+      "other": [
+        "Mark Speir"
       ]
     }
   },
@@ -7149,6 +7393,28 @@
         "Chris Rumph",
         "CJ Spiller"
       ]
+    },
+    "2026": {
+      "hc": "Dabo Swinney",
+      "oc": [
+        "Chad Morris",
+        "Kyle Richardson",
+        "Matt Luke"
+      ],
+      "dc": [
+        "Nick Eason",
+        "Tom Allen"
+      ],
+      "other": [
+        "Ben Boulware",
+        "CJ Spiller",
+        "Chris Rumph",
+        "Corico Wright",
+        "Mike Reed",
+        "Nolan Turner",
+        "Tajh Boyd",
+        "Tyler Grisham"
+      ]
     }
   },
   "Coastal Carolina": {
@@ -7400,6 +7666,11 @@
       "hc": "Tim Beck - Coastal Carolina",
       "oc": "Drew Hollingshead",
       "dc": "Jeremiah Johnson"
+    },
+    "2026": {
+      "hc": "Ryan Beard",
+      "oc": "Nick Petrino",
+      "dc": "LD Scott"
     }
   },
   "Colorado": {
@@ -7816,6 +8087,33 @@
       "hc": "Deion Sanders",
       "oc": "Pat Shurmur",
       "dc": "Robert Livingston"
+    },
+    "2026": {
+      "hc": "Deion Sanders",
+      "oc": "Brennan Marion",
+      "dc": "Chris Marve",
+      "other": [
+        "Aaron Fletcher",
+        "Andre Gurode",
+        "Andre' Hart",
+        "Caden Lowrie",
+        "Clancy Pendergast",
+        "Dante Carter",
+        "Desmond Moultrie",
+        "George Hegamin",
+        "George Helow",
+        "Grant Hammer",
+        "Gunnar White",
+        "Joc Upton",
+        "Johnnie Mack",
+        "Josh Niblett",
+        "Justin Houlihan",
+        "Kenny Ingram",
+        "Kevin Mathis",
+        "Kyle Wagner",
+        "Rashad Davis",
+        "Vonn Bell"
+      ]
     }
   },
   "Colorado State": {
@@ -8158,6 +8456,14 @@
       "hc": "Jay Norvell",
       "oc": "Matt Mumme",
       "dc": "Tyson Summers"
+    },
+    "2026": {
+      "hc": "Jim L. Mora",
+      "oc": "Pryce Tracy",
+      "dc": [
+        "Kenny McClendon",
+        "Tyson Summers"
+      ]
     }
   },
   "East Carolina": {
@@ -8511,6 +8817,33 @@
       "hc": "Blake Harrell",
       "oc": "John David Baker",
       "dc": "Josh Aldridge"
+    },
+    "2026": {
+      "hc": "Blake Harrell",
+      "oc": "Jordan Davis",
+      "dc": [
+        "Jordon Hankins",
+        "Roy Tesh"
+      ],
+      "other": [
+        "Alex Huettel",
+        "Ayden Ressa",
+        "Bryan Butterworth",
+        "Caedon Malone",
+        "Damon Magazu",
+        "Hunter MacKay",
+        "John Straniero",
+        "Jordan Williams",
+        "Juan Soto",
+        "Julian Griffin",
+        "Mark Hatcher",
+        "Mason Baggett",
+        "Rico Zackery",
+        "Ryan McManus",
+        "Ryan Smith",
+        "Tarron Williams",
+        "Teagan Wilk"
+      ]
     }
   },
   "Eastern Michigan": {
@@ -8873,6 +9206,9 @@
       "hc": "Chris Creighton",
       "oc": "Mike Piatkowski",
       "dc": "Ben Needham"
+    },
+    "2026": {
+      "hc": "Chris Creighton"
     }
   },
   "FIU": {
@@ -9114,6 +9450,11 @@
       "dc": "Jovan Dewitt"
     },
     "2025": {
+      "hc": "Willie Simmons",
+      "oc": "Nick Coleman",
+      "dc": "Jovan Dewitt"
+    },
+    "2026": {
       "hc": "Willie Simmons",
       "oc": "Nick Coleman",
       "dc": "Jovan Dewitt"
@@ -9559,6 +9900,32 @@
       "other": [
         "Billy Gonzales"
       ]
+    },
+    "2026": {
+      "hc": "Jon Sumrall",
+      "oc": "Buster Faulkner",
+      "dc": "Brad White",
+      "other": [
+        "A.J. Erdely",
+        "Bam Hardmon",
+        "Brandon Harris",
+        "Byron Hardmon",
+        "Chris Collins",
+        "Chris Foster",
+        "Dylan Dockery",
+        "Emil Ekiyor Jr",
+        "Evan McKissack",
+        "Gerald Chatman",
+        "Greg Gasparato",
+        "Joe Craddock",
+        "Johnathan Galante",
+        "Marcus Davis",
+        "Mike Polly",
+        "Phil Trautwein",
+        "Rusty Whitt",
+        "Ryland Goede",
+        "Trent McKnight"
+      ]
     }
   },
   "Florida Atlantic": {
@@ -9835,6 +10202,10 @@
       ]
     },
     "2025": {
+      "hc": "Zach Kittley",
+      "dc": "Brett Dewhurst"
+    },
+    "2026": {
       "hc": "Zach Kittley",
       "dc": "Brett Dewhurst"
     }
@@ -10281,6 +10652,31 @@
       "hc": "Mike Norvell",
       "oc": "Gus Malzahn",
       "dc": "Tony White"
+    },
+    "2026": {
+      "hc": "Mike Norvell",
+      "oc": "Tim Harris Jr.",
+      "dc": "Tony White",
+      "other": [
+        "Adam Scheier",
+        "Austin Tucker",
+        "Blue Adams",
+        "Brady White",
+        "Chris Thomsen",
+        "Ernie Sims",
+        "Evan Cooper",
+        "Gabe Fertitta",
+        "Greg Moss",
+        "Herb Hand",
+        "Jake Rothschiller",
+        "Jesse Stone",
+        "Kam Martin",
+        "Manrey Saint-Amour",
+        "Nick Williams",
+        "Odell Haggins",
+        "Terrance Knighton",
+        "Tom Herman"
+      ]
     }
   },
   "Fresno State": {
@@ -10636,6 +11032,11 @@
       "dc": "Kevin Coyle"
     },
     "2025": {
+      "hc": "Matt Entz",
+      "oc": "Josh Davis",
+      "dc": "Nick Benedetto"
+    },
+    "2026": {
       "hc": "Matt Entz",
       "oc": "Josh Davis",
       "dc": "Nick Benedetto"
@@ -11090,6 +11491,26 @@
         "Donte Williams",
         "Andrew Thacker"
       ]
+    },
+    "2026": {
+      "hc": "Kirby Smart",
+      "oc": "Mike Bobo",
+      "dc": [
+        "Glenn Schumann",
+        "Travaris Robinson"
+      ],
+      "other": [
+        "Andrew Thacker",
+        "Donte Williams",
+        "James Coley",
+        "Josh Crawford",
+        "Kirk Benedict",
+        "Larry Knight",
+        "Phil Rauscher",
+        "Stacy Searels",
+        "Todd Hartley",
+        "Tray Scott"
+      ]
     }
   },
   "Georgia Southern": {
@@ -11454,6 +11875,9 @@
       "hc": "Clay Helton",
       "oc": "Ryan Aplin",
       "dc": "Brandon Bailey"
+    },
+    "2026": {
+      "hc": "Clay Helton"
     }
   },
   "Georgia State": {
@@ -11671,6 +12095,9 @@
       "hc": "Dell McGee",
       "oc": "Hue Jackson",
       "dc": "Travis Pearson"
+    },
+    "2026": {
+      "hc": "Dell McGee"
     }
   },
   "Georgia Tech": {
@@ -12063,6 +12490,14 @@
         "Chris Weinke"
       ],
       "dc": "Blake Gideon"
+    },
+    "2026": {
+      "hc": "Brent Key",
+      "oc": [
+        "Chris Weinke",
+        "George Godsey"
+      ],
+      "dc": "Jason Semore"
     }
   },
   "Hawaii": {
@@ -12460,6 +12895,11 @@
       "hc": "Timmy Chang",
       "oc": "Anthony Arceneaux",
       "dc": "Dennis Thurman"
+    },
+    "2026": {
+      "hc": "Timmy Chang",
+      "oc": "Anthony Arceneaux",
+      "dc": "Dennis Thurman"
     }
   },
   "Houston": {
@@ -12816,6 +13256,11 @@
       "dc": "Shiel Wood"
     },
     "2025": {
+      "hc": "Willie Fritz",
+      "oc": "Slade Nagle",
+      "dc": "Austin Armstrong"
+    },
+    "2026": {
       "hc": "Willie Fritz",
       "oc": "Slade Nagle",
       "dc": "Austin Armstrong"
@@ -13184,6 +13629,40 @@
       ],
       "other": [
         "Mike Neu"
+      ]
+    },
+    "2026": {
+      "hc": "Bret Bielema",
+      "oc": "Barry Lunney Jr.",
+      "dc": "Bobby Hauck",
+      "other": [
+        "Alex Panos",
+        "Archie McDaniel",
+        "Artur Sitkowski",
+        "Bart Miller",
+        "Blake Smithback",
+        "Byron Bell",
+        "CJ McFarland",
+        "Chris Hurd",
+        "Corey Parker",
+        "Danny Cameron",
+        "G. C. Yerry",
+        "Harper Cole",
+        "Jared Elliott",
+        "Jason Jones",
+        "Jordan Thomas",
+        "Justin Stepp",
+        "Matt Ellerbrock",
+        "Mike Neu",
+        "Myers Hendrickson",
+        "Nick Elicone",
+        "Robby Hauck",
+        "Roger Cooper",
+        "Ronnie Bradford",
+        "Ryan Simerson",
+        "Steven Koch",
+        "Tank Wright",
+        "Tyrone Wheatley"
       ]
     }
   },
@@ -13591,6 +14070,14 @@
       "oc": [
         "Mike Shanahan",
         "Chandler Whitmer"
+      ],
+      "dc": "Bryant Haines"
+    },
+    "2026": {
+      "hc": "Curt Cignetti",
+      "oc": [
+        "Mike Shanahan",
+        "Tino Sunseri"
       ],
       "dc": "Bryant Haines"
     }
@@ -14018,6 +14505,29 @@
       "hc": "Kirk Ferentz",
       "oc": "Tim Lester",
       "dc": "Phil Parker"
+    },
+    "2026": {
+      "hc": "Kirk Ferentz",
+      "oc": "Tim Lester",
+      "dc": [
+        "Phil Parker",
+        "Seth Wallace"
+      ],
+      "other": [
+        "Abdul Hodge",
+        "Allan Reyes",
+        "Cedric Nah",
+        "Chris Polizzi",
+        "Cody Myers",
+        "Drew Heitland",
+        "Jason Mason",
+        "Jay Niemann",
+        "Jon Budmayr",
+        "Kelvin Bell",
+        "Kohle Helle",
+        "Omar Young",
+        "Raimond Braithwaite"
+      ]
     }
   },
   "Iowa State": {
@@ -14401,6 +14911,11 @@
       "hc": "Matt Campbell",
       "oc": "Taylor Mouser",
       "dc": "Jon Heacock"
+    },
+    "2026": {
+      "hc": "Jimmy Rogers",
+      "oc": "Tyler Roehl",
+      "dc": "Jesse Bobbit"
     }
   },
   "Kansas": {
@@ -14812,6 +15327,14 @@
       "hc": "Lance Leipold",
       "oc": [
         "Jim Zebrowski",
+        "Matt Lubick"
+      ],
+      "dc": "D. K. McDonald"
+    },
+    "2026": {
+      "hc": "Lance Leipold",
+      "oc": [
+        "Andy Kotelnicki",
         "Matt Lubick"
       ],
       "dc": "D. K. McDonald"
@@ -15273,6 +15796,14 @@
         "Sean Maguire",
         "David Orloff"
       ]
+    },
+    "2026": {
+      "hc": "Collin Klein",
+      "oc": "Sean Gleeson",
+      "dc": "Jordan Peterson",
+      "other": [
+        "D'Mitri Emmanuel"
+      ]
     }
   },
   "Kentucky": {
@@ -15680,6 +16211,11 @@
       "other": [
         "Mike Stoops"
       ]
+    },
+    "2026": {
+      "hc": "Will Stein",
+      "oc": "Joe Sloan",
+      "dc": "Jay Bateman"
     }
   },
   "Liberty": {
@@ -15994,6 +16530,11 @@
       "hc": "Jamey Chadwell",
       "oc": "Willy Korn",
       "dc": "Kyle Krantz Skylor Magee"
+    },
+    "2026": {
+      "hc": "Jamey Chadwell",
+      "oc": "Newland Isaac",
+      "dc": "Shawn Quinn"
     }
   },
   "Louisiana": {
@@ -16300,6 +16841,14 @@
       "hc": "Michael Desormeaux",
       "oc": "Tim Leger",
       "dc": "Jim Salgado"
+    },
+    "2026": {
+      "hc": "Michael Desormeaux",
+      "oc": "Tim Leger",
+      "dc": "Jim Salgado",
+      "other": [
+        "Jorge Munoz"
+      ]
     }
   },
   "Louisiana-Monroe": {
@@ -16608,6 +17157,9 @@
     "2025": {
       "hc": "Bryant Vincent",
       "dc": "Earnest Hill"
+    },
+    "2026": {
+      "hc": "Bryant Vincent"
     }
   },
   "Louisiana Tech": {
@@ -16945,6 +17497,11 @@
     "2025": {
       "hc": "Sonny Cumbie",
       "oc": "Tony Franklin",
+      "dc": "Luke Olson"
+    },
+    "2026": {
+      "hc": "Sonny Cumbie",
+      "oc": "Nathan Young",
       "dc": "Luke Olson"
     }
   },
@@ -17317,6 +17874,26 @@
       "hc": "Jeff Brohm",
       "oc": "Brian Brohm",
       "dc": "Ron English"
+    },
+    "2026": {
+      "hc": "Jeff Brohm",
+      "oc": "Brian Brohm",
+      "dc": [
+        "Mark Ivey",
+        "Steve Ellis"
+      ],
+      "other": [
+        "Adam Mueller",
+        "Brandon Sharp",
+        "Chris Barclay",
+        "Dale Williams",
+        "David Elson",
+        "Deion Branch",
+        "Derrick Jackson",
+        "Jontavius Morris",
+        "Karl Maslowski",
+        "Paul Petrino"
+      ]
     }
   },
   "LSU": {
@@ -17738,6 +18315,33 @@
       "other": [
         "Frank Wilson"
       ]
+    },
+    "2026": {
+      "hc": "Lane Kiffin",
+      "oc": [
+        "Charlie Weis Jr.",
+        "Joe Cox"
+      ],
+      "dc": [
+        "Blake Baker",
+        "Chris Kiffin"
+      ],
+      "other": [
+        "Corey Raymond",
+        "Dane Stevens",
+        "Ed Orgeron",
+        "Eric Wolford",
+        "George McDonald",
+        "Jake Olsen",
+        "James Cregg",
+        "Joe Houston",
+        "Kevin Peoples",
+        "Kevin Smith",
+        "Lou Spanos",
+        "Nick Savage",
+        "Sawyer Jordan",
+        "Sterling Lucas"
+      ]
     }
   },
   "Marshall": {
@@ -18101,6 +18705,11 @@
       "hc": "Tony Gibson",
       "oc": "Rod Smith",
       "dc": "Shannon Morrison"
+    },
+    "2026": {
+      "hc": "Tony Gibson",
+      "oc": "Rod Smith",
+      "dc": "Brad Lambert"
     }
   },
   "Maryland": {
@@ -18482,6 +19091,23 @@
       "other": [
         "Ron Zook"
       ]
+    },
+    "2026": {
+      "hc": "Mike Locksley",
+      "oc": "Clint Trickett",
+      "dc": [
+        "Aazaar Abdul-Rahim",
+        "Ted Monachino"
+      ],
+      "other": [
+        "Andre Powell",
+        "Damian Wroblewski",
+        "Kyle Schmidt",
+        "Latrell Scott",
+        "Pep Hamilton",
+        "Randy Starks",
+        "Zac Spavital"
+      ]
     }
   },
   "Massachusetts": {
@@ -18775,6 +19401,11 @@
         "Jake Fire",
         "Joey Rahal"
       ]
+    },
+    "2026": {
+      "hc": "Joe Harasymiak",
+      "oc": "Max Warner",
+      "dc": "Jared Keyte"
     }
   },
   "Memphis": {
@@ -19097,6 +19728,14 @@
       "other": [
         "Reggie Howard"
       ]
+    },
+    "2026": {
+      "hc": "Charles Huff",
+      "oc": [
+        "David Weeks",
+        "Kevin Decker"
+      ],
+      "dc": "Lance Guidry"
     }
   },
   "Miami (FL)": {
@@ -19564,6 +20203,22 @@
       "hc": "Mario Cristobal",
       "oc": "Shannon Dawson",
       "dc": "Corey Hetherman"
+    },
+    "2026": {
+      "hc": "Mario Cristobal",
+      "oc": "Shannon Dawson",
+      "dc": "Corey Hetherman",
+      "other": [
+        "Alex Mirabal",
+        "Damione Lewis",
+        "Danny Kalter",
+        "Favian Upshaw",
+        "Jason Taylor",
+        "Kevin Beard",
+        "Mike Viti",
+        "Todd Stroud",
+        "Will Harris"
+      ]
     }
   },
   "Miami (OH)": {
@@ -19929,6 +20584,13 @@
       "hc": "Chuck Martin",
       "oc": "Pat Welsh",
       "dc": "Bill Brechin"
+    },
+    "2026": {
+      "hc": "Chuck Martin",
+      "dc": "Bill Brechin",
+      "other": [
+        "James Patton"
+      ]
     }
   },
   "Michigan": {
@@ -20384,6 +21046,11 @@
       "other": [
         "Biff Poggi"
       ]
+    },
+    "2026": {
+      "hc": "Kyle Whittingham",
+      "oc": "Jason Beck",
+      "dc": "Jay Hill"
     }
   },
   "Michigan State": {
@@ -20803,6 +21470,25 @@
         "Chad Wilt",
         "Brian Wozniak"
       ]
+    },
+    "2026": {
+      "hc": "Pat Fitzgerald",
+      "oc": "Nick Sheridan",
+      "dc": [
+        "Joe Rossi",
+        "Max Bullough"
+      ],
+      "other": [
+        "Andrew Bindelglass",
+        "Brian Wozniak",
+        "Courtney Hawkins",
+        "Devon Spalding",
+        "James Adams",
+        "John McNulty",
+        "LeVar Woods",
+        "Nick Tabacca",
+        "Winston DeLattiboudere III"
+      ]
     }
   },
   "Middle Tennessee": {
@@ -21136,6 +21822,9 @@
       "hc": "Derek Mason",
       "oc": "Bodie Reeder",
       "dc": "Brian Stewart"
+    },
+    "2026": {
+      "hc": "Derek Mason"
     }
   },
   "Minnesota": {
@@ -21535,6 +22224,23 @@
         "Danny Collins",
         "Nick Monroe"
       ]
+    },
+    "2026": {
+      "hc": "P. J. Fleck",
+      "oc": "Greg Harbaugh Jr.",
+      "dc": [
+        "Danny Collins",
+        "Nick Monroe"
+      ],
+      "other": [
+        "Brian Callahan",
+        "C. J. Robbins",
+        "Daniel Da Prato",
+        "Eric Koehler",
+        "Isaac Fruechte",
+        "Mariano Sori-Marin",
+        "Mohamed Ibrahim"
+      ]
     }
   },
   "Mississippi State": {
@@ -21920,6 +22626,37 @@
       "dc": [
         "Coleman Hutzler",
         "Matt Barnes"
+      ]
+    },
+    "2026": {
+      "hc": "Jeff Lebby",
+      "dc": "Zach Arnett",
+      "other": [
+        "Ben Tawwater",
+        "Brandon Fusco",
+        "Chad Stalnaker",
+        "Cliff Odom",
+        "Corey Bell",
+        "Dalton White",
+        "David Turner",
+        "Desmond Lindsey",
+        "Erroll Thompson",
+        "Evan Harvey",
+        "Hayes Hammond",
+        "Jermauria Rasco",
+        "Jett Johnson",
+        "Joey Connors",
+        "Kevie Thompson",
+        "Kevin Johns",
+        "Mason Miller",
+        "Nick Licostie",
+        "Paul Rhoads",
+        "Phil Loadholt",
+        "Philip Montgomery",
+        "Shaud Williams",
+        "Tanner Schafer",
+        "Ty Warren",
+        "Vincent Dancy"
       ]
     }
   },
@@ -22401,6 +23138,11 @@
         "Brian Early",
         "Chris Ball"
       ]
+    },
+    "2026": {
+      "hc": "Eliah Drinkwitz",
+      "oc": "Chip Lindsey",
+      "dc": "Corey Batoon"
     }
   },
   "Navy": {
@@ -22725,6 +23467,14 @@
       "hc": "Brian Newberry",
       "oc": "Drew Cronic",
       "dc": "P. J. Volker"
+    },
+    "2026": {
+      "hc": "Brian Newberry",
+      "oc": "Drew Cronic",
+      "dc": [
+        "Eric Lewis",
+        "Ricky Brown"
+      ]
     }
   },
   "Nebraska": {
@@ -23157,6 +23907,26 @@
         "Glenn Thomas"
       ],
       "dc": "John Butler"
+    },
+    "2026": {
+      "hc": "Matt Rhule",
+      "oc": [
+        "Dana Holgorsen",
+        "Glenn Thomas"
+      ],
+      "dc": "Rob Aurich",
+      "other": [
+        "Addison Williams",
+        "Corey Campbell",
+        "Daikiel Shorts Jr",
+        "E.J. Barthel",
+        "Geep Wade",
+        "Marcus Satterfield",
+        "Phil Simpson",
+        "Phil Snow",
+        "Rob Dvoracek",
+        "Ron Brown"
+      ]
     }
   },
   "Nevada": {
@@ -23486,6 +24256,11 @@
       "dc": "Kane Ioane"
     },
     "2025": {
+      "hc": "Jeff Choate",
+      "oc": "David Gilbertson",
+      "dc": "Kane Ioane"
+    },
+    "2026": {
       "hc": "Jeff Choate",
       "oc": "David Gilbertson",
       "dc": "Kane Ioane"
@@ -23834,6 +24609,11 @@
       "dc": "Nick Howell"
     },
     "2025": {
+      "hc": "Jason Eck",
+      "oc": "Luke Schleusner",
+      "dc": "Spence Nowinsky"
+    },
+    "2026": {
       "hc": "Jason Eck",
       "oc": "Luke Schleusner",
       "dc": "Spence Nowinsky"
@@ -24280,6 +25060,28 @@
         "Brian Hess",
         "Brian Simmons"
       ]
+    },
+    "2026": {
+      "hc": "Bill Belichick",
+      "oc": "Bobby Petrino",
+      "dc": "Stephen Belichick",
+      "other": [
+        "Armond Hawkins",
+        "Billy Miller",
+        "Bob Diaco",
+        "Brian Belichick",
+        "Brian Hess",
+        "Brian Simmons",
+        "Caleb Pickrell",
+        "Corey Gaynor",
+        "Garrick McGee",
+        "Jamie Collins",
+        "Manny Miles",
+        "Matt Lombardi",
+        "Natrone Means",
+        "Ty Nichols",
+        "Will Friend"
+      ]
     }
   },
   "North Texas": {
@@ -24618,6 +25420,13 @@
       "dc": "Skyler Cassity",
       "other": [
         "Drew Svoboda"
+      ]
+    },
+    "2026": {
+      "hc": "Neal Brown",
+      "dc": [
+        "Bradley Dale Peveto",
+        "Matt Powledge"
       ]
     }
   },
@@ -24993,6 +25802,24 @@
       "hc": "Thomas Hammock",
       "oc": "Quinn Sanders",
       "dc": "Rob Harley"
+    },
+    "2026": {
+      "hc": "Rob Harley",
+      "oc": [
+        "Quinn Sanders",
+        "Tony Petersen"
+      ],
+      "other": [
+        "Brayden Patton",
+        "Chris West",
+        "Cory Connolly",
+        "DJ Bland",
+        "Joseph Hawkins",
+        "Justin Robinson",
+        "Kai Ross",
+        "Matt White",
+        "Ty Boles"
+      ]
     }
   },
   "Northwestern": {
@@ -25345,6 +26172,11 @@
     "2025": {
       "hc": "David Braun",
       "oc": "Zach Lujan",
+      "dc": "Tim McGarigle"
+    },
+    "2026": {
+      "hc": "David Braun",
+      "oc": "Chip Kelly",
       "dc": "Tim McGarigle"
     }
   },
@@ -25784,6 +26616,23 @@
       "hc": "Marcus Freeman",
       "oc": "Mike Denbrock",
       "dc": "Chris Ash"
+    },
+    "2026": {
+      "hc": "Marcus Freeman",
+      "oc": "Mike Denbrock",
+      "dc": [
+        "Aaron Henry",
+        "Chris Ash"
+      ],
+      "other": [
+        "Brian Jean-Mary",
+        "Charlie Partridge",
+        "Gino Guidugli",
+        "Ja'Juan Seider",
+        "Jevaughn Codlin",
+        "Joe Rudolph",
+        "Marty Biagi"
+      ]
     }
   },
   "Ohio": {
@@ -26107,6 +26956,32 @@
         "Brandon Pahl",
         "Garret Pruss",
         "Nick Auriemma"
+      ]
+    },
+    "2026": {
+      "hc": "John Hauser",
+      "oc": "Scott Isphording",
+      "dc": "Kurt Mattix",
+      "other": [
+        "Addie Parde",
+        "Alvin Floyd",
+        "Blair Cavanaugh",
+        "Brandon Pahl",
+        "Chris Woods",
+        "Danny Langsdorf",
+        "Eddie Faulkner",
+        "Ethan Gaspar",
+        "Jeff Phelps",
+        "Joe Tresey",
+        "Keye Thompson",
+        "Kyle Obly",
+        "Lamar Conard",
+        "Micayla McClure",
+        "Noah Spielman",
+        "Ron Crook",
+        "Theodus Ringgold",
+        "Tremayne Scott",
+        "Tyler Shumate"
       ]
     }
   },
@@ -26577,6 +27452,39 @@
       "dc": [
         "Matt Patricia",
         "Tim Walton"
+      ]
+    },
+    "2026": {
+      "hc": "Ryan Day",
+      "oc": [
+        "Arthur Smith",
+        "Keenan Bailey"
+      ],
+      "dc": [
+        "Matt Patricia",
+        "Tim Walton"
+      ],
+      "other": [
+        "Austin Fields",
+        "Billy Fessler",
+        "Carlos Locklyn",
+        "Charlie Dickey",
+        "Colin Keanu",
+        "Cortez Hankton",
+        "Devin Jordan",
+        "Gunner Daniel",
+        "James Laurinaitis",
+        "Joshua Chorba",
+        "Matt Guerrieri",
+        "Mickey Marotti",
+        "Miguel Patrick",
+        "Nate Ebner",
+        "Robby Discher",
+        "Sam McGrath",
+        "Taver Johnson",
+        "Tim Hinton",
+        "Tyler Bowen",
+        "Wendy Laurent"
       ]
     }
   },
@@ -27084,6 +27992,24 @@
         "Wes Goodwin",
         "Jerry Schmidt"
       ]
+    },
+    "2026": {
+      "hc": "Brent Venables",
+      "oc": "Ben Arbuckle",
+      "dc": "Todd Bates",
+      "other": [
+        "Bill Bedenbaugh",
+        "Brandon Hall",
+        "Deland McCullough",
+        "Doug Deakin",
+        "Emmett Jones",
+        "James Dobson",
+        "Jason Witten",
+        "John Kuceyeski",
+        "LaMar Morgan",
+        "Nate Dreiling",
+        "Wes Goodwin"
+      ]
     }
   },
   "Oklahoma State": {
@@ -27480,6 +28406,11 @@
       "other": [
         "Kevin Johns"
       ]
+    },
+    "2026": {
+      "hc": "Eric Morris",
+      "oc": "Sean Brophy",
+      "dc": "Skyler Cassity"
     }
   },
   "Ole Miss": {
@@ -27910,6 +28841,22 @@
         "Pete Golding",
         "Bryan Brown"
       ]
+    },
+    "2026": {
+      "hc": "Pete Golding",
+      "oc": [
+        "Cody Woodiel",
+        "John David Baker"
+      ],
+      "dc": [
+        "Bryan Brown",
+        "Marcus Woodson"
+      ],
+      "other": [
+        "Jake Schoonover",
+        "Jay Shoop",
+        "Matt Kitchens"
+      ]
     }
   },
   "Oregon": {
@@ -28318,6 +29265,11 @@
         "Tosh Lupoi",
         "Chris Hampton"
       ]
+    },
+    "2026": {
+      "hc": "Dan Lanning",
+      "oc": "Drew Mehringer",
+      "dc": "Chris Hampton"
     }
   },
   "Oregon State": {
@@ -28681,6 +29633,17 @@
       "dc": "Rod Chance",
       "other": [
         "Robb Akey"
+      ]
+    },
+    "2026": {
+      "hc": "JaMarcus Shephard",
+      "oc": [
+        "Mitch Dahlen",
+        "Ryan Wallace"
+      ],
+      "dc": [
+        "Cort Dennison",
+        "Mike MacIntyre"
       ]
     }
   },
@@ -29125,6 +30088,31 @@
         "Terry Smith",
         "Stan Drayton"
       ]
+    },
+    "2026": {
+      "hc": "Matt Campbell",
+      "oc": "Taylor Mouser",
+      "dc": "D'Anton Lynn",
+      "other": [
+        "Amber Giese",
+        "Christian Smith",
+        "DeOn'tae Pannell",
+        "Deon Broomfield",
+        "Ikaika Malloe",
+        "Jackson Scott-Brown",
+        "Jake Landry",
+        "Jake Waters",
+        "Jordan Lucas",
+        "Justin Lustig",
+        "Kashif Moore",
+        "Matt Colangelo",
+        "Ryan Clanton",
+        "Savon Huggins",
+        "Sean Seonbuchner",
+        "Shawn Collins",
+        "Sheldon Croney",
+        "Tyson Veidt"
+      ]
     }
   },
   "Pittsburgh": {
@@ -29558,6 +30546,11 @@
       "hc": "Pat Narduzzi",
       "oc": "Kade Bell",
       "dc": "Randy Bates"
+    },
+    "2026": {
+      "hc": "Pat Narduzzi",
+      "oc": "Kade Bell",
+      "dc": "Cory Sanders"
     }
   },
   "Rice": {
@@ -29913,6 +30906,11 @@
       ]
     },
     "2025": {
+      "hc": "Scott Abell",
+      "oc": "Vince Munch",
+      "dc": "Jon Kay"
+    },
+    "2026": {
       "hc": "Scott Abell",
       "oc": "Vince Munch",
       "dc": "Jon Kay"
@@ -30303,6 +31301,22 @@
       "hc": "Greg Schiano",
       "oc": "Kirk Ciarrocca",
       "dc": "Robb Smith"
+    },
+    "2026": {
+      "hc": "Greg Schiano",
+      "oc": [
+        "Damiere Shaw",
+        "Kirk Ciarrocca"
+      ],
+      "dc": "Travis Johansen",
+      "other": [
+        "Adam Cox",
+        "Bob Fraser",
+        "Elijah Hodge",
+        "Eric Finney",
+        "Scott Vallone",
+        "Spencer Brown"
+      ]
     }
   },
   "San Jose State": {
@@ -30668,6 +31682,11 @@
         "Derrick Odum",
         "Bojay Filimoeatu"
       ]
+    },
+    "2026": {
+      "hc": "Ken Niumatalolo",
+      "oc": "Craig Stutzmann",
+      "dc": "Bojay Filimoeatu"
     }
   },
   "South Alabama": {
@@ -30865,6 +31884,13 @@
       "dc": [
         "Will Windham",
         "Jason Washington"
+      ]
+    },
+    "2026": {
+      "hc": "Major Applewhite",
+      "dc": [
+        "Jason Washington",
+        "Todd Orlando"
       ]
     }
   },
@@ -31278,6 +32304,22 @@
         "Sterling Lucas",
         "Geoff Collins"
       ]
+    },
+    "2026": {
+      "hc": "Shane Beamer",
+      "oc": "Kendal Briles",
+      "dc": "Clayton White",
+      "other": [
+        "Deion Barnes",
+        "Matthew Smiley",
+        "Mike Furrey",
+        "Randy Clements",
+        "Shawn Elliot",
+        "Stan Drayton",
+        "Torrian Gray",
+        "Travian Robertson",
+        "Trey Money"
+      ]
     }
   },
   "Southern Mississippi": {
@@ -31671,6 +32713,9 @@
       "hc": "Charles Huff",
       "oc": "Blake Anderson",
       "dc": "Jason Semore"
+    },
+    "2026": {
+      "hc": "Blake Anderson"
     }
   },
   "Stanford": {
@@ -32013,6 +33058,22 @@
       "dc": [
         "Bobby April",
         "Andy Thompson"
+      ]
+    },
+    "2026": {
+      "hc": "Tavita Pritchard",
+      "oc": "Terry Heffernan",
+      "dc": "Kris Richard",
+      "other": [
+        "Brian Bratton",
+        "Brian Lindgren",
+        "Cory Robinson",
+        "Jamey Mosley",
+        "Keli'i Kekuewa",
+        "Kodi Whitfield",
+        "Malcolm Agnew",
+        "Nate Byham",
+        "Nate Kaczor"
       ]
     }
   },
@@ -32413,6 +33474,36 @@
       "dc": [
         "Elijah Robinson",
         "Robert Wright"
+      ]
+    },
+    "2026": {
+      "hc": "Fran Brown",
+      "oc": [
+        "Jeff Nixon",
+        "Mike Johnson"
+      ],
+      "dc": [
+        "John Scott Jr.",
+        "Vince Kehres"
+      ],
+      "other": [
+        "Alex Bayer",
+        "Brandon Napoleon",
+        "Charlie Brewer",
+        "Chris Mull",
+        "Dan Bolden",
+        "Dennis Thomas",
+        "Dre Kates",
+        "Jeff Ambrosie",
+        "Jeremy Hawkins",
+        "Josh Gattis",
+        "Marcus Walker",
+        "Mike Gillespie",
+        "Nitron Stork",
+        "Perry Eliano",
+        "Ryan Krum",
+        "Will Coale",
+        "Zach Van Arsdale"
       ]
     }
   },
@@ -32838,6 +33929,14 @@
       "other": [
         "Ken Wilson"
       ]
+    },
+    "2026": {
+      "hc": "Sonny Dykes",
+      "oc": [
+        "A. J. Ricker",
+        "Gordon Sammis"
+      ],
+      "dc": "Andy Avalos"
     }
   },
   "Temple": {
@@ -33156,6 +34255,11 @@
       "hc": "K. C. Keeler",
       "oc": "Tyler Walker",
       "dc": "Brian Smith - Rice Defense"
+    },
+    "2026": {
+      "hc": "K. C. Keeler",
+      "oc": "Tyler Walker",
+      "dc": "Brian Smith"
     }
   },
   "Tennessee": {
@@ -33557,6 +34661,23 @@
       "other": [
         "John Bonamego"
       ]
+    },
+    "2026": {
+      "hc": "Josh Heupel",
+      "oc": "Joey Halzle",
+      "dc": [
+        "Anthony Poindexter",
+        "Jim Knowles"
+      ],
+      "other": [
+        "Alec Abeln",
+        "De'Rail Sims",
+        "Derek Owings",
+        "Evan Crabtree",
+        "Glen Elarbee",
+        "Kelsey Pope",
+        "Rodney Garner"
+      ]
     }
   },
   "Texas A&M": {
@@ -33950,6 +35071,37 @@
         "Jay Bateman",
         "Jordan Peterson"
       ]
+    },
+    "2026": {
+      "hc": "Mike Elko",
+      "oc": "Holmon Wiggins",
+      "dc": [
+        "Elijah Robinson",
+        "Lyle Hemphill"
+      ],
+      "other": [
+        "Adam Cushing",
+        "Andrew Bather",
+        "Brad Cornelsen",
+        "Bryant Gross-Armiento",
+        "Darius Joiner",
+        "Denzel Nickerson",
+        "Derek Shay",
+        "Deveonte Mackey",
+        "Drew Hollingshead",
+        "Ishmael Aristide",
+        "Jacob Gregory",
+        "Joe Joe Headen",
+        "Joey Lynch",
+        "Malik Davis",
+        "Paul Williams",
+        "Rich Skrosky",
+        "Stan Watson",
+        "Tony Thompson",
+        "Trooper Taylor",
+        "Wisly Desire",
+        "Zach Sparber"
+      ]
     }
   },
   "Texas State": {
@@ -34279,6 +35431,17 @@
       "dc": [
         "Dexter McCoil",
         "Bradley Dale Peveto"
+      ]
+    },
+    "2026": {
+      "hc": "G. J. Kinne",
+      "oc": [
+        "Jordan Shoemaker",
+        "Landon Keopple"
+      ],
+      "dc": [
+        "Matthew Gregg",
+        "Will Windham"
       ]
     }
   },
@@ -34663,6 +35826,14 @@
       "hc": "Joey McGuire",
       "oc": "Mack Leftwich",
       "dc": "Shiel Wood"
+    },
+    "2026": {
+      "hc": "Joey McGuire",
+      "oc": "Mack Leftwich",
+      "dc": [
+        "Rob Greene",
+        "Shiel Wood"
+      ]
     }
   },
   "Toledo": {
@@ -35053,6 +36224,9 @@
         "Vince Kehres",
         "Ross Watson"
       ]
+    },
+    "2026": {
+      "hc": "Mike Jacobs"
     }
   },
   "Troy": {
@@ -35387,6 +36561,14 @@
       ],
       "other": [
         "Kevin Reihner"
+      ]
+    },
+    "2026": {
+      "hc": "Gerad Parker",
+      "oc": "Adam Austin",
+      "dc": [
+        "Dontae Wright",
+        "Nathan Burton"
       ]
     }
   },
@@ -35748,6 +36930,38 @@
       "dc": [
         "Greg Gasparato",
         "Tayler Polk"
+      ]
+    },
+    "2026": {
+      "hc": "Will Hall",
+      "oc": "Russ Callaway",
+      "dc": [
+        "Nate Fuqua",
+        "Tayler Polk"
+      ],
+      "other": [
+        "Arturo Calderon",
+        "Brayden Berezowitz",
+        "Brock Hays",
+        "Bryan Berezowitz",
+        "Bryan Whitehead",
+        "Bryce Bohanon",
+        "Carter Sheridan",
+        "Chris Forestier",
+        "Chris Wurl",
+        "Cody Kennedy",
+        "Colin Kenyon",
+        "Collin D'Angelo",
+        "Eric McDaniel",
+        "J.J. McCleskey",
+        "Justin Ibieta",
+        "Kanan Ray",
+        "Luke Byrne",
+        "Markus James",
+        "Mason Lambert",
+        "Ricky Figurell",
+        "Tyler Spotts-Orgeron",
+        "Wes Bordelon"
       ]
     }
   },
@@ -36121,6 +37335,33 @@
       "other": [
         "Chris Scelfo"
       ]
+    },
+    "2026": {
+      "hc": "Tre Lamb",
+      "oc": [
+        "Kevin Barbay",
+        "Ty Darlington"
+      ],
+      "dc": [
+        "Josh Reardon",
+        "Mike Gray"
+      ],
+      "other": [
+        "BJ Johnson",
+        "Cam Haney",
+        "Carter Barfield",
+        "Chris Scelfo",
+        "Dominique Davenport",
+        "Dominique Franks",
+        "Hakim Gray",
+        "Jake Rand",
+        "Joe Scelfo",
+        "John Beckley",
+        "Kurt Huff",
+        "Nick Ast",
+        "Peyton Thompson",
+        "Tyler Dell"
+      ]
     }
   },
   "UAB": {
@@ -36430,6 +37671,35 @@
       "hc": "Trent Dilfer",
       "oc": "Alex Mortensen",
       "dc": "Steve Russ"
+    },
+    "2026": {
+      "hc": "Alex Mortensen",
+      "dc": "Todd Grantham",
+      "other": [
+        "Anthony Marciano",
+        "Brent Vieselmeyer",
+        "Bryant Novick",
+        "Charlie Eger",
+        "Corbin Grantham",
+        "Danny Mitchell",
+        "Gordon Steele",
+        "Hindley Brigham",
+        "Jack Henninger",
+        "John Jones",
+        "Kevin Garver",
+        "Lionel Stokes",
+        "Luke Godsey",
+        "Lyle Henley",
+        "Matt McCants",
+        "Nigel Madison",
+        "Reilly Jeffers",
+        "Rip Scherer",
+        "Ryan McNamara",
+        "Sam Mills III",
+        "Santonio Jones",
+        "Spencer Duncan",
+        "Zach Peterson"
+      ]
     }
   },
   "UCLA": {
@@ -36790,6 +38060,21 @@
       "other": [
         "Tim Skipper"
       ]
+    },
+    "2026": {
+      "hc": "Bob Chesney",
+      "oc": "Dean Kennedy",
+      "dc": "Colin Hitschler",
+      "other": [
+        "A.J. Steward",
+        "Anthony DiMichele",
+        "Colin Lockett",
+        "Drew Canan",
+        "Eddie Whitley Jr",
+        "Gabe Lynn",
+        "Legi Suiaunoa",
+        "Vic So'oto"
+      ]
     }
   },
   "UNLV": {
@@ -37095,6 +38380,30 @@
       "hc": "Dan Mullen",
       "oc": "Corey Dennis",
       "dc": "Paul Guenther"
+    },
+    "2026": {
+      "hc": "Dan Mullen",
+      "oc": "Corey Dennis",
+      "dc": "Paul Guenther",
+      "other": [
+        "Adrian Mayes",
+        "Akeem Davis",
+        "Anthony Zampese",
+        "Bam Amina",
+        "Del Alexander",
+        "Kap Dede",
+        "Kyle Buckner",
+        "Louie Addazio",
+        "Marvin Bure",
+        "Maxwell Cotton",
+        "Mike Scherer",
+        "Mitch Singler",
+        "Mitchell Dolinar",
+        "Quinton Ganther",
+        "Randy Russell",
+        "Ricky Logo",
+        "Vontaze Burfict"
+      ]
     }
   },
   "USC": {
@@ -37433,6 +38742,40 @@
       "dc": [
         "D'Anton Lynn",
         "Eric Henderson"
+      ]
+    },
+    "2026": {
+      "hc": "Lincoln Riley",
+      "oc": [
+        "Dennis Simmons",
+        "Luke Huard"
+      ],
+      "dc": "Gary Patterson",
+      "other": [
+        "AJ Howard",
+        "Anthony Jones Jr",
+        "Asante Das",
+        "Caesar Martinez",
+        "Chad Savage",
+        "Chris Meyers",
+        "Connor Killian",
+        "Dakota Prukop",
+        "Derrick Baker",
+        "John McDonnell",
+        "Lee Morris",
+        "Lonnie Maddox",
+        "Mike Ekeler",
+        "Noah Knoell",
+        "Paul Gonzales",
+        "Ray Thomas",
+        "Rob Ryan",
+        "Ryan Dougherty",
+        "Sam Carter",
+        "Spencer Jones",
+        "Spencer Missioreck",
+        "Trovon Reed",
+        "Trumain Carroll",
+        "Zach Hanson"
       ]
     }
   },
@@ -37829,6 +39172,27 @@
       "hc": "Kyle Whittingham",
       "oc": "Jason Beck",
       "dc": "Morgan Scalley"
+    },
+    "2026": {
+      "hc": "Morgan Scalley",
+      "oc": "Kevin McGiven",
+      "dc": "Colton Swan",
+      "other": [
+        "Brandon McKinney",
+        "Chad Bumphis",
+        "Derrick Odum",
+        "Dom Conti",
+        "Greg Argust",
+        "Jake Cookus",
+        "Jordan Fogal",
+        "Jordan Gross",
+        "Kammy Delp",
+        "Mark Atuaia",
+        "Ryan Blakney",
+        "Sam Morrissette",
+        "Sharrieff Shah",
+        "Vince Conti"
+      ]
     }
   },
   "Utah State": {
@@ -38212,6 +39576,30 @@
       "hc": "Bronco Mendenhall",
       "oc": "Kevin McGiven",
       "dc": "Nick Howell"
+    },
+    "2026": {
+      "hc": "Bronco Mendenhall",
+      "oc": "Robert Anae",
+      "dc": "Nick Howell",
+      "other": [
+        "Austin Gatewood",
+        "Christopher Howell",
+        "DJ Tialavea",
+        "De'Vante Cross",
+        "Donte Wilkins",
+        "Hayden Millie",
+        "Jan Jorgensen",
+        "Josh Clifford",
+        "Jray Galeai",
+        "Kevin Griffin",
+        "Kirk Garner",
+        "Kody Cooke",
+        "Mario Acitelli",
+        "Michael Frisina",
+        "Shane Hunter",
+        "Skyler Ridley",
+        "Stine Emrick"
+      ]
     }
   },
   "UTEP": {
@@ -38573,6 +39961,17 @@
         "Bobby Daly",
         "Kelvin Sigler"
       ]
+    },
+    "2026": {
+      "hc": "Scotty Walden",
+      "oc": [
+        "Joe Pappalardo",
+        "Lanear Sampson"
+      ],
+      "dc": [
+        "Kelvin Sigler",
+        "Kyle Beyer"
+      ]
     }
   },
   "Vanderbilt": {
@@ -38932,6 +40331,39 @@
       "hc": "Clark Lea",
       "oc": "Tim Beck - Vanderbilt OC",
       "dc": "Steve Gregory"
+    },
+    "2026": {
+      "hc": "Clark Lea",
+      "oc": "Tim Beck",
+      "dc": [
+        "Nick Lezynski",
+        "Steve Gregory"
+      ],
+      "other": [
+        "Adam Morris",
+        "Alex Bailey",
+        "Andrew Gachkar",
+        "Arion Shinaver",
+        "Bob Shoop",
+        "Brendan Flaherty",
+        "Carson Casarahi",
+        "Chris Klenakis",
+        "DJ Steward",
+        "Ghaali Muhammad-Lankford",
+        "Isaiah Richardson",
+        "Jackson Lampley",
+        "Jamaal Richardson",
+        "Jaxon York",
+        "Jeff LePak",
+        "Jerry Kill",
+        "Josh Adams",
+        "Justin Harris",
+        "Mark Seidler",
+        "Melvin Rice",
+        "Seth Payne",
+        "Shane Gallant",
+        "Trenton Kirklin"
+      ]
     }
   },
   "Virginia Tech": {
@@ -39330,6 +40762,39 @@
       "hc": "Brent Pry",
       "oc": "Philip Montgomery",
       "dc": "Sam Siefkes"
+    },
+    "2026": {
+      "hc": "James Franklin",
+      "oc": "Ty Howle",
+      "dc": "Brent Pry",
+      "other": [
+        "Alvin Futrell",
+        "Anthony Midget",
+        "Arketa Banks",
+        "Brayden DeVault-Smith",
+        "Brian Crist",
+        "Cam Phillips",
+        "Chuck Losey",
+        "Danny Rocco",
+        "David Rocco",
+        "Derrick Tangelo",
+        "Doug Shearer",
+        "Fontel Mines",
+        "Greg Wood",
+        "Jan Johnson Jr",
+        "Jarrett Ferguson",
+        "Jeff Earls",
+        "Jens Danielsen",
+        "Jeron Gouveia-Winslow",
+        "Jon Fleury",
+        "Josh Conklin",
+        "Mike Moyseenko",
+        "Norval McKenzie",
+        "Pat Shepard",
+        "Ryan Alexander",
+        "Vic Hall",
+        "Warren Ruggiero"
+      ]
     }
   },
   "Wake Forest": {
@@ -39718,6 +41183,11 @@
       "other": [
         "Dan Enos"
       ]
+    },
+    "2026": {
+      "hc": "Jake Dickert",
+      "oc": "Rob Ezell",
+      "dc": "Scottie Hazelton"
     }
   },
   "Washington": {
@@ -40103,6 +41573,40 @@
       "hc": "Jedd Fisch",
       "oc": "Jimmie Dougherty",
       "dc": "Ryan Walters"
+    },
+    "2026": {
+      "hc": "Jedd Fisch",
+      "dc": "Ryan Walters",
+      "other": [
+        "Aaron Brosz",
+        "Aaron Van Horn",
+        "Austin Karr",
+        "Ben Ford",
+        "Brett Arkelian",
+        "Brian Odom",
+        "Cadillac Mitchell",
+        "Chris Petrilli",
+        "Dom Caldwell",
+        "J. P. Losman",
+        "Jacob Smith",
+        "Jason Kaufusi",
+        "John Richardson",
+        "Jordan Paopao",
+        "Kekoa Crawford",
+        "Kevin Cummings",
+        "Korey Rush",
+        "Lance Ancar",
+        "Luke Del Rio",
+        "Martell Irby",
+        "Matt Cavanaugh",
+        "Michael Switzer",
+        "Mike Brewster",
+        "Morris Henry Jr",
+        "Sam Barry",
+        "Scottie Graham",
+        "Taylor Mays",
+        "Tyler Owens"
+      ]
     }
   },
   "Washington State": {
@@ -40505,6 +42009,11 @@
       "hc": "Jimmy Rogers",
       "oc": "Danny Freund",
       "dc": "Jesse Bobbit"
+    },
+    "2026": {
+      "hc": "Kirby Moore",
+      "oc": "Matt Miller",
+      "dc": "Trent Bray"
     }
   },
   "Western Kentucky": {
@@ -40828,6 +42337,9 @@
         "Da'Von Brown",
         "Davis Merritt"
       ]
+    },
+    "2026": {
+      "hc": "Tyson Helton"
     }
   },
   "Western Michigan": {
@@ -41159,6 +42671,9 @@
       "hc": "Lance Taylor",
       "oc": "Walt Bell",
       "dc": "Chris O'Leary"
+    },
+    "2026": {
+      "hc": "Lance Taylor"
     }
   },
   "West Virginia": {
@@ -41636,6 +43151,10 @@
         "Larry Porter",
         "Jack Bicknell Jr."
       ]
+    },
+    "2026": {
+      "hc": "Rich Rodriguez",
+      "dc": "Zac Alley"
     }
   },
   "Wisconsin": {
@@ -42071,6 +43590,33 @@
       "hc": "Luke Fickell",
       "oc": "Jeff Grimes",
       "dc": "Mike Tressel"
+    },
+    "2026": {
+      "hc": "Luke Fickell",
+      "oc": "Jeff Grimes",
+      "dc": "Mike Tressel",
+      "other": [
+        "Ari Confesor",
+        "Blake Rolan",
+        "Bob Ligashesky",
+        "Bryan Sanborn",
+        "Cam Odom",
+        "Casey Rabach",
+        "Chris Worley",
+        "Cooper Eckhardt",
+        "Dylan Barnett",
+        "E.J. Whitlow",
+        "Eric Mateos",
+        "Jack Cooper",
+        "Jayden Everett",
+        "Joe Ludwig",
+        "Kenny Guiton",
+        "Landon Fickell",
+        "Michael Cibene",
+        "Nate Letton",
+        "Robert Steeples",
+        "Tuf Borland"
+      ]
     }
   },
   "Wyoming": {
@@ -42430,6 +43976,11 @@
         "Joe Tripodi",
         "Eric Donoval"
       ]
+    },
+    "2026": {
+      "hc": "Jay Sawvel",
+      "oc": "Christian Taylor",
+      "dc": "Aaron Bohl"
     }
   },
   "Ball State": {
@@ -42665,6 +44216,10 @@
       ]
     },
     "2025": {
+      "hc": "Mike Uremovich",
+      "dc": "Jeff Knowles"
+    },
+    "2026": {
       "hc": "Mike Uremovich",
       "dc": "Jeff Knowles"
     }
@@ -43049,6 +44604,11 @@
         "Anthony Marciano",
         "Jeff Grigus"
       ]
+    },
+    "2026": {
+      "hc": "Dave Aranda",
+      "oc": "Jake Spavital",
+      "dc": "Joe Klanderman"
     }
   },
   "California": {
@@ -43425,6 +44985,39 @@
       "dc": "Vic So'oto",
       "other": [
         "Nick Rolovich"
+      ]
+    },
+    "2026": {
+      "hc": "Tosh Lupoi",
+      "oc": [
+        "Ike Hilliard",
+        "Jordan Somerville"
+      ],
+      "dc": [
+        "Da'Von Brown",
+        "Michael Hutchings",
+        "Ryan Barry"
+      ],
+      "other": [
+        "Bryan Barraza",
+        "Connor Boyd",
+        "Darrion Daniels",
+        "Duke DaRe",
+        "Eddy McGilvra",
+        "Famika Anae",
+        "Geoff McArthur",
+        "Jason Novak",
+        "Jeff McDaniels",
+        "Keith Bhonapha",
+        "Keith Heyward",
+        "Lorenzo Alexander",
+        "Mike Saffell",
+        "Nick Rolovich",
+        "Pat McCann",
+        "Quintin Somerville",
+        "Sione Ta'ufo'ou",
+        "Steve Haunga",
+        "Zach Werlinger"
       ]
     }
   },
@@ -43820,6 +45413,11 @@
       "hc": "Manny Diaz",
       "oc": "Jonathan Brewer",
       "dc": "Jonathan Patke"
+    },
+    "2026": {
+      "hc": "Manny Diaz",
+      "oc": "Jonathan Brewer",
+      "dc": "Jonathan Patke"
     }
   },
   "Kent State": {
@@ -44122,6 +45720,19 @@
       "hc": "Mark Carney",
       "oc": "Clay Patterson",
       "dc": "Cherokee Valeria"
+    },
+    "2026": {
+      "hc": "Mark Carney",
+      "oc": "Clay Patterson",
+      "dc": "Cherokee Valeria",
+      "other": [
+        "Alex Stadler",
+        "Bart Tanski",
+        "Bill Teerlinck",
+        "Braxton Chapman",
+        "Isaac Vance",
+        "Kevin Snyder"
+      ]
     }
   },
   "Purdue": {
@@ -44540,6 +46151,35 @@
       "hc": "Barry Odom",
       "oc": "Josh Henson",
       "dc": "Michael Scherer"
+    },
+    "2026": {
+      "hc": "Barry Odom",
+      "oc": "Josh Henson",
+      "dc": "Kevin Kane",
+      "other": [
+        "Austin Appleby",
+        "Bilal Marshall",
+        "C.J. Cole",
+        "Cameron Colbert",
+        "Charles Clark",
+        "Cornell Ford",
+        "Darin Hinshaw",
+        "David Spurlock",
+        "Greg Robinson",
+        "Jack Lowary",
+        "James Shibest",
+        "Kelvin Green",
+        "Kiero Small",
+        "Mitchell Dolinar",
+        "Myles Quimby",
+        "Nate Rock",
+        "Neal Renna",
+        "Nick Porreca",
+        "Ronnell Perkins",
+        "Tre'vour Simms",
+        "Ty Rocconi",
+        "Zach Crabtree"
+      ]
     }
   },
   "San Diego State": {
@@ -44921,6 +46561,14 @@
     "2025": {
       "hc": "Sean Lewis",
       "dc": "Rob Aurich"
+    },
+    "2026": {
+      "hc": "Sean Lewis",
+      "oc": "Matt Johnson",
+      "dc": "Demetrius Sumler",
+      "other": [
+        "Zac Barton"
+      ]
     }
   },
   "SMU": {
@@ -45320,6 +46968,39 @@
         "Scott Symons",
         "Maurice Crum Jr."
       ]
+    },
+    "2026": {
+      "hc": "Rhett Lashlee",
+      "oc": [
+        "D'Eriq King",
+        "Garin Justice",
+        "Rob Likens"
+      ],
+      "dc": [
+        "Maurice Crum Jr.",
+        "Rickey Hunley Jr.",
+        "Sam Gregg"
+      ],
+      "other": [
+        "Brandon Sukenik",
+        "Calvin Thibodeaux",
+        "Carson Morris",
+        "Casey Horny",
+        "Demerick Gary",
+        "Jalen Ivy",
+        "Jonathan McGill",
+        "Justin March",
+        "Kyle Cooper",
+        "Matthew McHugh",
+        "Parker Stone",
+        "Reggie Bain",
+        "Riley Dodge",
+        "Ryan Jenkins",
+        "Ryan Ragone",
+        "Sam Dunnam",
+        "Tyler Van Dyke",
+        "Warren Messer"
+      ]
     }
   },
   "South Florida": {
@@ -45670,6 +47351,11 @@
       "other": [
         "Kevin Patrick"
       ]
+    },
+    "2026": {
+      "hc": "Brian Hartline",
+      "oc": "Tim Beck",
+      "dc": "Josh Aldridge"
     }
   },
   "Texas": {
@@ -46125,6 +47811,37 @@
         "Pete Kwiatkowski",
         "Johnny Nansen"
       ]
+    },
+    "2026": {
+      "hc": "Steve Sarkisian",
+      "oc": [
+        "A. J. Milwee",
+        "Kyle Flood"
+      ],
+      "dc": [
+        "Johnny Nansen",
+        "Will Muschamp"
+      ],
+      "other": [
+        "Billy Gonzales",
+        "Blake Gideon",
+        "Chris Jackson",
+        "Garrett Cox",
+        "J.B. Brown",
+        "Jabbar Juluke",
+        "Jackson Ponder",
+        "Jason McEndoo",
+        "Jeff Banks",
+        "Kenny Baker",
+        "Kwahn Drake",
+        "LaAllan Clark",
+        "Malik Antoine",
+        "Mark Orphey",
+        "Matt Moran",
+        "Michael Bimonte",
+        "Steve Casula",
+        "Torre Becton"
+      ]
     }
   },
   "UCF": {
@@ -46507,6 +48224,11 @@
       "other": [
         "Shawn Clark"
       ]
+    },
+    "2026": {
+      "hc": "Scott Frost",
+      "oc": "Steve Cooper",
+      "dc": "Alex Grinch"
     }
   },
   "Virginia": {
@@ -46920,6 +48642,25 @@
       "hc": "Tony Elliott",
       "oc": "Desmond Kitchings",
       "dc": "John Rudzinski"
+    },
+    "2026": {
+      "hc": "Tony Elliott",
+      "oc": "Desmond Kitchings",
+      "dc": "John Rudzinski",
+      "other": [
+        "Adam Mims",
+        "Coy DeWeese",
+        "Curome Cox",
+        "Jared Rayman",
+        "Joey Orck",
+        "Jonathan Celestin",
+        "Keith Gaither",
+        "Kevin Downing",
+        "Mike Adams",
+        "Mike Hollins",
+        "ShaDon Brown",
+        "Taylor Lamb"
+      ]
     }
   },
   "Old Dominion": {
@@ -47141,6 +48882,26 @@
       "hc": "Ricky Rahne",
       "oc": "Kevin Decker",
       "dc": "Blake Seiler"
+    },
+    "2026": {
+      "hc": "Ricky Rahne",
+      "oc": [
+        "Kevin Decker",
+        "Kody Cook"
+      ],
+      "dc": [
+        "Blake Seiler",
+        "Remington Rebstock"
+      ],
+      "other": [
+        "Alex Huettel",
+        "Chad Snodgrass",
+        "David Weeks",
+        "Dwike Wilson",
+        "Kevin Smith",
+        "Tony Lucas",
+        "Victor Irokansi"
+      ]
     }
   },
   "UTSA": {
@@ -47331,6 +49092,11 @@
     "2025": {
       "hc": "Jeff Traylor",
       "oc": "Justin Burke",
+      "dc": "Jess Loepp"
+    },
+    "2026": {
+      "hc": "Jeff Traylor",
+      "oc": "Rick Bowie",
       "dc": "Jess Loepp"
     }
   }

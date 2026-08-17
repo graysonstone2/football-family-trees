@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "generate:leaderboards": "node scripts/generate-tree-leaderboard.mjs",
-    "prebuild": "npm run generate:leaderboards",
+    "generate:schedule-lineage": "node scripts/generate-schedule-lineage.mjs",
+    "prebuild": "npm run generate:leaderboards && npm run generate:schedule-lineage",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
