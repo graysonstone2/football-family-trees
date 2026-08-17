@@ -10,14 +10,11 @@
     "prebuild": "npm run generate:leaderboards && npm run generate:schedule-lineage",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "dev:api": "node scripts/coach-comp-dev-server.mjs"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.110.0",
     "autoprefixer": "^10.4.20",
     "html-to-image": "^1.11.13",
-    "pdfjs-dist": "^6.1.200",
     "postcss": "^8.4.47",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

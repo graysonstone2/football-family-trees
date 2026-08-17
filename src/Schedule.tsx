@@ -48,11 +48,10 @@ const VIEW_COPY: Record<ScheduleView, { blurb: string; title: string }> = {
     title: 'Most tangled games',
     blurb: 'The 2026 matchups where the two coaching trees fold back into each other.',
   },
-  trees: {
-    title: 'Games by patriarch',
-    blurb: 'Pick a coach and see which 2026 games put his branches on both sidelines.',
-  },
 };
+
+// Only trees with real reach are worth offering as a filter.
+const TREE_FILTER_OPTIONS = PATRIARCHS.filter((entry) => entry.gameCount >= 3);
 
 const TIER_ORDER: LineageTier[] = ['reunion', 'family', 'cousins', 'thread', 'strangers'];
 
@@ -421,21 +420,34 @@ export default function Schedule({
   const [team, setTeam] = useState('');
   const [conference, setConference] = useState('');
   const [tier, setTier] = useState('');
-  const [patriarchQuery, setPatriarchQuery] = useState('');
   const detailRef = useRef<HTMLDivElement>(null);
 
   const selectedGame = selectedGameId ? getGame(selectedGameId) : null;
+
+  const treeGameIds = useMemo(() => {
+    const entry = patriarch ? PATRIARCHS.find((item) => item.coach === patriarch) : null;
+    return entry ? new Set(entry.gameIds) : null;
+  }, [patriarch]);
 
   const matchesFilters = useCallback(
     (game: ScheduleGame) => {
       const teamMatches = !team || game.home === team || game.away === team;
       const conferenceMatches =
         !conference || getConference(game.home) === conference || getConference(game.away) === conference;
+      const treeMatches = !treeGameIds || treeGameIds.has(game.id);
 
-      return teamMatches && conferenceMatches;
+      return teamMatches && conferenceMatches && treeMatches;
     },
-    [conference, team],
+    [conference, team, treeGameIds],
   );
+
+  // Jumping from the ranked list to the week list should land on the selected
+  // game's week, not leave the detail card describing a game the list never shows.
+  useEffect(() => {
+    if (view === 'week' && selectedGame) {
+      setWeek(selectedGame.week);
+    }
+  }, [selectedGame, view]);
 
   const weekGames = useMemo(
     () =>
@@ -455,30 +467,6 @@ export default function Schedule({
       ).slice(0, 120),
     [matchesFilters, tier],
   );
-
-  const patriarchOptions = useMemo(() => {
-    const query = patriarchQuery.trim().toLowerCase();
-
-    return PATRIARCHS.filter((entry) => !query || entry.coach.toLowerCase().includes(query)).slice(0, 60);
-  }, [patriarchQuery]);
-
-  const patriarchGames = useMemo(() => {
-    if (!patriarch) {
-      return [];
-    }
-
-    const entry = PATRIARCHS.find((item) => item.coach === patriarch);
-
-    if (!entry) {
-      return [];
-    }
-
-    return entry.gameIds
-      .map((id) => getGame(id))
-      .filter((game): game is ScheduleGame => Boolean(game))
-      .filter(matchesFilters)
-      .sort((a, b) => a.date.localeCompare(b.date));
-  }, [matchesFilters, patriarch]);
 
   const selectGame = (gameId: string) => {
     const next = gameId === selectedGameId ? null : gameId;
@@ -515,15 +503,12 @@ export default function Schedule({
           </p>
         </div>
 
-        <div className="mb-4 grid grid-cols-3 gap-1 rounded-lg border border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-1">
+        <div className="mb-4 grid grid-cols-2 gap-1 rounded-lg border border-[var(--theme-border)] bg-[var(--theme-surface-soft)] p-1">
           <SubNavButton active={view === 'ranked'} onClick={() => onChangeView('ranked')}>
             Most tangled
           </SubNavButton>
           <SubNavButton active={view === 'week'} onClick={() => onChangeView('week')}>
             By week
-          </SubNavButton>
-          <SubNavButton active={view === 'trees'} onClick={() => onChangeView('trees')}>
-            By patriarch
           </SubNavButton>
         </div>
 
@@ -546,6 +531,18 @@ export default function Schedule({
             ]}
             value={conference}
           />
+          <FilterSelect
+            label="Coaching tree"
+            onChange={onChangePatriarch}
+            options={[
+              { label: 'Any tree', value: '' },
+              ...TREE_FILTER_OPTIONS.map((entry) => ({
+                label: `${entry.coach} (${entry.gameCount})`,
+                value: entry.coach,
+              })),
+            ]}
+            value={patriarch}
+          />
           {view === 'ranked' && (
             <FilterSelect
               label="Tangle level"
@@ -558,6 +555,21 @@ export default function Schedule({
             />
           )}
         </div>
+
+        {patriarch && (
+          <div className="tree-filter-note">
+            <p>
+              Showing only games with a coach out of <strong>{patriarch}</strong>&apos;s tree on each sideline.
+            </p>
+            <button
+              className="accent-button rounded-md px-3 py-2 text-xs font-black uppercase tracking-wide"
+              onClick={() => onOpenCoachTree(patriarch)}
+              type="button"
+            >
+              Open the tree
+            </button>
+          </div>
+        )}
 
         {view === 'week' && (
           <div className="week-picker">
@@ -600,6 +612,7 @@ export default function Schedule({
                   onSelect={() => selectGame(entry.game.id)}
                   rank={entry.lineage.rank}
                   selected={entry.game.id === selectedGameId}
+                  via={patriarch || undefined}
                 />
               ))}
               {rankedGames.length === 0 && (
@@ -621,79 +634,12 @@ export default function Schedule({
                   key={game.id}
                   onSelect={() => selectGame(game.id)}
                   selected={game.id === selectedGameId}
+                  via={patriarch || undefined}
                 />
               ))}
               {weekGames.length === 0 && <p className="staff-empty">No games match these filters.</p>}
             </div>
           </>
-        )}
-
-        {view === 'trees' && (
-          <div className="grid gap-4 lg:grid-cols-[minmax(0,280px)_minmax(0,1fr)]">
-            <div>
-              <div className="leaderboard-filter">
-                <label htmlFor="patriarch-search">Find a coach</label>
-                <input
-                  id="patriarch-search"
-                  onChange={(event) => setPatriarchQuery(event.target.value)}
-                  placeholder="Nick Saban"
-                  value={patriarchQuery}
-                />
-              </div>
-              <div className="patriarch-list">
-                {patriarchOptions.map((entry) => (
-                  <button
-                    className={`patriarch-row ${entry.coach === patriarch ? 'patriarch-row-active' : ''}`}
-                    key={entry.coach}
-                    onClick={() => onChangePatriarch(entry.coach === patriarch ? '' : entry.coach)}
-                    type="button"
-                  >
-                    <span className="min-w-0 truncate">{entry.coach}</span>
-                    <span className="insight-count">{entry.gameCount}</span>
-                  </button>
-                ))}
-                {patriarchOptions.length === 0 && <p className="staff-empty">No coach matches that search.</p>}
-              </div>
-            </div>
-            <div>
-              {patriarch ? (
-                <>
-                  <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
-                    <p className="text-sm font-black text-[var(--theme-primary)]">
-                      {patriarchGames.length} 2026 {patriarchGames.length === 1 ? 'game' : 'games'} with{' '}
-                      {patriarch} branches on both sidelines
-                    </p>
-                    <button
-                      className="accent-button rounded-md px-3 py-2 text-xs font-black uppercase tracking-wide"
-                      onClick={() => onOpenCoachTree(patriarch)}
-                      type="button"
-                    >
-                      Open {patriarch}&apos;s tree
-                    </button>
-                  </div>
-                  <div className="leaderboard-list">
-                    {patriarchGames.map((game) => (
-                      <GameRow
-                        game={game}
-                        key={game.id}
-                        onSelect={() => selectGame(game.id)}
-                        selected={game.id === selectedGameId}
-                        via={patriarch}
-                      />
-                    ))}
-                    {patriarchGames.length === 0 && (
-                      <p className="staff-empty">No games match these filters.</p>
-                    )}
-                  </div>
-                </>
-              ) : (
-                <p className="staff-empty">
-                  Pick a coach on the left. The count is how many {SCHEDULE_SEASON} games have a coach from his
-                  tree on each sideline.
-                </p>
-              )}
-            </div>
-          </div>
         )}
       </div>
 

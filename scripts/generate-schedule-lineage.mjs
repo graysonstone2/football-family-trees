@@ -96,6 +96,13 @@ const directMentorsOf = (() => {
         return;
       }
 
+      // A hire made for THIS season has not produced any shared history yet, and
+      // counting it would put every new coordinator inside his new boss's tree
+      // (and inside the tree of everyone his boss ever worked for).
+      if (job.year >= SEASON) {
+        return;
+      }
+
       headCoachesOf(job.school, job.year).forEach((mentor) => {
         if (mentor === coach) {
           return;
@@ -164,30 +171,59 @@ const coreStaff = (school) => {
   ).filter((entry, index, all) => all.findIndex((other) => other.coach === entry.coach) === index);
 };
 
+/** Everyone on a school's payroll this season, position coaches and analysts included. */
+const wholeStaff = (school) => {
+  const roster = data[school]?.[String(SEASON)] ?? {};
+  return new Set(Object.entries(roster).flatMap(([role, value]) => namesFor(role, value)));
+};
+
 const stopKey = (stop) => `${stop.school}-${stop.year}`;
+
+/**
+ * Years as consecutive runs, matching formatYears in src/Tray.tsx. A coach who
+ * left and came back reads "Maryland 2001-2004 & 2008-2010", never as one
+ * unbroken decade he did not actually serve.
+ */
+const yearRuns = (years) => {
+  const sorted = Array.from(new Set(years)).sort((a, b) => a - b);
+  const runs = [];
+  let start = sorted[0];
+  let end = sorted[0];
+
+  sorted.slice(1).forEach((year) => {
+    if (year === end + 1) {
+      end = year;
+      return;
+    }
+
+    runs.push(start === end ? `${start}` : `${start}-${end}`);
+    start = year;
+    end = year;
+  });
+  runs.push(start === end ? `${start}` : `${start}-${end}`);
+
+  return runs.join(' & ');
+};
+
 const stopLabel = (stops) => {
   const bySchool = new Map();
   stops.forEach((stop) => {
-    const years = bySchool.get(stop.school) ?? [];
-    years.push(stop.year);
-    bySchool.set(stop.school, years);
+    bySchool.set(stop.school, [...(bySchool.get(stop.school) ?? []), stop.year]);
   });
 
   return Array.from(bySchool.entries())
-    .map(([school, years]) => {
-      const sorted = Array.from(new Set(years)).sort((a, b) => a - b);
-      const span = sorted.length > 1 ? `${sorted[0]}-${String(sorted[sorted.length - 1]).slice(2)}` : `${sorted[0]}`;
-      return `${school} ${span}`;
-    })
+    .map(([school, years]) => `${school} ${yearRuns(years)}`)
     .join(', ');
 };
 
-const connectionsFor = (homeStaff, awayStaff) => {
+/**
+ * @param inGame every coach employed by either team this season. A coach standing
+ *   on one of these two sidelines is never a third-party "shared tree": the
+ *   mentor-protege card already says it, and the whole staff has to be checked
+ *   because a position coach or analyst can be a former head coach.
+ */
+const connectionsFor = (homeStaff, awayStaff, inGame) => {
   const connections = [];
-  // A coach standing on one of these two sidelines is not a shared ancestor: the
-  // mentor-protege link already says it, and saying it twice reads as noise. This
-  // also drops 2026 stops, whose only possible mentor is the coach's own head coach.
-  const inGame = new Set([...homeStaff, ...awayStaff].map((entry) => entry.coach));
 
   homeStaff.forEach((a) => {
     awayStaff.forEach((b) => {
@@ -347,7 +383,10 @@ schedule.games.forEach((game) => {
     return;
   }
 
-  const connections = connectionsFor(homeStaff, awayStaff);
+  const connections = connectionsFor(homeStaff, awayStaff, new Set([
+    ...wholeStaff(game.home),
+    ...wholeStaff(game.away),
+  ]));
   const score = Math.round(connections.reduce((sum, c) => sum + c.weight, 0) * 10) / 10;
   const viaTotals = new Map();
   connections.forEach((c) => {

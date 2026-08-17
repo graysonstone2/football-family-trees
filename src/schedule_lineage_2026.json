@@ -85,8 +85,8 @@
       "coach": "Ken Niumatalolo",
       "role": "hc"
      },
-     "aStops": "Utah State 1992-94, Navy 1995",
-     "bStops": "Navy 1995-98",
+     "aStops": "Utah State 1992-1994, Navy 1995",
+     "bStops": "Navy 1995-1998",
      "together": "Navy 1995",
      "stops": null,
      "protege": null,
@@ -132,7 +132,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 90
+   "rank": 78
   },
   "2026-08-29-nc-state-at-virginia": {
    "score": 0,
@@ -174,7 +174,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 339
+   "rank": 337
   },
   "2026-09-03-uab-at-illinois": {
    "score": 0,
@@ -201,23 +201,23 @@
    "rank": null
   },
   "2026-09-03-massachusetts-at-rutgers": {
-   "score": 42.8,
-   "tier": "reunion",
+   "score": 36.8,
+   "tier": "family",
    "staffed": true,
-   "connectionCount": 10,
-   "headline": "Greg Schiano (Rutgers HC) coached Joe Harasymiak (Massachusetts HC) at Rutgers 2022-24.",
+   "connectionCount": 7,
+   "headline": "Greg Schiano (Rutgers HC) coached Joe Harasymiak (Massachusetts HC) at Rutgers 2022-2024.",
    "trees": [
     {
      "coach": "P. J. Fleck",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Butch Davis",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Joe Paterno",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -235,7 +235,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Rutgers 2022-24",
+     "stops": "Rutgers 2022-2024",
      "protege": "Joe Harasymiak",
      "hops": null,
      "weight": 18
@@ -251,8 +251,8 @@
       "coach": "Joe Harasymiak",
       "role": "hc"
      },
-     "aStops": "Western Michigan 2013-16, Minnesota 2017-22",
-     "bStops": "Minnesota 2020-21",
+     "aStops": "Western Michigan 2013-2016, Minnesota 2017-2019 & 2022",
+     "bStops": "Minnesota 2020-2021",
      "together": null,
      "stops": null,
      "protege": null,
@@ -305,8 +305,8 @@
       "role": "oc"
      },
      "b": {
-      "coach": "Max Warner",
-      "role": "oc"
+      "coach": "Jared Keyte",
+      "role": "dc"
      },
      "aStops": null,
      "bStops": null,
@@ -403,7 +403,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 278
+   "rank": 274
   },
   "2026-09-04-indiana-state-at-purdue": {
    "score": 0,
@@ -485,10 +485,10 @@
    "rank": null
   },
   "2026-09-05-baylor-at-auburn": {
-   "score": 29.3,
+   "score": 27,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 12,
+   "connectionCount": 11,
    "headline": "Alex Golesh (HC) and Jake Spavital (OC) both worked for Mike Gundy.",
    "trees": [
     {
@@ -501,7 +501,7 @@
     },
     {
      "coach": "Les Miles",
-     "links": 2
+     "links": 1
     },
     {
      "coach": "Urban Meyer",
@@ -590,7 +590,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 35
+   "rank": 34
   },
   "2026-09-05-utah-tech-at-byu": {
    "score": 0,
@@ -607,15 +607,15 @@
    "rank": null
   },
   "2026-09-05-ucla-at-california": {
-   "score": 8.3,
-   "tier": "cousins",
+   "score": 2.3,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 1,
    "headline": "Tosh Lupoi and Colin Hitschler both sit inside Jeff Tedford's tree.",
    "trees": [
     {
      "coach": "Jeff Tedford",
-     "links": 5
+     "links": 1
     }
    ],
    "connections": [
@@ -639,7 +639,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 172
+   "rank": 299
   },
   "2026-09-05-the-citadel-at-charlotte": {
    "score": 0,
@@ -691,7 +691,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 302
+   "rank": 300
   },
   "2026-09-05-tulane-at-duke": {
    "score": 7.5,
@@ -772,7 +772,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 193
+   "rank": 177
   },
   "2026-09-05-florida-atlantic-at-florida": {
    "score": 0,
@@ -867,7 +867,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 171
+   "rank": 159
   },
   "2026-09-05-northern-illinois-at-iowa": {
    "score": 9,
@@ -952,7 +952,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 165
+   "rank": 151
   },
   "2026-09-05-southeast-missouri-state-at-iowa-state": {
    "score": 0,
@@ -1065,7 +1065,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 108
+   "rank": 100
   },
   "2026-09-05-lamar-at-louisiana": {
    "score": 0,
@@ -1126,15 +1126,15 @@
    "rank": null
   },
   "2026-09-05-ohio-at-nebraska": {
-   "score": 9.8,
+   "score": 8.3,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 6,
+   "connectionCount": 5,
    "headline": "Matt Rhule and Kurt Mattix both sit inside Bob Toledo's tree.",
    "trees": [
     {
      "coach": "Bob Toledo",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Mike Gundy",
@@ -1204,7 +1204,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 153
+   "rank": 160
   },
   "2026-09-05-western-kentucky-at-nevada": {
    "score": 7.9,
@@ -1239,7 +1239,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 181
+   "rank": 167
   },
   "2026-09-05-central-michigan-at-new-mexico": {
    "score": 0,
@@ -1308,7 +1308,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 264
+   "rank": 260
   },
   "2026-09-05-marshall-at-penn-state": {
    "score": 7.1,
@@ -1389,7 +1389,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 203
+   "rank": 184
   },
   "2026-09-05-miami-oh-at-pittsburgh": {
    "score": 0,
@@ -1423,15 +1423,15 @@
    "rank": null
   },
   "2026-09-05-kent-state-at-south-carolina": {
-   "score": 7.9,
+   "score": 5.6,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 3,
+   "connectionCount": 2,
    "headline": "Shane Beamer and Mark Carney both sit inside Phillip Fulmer's tree.",
    "trees": [
     {
      "coach": "Phillip Fulmer",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -1455,7 +1455,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 180
+   "rank": 218
   },
   "2026-09-05-fiu-at-south-florida": {
    "score": 3,
@@ -1513,7 +1513,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 288
+   "rank": 286
   },
   "2026-09-05-new-hampshire-at-syracuse": {
    "score": 0,
@@ -1592,7 +1592,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 289
+   "rank": 287
   },
   "2026-09-05-missouri-state-at-texas-a-m": {
    "score": 0,
@@ -1648,7 +1648,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 340
+   "rank": 338
   },
   "2026-09-05-ut-rio-grande-valley-at-utsa": {
    "score": 0,
@@ -1693,7 +1693,7 @@
    "tier": "thread",
    "staffed": true,
    "connectionCount": 2,
-   "headline": "Mark Ivey and Bryan Brown shared Scott Satterfield's staff at Louisville 2019-22.",
+   "headline": "Mark Ivey and Bryan Brown shared Scott Satterfield's staff at Louisville 2019-2022.",
    "trees": [
     {
      "coach": "Scott Satterfield",
@@ -1716,9 +1716,9 @@
       "coach": "Bryan Brown",
       "role": "dc"
      },
-     "aStops": "Louisville 2019-22",
-     "bStops": "Appalachian State 2017-18, Louisville 2019-22, Cincinnati 2023",
-     "together": "Louisville 2019-22",
+     "aStops": "Louisville 2019-2022",
+     "bStops": "Appalachian State 2017-2018, Louisville 2019-2022, Cincinnati 2023",
+     "together": "Louisville 2019-2022",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -1744,18 +1744,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 200
+   "rank": 181
   },
   "2026-09-06-wisconsin-at-notre-dame": {
-   "score": 76.5,
+   "score": 72.8,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 21,
-   "headline": "Luke Fickell (Wisconsin HC) coached Marcus Freeman (Notre Dame HC) at Cincinnati 2017-20.",
+   "connectionCount": 19,
+   "headline": "Luke Fickell (Wisconsin HC) coached Marcus Freeman (Notre Dame HC) at Cincinnati 2017-2020.",
    "trees": [
     {
      "coach": "Jim Tressel",
-     "links": 8
+     "links": 6
     },
     {
      "coach": "John Cooper",
@@ -1789,7 +1789,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Cincinnati 2017-20",
+     "stops": "Cincinnati 2017-2020",
      "protege": "Marcus Freeman",
      "hops": null,
      "weight": 18
@@ -1806,7 +1806,7 @@
       "role": "hc"
      },
      "aStops": "Ohio State 2010",
-     "bStops": "Ohio State 2002-10",
+     "bStops": "Ohio State 2002-2010",
      "together": "Ohio State 2010",
      "stops": null,
      "protege": null,
@@ -1827,7 +1827,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Cincinnati 2017-21",
+     "stops": "Cincinnati 2017-2021",
      "protege": "Mike Denbrock",
      "hops": null,
      "weight": 12
@@ -1893,15 +1893,15 @@
    "rank": 3
   },
   "2026-09-06-washington-state-at-washington": {
-   "score": 11.3,
+   "score": 9.8,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 3,
    "headline": "Ryan Walters (DC) and Kirby Moore (HC) both worked for Eliah Drinkwitz.",
    "trees": [
     {
      "coach": "Eliah Drinkwitz",
-     "links": 2
+     "links": 1
     },
     {
      "coach": "Mack Brown",
@@ -1925,7 +1925,7 @@
       "role": "hc"
      },
      "aStops": "Missouri 2020",
-     "bStops": "Missouri 2023-25",
+     "bStops": "Missouri 2023-2025",
      "together": null,
      "stops": null,
      "protege": null,
@@ -1969,39 +1969,20 @@
      "protege": null,
      "hops": 3,
      "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Eliah Drinkwitz",
-     "a": {
-      "coach": "Ryan Walters",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Matt Miller",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 1.5
     }
    ],
-   "rank": 136
+   "rank": 145
   },
   "2026-09-07-smu-at-florida-state": {
-   "score": 23.6,
+   "score": 20.6,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 11,
+   "connectionCount": 9,
    "headline": "Tim Harris Jr. (OC) and Rhett Lashlee (HC) both worked for Gus Malzahn.",
    "trees": [
     {
      "coach": "Gus Malzahn",
-     "links": 5
+     "links": 4
     },
     {
      "coach": "Todd Graham",
@@ -2009,7 +1990,7 @@
     },
     {
      "coach": "Houston Nutt",
-     "links": 4
+     "links": 3
     }
    ],
    "connections": [
@@ -2024,8 +2005,8 @@
       "coach": "Rhett Lashlee",
       "role": "hc"
      },
-     "aStops": "UCF 2021-24",
-     "bStops": "Arkansas State 2012, Auburn 2013-16",
+     "aStops": "UCF 2021-2022 & 2024",
+     "bStops": "Arkansas State 2012, Auburn 2013-2016",
      "together": null,
      "stops": null,
      "protege": null,
@@ -2059,7 +2040,7 @@
       "role": "oc"
      },
      "b": {
-      "coach": "D'Eriq King",
+      "coach": "Garin Justice",
       "role": "oc"
      },
      "aStops": null,
@@ -2078,7 +2059,7 @@
       "role": "oc"
      },
      "b": {
-      "coach": "D'Eriq King",
+      "coach": "Garin Justice",
       "role": "oc"
      },
      "aStops": null,
@@ -2090,7 +2071,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 58
+   "rank": 59
   },
   "2026-09-10-florida-a-m-at-miami-fl": {
    "score": 0,
@@ -2132,7 +2113,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 303
+   "rank": 301
   },
   "2026-09-11-missouri-at-kansas": {
    "score": 4.5,
@@ -2190,7 +2171,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 255
+   "rank": 249
   },
   "2026-09-11-villanova-at-louisville": {
    "score": 0,
@@ -2293,7 +2274,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 111
+   "rank": 101
   },
   "2026-09-12-arizona-at-byu": {
    "score": 30.8,
@@ -2397,7 +2378,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 33
+   "rank": 25
   },
   "2026-09-12-stony-brook-at-ball-state": {
    "score": 0,
@@ -2414,15 +2395,15 @@
    "rank": null
   },
   "2026-09-12-memphis-at-boise-state": {
-   "score": 7.5,
+   "score": 6,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 3,
    "headline": "Spencer Danielson and Lance Guidry both sit inside Mario Cristobal's tree.",
    "trees": [
     {
      "coach": "Ron Prince",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Mario Cristobal",
@@ -2469,7 +2450,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 194
+   "rank": 203
   },
   "2026-09-12-western-carolina-at-cincinnati": {
    "score": 0,
@@ -2542,7 +2523,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 304
+   "rank": 302
   },
   "2026-09-12-buffalo-at-fiu": {
    "score": 0,
@@ -2634,7 +2615,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 84
+   "rank": 71
   },
   "2026-09-12-tennessee-at-georgia-tech": {
    "score": 6,
@@ -2692,7 +2673,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 218
+   "rank": 202
   },
   "2026-09-12-new-mexico-state-at-hawaii": {
    "score": 0,
@@ -2764,7 +2745,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 290
+   "rank": 288
   },
   "2026-09-12-howard-at-indiana": {
    "score": 0,
@@ -2879,13 +2860,13 @@
      "weight": 1.5
     }
    ],
-   "rank": 208
+   "rank": 189
   },
   "2026-09-12-louisiana-tech-at-lsu": {
-   "score": 10.9,
+   "score": 9.4,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 4,
    "headline": "Lane Kiffin and Sonny Cumbie both sit inside Dennis Erickson's tree.",
    "trees": [
     {
@@ -2894,7 +2875,7 @@
     },
     {
      "coach": "Tommy Tuberville",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -2937,7 +2918,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 141
+   "rank": 147
   },
   "2026-09-12-gardner-webb-at-liberty": {
    "score": 0,
@@ -3023,7 +3004,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 306
+   "rank": 304
   },
   "2026-09-12-bowling-green-at-nebraska": {
    "score": 0,
@@ -3112,7 +3093,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 232
+   "rank": 219
   },
   "2026-09-12-illinois-state-at-northern-illinois": {
    "score": 0,
@@ -3181,18 +3162,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 241
+   "rank": 233
   },
   "2026-09-12-texas-tech-at-oregon-state": {
-   "score": 10.1,
-   "tier": "cousins",
+   "score": 3.4,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 1,
    "headline": "JaMarcus Shephard and Joey McGuire both sit inside Mike Leach's tree.",
    "trees": [
     {
      "coach": "Mike Leach",
-     "links": 4
+     "links": 1
     }
    ],
    "connections": [
@@ -3216,7 +3197,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 149
+   "rank": 275
   },
   "2026-09-12-ucf-at-pittsburgh": {
    "score": 2.3,
@@ -3251,7 +3232,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 307
+   "rank": 305
   },
   "2026-09-12-wake-forest-at-purdue": {
    "score": 3,
@@ -3309,7 +3290,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 291
+   "rank": 289
   },
   "2026-09-12-uc-davis-at-smu": {
    "score": 0,
@@ -3340,10 +3321,10 @@
    "rank": null
   },
   "2026-09-12-california-at-syracuse": {
-   "score": 37,
-   "tier": "family",
+   "score": 17.5,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 16,
+   "connectionCount": 6,
    "headline": "Mike Johnson (OC) and Ike Hilliard (OC) both worked for Willie Taggart.",
    "trees": [
     {
@@ -3351,12 +3332,12 @@
      "links": 1
     },
     {
-     "coach": "Nick Saban",
-     "links": 10
+     "coach": "Kirby Smart",
+     "links": 3
     },
     {
-     "coach": "Kirby Smart",
-     "links": 5
+     "coach": "Nick Saban",
+     "links": 2
     }
    ],
    "connections": [
@@ -3372,7 +3353,7 @@
       "role": "oc"
      },
      "aStops": "Florida Atlantic 2021",
-     "bStops": "South Florida 2013-14",
+     "bStops": "South Florida 2013-2014",
      "together": null,
      "stops": null,
      "protege": null,
@@ -3418,7 +3399,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 23
+   "rank": 73
   },
   "2026-09-12-grambling-state-at-tcu": {
    "score": 0,
@@ -3460,18 +3441,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 341
+   "rank": 339
   },
   "2026-09-12-ohio-state-at-texas": {
-   "score": 17.3,
+   "score": 15.8,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 10,
+   "connectionCount": 9,
    "headline": "Johnny Nansen and Ryan Day both sit inside Al Golden's tree.",
    "trees": [
     {
      "coach": "Al Golden",
-     "links": 4
+     "links": 3
     },
     {
      "coach": "Joe Paterno",
@@ -3553,7 +3534,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 86
+   "rank": 85
   },
   "2026-09-12-arizona-state-at-texas-a-m": {
    "score": 15.4,
@@ -3638,22 +3619,22 @@
      "weight": 2.3
     }
    ],
-   "rank": 96
+   "rank": 89
   },
   "2026-09-12-utsa-at-texas-state": {
-   "score": 25.9,
+   "score": 20.6,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 13,
+   "connectionCount": 10,
    "headline": "G. J. Kinne and Jeff Traylor both sit inside Todd Graham's tree.",
    "trees": [
     {
      "coach": "Todd Graham",
-     "links": 9
+     "links": 7
     },
     {
      "coach": "Tom Herman",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Mack Brown",
@@ -3719,7 +3700,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 46
+   "rank": 58
   },
   "2026-09-12-alabama-state-at-troy": {
    "score": 0,
@@ -3729,10 +3710,10 @@
    "rank": null
   },
   "2026-09-12-south-alabama-at-tulane": {
-   "score": 21,
-   "tier": "family",
+   "score": 19.5,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 10,
+   "connectionCount": 9,
    "headline": "Nate Fuqua (DC) and Major Applewhite (HC) both worked for Todd Graham.",
    "trees": [
     {
@@ -3741,7 +3722,7 @@
     },
     {
      "coach": "Nick Saban",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Mario Cristobal",
@@ -3760,7 +3741,7 @@
       "coach": "Major Applewhite",
       "role": "hc"
      },
-     "aStops": "Tulsa 2007-08",
+     "aStops": "Tulsa 2007-2008",
      "bStops": "Rice 2006",
      "together": null,
      "stops": null,
@@ -3826,7 +3807,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 70
+   "rank": 60
   },
   "2026-09-12-louisiana-monroe-at-uab": {
    "score": 0,
@@ -3888,7 +3869,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 305
+   "rank": 303
   },
   "2026-09-12-texas-southern-at-utep": {
    "score": 0,
@@ -3953,7 +3934,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 240
+   "rank": 232
   },
   "2026-09-12-delaware-at-vanderbilt": {
    "score": 0,
@@ -3963,19 +3944,15 @@
    "rank": null
   },
   "2026-09-12-old-dominion-at-virginia-tech": {
-   "score": 66.8,
+   "score": 51,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 21,
-   "headline": "James Franklin (Virginia Tech HC) coached Ricky Rahne (Old Dominion HC) at Vanderbilt 2011-13, Penn State 2014-19.",
+   "connectionCount": 12,
+   "headline": "James Franklin (Virginia Tech HC) coached Ricky Rahne (Old Dominion HC) at Vanderbilt 2011-2013, Penn State 2014-2019.",
    "trees": [
     {
      "coach": "Ron Prince",
-     "links": 15
-    },
-    {
-     "coach": "Ralph Friedgen",
-     "links": 3
+     "links": 9
     },
     {
      "coach": "Mike Price",
@@ -3997,7 +3974,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Vanderbilt 2011-13, Penn State 2014-19",
+     "stops": "Vanderbilt 2011-2013, Penn State 2014-2019",
      "protege": "Ricky Rahne",
      "hops": null,
      "weight": 18
@@ -4013,9 +3990,9 @@
       "coach": "Ricky Rahne",
       "role": "hc"
      },
-     "aStops": "Kansas State 2006-07",
-     "bStops": "Kansas State 2006-08",
-     "together": "Kansas State 2006-07",
+     "aStops": "Kansas State 2006-2007",
+     "bStops": "Kansas State 2006-2008",
+     "together": "Kansas State 2006-2007",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -4042,25 +4019,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Ralph Friedgen",
-     "a": {
-      "coach": "James Franklin",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Kevin Decker",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Ron Prince",
      "a": {
       "coach": "James Franklin",
@@ -4079,7 +4037,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 6
+   "rank": 7
   },
   "2026-09-12-utah-state-at-washington": {
    "score": 0,
@@ -4145,7 +4103,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 233
+   "rank": 220
   },
   "2026-09-18-portland-state-at-oregon": {
    "score": 0,
@@ -4206,7 +4164,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 113
+   "rank": 103
   },
   "2026-09-18-miami-fl-at-wake-forest": {
    "score": 1.5,
@@ -4241,7 +4199,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 342
+   "rank": 340
   },
   "2026-09-19-florida-state-at-alabama": {
    "score": 1.5,
@@ -4276,7 +4234,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 344
+   "rank": 342
   },
   "2026-09-19-charlotte-at-appalachian-state": {
    "score": 0,
@@ -4344,7 +4302,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 130
+   "rank": 118
   },
   "2026-09-19-kansas-at-arizona-state": {
    "score": 1.5,
@@ -4379,7 +4337,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 346
+   "rank": 344
   },
   "2026-09-19-georgia-at-arkansas": {
    "score": 14.3,
@@ -4437,7 +4395,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 103
+   "rank": 94
   },
   "2026-09-19-florida-at-auburn": {
    "score": 22.1,
@@ -4530,25 +4488,21 @@
      "weight": 2.3
     }
    ],
-   "rank": 66
+   "rank": 52
   },
   "2026-09-19-louisiana-tech-at-baylor": {
-   "score": 32.3,
-   "tier": "family",
+   "score": 19.5,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 13,
+   "connectionCount": 6,
    "headline": "Dave Aranda (HC) and Sonny Cumbie (HC) both worked for Mike Leach.",
    "trees": [
     {
      "coach": "Mike Leach",
-     "links": 9
+     "links": 4
     },
     {
      "coach": "Art Briles",
-     "links": 2
-    },
-    {
-     "coach": "Gary Andersen",
      "links": 1
     },
     {
@@ -4568,7 +4522,7 @@
       "coach": "Sonny Cumbie",
       "role": "hc"
      },
-     "aStops": "Texas Tech 2000-02",
+     "aStops": "Texas Tech 2000-2002",
      "bStops": "Texas Tech 2009",
      "together": null,
      "stops": null,
@@ -4597,25 +4551,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Gary Andersen",
-     "a": {
-      "coach": "Joe Klanderman",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Sonny Cumbie",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Kevin Sumlin",
      "a": {
       "coach": "Jake Spavital",
@@ -4632,9 +4567,28 @@
      "protege": null,
      "hops": 3,
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mike Leach",
+     "a": {
+      "coach": "Dave Aranda",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Luke Olson",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "weight": 2.3
     }
    ],
-   "rank": 31
+   "rank": 61
   },
   "2026-09-19-south-dakota-at-boise-state": {
    "score": 0,
@@ -4710,7 +4664,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 347
+   "rank": 345
   },
   "2026-09-19-byu-at-colorado-state": {
    "score": 2.3,
@@ -4745,7 +4699,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 308
+   "rank": 306
   },
   "2026-09-19-coastal-carolina-at-delaware": {
    "score": 0,
@@ -4844,7 +4798,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 119
+   "rank": 110
   },
   "2026-09-19-northern-iowa-at-iowa": {
    "score": 0,
@@ -4896,7 +4850,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 348
+   "rank": 346
   },
   "2026-09-19-ball-state-at-liberty": {
    "score": 0,
@@ -4919,10 +4873,10 @@
    "rank": null
   },
   "2026-09-19-smu-at-louisville": {
-   "score": 13.9,
+   "score": 10.9,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 7,
+   "connectionCount": 5,
    "headline": "Jeff Brohm and Rhett Lashlee both sit inside Tommy Tuberville's tree.",
    "trees": [
     {
@@ -4931,7 +4885,7 @@
     },
     {
      "coach": "Garrick McGee",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "Rick Stockstill",
@@ -4997,22 +4951,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 106
+   "rank": 128
   },
   "2026-09-19-virginia-tech-at-maryland": {
-   "score": 37.5,
+   "score": 35.3,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 14,
-   "headline": "Mike Locksley and James Franklin shared Ralph Friedgen's staff at Maryland 2001-02.",
+   "connectionCount": 13,
+   "headline": "Mike Locksley and James Franklin shared Ralph Friedgen's staff at Maryland 2001-2002.",
    "trees": [
     {
      "coach": "Ralph Friedgen",
      "links": 11
-    },
-    {
-     "coach": "George O'Leary",
-     "links": 1
     },
     {
      "coach": "Ken Hatfield",
@@ -5035,32 +4985,13 @@
       "coach": "James Franklin",
       "role": "hc"
      },
-     "aStops": "Maryland 2001-02",
-     "bStops": "Maryland 2001-10",
-     "together": "Maryland 2001-02",
+     "aStops": "Maryland 2001-2002",
+     "bStops": "Maryland 2001-2004 & 2008-2010",
+     "together": "Maryland 2001-2002",
      "stops": null,
      "protege": null,
      "hops": null,
      "weight": 13.5
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "George O'Leary",
-     "a": {
-      "coach": "Clint Trickett",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "James Franklin",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "weight": 2.3
     },
     {
      "type": "shared-ancestor",
@@ -5099,9 +5030,28 @@
      "protege": null,
      "hops": 3,
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy West",
+     "a": {
+      "coach": "Aazaar Abdul-Rahim",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Brent Pry",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "weight": 1.5
     }
    ],
-   "rank": 22
+   "rank": 17
   },
   "2026-09-19-stonehill-at-massachusetts": {
    "score": 0,
@@ -5170,7 +5120,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 265
+   "rank": 261
   },
   "2026-09-19-troy-at-missouri": {
    "score": 5.6,
@@ -5228,7 +5178,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 234
+   "rank": 221
   },
   "2026-09-19-marshall-at-missouri-state": {
    "score": 0,
@@ -5277,7 +5227,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 343
+   "rank": 341
   },
   "2026-09-19-michigan-state-at-notre-dame": {
    "score": 3.8,
@@ -5335,7 +5285,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 266
+   "rank": 262
   },
   "2026-09-19-kent-state-at-ohio-state": {
    "score": 0,
@@ -5375,23 +5325,23 @@
    "rank": null
   },
   "2026-09-19-lsu-at-ole-miss": {
-   "score": 107.3,
+   "score": 93.8,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 36,
-   "headline": "Lane Kiffin (LSU HC) coached Pete Golding (Ole Miss HC) at Ole Miss 2023-25.",
+   "connectionCount": 28,
+   "headline": "Lane Kiffin (LSU HC) coached Pete Golding (Ole Miss HC) at Ole Miss 2023-2025.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 5
+     "links": 1
     },
     {
      "coach": "Pat Hill",
-     "links": 14
+     "links": 11
     },
     {
      "coach": "Sonny Lubick",
-     "links": 12
+     "links": 11
     },
     {
      "coach": "Gene Chizik",
@@ -5417,7 +5367,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Ole Miss 2023-25",
+     "stops": "Ole Miss 2023-2025",
      "protege": "Pete Golding",
      "hops": null,
      "weight": 18
@@ -5436,7 +5386,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Ole Miss 2022-23",
+     "stops": "Ole Miss 2022-2023",
      "protege": "John David Baker",
      "hops": null,
      "weight": 12
@@ -5455,7 +5405,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Ole Miss 2024-25",
+     "stops": "Ole Miss 2024-2025",
      "protege": "Bryan Brown",
      "hops": null,
      "weight": 12
@@ -5471,7 +5421,7 @@
       "coach": "Joe Cox",
       "role": "oc"
      },
-     "aStops": "Alabama 2018-22",
+     "aStops": "Alabama 2018-2022",
      "bStops": "Alabama 2023",
      "together": null,
      "stops": null,
@@ -5616,22 +5566,22 @@
      "weight": 1.5
     }
    ],
-   "rank": 345
+   "rank": 343
   },
   "2026-09-19-ohio-at-south-alabama": {
-   "score": 10.5,
+   "score": 9,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 6,
+   "connectionCount": 5,
    "headline": "Todd Orlando and John Hauser both sit inside Joe Novak's tree.",
    "trees": [
     {
-     "coach": "Joe Novak",
+     "coach": "Urban Meyer",
      "links": 2
     },
     {
-     "coach": "Urban Meyer",
-     "links": 2
+     "coach": "Joe Novak",
+     "links": 1
     },
     {
      "coach": "Matt Campbell",
@@ -5701,14 +5651,14 @@
      "weight": 1.5
     }
    ],
-   "rank": 144
+   "rank": 152
   },
   "2026-09-19-mississippi-state-at-south-carolina": {
    "score": 40.5,
    "tier": "reunion",
    "staffed": true,
    "connectionCount": 10,
-   "headline": "Kendal Briles and Jeff Lebby shared Art Briles's staff at Baylor 2012-15.",
+   "headline": "Kendal Briles and Jeff Lebby shared Art Briles's staff at Baylor 2012-2015.",
    "trees": [
     {
      "coach": "Art Briles",
@@ -5743,9 +5693,9 @@
       "coach": "Jeff Lebby",
       "role": "hc"
      },
-     "aStops": "Baylor 2009-15",
-     "bStops": "Baylor 2008-15",
-     "together": "Baylor 2012-15",
+     "aStops": "Baylor 2009-2015",
+     "bStops": "Baylor 2008 & 2012-2015",
+     "together": "Baylor 2012-2015",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -5782,7 +5732,7 @@
       "role": "hc"
      },
      "aStops": "Florida Atlantic 2017",
-     "bStops": "Ole Miss 2020-21",
+     "bStops": "Ole Miss 2020-2021",
      "together": null,
      "stops": null,
      "protege": null,
@@ -5828,7 +5778,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 18
+   "rank": 12
   },
   "2026-09-19-delaware-state-at-south-florida": {
    "score": 0,
@@ -5933,18 +5883,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 219
+   "rank": 204
   },
   "2026-09-19-kentucky-at-texas-a-m": {
-   "score": 46.1,
+   "score": 44.6,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 17,
-   "headline": "Mike Elko (Texas A&M HC) coached Jay Bateman (Kentucky DC) at Texas A&M 2024-25.",
+   "connectionCount": 16,
+   "headline": "Mike Elko (Texas A&M HC) coached Jay Bateman (Kentucky DC) at Texas A&M 2024-2025.",
    "trees": [
     {
      "coach": "Brian Kelly",
-     "links": 7
+     "links": 6
     },
     {
      "coach": "Nick Saban",
@@ -5978,7 +5928,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Texas A&M 2024-25",
+     "stops": "Texas A&M 2024-2025",
      "protege": "Jay Bateman",
      "hops": null,
      "weight": 12
@@ -5995,7 +5945,7 @@
       "role": "oc"
      },
      "aStops": "Notre Dame 2017",
-     "bStops": "LSU 2022-25",
+     "bStops": "LSU 2022-2025",
      "together": null,
      "stops": null,
      "protege": null,
@@ -6060,22 +6010,22 @@
      "weight": 2.3
     }
    ],
-   "rank": 11
+   "rank": 9
   },
   "2026-09-19-north-texas-at-texas-state": {
-   "score": 38.3,
+   "score": 32.3,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 17,
-   "headline": "G. J. Kinne (Texas State HC) coached Bradley Dale Peveto (North Texas DC) at Texas State 2024-25.",
+   "connectionCount": 13,
+   "headline": "G. J. Kinne (Texas State HC) coached Bradley Dale Peveto (North Texas DC) at Texas State 2024-2025.",
    "trees": [
     {
      "coach": "Todd Graham",
-     "links": 10
+     "links": 8
     },
     {
      "coach": "Gus Malzahn",
-     "links": 5
+     "links": 3
     },
     {
      "coach": "Nick Saban",
@@ -6097,7 +6047,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Texas State 2024-25",
+     "stops": "Texas State 2024-2025",
      "protege": "Bradley Dale Peveto",
      "hops": null,
      "weight": 12
@@ -6297,7 +6247,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 61
+   "rank": 47
   },
   "2026-09-19-nc-state-at-vanderbilt": {
    "score": 0,
@@ -6362,7 +6312,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 142
+   "rank": 129
   },
   "2026-09-19-eastern-washington-at-washington": {
    "score": 0,
@@ -6426,7 +6376,7 @@
       "coach": "Tom Allen",
       "role": "dc"
      },
-     "aStops": "South Florida 2013-14",
+     "aStops": "South Florida 2013-2014",
      "bStops": "South Florida 2015",
      "together": null,
      "stops": null,
@@ -6454,7 +6404,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 217
+   "rank": 201
   },
   "2026-09-25-northwestern-at-indiana": {
    "score": 3,
@@ -6512,7 +6462,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 292
+   "rank": 290
   },
   "2026-09-25-howard-at-rutgers": {
    "score": 0,
@@ -6563,8 +6513,8 @@
       "coach": "Eric Lewis",
       "role": "dc"
      },
-     "aStops": "Louisville 2014-16",
-     "bStops": "Louisville 2003-06",
+     "aStops": "Louisville 2014-2016",
+     "bStops": "Louisville 2003-2006",
      "together": null,
      "stops": null,
      "protege": null,
@@ -6610,7 +6560,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 204
+   "rank": 185
   },
   "2026-09-26-unlv-at-akron": {
    "score": 0,
@@ -6709,7 +6659,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 100
+   "rank": 92
   },
   "2026-09-26-nc-state-at-appalachian-state": {
    "score": 0,
@@ -6774,7 +6724,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 254
+   "rank": 248
   },
   "2026-09-26-kennesaw-state-at-arkansas-state": {
    "score": 0,
@@ -6874,18 +6824,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 32
+   "rank": 23
   },
   "2026-09-26-colorado-at-baylor": {
-   "score": 3.8,
+   "score": 2.3,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 2,
+   "connectionCount": 1,
    "headline": "Dave Aranda and Brennan Marion both sit inside Art Briles's tree.",
    "trees": [
     {
      "coach": "Art Briles",
-     "links": 2
+     "links": 1
     }
    ],
    "connections": [
@@ -6909,14 +6859,14 @@
      "weight": 2.3
     }
    ],
-   "rank": 267
+   "rank": 307
   },
   "2026-09-26-virginia-tech-at-boston-college": {
    "score": 22.5,
    "tier": "family",
    "staffed": true,
    "connectionCount": 5,
-   "headline": "Bill O'Brien and James Franklin shared Ralph Friedgen's staff at Maryland 2003-04.",
+   "headline": "Bill O'Brien and James Franklin shared Ralph Friedgen's staff at Maryland 2003-2004.",
    "trees": [
     {
      "coach": "Ralph Friedgen",
@@ -6943,9 +6893,9 @@
       "coach": "James Franklin",
       "role": "hc"
      },
-     "aStops": "Maryland 2003-04",
-     "bStops": "Maryland 2001-10",
-     "together": "Maryland 2003-04",
+     "aStops": "Maryland 2003-2004",
+     "bStops": "Maryland 2001-2004 & 2008-2010",
+     "together": "Maryland 2003-2004",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -7009,7 +6959,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 64
+   "rank": 50
   },
   "2026-09-26-south-florida-at-bowling-green": {
    "score": 6,
@@ -7067,7 +7017,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 221
+   "rank": 206
   },
   "2026-09-26-louisiana-at-charlotte": {
    "score": 0,
@@ -7158,7 +7108,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 220
+   "rank": 205
   },
   "2026-09-26-william-mary-at-duke": {
    "score": 0,
@@ -7182,22 +7132,22 @@
    "rank": null
   },
   "2026-09-26-ole-miss-at-florida": {
-   "score": 14.3,
+   "score": 8.3,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 8,
+   "connectionCount": 4,
    "headline": "Jon Sumrall and Marcus Woodson both sit inside Butch Davis's tree.",
    "trees": [
-    {
-     "coach": "Nick Saban",
-     "links": 5
-    },
     {
      "coach": "Butch Davis",
      "links": 1
     },
     {
      "coach": "Houston Nutt",
+     "links": 1
+    },
+    {
+     "coach": "Nick Saban",
      "links": 1
     },
     {
@@ -7264,7 +7214,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 104
+   "rank": 165
   },
   "2026-09-26-central-arkansas-at-florida-state": {
    "score": 0,
@@ -7346,11 +7296,11 @@
     },
     {
      "coach": "Nick Saban",
-     "links": 5
+     "links": 3
     },
     {
      "coach": "Todd Graham",
-     "links": 1
+     "links": 3
     },
     {
      "coach": "Tom Herman",
@@ -7369,8 +7319,8 @@
       "coach": "Major Applewhite",
       "role": "hc"
      },
-     "aStops": "North Carolina 2019-21",
-     "bStops": "Texas 2003-13",
+     "aStops": "North Carolina 2019-2021",
+     "bStops": "Texas 2003-2004 & 2009-2013",
      "together": null,
      "stops": null,
      "protege": null,
@@ -7435,21 +7385,21 @@
      "weight": 2.3
     }
    ],
-   "rank": 40
+   "rank": 33
   },
   "2026-09-26-texas-a-m-at-lsu": {
-   "score": 25.5,
+   "score": 24,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 10,
+   "connectionCount": 9,
    "headline": "Blake Baker (DC) and Mike Elko (HC) both worked for Brian Kelly.",
    "trees": [
     {
-     "coach": "Brian Kelly",
-     "links": 4
+     "coach": "Nick Saban",
+     "links": 3
     },
     {
-     "coach": "Nick Saban",
+     "coach": "Brian Kelly",
      "links": 3
     },
     {
@@ -7473,7 +7423,7 @@
       "coach": "Mike Elko",
       "role": "hc"
      },
-     "aStops": "LSU 2024-25",
+     "aStops": "LSU 2024-2025",
      "bStops": "Notre Dame 2017",
      "together": null,
      "stops": null,
@@ -7493,7 +7443,7 @@
       "role": "oc"
      },
      "aStops": "Alabama 2023",
-     "bStops": "Alabama 2019-23",
+     "bStops": "Alabama 2019-2023",
      "together": "Alabama 2023",
      "stops": null,
      "protege": null,
@@ -7558,7 +7508,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 48
+   "rank": 43
   },
   "2026-09-26-florida-atlantic-at-louisiana-monroe": {
    "score": 0,
@@ -7603,7 +7553,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 280
+   "rank": 277
   },
   "2026-09-26-gardner-webb-at-marshall": {
    "score": 0,
@@ -7645,7 +7595,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 313
+   "rank": 312
   },
   "2026-09-26-central-michigan-at-miami-fl": {
    "score": 0,
@@ -7675,15 +7625,15 @@
    "rank": null
   },
   "2026-09-26-nebraska-at-michigan-state": {
-   "score": 9.8,
-   "tier": "cousins",
+   "score": 5.3,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 6,
+   "connectionCount": 3,
    "headline": "Pat Fitzgerald and Dana Holgorsen both sit inside Ron Vanderlinden's tree.",
    "trees": [
     {
      "coach": "Ron Vanderlinden",
-     "links": 4
+     "links": 1
     },
     {
      "coach": "Jeff Tedford",
@@ -7753,7 +7703,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 154
+   "rank": 234
   },
   "2026-09-26-missouri-at-mississippi-state": {
    "score": 0,
@@ -7829,7 +7779,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 309
+   "rank": 308
   },
   "2026-09-26-james-madison-at-old-dominion": {
    "score": 0,
@@ -7894,7 +7844,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 294
+   "rank": 292
   },
   "2026-09-26-bucknell-at-pittsburgh": {
    "score": 0,
@@ -7936,7 +7886,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 293
+   "rank": 291
   },
   "2026-09-26-missouri-state-at-smu": {
    "score": 0,
@@ -8018,7 +7968,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 268
+   "rank": 263
   },
   "2026-09-26-incarnate-word-at-texas-state": {
    "score": 0,
@@ -8055,10 +8005,10 @@
    "rank": null
   },
   "2026-09-26-tcu-at-ucf": {
-   "score": 27,
+   "score": 25.5,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 9,
+   "connectionCount": 8,
    "headline": "Scott Frost (HC) and Andy Avalos (DC) both worked for Chris Petersen.",
    "trees": [
     {
@@ -8071,7 +8021,7 @@
     },
     {
      "coach": "Mike Leach",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -8087,7 +8037,7 @@
       "role": "dc"
      },
      "aStops": "Boise State 2007",
-     "bStops": "Boise State 2012-13",
+     "bStops": "Boise State 2012-2013",
      "together": null,
      "stops": null,
      "protege": null,
@@ -8105,8 +8055,8 @@
       "coach": "Andy Avalos",
       "role": "dc"
      },
-     "aStops": "Boise State 2001-05",
-     "bStops": "Colorado 2006-08",
+     "aStops": "Boise State 2001 & 2003-2005",
+     "bStops": "Colorado 2006-2008",
      "together": null,
      "stops": null,
      "protege": null,
@@ -8124,8 +8074,8 @@
       "coach": "Sonny Dykes",
       "role": "hc"
      },
-     "aStops": "Washington State 2015-17",
-     "bStops": "Texas Tech 2000-06",
+     "aStops": "Washington State 2015-2017",
+     "bStops": "Texas Tech 2000-2006",
      "together": null,
      "stops": null,
      "protege": null,
@@ -8190,7 +8140,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 44
+   "rank": 39
   },
   "2026-09-26-oregon-at-usc": {
    "score": 0,
@@ -8235,7 +8185,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 311
+   "rank": 310
   },
   "2026-09-26-colorado-state-at-utsa": {
    "score": 1.5,
@@ -8270,7 +8220,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 349
+   "rank": 347
   },
   "2026-09-26-troy-at-utah-state": {
    "score": 2.3,
@@ -8305,7 +8255,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 312
+   "rank": 311
   },
   "2026-09-26-delaware-at-virginia": {
    "score": 0,
@@ -8348,7 +8298,7 @@
       "coach": "Brent Brennan",
       "role": "hc"
      },
-     "aStops": "Nebraska 2015-17",
+     "aStops": "Nebraska 2015-2017",
      "bStops": "Oregon State 2014",
      "together": null,
      "stops": null,
@@ -8376,7 +8326,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 201
+   "rank": 182
   },
   "2026-09-26-oklahoma-state-at-west-virginia": {
    "score": 2.3,
@@ -8411,7 +8361,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 310
+   "rank": 309
   },
   "2026-09-26-boise-state-at-western-michigan": {
    "score": 3.4,
@@ -8446,7 +8396,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 279
+   "rank": 276
   },
   "2026-09-26-hawaii-at-wyoming": {
    "score": 0,
@@ -8514,7 +8464,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 295
+   "rank": 293
   },
   "2026-10-02-liberty-at-delaware": {
    "score": 0,
@@ -8524,19 +8474,19 @@
    "rank": null
   },
   "2026-10-02-penn-state-at-northwestern": {
-   "score": 21.5,
-   "tier": "family",
+   "score": 18.5,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 7,
+   "connectionCount": 5,
    "headline": "Chip Kelly (Northwestern OC) coached D'Anton Lynn (Penn State DC) at UCLA 2023.",
    "trees": [
     {
      "coach": "Tim Beckman",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Gregg Brandon",
-     "links": 2
+     "links": 1
     },
     {
      "coach": "Mike Bellotti",
@@ -8574,8 +8524,8 @@
       "coach": "Matt Campbell",
       "role": "hc"
      },
-     "aStops": "Illinois 2012-13",
-     "bStops": "Toledo 2009-11",
+     "aStops": "Illinois 2012-2013",
+     "bStops": "Toledo 2009-2011",
      "together": null,
      "stops": null,
      "protege": null,
@@ -8640,7 +8590,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 69
+   "rank": 67
   },
   "2026-10-02-pittsburgh-at-virginia-tech": {
    "score": 0,
@@ -8673,10 +8623,10 @@
    "rank": null
   },
   "2026-10-03-baylor-at-arizona-state": {
-   "score": 19,
+   "score": 16,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 9,
+   "connectionCount": 7,
    "headline": "Marcus Arroyo (OC) and Jake Spavital (OC) both worked for Mike Gundy.",
    "trees": [
     {
@@ -8684,19 +8634,19 @@
      "links": 1
     },
     {
-     "coach": "Art Briles",
-     "links": 2
-    },
-    {
      "coach": "Bob Stoops",
      "links": 2
     },
     {
-     "coach": "Les Miles",
-     "links": 2
+     "coach": "Art Briles",
+     "links": 1
     },
     {
      "coach": "Bob Simmons",
+     "links": 1
+    },
+    {
+     "coach": "Les Miles",
      "links": 1
     },
     {
@@ -8716,7 +8666,7 @@
       "coach": "Jake Spavital",
       "role": "oc"
      },
-     "aStops": "Oklahoma State 2015-16",
+     "aStops": "Oklahoma State 2015-2016",
      "bStops": "Oklahoma State 2010",
      "together": null,
      "stops": null,
@@ -8782,7 +8732,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 74
+   "rank": 84
   },
   "2026-10-03-toledo-at-ball-state": {
    "score": 0,
@@ -8847,7 +8797,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 350
+   "rank": 348
   },
   "2026-10-03-miami-fl-at-clemson": {
    "score": 1.5,
@@ -8882,7 +8832,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 351
+   "rank": 349
   },
   "2026-10-03-georgia-southern-at-coastal-carolina": {
    "score": 0,
@@ -8973,7 +8923,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 242
+   "rank": 235
   },
   "2026-10-03-oregon-state-at-colorado-state": {
    "score": 0,
@@ -9035,42 +8985,17 @@
      "weight": 1.5
     }
    ],
-   "rank": 354
+   "rank": 352
   },
   "2026-10-03-old-dominion-at-georgia-state": {
-   "score": 2.3,
-   "tier": "thread",
+   "score": 0,
+   "tier": "strangers",
    "staffed": true,
-   "connectionCount": 1,
-   "headline": "Dell McGee and Kevin Decker both sit inside Nick Saban's tree.",
-   "trees": [
-    {
-     "coach": "Nick Saban",
-     "links": 1
-    }
-   ],
-   "connections": [
-    {
-     "type": "shared-ancestor",
-     "via": "Nick Saban",
-     "a": {
-      "coach": "Dell McGee",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Kevin Decker",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "weight": 2.3
-    }
-   ],
-   "rank": 314
+   "connectionCount": 0,
+   "headline": null,
+   "trees": [],
+   "connections": [],
+   "rank": null
   },
   "2026-10-03-san-jose-state-at-hawaii": {
    "score": 9.8,
@@ -9128,7 +9053,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 156
+   "rank": 140
   },
   "2026-10-03-ucf-at-houston": {
    "score": 0,
@@ -9173,7 +9098,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 353
+   "rank": 351
   },
   "2026-10-03-ohio-state-at-iowa": {
    "score": 0,
@@ -9218,7 +9143,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 315
+   "rank": 313
   },
   "2026-10-03-marshall-at-james-madison": {
    "score": 0,
@@ -9255,8 +9180,8 @@
       "coach": "Derek Mason",
       "role": "hc"
      },
-     "aStops": "Nebraska 2001-03",
-     "bStops": "Ohio 2005-06",
+     "aStops": "Nebraska 2001-2003",
+     "bStops": "Ohio 2005-2006",
      "together": null,
      "stops": null,
      "protege": null,
@@ -9274,7 +9199,7 @@
       "coach": "Derek Mason",
       "role": "hc"
      },
-     "aStops": "Colorado State 2000-04",
+     "aStops": "Colorado State 2000 & 2002 & 2004",
      "bStops": "Colorado State 2002",
      "together": "Colorado State 2002",
      "stops": null,
@@ -9302,7 +9227,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 65
+   "rank": 51
   },
   "2026-10-03-ohio-at-kent-state": {
    "score": 0,
@@ -9354,7 +9279,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 281
+   "rank": 278
   },
   "2026-10-03-army-at-louisiana-tech": {
    "score": 5.6,
@@ -9389,7 +9314,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 236
+   "rank": 223
   },
   "2026-10-03-eastern-michigan-at-massachusetts": {
    "score": 0,
@@ -9435,7 +9360,7 @@
       "coach": "Jason Beck",
       "role": "oc"
      },
-     "aStops": "Bowling Green 2014-15, Syracuse 2016-22",
+     "aStops": "Bowling Green 2014-2015, Syracuse 2016-2022",
      "bStops": "Syracuse 2023",
      "together": null,
      "stops": null,
@@ -9444,7 +9369,7 @@
      "weight": 4
     }
    ],
-   "rank": 261
+   "rank": 257
   },
   "2026-10-03-alabama-at-mississippi-state": {
    "score": 5.6,
@@ -9479,7 +9404,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 235
+   "rank": 222
   },
   "2026-10-03-florida-at-missouri": {
    "score": 15,
@@ -9568,7 +9493,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 101
+   "rank": 93
   },
   "2026-10-03-louisville-at-nc-state": {
    "score": 0,
@@ -9578,15 +9503,15 @@
    "rank": null
   },
   "2026-10-03-maryland-at-nebraska": {
-   "score": 12.8,
+   "score": 11.3,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 8,
+   "connectionCount": 7,
    "headline": "Dana Holgorsen and Mike Locksley both sit inside Ron Vanderlinden's tree.",
    "trees": [
     {
      "coach": "Ron Vanderlinden",
-     "links": 4
+     "links": 3
     },
     {
      "coach": "Mike Gundy",
@@ -9656,7 +9581,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 115
+   "rank": 120
   },
   "2026-10-03-utep-at-new-mexico": {
    "score": 0,
@@ -9724,7 +9649,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 296
+   "rank": 294
   },
   "2026-10-03-wyoming-at-north-dakota-state": {
    "score": 0,
@@ -9874,7 +9799,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 47
+   "rank": 37
   },
   "2026-10-03-temple-at-south-florida": {
    "score": 0,
@@ -9897,11 +9822,11 @@
    "rank": null
   },
   "2026-10-03-auburn-at-tennessee": {
-   "score": 94.3,
+   "score": 85.3,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 25,
-   "headline": "Josh Heupel (Tennessee HC) coached Alex Golesh (Auburn HC) at UCF 2020, Tennessee 2021-22.",
+   "connectionCount": 20,
+   "headline": "Josh Heupel (Tennessee HC) coached Alex Golesh (Auburn HC) at UCF 2020, Tennessee 2021-2022.",
    "trees": [
     {
      "coach": "Mike Gundy",
@@ -9913,11 +9838,11 @@
     },
     {
      "coach": "Bob Stoops",
-     "links": 9
+     "links": 6
     },
     {
      "coach": "Matt Wells",
-     "links": 8
+     "links": 6
     }
    ],
    "connections": [
@@ -9935,7 +9860,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "UCF 2020, Tennessee 2021-22",
+     "stops": "UCF 2020, Tennessee 2021-2022",
      "protege": "Alex Golesh",
      "hops": null,
      "weight": 18
@@ -9954,7 +9879,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Tennessee 2021-22",
+     "stops": "Tennessee 2021-2022",
      "protege": "Kodi Burns",
      "hops": null,
      "weight": 12
@@ -9973,7 +9898,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Tennessee 2021-25",
+     "stops": "Tennessee 2021-2025",
      "protege": "Tim Banks",
      "hops": null,
      "weight": 12
@@ -9989,7 +9914,7 @@
       "coach": "Alex Golesh",
       "role": "hc"
      },
-     "aStops": "Oklahoma State 2018-21",
+     "aStops": "Oklahoma State 2018-2021",
      "bStops": "Oklahoma State 2008",
      "together": null,
      "stops": null,
@@ -10008,8 +9933,8 @@
       "coach": "Tim Banks",
       "role": "dc"
      },
-     "aStops": "Penn State 2021-25",
-     "bStops": "Penn State 2016-20",
+     "aStops": "Penn State 2021-2025",
+     "bStops": "Penn State 2016-2020",
      "together": null,
      "stops": null,
      "protege": null,
@@ -10028,7 +9953,7 @@
       "role": "dc"
      },
      "aStops": "Penn State 2025",
-     "bStops": "Penn State 2016-20",
+     "bStops": "Penn State 2016-2020",
      "together": null,
      "stops": null,
      "protege": null,
@@ -10178,7 +10103,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 87
+   "rank": 76
   },
   "2026-10-03-samford-at-uab": {
    "score": 0,
@@ -10232,7 +10157,7 @@
       "coach": "Ryan Walters",
       "role": "dc"
      },
-     "aStops": "Oklahoma 2015-16",
+     "aStops": "Oklahoma 2015-2016",
      "bStops": "Oklahoma 2012",
      "together": null,
      "stops": null,
@@ -10251,7 +10176,7 @@
       "coach": "Ryan Walters",
       "role": "dc"
      },
-     "aStops": "Oklahoma 2015-16",
+     "aStops": "Oklahoma 2015-2016",
      "bStops": "Oklahoma 2012",
      "together": null,
      "stops": null,
@@ -10298,18 +10223,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 91
+   "rank": 79
   },
   "2026-10-03-stanford-at-wake-forest": {
-   "score": 7.5,
+   "score": 4.5,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 2,
    "headline": "Scottie Hazelton and Tavita Pritchard both sit inside David Shaw's tree.",
    "trees": [
     {
      "coach": "David Shaw",
-     "links": 3
+     "links": 1
     },
     {
      "coach": "Jim Harbaugh",
@@ -10356,7 +10281,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 195
+   "rank": 250
   },
   "2026-10-03-fresno-state-at-washington-state": {
    "score": 0,
@@ -10401,7 +10326,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 352
+   "rank": 350
   },
   "2026-10-06-southern-mississippi-at-troy": {
    "score": 0,
@@ -10421,15 +10346,15 @@
    "rank": null
   },
   "2026-10-08-south-alabama-at-arkansas-state": {
-   "score": 7.9,
+   "score": 5.6,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 3,
+   "connectionCount": 2,
    "headline": "Butch Jones and Major Applewhite both sit inside Rich Rodriguez's tree.",
    "trees": [
     {
      "coach": "Rich Rodriguez",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -10453,7 +10378,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 182
+   "rank": 224
   },
   "2026-10-08-sam-houston-at-liberty": {
    "score": 0,
@@ -10463,15 +10388,15 @@
    "rank": null
   },
   "2026-10-08-south-florida-at-utsa": {
-   "score": 15.4,
+   "score": 13.9,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 3,
    "headline": "Jeff Traylor and Tim Beck shared Tom Herman's staff at Texas 2017.",
    "trees": [
     {
      "coach": "Tom Herman",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Urban Meyer",
@@ -10491,7 +10416,7 @@
       "role": "oc"
      },
      "aStops": "Texas 2017",
-     "bStops": "Texas 2017-19",
+     "bStops": "Texas 2017-2019",
      "together": "Texas 2017",
      "stops": null,
      "protege": null,
@@ -10521,8 +10446,8 @@
      "type": "shared-ancestor",
      "via": "Tom Herman",
      "a": {
-      "coach": "Rick Bowie",
-      "role": "oc"
+      "coach": "Jess Loepp",
+      "role": "dc"
      },
      "b": {
       "coach": "Tim Beck",
@@ -10550,15 +10475,15 @@
    "rank": null
   },
   "2026-10-09-florida-state-at-louisville": {
-   "score": 15.4,
+   "score": 10.9,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 7,
+   "connectionCount": 5,
    "headline": "Jeff Brohm and Mike Norvell both sit inside Steve Kragthorpe's tree.",
    "trees": [
     {
      "coach": "Steve Kragthorpe",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "R. C. Slocum",
@@ -10628,7 +10553,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 97
+   "rank": 130
   },
   "2026-10-09-wyoming-at-san-jose-state": {
    "score": 0,
@@ -10683,7 +10608,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 316
+   "rank": 314
   },
   "2026-10-10-eastern-michigan-at-akron": {
    "score": 0,
@@ -10774,7 +10699,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 123
+   "rank": 113
   },
   "2026-10-10-old-dominion-at-appalachian-state": {
    "score": 2.3,
@@ -10809,14 +10734,14 @@
      "weight": 2.3
     }
    ],
-   "rank": 317
+   "rank": 315
   },
   "2026-10-10-hawaii-at-arizona-state": {
    "score": 15.4,
    "tier": "cousins",
    "staffed": true,
    "connectionCount": 4,
-   "headline": "Brian Ward and Timmy Chang shared Jay Norvell's staff at Nevada 2020-21.",
+   "headline": "Brian Ward and Timmy Chang shared Jay Norvell's staff at Nevada 2020-2021.",
    "trees": [
     {
      "coach": "Jay Norvell",
@@ -10839,9 +10764,9 @@
       "coach": "Timmy Chang",
       "role": "hc"
      },
-     "aStops": "Nevada 2020-21",
-     "bStops": "Nevada 2017-21",
-     "together": "Nevada 2020-21",
+     "aStops": "Nevada 2020-2021",
+     "bStops": "Nevada 2017-2021",
+     "together": "Nevada 2020-2021",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -10886,7 +10811,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 99
+   "rank": 90
   },
   "2026-10-10-tennessee-at-arkansas": {
    "score": 15.4,
@@ -10975,7 +10900,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 94
+   "rank": 87
   },
   "2026-10-10-tulane-at-army": {
    "score": 4,
@@ -11001,8 +10926,8 @@
       "coach": "Nate Fuqua",
       "role": "dc"
      },
-     "aStops": "Appalachian State 2013-17, Cincinnati 2026",
-     "bStops": "Cincinnati 2023-24",
+     "aStops": "Appalachian State 2013-2017",
+     "bStops": "Cincinnati 2023-2024",
      "together": null,
      "stops": null,
      "protege": null,
@@ -11010,7 +10935,7 @@
      "weight": 4
     }
    ],
-   "rank": 262
+   "rank": 258
   },
   "2026-10-10-sacramento-state-at-bowling-green": {
    "score": 0,
@@ -11040,10 +10965,10 @@
    "rank": null
   },
   "2026-10-10-south-carolina-at-florida": {
-   "score": 22.8,
+   "score": 21.3,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 11,
+   "connectionCount": 10,
    "headline": "Brad White (DC) and Kendal Briles (OC) both worked for Jim Grobe.",
    "trees": [
     {
@@ -11051,15 +10976,15 @@
      "links": 1
     },
     {
-     "coach": "Steve Spurrier",
-     "links": 3
-    },
-    {
      "coach": "George O'Leary",
      "links": 2
     },
     {
      "coach": "Phillip Fulmer",
+     "links": 2
+    },
+    {
+     "coach": "Steve Spurrier",
      "links": 2
     },
     {
@@ -11083,7 +11008,7 @@
       "coach": "Kendal Briles",
       "role": "oc"
      },
-     "aStops": "Wake Forest 2001-08",
+     "aStops": "Wake Forest 2001-2008",
      "bStops": "Baylor 2016",
      "together": null,
      "stops": null,
@@ -11149,7 +11074,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 60
+   "rank": 55
   },
   "2026-10-10-boise-state-at-fresno-state": {
    "score": 0,
@@ -11217,7 +11142,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 81
+   "rank": 68
   },
   "2026-10-10-houston-at-kansas-state": {
    "score": 0,
@@ -11234,7 +11159,7 @@
    "tier": "family",
    "staffed": true,
    "connectionCount": 9,
-   "headline": "Joe Sloan and Blake Baker shared Brian Kelly's staff at LSU 2024-25.",
+   "headline": "Joe Sloan and Blake Baker shared Brian Kelly's staff at LSU 2024-2025.",
    "trees": [
     {
      "coach": "Brian Kelly",
@@ -11273,9 +11198,9 @@
       "coach": "Blake Baker",
       "role": "dc"
      },
-     "aStops": "LSU 2022-25",
-     "bStops": "LSU 2024-25",
-     "together": "LSU 2024-25",
+     "aStops": "LSU 2022-2025",
+     "bStops": "LSU 2024-2025",
+     "together": "LSU 2024-2025",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -11292,9 +11217,9 @@
       "coach": "Blake Baker",
       "role": "dc"
      },
-     "aStops": "Louisiana Tech 2013-21",
-     "bStops": "Louisiana Tech 2015-18",
-     "together": "Louisiana Tech 2015-16",
+     "aStops": "Louisiana Tech 2013-2016 & 2020-2021",
+     "bStops": "Louisiana Tech 2015-2018",
+     "together": "Louisiana Tech 2015-2016",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -11358,7 +11283,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 59
+   "rank": 46
   },
   "2026-10-10-louisiana-at-louisiana-tech": {
    "score": 6.8,
@@ -11416,7 +11341,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 216
+   "rank": 199
   },
   "2026-10-10-coastal-carolina-at-marshall": {
    "score": 0,
@@ -11491,7 +11416,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 269
+   "rank": 264
   },
   "2026-10-10-wake-forest-at-nc-state": {
    "score": 0,
@@ -11533,7 +11458,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 356
+   "rank": 354
   },
   "2026-10-10-indiana-at-nebraska": {
    "score": 1.5,
@@ -11568,7 +11493,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 355
+   "rank": 353
   },
   "2026-10-10-charlotte-at-north-texas": {
    "score": 6,
@@ -11595,7 +11520,7 @@
       "role": "oc"
      },
      "aStops": "Louisiana Tech 2016",
-     "bStops": "East Carolina 2007-09, South Florida 2010-12, Louisiana Tech 2016-19",
+     "bStops": "East Carolina 2007-2009, South Florida 2010-2012, Louisiana Tech 2016-2019",
      "together": "Louisiana Tech 2016",
      "stops": null,
      "protege": null,
@@ -11603,7 +11528,7 @@
      "weight": 6
     }
    ],
-   "rank": 227
+   "rank": 213
   },
   "2026-10-10-air-force-at-northern-illinois": {
    "score": 0,
@@ -11626,15 +11551,15 @@
    "rank": null
   },
   "2026-10-10-stanford-at-notre-dame": {
-   "score": 7.5,
+   "score": 4.5,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 2,
    "headline": "Aaron Henry and Tavita Pritchard both sit inside David Shaw's tree.",
    "trees": [
     {
      "coach": "David Shaw",
-     "links": 3
+     "links": 1
     },
     {
      "coach": "Jim Harbaugh",
@@ -11681,7 +11606,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 196
+   "rank": 251
   },
   "2026-10-10-central-michigan-at-ohio": {
    "score": 0,
@@ -11780,7 +11705,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 157
+   "rank": 141
   },
   "2026-10-10-texas-at-oklahoma": {
    "score": 3.8,
@@ -11838,7 +11763,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 270
+   "rank": 265
   },
   "2026-10-10-ucf-at-oklahoma-state": {
    "score": 3.8,
@@ -11896,7 +11821,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 271
+   "rank": 266
   },
   "2026-10-10-ucla-at-oregon": {
    "score": 0,
@@ -11923,7 +11848,7 @@
    "tier": "family",
    "staffed": true,
    "connectionCount": 7,
-   "headline": "Lincoln Riley (USC HC) coached D'Anton Lynn (Penn State DC) at USC 2024-25.",
+   "headline": "Lincoln Riley (USC HC) coached D'Anton Lynn (Penn State DC) at USC 2024-2025.",
    "trees": [
     {
      "coach": "Bob Stoops",
@@ -11949,7 +11874,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "USC 2024-25",
+     "stops": "USC 2024-2025",
      "protege": "D'Anton Lynn",
      "hops": null,
      "weight": 12
@@ -11993,7 +11918,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 62
+   "rank": 48
   },
   "2026-10-10-north-carolina-at-pittsburgh": {
    "score": 0,
@@ -12128,7 +12053,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 158
+   "rank": 142
   },
   "2026-10-10-syracuse-at-virginia": {
    "score": 0,
@@ -12212,7 +12137,7 @@
    "tier": "family",
    "staffed": true,
    "connectionCount": 8,
-   "headline": "Barry Odom (Purdue HC) coached Ryan Walters (Washington DC) at Missouri 2016-19.",
+   "headline": "Barry Odom (Purdue HC) coached Ryan Walters (Washington DC) at Missouri 2016-2019.",
    "trees": [
     {
      "coach": "Gary Pinkel",
@@ -12246,7 +12171,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Missouri 2016-19",
+     "stops": "Missouri 2016-2019",
      "protege": "Ryan Walters",
      "hops": null,
      "weight": 12
@@ -12265,7 +12190,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Purdue 2023-24",
+     "stops": "Purdue 2023-2024",
      "protege": "Kevin Kane",
      "hops": null,
      "weight": 8
@@ -12328,18 +12253,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 34
+   "rank": 27
   },
   "2026-10-16-memphis-at-tulane": {
-   "score": 8.3,
-   "tier": "cousins",
+   "score": 5.3,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 3,
    "headline": "Russ Callaway and Charles Huff both sit inside Nick Saban's tree.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "Mario Cristobal",
@@ -12386,7 +12311,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 173
+   "rank": 236
   },
   "2026-10-17-unlv-at-air-force": {
    "score": 0,
@@ -12441,22 +12366,22 @@
      "weight": 2.3
     }
    ],
-   "rank": 198
+   "rank": 179
   },
   "2026-10-17-tcu-at-baylor": {
-   "score": 45.8,
-   "tier": "reunion",
+   "score": 35.3,
+   "tier": "family",
    "staffed": true,
-   "connectionCount": 13,
-   "headline": "Dave Aranda and Sonny Dykes shared Mike Leach's staff at Texas Tech 2000-02.",
+   "connectionCount": 7,
+   "headline": "Dave Aranda and Sonny Dykes shared Mike Leach's staff at Texas Tech 2000-2002.",
    "trees": [
     {
      "coach": "Mike Leach",
-     "links": 9
+     "links": 4
     },
     {
      "coach": "Mike Stoops",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -12471,9 +12396,9 @@
       "coach": "Sonny Dykes",
       "role": "hc"
      },
-     "aStops": "Texas Tech 2000-02",
-     "bStops": "Texas Tech 2000-06",
-     "together": "Texas Tech 2000-02",
+     "aStops": "Texas Tech 2000-2002",
+     "bStops": "Texas Tech 2000-2006",
+     "together": "Texas Tech 2000-2002",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -12537,7 +12462,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 12
+   "rank": 18
   },
   "2026-10-17-pittsburgh-at-boston-college": {
    "score": 0,
@@ -12570,15 +12495,15 @@
    "rank": null
   },
   "2026-10-17-wake-forest-at-california": {
-   "score": 24.8,
-   "tier": "family",
+   "score": 12.8,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 14,
+   "connectionCount": 6,
    "headline": "Da'Von Brown and Jake Dickert both sit inside June Jones's tree.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 10
+     "links": 2
     },
     {
      "coach": "June Jones",
@@ -12656,7 +12581,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 52
+   "rank": 106
   },
   "2026-10-17-charleston-southern-at-clemson": {
    "score": 0,
@@ -12721,7 +12646,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 297
+   "rank": 295
   },
   "2026-10-17-north-carolina-at-duke": {
    "score": 2.3,
@@ -12756,14 +12681,14 @@
      "weight": 2.3
     }
    ],
-   "rank": 319
+   "rank": 317
   },
   "2026-10-17-auburn-at-georgia": {
    "score": 13.8,
    "tier": "cousins",
    "staffed": true,
    "connectionCount": 4,
-   "headline": "Travaris Robinson and D. J. Durkin shared Will Muschamp's staff at Florida 2013-14.",
+   "headline": "Travaris Robinson and D. J. Durkin shared Will Muschamp's staff at Florida 2013-2014.",
    "trees": [
     {
      "coach": "Will Muschamp",
@@ -12790,9 +12715,9 @@
       "coach": "D. J. Durkin",
       "role": "dc"
      },
-     "aStops": "Florida 2011-14, South Carolina 2016-20",
-     "bStops": "Florida 2013-14",
-     "together": "Florida 2013-14",
+     "aStops": "Florida 2011-2014, South Carolina 2016-2020",
+     "bStops": "Florida 2013-2014",
+     "together": "Florida 2013-2014",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -12810,7 +12735,7 @@
       "role": "oc"
      },
      "aStops": "Auburn 2015",
-     "bStops": "Auburn 2016-20",
+     "bStops": "Auburn 2016-2020",
      "together": null,
      "stops": null,
      "protege": null,
@@ -12837,7 +12762,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 107
+   "rank": 99
   },
   "2026-10-17-new-mexico-at-hawaii": {
    "score": 0,
@@ -12860,15 +12785,15 @@
    "rank": null
   },
   "2026-10-17-ohio-state-at-indiana": {
-   "score": 12,
+   "score": 10.5,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 4,
    "headline": "Bryant Haines (DC) and Ryan Day (HC) both worked for Urban Meyer.",
    "trees": [
     {
      "coach": "Urban Meyer",
-     "links": 5
+     "links": 4
     }
    ],
    "connections": [
@@ -12884,7 +12809,7 @@
       "role": "hc"
      },
      "aStops": "Ohio State 2013",
-     "bStops": "Florida 2005, Ohio State 2017-18",
+     "bStops": "Florida 2005, Ohio State 2017-2018",
      "together": null,
      "stops": null,
      "protege": null,
@@ -12899,7 +12824,7 @@
       "role": "dc"
      },
      "b": {
-      "coach": "Arthur Smith",
+      "coach": "Keenan Bailey",
       "role": "oc"
      },
      "aStops": null,
@@ -12911,14 +12836,14 @@
      "weight": 1.5
     }
    ],
-   "rank": 126
+   "rank": 134
   },
   "2026-10-17-kansas-at-kansas-state": {
    "score": 25.5,
    "tier": "family",
    "staffed": true,
    "connectionCount": 9,
-   "headline": "Lance Leipold (Kansas HC) coached Jordan Peterson (Kansas State DC) at Kansas 2022-23.",
+   "headline": "Lance Leipold (Kansas HC) coached Jordan Peterson (Kansas State DC) at Kansas 2022-2023.",
    "trees": [
     {
      "coach": "Barry Alvarez",
@@ -12944,7 +12869,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Kansas 2022-23",
+     "stops": "Kansas 2022-2023",
      "protege": "Jordan Peterson",
      "hops": null,
      "weight": 12
@@ -12988,22 +12913,22 @@
      "weight": 2.3
     }
    ],
-   "rank": 49
+   "rank": 38
   },
   "2026-10-17-mississippi-state-at-lsu": {
-   "score": 42.8,
-   "tier": "reunion",
+   "score": 38.3,
+   "tier": "family",
    "staffed": true,
-   "connectionCount": 11,
-   "headline": "Lane Kiffin (LSU HC) coached Jeff Lebby (Mississippi State HC) at Ole Miss 2020-21.",
+   "connectionCount": 9,
+   "headline": "Lane Kiffin (LSU HC) coached Jeff Lebby (Mississippi State HC) at Ole Miss 2020-2021.",
    "trees": [
     {
      "coach": "Pat Hill",
-     "links": 5
+     "links": 4
     },
     {
      "coach": "Sonny Lubick",
-     "links": 4
+     "links": 3
     },
     {
      "coach": "Dabo Swinney",
@@ -13025,7 +12950,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Ole Miss 2020-21",
+     "stops": "Ole Miss 2020-2021",
      "protege": "Jeff Lebby",
      "hops": null,
      "weight": 18
@@ -13088,7 +13013,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 15
+   "rank": 14
   },
   "2026-10-17-troy-at-louisiana": {
    "score": 2.3,
@@ -13123,7 +13048,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 320
+   "rank": 318
   },
   "2026-10-17-louisiana-tech-at-louisiana-monroe": {
    "score": 0,
@@ -13214,7 +13139,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 174
+   "rank": 161
   },
   "2026-10-17-florida-state-at-miami-fl": {
    "score": 24.8,
@@ -13314,7 +13239,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 55
+   "rank": 41
   },
   "2026-10-17-akron-at-miami-oh": {
    "score": 0,
@@ -13359,22 +13284,22 @@
      "weight": 3.4
     }
    ],
-   "rank": 183
+   "rank": 168
   },
   "2026-10-17-northwestern-at-michigan-state": {
-   "score": 25.5,
-   "tier": "family",
+   "score": 16.5,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 9,
-   "headline": "Pat Fitzgerald (Michigan State HC) coached Tim McGarigle (Northwestern DC) at Northwestern 2019-22.",
+   "connectionCount": 3,
+   "headline": "Pat Fitzgerald (Michigan State HC) coached Tim McGarigle (Northwestern DC) at Northwestern 2019-2022.",
    "trees": [
     {
      "coach": "Gary Barnett",
-     "links": 4
+     "links": 1
     },
     {
      "coach": "Randy Walker",
-     "links": 4
+     "links": 1
     }
    ],
    "connections": [
@@ -13392,7 +13317,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Northwestern 2019-22",
+     "stops": "Northwestern 2019-2022",
      "protege": "Tim McGarigle",
      "hops": null,
      "weight": 12
@@ -13436,7 +13361,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 50
+   "rank": 83
   },
   "2026-10-17-nevada-at-north-dakota-state": {
    "score": 0,
@@ -13501,7 +13426,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 166
+   "rank": 153
   },
   "2026-10-17-missouri-at-ole-miss": {
    "score": 18.8,
@@ -13539,7 +13464,7 @@
       "coach": "Eliah Drinkwitz",
       "role": "hc"
      },
-     "aStops": "Auburn 2017-20",
+     "aStops": "Auburn 2017-2020",
      "bStops": "Arkansas State 2012",
      "together": null,
      "stops": null,
@@ -13558,9 +13483,9 @@
       "coach": "Chip Lindsey",
       "role": "oc"
      },
-     "aStops": "Auburn 2017-20",
-     "bStops": "Auburn 2017-18",
-     "together": "Auburn 2017-18",
+     "aStops": "Auburn 2017-2020",
+     "bStops": "Auburn 2017-2018",
+     "together": "Auburn 2017-2018",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -13624,7 +13549,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 78
+   "rank": 66
   },
   "2026-10-17-nebraska-at-oregon": {
    "score": 1.5,
@@ -13659,21 +13584,17 @@
      "weight": 1.5
     }
    ],
-   "rank": 358
+   "rank": 356
   },
   "2026-10-17-washington-state-at-oregon-state": {
-   "score": 26.3,
-   "tier": "family",
+   "score": 10.5,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 10,
+   "connectionCount": 2,
    "headline": "JaMarcus Shephard (HC) and Kirby Moore (HC) both worked for Kalen DeBoer.",
    "trees": [
     {
      "coach": "Kalen DeBoer",
-     "links": 8
-    },
-    {
-     "coach": "Jeff Tedford",
      "links": 1
     },
     {
@@ -13693,51 +13614,13 @@
       "coach": "Kirby Moore",
       "role": "hc"
      },
-     "aStops": "Washington 2022-23, Alabama 2024-25",
-     "bStops": "Fresno State 2020-21",
+     "aStops": "Washington 2022-2023, Alabama 2024-2025",
+     "bStops": "Fresno State 2020-2021",
      "together": null,
      "stops": null,
      "protege": null,
      "hops": null,
      "weight": 9
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Jeff Tedford",
-     "a": {
-      "coach": "JaMarcus Shephard",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Matt Miller",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Kalen DeBoer",
-     "a": {
-      "coach": "JaMarcus Shephard",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Matt Miller",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 2.3
     },
     {
      "type": "shared-ancestor",
@@ -13759,7 +13642,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 45
+   "rank": 136
   },
   "2026-10-17-tulsa-at-rice": {
    "score": 0,
@@ -13821,7 +13704,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 318
+   "rank": 316
   },
   "2026-10-17-kent-state-at-south-florida": {
    "score": 0,
@@ -13929,7 +13812,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 214
+   "rank": 197
   },
   "2026-10-17-charlotte-at-temple": {
    "score": 0,
@@ -13974,7 +13857,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 357
+   "rank": 355
   },
   "2026-10-17-florida-at-texas": {
    "score": 10.5,
@@ -14067,7 +13950,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 145
+   "rank": 131
   },
   "2026-10-17-the-citadel-at-texas-a-m": {
    "score": 0,
@@ -14159,7 +14042,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 124
+   "rank": 115
   },
   "2026-10-17-wisconsin-at-ucla": {
    "score": 22.5,
@@ -14236,7 +14119,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 63
+   "rank": 49
   },
   "2026-10-17-san-jose-state-at-utep": {
    "score": 0,
@@ -14304,7 +14187,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 215
+   "rank": 198
   },
   "2026-10-17-arkansas-at-vanderbilt": {
    "score": 7.5,
@@ -14389,18 +14272,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 197
+   "rank": 178
   },
   "2026-10-17-georgia-tech-at-virginia-tech": {
-   "score": 18.8,
+   "score": 14.3,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 8,
+   "connectionCount": 6,
    "headline": "James Franklin and Brent Key both sit inside Bobby Ross's tree.",
    "trees": [
     {
      "coach": "George O'Leary",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "Bobby Ross",
@@ -14470,7 +14353,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 76
+   "rank": 96
   },
   "2026-10-17-cincinnati-at-west-virginia": {
    "score": 0,
@@ -14483,15 +14366,15 @@
    "rank": null
   },
   "2026-10-17-northern-illinois-at-wyoming": {
-   "score": 5.3,
+   "score": 3.8,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 3,
+   "connectionCount": 2,
    "headline": "Jay Sawvel and Tony Petersen both sit inside Lou Holtz's tree.",
    "trees": [
     {
      "coach": "Lou Holtz",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -14515,7 +14398,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 243
+   "rank": 267
   },
   "2026-10-20-middle-tennessee-at-fiu": {
    "score": 2.3,
@@ -14550,7 +14433,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 321
+   "rank": 319
   },
   "2026-10-20-south-alabama-at-marshall": {
    "score": 27,
@@ -14658,7 +14541,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 43
+   "rank": 35
   },
   "2026-10-22-james-madison-at-appalachian-state": {
    "score": 0,
@@ -14707,7 +14590,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 322
+   "rank": 320
   },
   "2026-10-23-nc-state-at-stanford": {
    "score": 0,
@@ -14749,7 +14632,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 359
+   "rank": 357
   },
   "2026-10-23-massachusetts-at-uconn": {
    "score": 0,
@@ -14791,7 +14674,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 282
+   "rank": 279
   },
   "2026-10-23-air-force-at-wyoming": {
    "score": 0,
@@ -14808,7 +14691,7 @@
    "tier": "cousins",
    "staffed": true,
    "connectionCount": 6,
-   "headline": "Maurice Linguist and Mike Elko shared Jimbo Fisher's staff at Texas A&M 2018-19.",
+   "headline": "Maurice Linguist and Mike Elko shared Jimbo Fisher's staff at Texas A&M 2018-2019.",
    "trees": [
     {
      "coach": "Jimbo Fisher",
@@ -14835,9 +14718,9 @@
       "coach": "Mike Elko",
       "role": "hc"
      },
-     "aStops": "Texas A&M 2018-19",
-     "bStops": "Texas A&M 2018-21",
-     "together": "Texas A&M 2018-19",
+     "aStops": "Texas A&M 2018-2019",
+     "bStops": "Texas A&M 2018-2021",
+     "together": "Texas A&M 2018-2019",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -14854,7 +14737,7 @@
       "coach": "Elijah Robinson",
       "role": "dc"
      },
-     "aStops": "Texas A&M 2018-19",
+     "aStops": "Texas A&M 2018-2019",
      "bStops": "Texas A&M 2023",
      "together": null,
      "stops": null,
@@ -14920,7 +14803,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 75
+   "rank": 63
   },
   "2026-10-24-iowa-state-at-arizona": {
    "score": 0,
@@ -14964,7 +14847,7 @@
       "coach": "Sean Gleeson",
       "role": "oc"
      },
-     "aStops": "Oklahoma State 2015-16",
+     "aStops": "Oklahoma State 2015-2016",
      "bStops": "Oklahoma State 2019",
      "together": null,
      "stops": null,
@@ -15011,7 +14894,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 205
+   "rank": 186
   },
   "2026-10-24-georgia-state-at-arkansas-state": {
    "score": 0,
@@ -15067,7 +14950,7 @@
       "coach": "Joe Cox",
       "role": "oc"
      },
-     "aStops": "Florida 2013-14",
+     "aStops": "Florida 2013-2014",
      "bStops": "South Carolina 2020",
      "together": null,
      "stops": null,
@@ -15133,7 +15016,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 132
+   "rank": 119
   },
   "2026-10-24-sacramento-state-at-ball-state": {
    "score": 0,
@@ -15186,7 +15069,7 @@
       "coach": "Shiel Wood",
       "role": "dc"
      },
-     "aStops": "Army 2020-26",
+     "aStops": "Army 2020-2025",
      "bStops": "Army 2021",
      "together": "Army 2021",
      "stops": null,
@@ -15195,7 +15078,7 @@
      "weight": 6
     }
    ],
-   "rank": 229
+   "rank": 215
   },
   "2026-10-24-virginia-tech-at-clemson": {
    "score": 0,
@@ -15208,15 +15091,15 @@
    "rank": null
   },
   "2026-10-24-san-diego-state-at-colorado-state": {
-   "score": 12,
+   "score": 9,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 3,
+   "connectionCount": 1,
    "headline": "Kenny McClendon and Sean Lewis shared Dino Babers's staff at Syracuse 2016.",
    "trees": [
     {
      "coach": "Dino Babers",
-     "links": 3
+     "links": 1
     }
    ],
    "connections": [
@@ -15232,34 +15115,15 @@
       "role": "hc"
      },
      "aStops": "Syracuse 2016",
-     "bStops": "Bowling Green 2014-15, Syracuse 2016-17",
+     "bStops": "Bowling Green 2014-2015, Syracuse 2016-2017",
      "together": "Syracuse 2016",
      "stops": null,
      "protege": null,
      "hops": null,
      "weight": 9
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Dino Babers",
-     "a": {
-      "coach": "Kenny McClendon",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Matt Johnson",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 1.5
     }
    ],
-   "rank": 127
+   "rank": 157
   },
   "2026-10-24-rice-at-florida-atlantic": {
    "score": 0,
@@ -15272,19 +15136,19 @@
    "rank": null
   },
   "2026-10-24-boston-college-at-georgia-tech": {
-   "score": 54,
+   "score": 44.3,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 12,
+   "connectionCount": 7,
    "headline": "Brent Key and Bill O'Brien shared Chan Gailey's staff at Georgia Tech 2002.",
    "trees": [
     {
      "coach": "George O'Leary",
-     "links": 8
+     "links": 4
     },
     {
      "coach": "Chan Gailey",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Ralph Friedgen",
@@ -15322,8 +15186,8 @@
       "coach": "Bill O'Brien",
       "role": "hc"
      },
-     "aStops": "Georgia Tech 2001, UCF 2005-15",
-     "bStops": "Georgia Tech 1995-01",
+     "aStops": "Georgia Tech 2001, UCF 2005-2013 & 2015",
+     "bStops": "Georgia Tech 1995-2001",
      "together": "Georgia Tech 2001",
      "stops": null,
      "protege": null,
@@ -15341,8 +15205,8 @@
       "coach": "Ted Roof",
       "role": "dc"
      },
-     "aStops": "Georgia Tech 2001, UCF 2005-15",
-     "bStops": "Georgia Tech 1998-01",
+     "aStops": "Georgia Tech 2001, UCF 2005-2013 & 2015",
+     "bStops": "Georgia Tech 1998-2001",
      "together": "Georgia Tech 2001",
      "stops": null,
      "protege": null,
@@ -15407,7 +15271,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 8
+   "rank": 10
   },
   "2026-10-24-oregon-at-illinois": {
    "score": 6.8,
@@ -15465,18 +15329,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 209
+   "rank": 190
   },
   "2026-10-24-baylor-at-kansas": {
-   "score": 19.9,
+   "score": 16.9,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 8,
+   "connectionCount": 6,
    "headline": "Matt Lubick (OC) and Dave Aranda (HC) both worked for Ed Orgeron.",
    "trees": [
     {
      "coach": "Ed Orgeron",
-     "links": 2
+     "links": 1
     },
     {
      "coach": "Barry Alvarez",
@@ -15484,7 +15348,7 @@
     },
     {
      "coach": "Mike Leach",
-     "links": 2
+     "links": 1
     },
     {
      "coach": "Mike Price",
@@ -15503,8 +15367,8 @@
       "coach": "Dave Aranda",
       "role": "hc"
      },
-     "aStops": "Ole Miss 2005-06",
-     "bStops": "LSU 2017-19",
+     "aStops": "Ole Miss 2005-2006",
+     "bStops": "LSU 2017-2019",
      "together": null,
      "stops": null,
      "protege": null,
@@ -15532,25 +15396,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Ed Orgeron",
-     "a": {
-      "coach": "Matt Lubick",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Joe Klanderman",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Mike Leach",
      "a": {
       "coach": "Matt Lubick",
@@ -15567,9 +15412,28 @@
      "protege": null,
      "hops": 4,
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mike Price",
+     "a": {
+      "coach": "Andy Kotelnicki",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jake Spavital",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "weight": 1.5
     }
    ],
-   "rank": 72
+   "rank": 81
   },
   "2026-10-24-akron-at-kent-state": {
    "score": 0,
@@ -15621,8 +15485,8 @@
       "coach": "Clark Lea",
       "role": "hc"
      },
-     "aStops": "LSU 2022-25",
-     "bStops": "Notre Dame 2017-20",
+     "aStops": "LSU 2022-2025",
+     "bStops": "Notre Dame 2017-2020",
      "together": null,
      "stops": null,
      "protege": null,
@@ -15687,7 +15551,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 53
+   "rank": 40
   },
   "2026-10-24-old-dominion-at-louisiana-tech": {
    "score": 0,
@@ -15733,7 +15597,7 @@
       "coach": "Bryant Haines",
       "role": "dc"
      },
-     "aStops": "Utah 2003-04",
+     "aStops": "Utah 2003-2004",
      "bStops": "Ohio State 2013",
      "together": null,
      "stops": null,
@@ -15761,7 +15625,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 168
+   "rank": 154
   },
   "2026-10-24-iowa-at-minnesota": {
    "score": 0,
@@ -15778,7 +15642,7 @@
    "tier": "family",
    "staffed": true,
    "connectionCount": 10,
-   "headline": "Brent Venables (Oklahoma HC) coached Jeff Lebby (Mississippi State HC) at Oklahoma 2022-23.",
+   "headline": "Brent Venables (Oklahoma HC) coached Jeff Lebby (Mississippi State HC) at Oklahoma 2022-2023.",
    "trees": [
     {
      "coach": "Bob Stoops",
@@ -15808,7 +15672,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Oklahoma 2022-23",
+     "stops": "Oklahoma 2022-2023",
      "protege": "Jeff Lebby",
      "hops": null,
      "weight": 18
@@ -15871,21 +15735,21 @@
      "weight": 2.3
     }
    ],
-   "rank": 19
+   "rank": 13
   },
   "2026-10-24-north-texas-at-navy": {
-   "score": 9,
-   "tier": "cousins",
+   "score": 6,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 3,
    "headline": "Eric Lewis and Neal Brown both sit inside R. C. Slocum's tree.",
    "trees": [
     {
-     "coach": "Tommy Tuberville",
-     "links": 3
+     "coach": "R. C. Slocum",
+     "links": 1
     },
     {
-     "coach": "R. C. Slocum",
+     "coach": "Tommy Tuberville",
      "links": 1
     },
     {
@@ -15952,7 +15816,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 167
+   "rank": 207
   },
   "2026-10-24-san-jose-state-at-nevada": {
    "score": 0,
@@ -16050,7 +15914,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 210
+   "rank": 191
   },
   "2026-10-24-hawaii-at-northern-illinois": {
    "score": 0,
@@ -16128,7 +15992,7 @@
       "coach": "Da'Von Brown",
       "role": "dc"
      },
-     "aStops": "Western Kentucky 2020-21",
+     "aStops": "Western Kentucky 2020-2021",
      "bStops": "Western Kentucky 2025",
      "together": null,
      "stops": null,
@@ -16194,37 +16058,37 @@
      "weight": 2.3
     }
    ],
-   "rank": 129
+   "rank": 117
   },
   "2026-10-24-tennessee-at-south-carolina": {
-   "score": 33,
+   "score": 26.3,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 16,
+   "connectionCount": 12,
    "headline": "Shane Beamer and Josh Heupel both sit inside Bob Stoops's tree.",
    "trees": [
     {
      "coach": "Bob Stoops",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "Steve Spurrier",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Mike Stoops",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "Phillip Fulmer",
-     "links": 3
+     "links": 2
     },
     {
-     "coach": "Garrick McGee",
+     "coach": "Johnny Majors",
      "links": 1
     },
     {
-     "coach": "Jeff Brohm",
+     "coach": "Todd Graham",
      "links": 1
     }
    ],
@@ -16269,25 +16133,25 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Mike Stoops",
+     "via": "Johnny Majors",
      "a": {
-      "coach": "Kendal Briles",
-      "role": "oc"
+      "coach": "Shane Beamer",
+      "role": "hc"
      },
      "b": {
-      "coach": "Josh Heupel",
-      "role": "hc"
+      "coach": "Jim Knowles",
+      "role": "dc"
      },
      "aStops": null,
      "bStops": null,
      "together": null,
      "stops": null,
      "protege": null,
-     "hops": 3,
+     "hops": 4,
      "weight": 2.3
     }
    ],
-   "rank": 29
+   "rank": 36
   },
   "2026-10-24-louisiana-at-southern-mississippi": {
    "score": 3.4,
@@ -16322,7 +16186,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 283
+   "rank": 280
   },
   "2026-10-24-west-virginia-at-tcu": {
    "score": 4.5,
@@ -16380,18 +16244,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 256
+   "rank": 252
   },
   "2026-10-24-ole-miss-at-texas": {
-   "score": 41.1,
-   "tier": "reunion",
+   "score": 32.1,
+   "tier": "family",
    "staffed": true,
-   "connectionCount": 19,
+   "connectionCount": 13,
    "headline": "Will Muschamp (DC) and Pete Golding (HC) both worked for Nick Saban.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 5
+     "links": 1
     },
     {
      "coach": "Clay Helton",
@@ -16403,7 +16267,7 @@
     },
     {
      "coach": "Lane Kiffin",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "Sonny Lubick",
@@ -16426,8 +16290,8 @@
       "coach": "Pete Golding",
       "role": "hc"
      },
-     "aStops": "LSU 2001-04",
-     "bStops": "Alabama 2018-22",
+     "aStops": "LSU 2001-2004",
+     "bStops": "Alabama 2018-2022",
      "together": null,
      "stops": null,
      "protege": null,
@@ -16446,7 +16310,7 @@
       "role": "oc"
      },
      "aStops": "USC 2015",
-     "bStops": "USC 2020-21",
+     "bStops": "USC 2020-2021",
      "together": null,
      "stops": null,
      "protege": null,
@@ -16511,7 +16375,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 17
+   "rank": 22
   },
   "2026-10-24-utah-state-at-texas-state": {
    "score": 0,
@@ -16612,7 +16476,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 125
+   "rank": 116
   },
   "2026-10-24-byu-at-ucf": {
    "score": 3.8,
@@ -16647,7 +16511,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 272
+   "rank": 268
   },
   "2026-10-24-michigan-state-at-ucla": {
    "score": 6,
@@ -16674,7 +16538,7 @@
       "role": "oc"
      },
      "aStops": "Alabama 2024",
-     "bStops": "Washington 2022-23, Alabama 2024-25",
+     "bStops": "Washington 2022-2023, Alabama 2024-2025",
      "together": "Alabama 2024",
      "stops": null,
      "protege": null,
@@ -16682,7 +16546,7 @@
      "weight": 6
     }
    ],
-   "rank": 228
+   "rank": 214
   },
   "2026-10-24-houston-at-utah": {
    "score": 1.5,
@@ -16717,30 +16581,26 @@
      "weight": 1.5
     }
    ],
-   "rank": 360
+   "rank": 358
   },
   "2026-10-24-boise-state-at-washington-state": {
-   "score": 69.6,
+   "score": 60.6,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 23,
+   "connectionCount": 18,
    "headline": "Spencer Danielson (Boise State HC) coached Matt Miller (Washington State OC) at Boise State 2025.",
    "trees": [
     {
      "coach": "Bryan Harsin",
-     "links": 10
+     "links": 8
     },
     {
      "coach": "Andy Avalos",
-     "links": 4
+     "links": 3
     },
     {
      "coach": "Chris Petersen",
-     "links": 4
-    },
-    {
-     "coach": "Dirk Koetter",
-     "links": 3
+     "links": 5
     },
     {
      "coach": "Mike Bellotti",
@@ -16778,9 +16638,9 @@
       "coach": "Spencer Danielson",
       "role": "hc"
      },
-     "aStops": "Boise State 2021-23",
-     "bStops": "Boise State 2021-23",
-     "together": "Boise State 2021-23",
+     "aStops": "Boise State 2021-2023",
+     "bStops": "Boise State 2021-2023",
+     "together": "Boise State 2021-2023",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -16798,7 +16658,7 @@
       "role": "hc"
      },
      "aStops": "Boise State 2020",
-     "bStops": "Boise State 2017-20",
+     "bStops": "Boise State 2017 & 2019-2020",
      "together": "Boise State 2020",
      "stops": null,
      "protege": null,
@@ -16817,7 +16677,7 @@
       "role": "oc"
      },
      "aStops": "Boise State 2020",
-     "bStops": "Boise State 2016-19",
+     "bStops": "Boise State 2016-2019",
      "together": null,
      "stops": null,
      "protege": null,
@@ -16864,14 +16724,14 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Dirk Koetter",
+     "via": "Mike Bellotti",
      "a": {
-      "coach": "Trent Bray",
-      "role": "dc"
+      "coach": "Kirby Moore",
+      "role": "hc"
      },
      "b": {
-      "coach": "Spencer Danielson",
-      "role": "hc"
+      "coach": "Erik Chinander",
+      "role": "dc"
      },
      "aStops": null,
      "bStops": null,
@@ -16882,7 +16742,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 4
+   "rank": 6
   },
   "2026-10-24-usc-at-wisconsin": {
    "score": 5.3,
@@ -16917,7 +16777,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 244
+   "rank": 237
   },
   "2026-10-29-troy-at-james-madison": {
    "score": 0,
@@ -16959,7 +16819,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 323
+   "rank": 321
   },
   "2026-10-30-tulane-at-charlotte": {
    "score": 0,
@@ -16979,15 +16839,15 @@
    "rank": null
   },
   "2026-10-30-baylor-at-ucf": {
-   "score": 10.5,
+   "score": 9,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 3,
    "headline": "Alex Grinch (DC) and Dave Aranda (HC) both worked for Mike Leach.",
    "trees": [
     {
      "coach": "Mike Leach",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Bob Stoops",
@@ -17006,8 +16866,8 @@
       "coach": "Dave Aranda",
       "role": "hc"
      },
-     "aStops": "Washington State 2015-17",
-     "bStops": "Texas Tech 2000-02",
+     "aStops": "Washington State 2015-2017",
+     "bStops": "Texas Tech 2000-2002",
      "together": null,
      "stops": null,
      "protege": null,
@@ -17053,7 +16913,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 148
+   "rank": 155
   },
   "2026-10-31-uconn-at-air-force": {
    "score": 0,
@@ -17149,7 +17009,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 95
+   "rank": 88
   },
   "2026-10-31-arizona-state-at-byu": {
    "score": 0,
@@ -17194,7 +17054,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 273
+   "rank": 269
   },
   "2026-10-31-utah-at-cincinnati": {
    "score": 3,
@@ -17252,7 +17112,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 298
+   "rank": 296
   },
   "2026-10-31-kansas-state-at-colorado": {
    "score": 7.5,
@@ -17333,7 +17193,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 199
+   "rank": 180
   },
   "2026-10-31-boston-college-at-duke": {
    "score": 2.3,
@@ -17368,7 +17228,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 324
+   "rank": 322
   },
   "2026-10-31-temple-at-east-carolina": {
    "score": 0,
@@ -17459,7 +17319,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 159
+   "rank": 143
   },
   "2026-10-31-clemson-at-florida-state": {
    "score": 9,
@@ -17485,7 +17345,7 @@
       "coach": "Chad Morris",
       "role": "oc"
      },
-     "aStops": "Tulsa 2007-08, Pittsburgh 2011, Arizona State 2012-15",
+     "aStops": "Tulsa 2007-2008, Pittsburgh 2011, Arizona State 2012-2015",
      "bStops": "Tulsa 2010",
      "together": null,
      "stops": null,
@@ -17513,7 +17373,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 169
+   "rank": 156
   },
   "2026-10-31-oregon-state-at-fresno-state": {
    "score": 0,
@@ -17588,7 +17448,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 246
+   "rank": 240
   },
   "2026-10-31-oklahoma-state-at-iowa-state": {
    "score": 0,
@@ -17656,7 +17516,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 257
+   "rank": 253
   },
   "2026-10-31-stanford-at-louisville": {
    "score": 0,
@@ -17711,7 +17571,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 361
+   "rank": 359
   },
   "2026-10-31-california-at-nc-state": {
    "score": 0,
@@ -17776,18 +17636,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 192
+   "rank": 176
   },
   "2026-10-31-washington-at-nebraska": {
-   "score": 15,
+   "score": 12.8,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 3,
    "headline": "Matt Rhule (HC) and Jedd Fisch (HC) both worked for Al Golden.",
    "trees": [
     {
      "coach": "Al Golden",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Bob Stoops",
@@ -17806,8 +17666,8 @@
       "coach": "Jedd Fisch",
       "role": "hc"
      },
-     "aStops": "Temple 2006-10",
-     "bStops": "Miami (FL) 2011-12",
+     "aStops": "Temple 2006-2010",
+     "bStops": "Miami (FL) 2011-2012",
      "together": null,
      "stops": null,
      "protege": null,
@@ -17853,7 +17713,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 102
+   "rank": 108
   },
   "2026-10-31-miami-fl-at-north-carolina": {
    "score": 1.5,
@@ -17888,7 +17748,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 362
+   "rank": 360
   },
   "2026-10-31-utep-at-north-dakota-state": {
    "score": 0,
@@ -17898,10 +17758,10 @@
    "rank": null
   },
   "2026-10-31-south-carolina-at-oklahoma": {
-   "score": 19.8,
+   "score": 17.5,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 7,
+   "connectionCount": 6,
    "headline": "Ben Arbuckle (OC) and Clayton White (DC) both worked for Tyson Helton.",
    "trees": [
     {
@@ -17914,7 +17774,7 @@
     },
     {
      "coach": "Steve Spurrier",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -17930,7 +17790,7 @@
       "role": "dc"
      },
      "aStops": "Western Kentucky 2022",
-     "bStops": "Western Kentucky 2019-20",
+     "bStops": "Western Kentucky 2019-2020",
      "together": null,
      "stops": null,
      "protege": null,
@@ -17976,18 +17836,18 @@
      "weight": 3.4
     }
    ],
-   "rank": 73
+   "rank": 74
   },
   "2026-10-31-marshall-at-old-dominion": {
-   "score": 8.3,
-   "tier": "cousins",
+   "score": 5.3,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 3,
    "headline": "Ricky Rahne and Rod Smith both sit inside Bill Snyder's tree.",
    "trees": [
     {
      "coach": "Bill Snyder",
-     "links": 5
+     "links": 3
     }
    ],
    "connections": [
@@ -18011,14 +17871,14 @@
      "weight": 2.3
     }
    ],
-   "rank": 175
+   "rank": 238
   },
   "2026-10-31-auburn-at-ole-miss": {
-   "score": 24.4,
-   "tier": "family",
+   "score": 16.9,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 11,
-   "headline": "Marcus Woodson and Kodi Burns shared Gus Malzahn's staff at Auburn 2017-20.",
+   "connectionCount": 6,
+   "headline": "Marcus Woodson and Kodi Burns shared Gus Malzahn's staff at Auburn 2017-2020.",
    "trees": [
     {
      "coach": "Gus Malzahn",
@@ -18029,12 +17889,12 @@
      "links": 1
     },
     {
-     "coach": "Nick Saban",
-     "links": 5
+     "coach": "Joe Novak",
+     "links": 2
     },
     {
-     "coach": "Joe Novak",
-     "links": 3
+     "coach": "Nick Saban",
+     "links": 1
     },
     {
      "coach": "Larry Smith",
@@ -18053,9 +17913,9 @@
       "coach": "Kodi Burns",
       "role": "oc"
      },
-     "aStops": "Auburn 2017-20",
-     "bStops": "Auburn 2016-20",
-     "together": "Auburn 2017-20",
+     "aStops": "Auburn 2017-2020",
+     "bStops": "Auburn 2016-2020",
+     "together": "Auburn 2017-2020",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -18119,7 +17979,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 57
+   "rank": 82
   },
   "2026-10-31-northwestern-at-oregon": {
    "score": 1.5,
@@ -18154,7 +18014,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 363
+   "rank": 361
   },
   "2026-10-31-purdue-at-penn-state": {
    "score": 11.3,
@@ -18192,8 +18052,8 @@
       "coach": "Josh Henson",
       "role": "oc"
      },
-     "aStops": "USC 2024-25",
-     "bStops": "USC 2022-24",
+     "aStops": "USC 2024-2025",
+     "bStops": "USC 2022-2024",
      "together": "USC 2024",
      "stops": null,
      "protege": null,
@@ -18258,18 +18118,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 137
+   "rank": 124
   },
   "2026-10-31-georgia-tech-at-pittsburgh": {
-   "score": 10.1,
-   "tier": "cousins",
+   "score": 7.9,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 3,
    "headline": "Pat Narduzzi and Brent Key both sit inside Nick Saban's tree.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 4
+     "links": 3
     }
    ],
    "connections": [
@@ -18293,7 +18153,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 150
+   "rank": 170
   },
   "2026-10-31-michigan-at-rutgers": {
    "score": 0,
@@ -18326,19 +18186,19 @@
    "rank": null
   },
   "2026-10-31-louisiana-tech-at-south-alabama": {
-   "score": 24.8,
+   "score": 21.8,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 8,
+   "connectionCount": 6,
    "headline": "Todd Orlando (DC) and Sonny Cumbie (HC) both worked for Matt Wells.",
    "trees": [
     {
      "coach": "Matt Wells",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Mike Leach",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Steve Kragthorpe",
@@ -18361,7 +18221,7 @@
       "coach": "Sonny Cumbie",
       "role": "hc"
      },
-     "aStops": "Utah State 2013-14",
+     "aStops": "Utah State 2013-2014",
      "bStops": "Texas Tech 2021",
      "together": null,
      "stops": null,
@@ -18380,7 +18240,7 @@
       "coach": "Sonny Cumbie",
       "role": "hc"
      },
-     "aStops": "Mississippi State 2020-22",
+     "aStops": "Mississippi State 2020-2022",
      "bStops": "Texas Tech 2009",
      "together": null,
      "stops": null,
@@ -18434,8 +18294,8 @@
       "role": "dc"
      },
      "b": {
-      "coach": "Nathan Young",
-      "role": "oc"
+      "coach": "Luke Olson",
+      "role": "dc"
      },
      "aStops": null,
      "bStops": null,
@@ -18446,7 +18306,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 56
+   "rank": 54
   },
   "2026-10-31-uab-at-south-florida": {
    "score": 5.3,
@@ -18504,7 +18364,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 245
+   "rank": 239
   },
   "2026-10-31-smu-at-syracuse": {
    "score": 17.3,
@@ -18589,13 +18449,13 @@
      "weight": 2.3
     }
    ],
-   "rank": 88
+   "rank": 77
   },
   "2026-10-31-kansas-at-tcu": {
-   "score": 9.3,
-   "tier": "cousins",
+   "score": 7.8,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 3,
    "headline": "Andy Avalos (DC) and Matt Lubick (OC) both worked for Chris Petersen.",
    "trees": [
     {
@@ -18604,7 +18464,7 @@
     },
     {
      "coach": "Mike Leach",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -18619,8 +18479,8 @@
       "coach": "Matt Lubick",
       "role": "oc"
      },
-     "aStops": "Boise State 2012-13",
-     "bStops": "Washington 2017-18",
+     "aStops": "Boise State 2012-2013",
+     "bStops": "Washington 2017-2018",
      "together": null,
      "stops": null,
      "protege": null,
@@ -18647,7 +18507,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 163
+   "rank": 174
   },
   "2026-10-31-mississippi-state-at-texas": {
    "score": 10.1,
@@ -18728,7 +18588,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 151
+   "rank": 138
   },
   "2026-10-31-arizona-at-texas-tech": {
    "score": 7.9,
@@ -18786,7 +18646,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 184
+   "rank": 169
   },
   "2026-10-31-nevada-at-ucla": {
    "score": 0,
@@ -18831,7 +18691,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 325
+   "rank": 323
   },
   "2026-10-31-ohio-state-at-usc": {
    "score": 4.9,
@@ -18889,7 +18749,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 253
+   "rank": 247
   },
   "2026-10-31-colorado-state-at-utah-state": {
    "score": 7.8,
@@ -18970,7 +18830,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 190
+   "rank": 173
   },
   "2026-10-31-virginia-at-wake-forest": {
    "score": 0,
@@ -19074,7 +18934,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 202
+   "rank": 183
   },
   "2026-11-06-tcu-at-arizona": {
    "score": 2.3,
@@ -19109,18 +18969,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 327
+   "rank": 325
   },
   "2026-11-06-south-florida-at-east-carolina": {
-   "score": 18.8,
+   "score": 15.8,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 3,
    "headline": "Blake Harrell (East Carolina HC) coached Josh Aldridge (South Florida DC) at East Carolina 2025.",
    "trees": [
     {
      "coach": "Mike Houston",
-     "links": 4
+     "links": 2
     }
    ],
    "connections": [
@@ -19163,7 +19023,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 80
+   "rank": 86
   },
   "2026-11-06-nebraska-at-illinois": {
    "score": 2.3,
@@ -19198,7 +19058,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 326
+   "rank": 324
   },
   "2026-11-06-new-mexico-at-nevada": {
    "score": 0,
@@ -19253,7 +19113,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 284
+   "rank": 281
   },
   "2026-11-07-colorado-at-arizona-state": {
    "score": 11.3,
@@ -19346,7 +19206,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 134
+   "rank": 121
   },
   "2026-11-07-louisiana-monroe-at-arkansas-state": {
    "score": 0,
@@ -19369,15 +19229,15 @@
    "rank": null
   },
   "2026-11-07-arkansas-at-auburn": {
-   "score": 21.8,
-   "tier": "family",
+   "score": 18.8,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 13,
+   "connectionCount": 11,
    "headline": "Alex Golesh and Deron Wilson both sit inside Joe Novak's tree.",
    "trees": [
     {
      "coach": "Joe Novak",
-     "links": 4
+     "links": 3
     },
     {
      "coach": "Todd Graham",
@@ -19459,7 +19319,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 67
+   "rank": 64
   },
   "2026-11-07-iowa-state-at-baylor": {
    "score": 0,
@@ -19564,7 +19424,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 222
+   "rank": 208
   },
   "2026-11-07-marshall-at-georgia-southern": {
    "score": 0,
@@ -19609,7 +19469,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 274
+   "rank": 270
   },
   "2026-11-07-cincinnati-at-houston": {
    "score": 0,
@@ -19665,7 +19525,7 @@
       "coach": "Scott Frost",
       "role": "hc"
      },
-     "aStops": "Nebraska 2001-03",
+     "aStops": "Nebraska 2001-2003",
      "bStops": "Nebraska 2002",
      "together": "Nebraska 2002",
      "stops": null,
@@ -19687,7 +19547,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Nebraska 2020-21",
+     "stops": "Nebraska 2020-2021",
      "protege": "Matt Lubick",
      "hops": null,
      "weight": 12
@@ -19703,8 +19563,8 @@
       "coach": "Scott Frost",
       "role": "hc"
      },
-     "aStops": "Oregon 2015-16",
-     "bStops": "Oregon 2013-15",
+     "aStops": "Oregon 2015-2016",
+     "bStops": "Oregon 2013-2015",
      "together": "Oregon 2015",
      "stops": null,
      "protege": null,
@@ -19722,7 +19582,7 @@
       "coach": "Scott Frost",
       "role": "hc"
      },
-     "aStops": "Washington 2017-18",
+     "aStops": "Washington 2017-2018",
      "bStops": "Boise State 2007",
      "together": null,
      "stops": null,
@@ -19788,7 +19648,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 7
+   "rank": 4
   },
   "2026-11-07-oklahoma-state-at-kansas-state": {
    "score": 2.3,
@@ -19823,14 +19683,14 @@
      "weight": 2.3
     }
    ],
-   "rank": 328
+   "rank": 326
   },
   "2026-11-07-alabama-at-lsu": {
-   "score": 34.1,
+   "score": 28.9,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 16,
-   "headline": "Chris Kiffin and Kane Wommack shared Hugh Freeze's staff at Ole Miss 2012-13.",
+   "connectionCount": 13,
+   "headline": "Chris Kiffin and Kane Wommack shared Hugh Freeze's staff at Ole Miss 2012-2013.",
    "trees": [
     {
      "coach": "Hugh Freeze",
@@ -19838,7 +19698,7 @@
     },
     {
      "coach": "Pat Hill",
-     "links": 10
+     "links": 8
     },
     {
      "coach": "Bobby Bowden",
@@ -19849,11 +19709,11 @@
      "links": 1
     },
     {
-     "coach": "Ed Orgeron",
+     "coach": "Nick Saban",
      "links": 1
     },
     {
-     "coach": "Nick Saban",
+     "coach": "Tommy Tuberville",
      "links": 1
     }
    ],
@@ -19869,9 +19729,9 @@
       "coach": "Kane Wommack",
       "role": "dc"
      },
-     "aStops": "Ole Miss 2012-16",
-     "bStops": "Ole Miss 2012-13",
-     "together": "Ole Miss 2012-13",
+     "aStops": "Ole Miss 2012-2016",
+     "bStops": "Ole Miss 2012-2013",
+     "together": "Ole Miss 2012-2013",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -19935,26 +19795,26 @@
      "weight": 1.5
     }
    ],
-   "rank": 27
+   "rank": 31
   },
   "2026-11-07-south-alabama-at-louisiana": {
-   "score": 27.8,
+   "score": 24,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 11,
+   "connectionCount": 9,
    "headline": "Jim Salgado (DC) and Major Applewhite (HC) both worked for Greg Robinson.",
    "trees": [
     {
      "coach": "Greg Robinson",
-     "links": 3
-    },
-    {
-     "coach": "Nick Saban",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Todd Graham",
      "links": 3
+    },
+    {
+     "coach": "Nick Saban",
+     "links": 2
     },
     {
      "coach": "Mack Brown",
@@ -20039,7 +19899,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 41
+   "rank": 44
   },
   "2026-11-07-michigan-state-at-michigan": {
    "score": 0,
@@ -20117,7 +19977,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 224
+   "rank": 210
   },
   "2026-11-07-texas-at-missouri": {
    "score": 6,
@@ -20198,7 +20058,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 223
+   "rank": 209
   },
   "2026-11-07-duke-at-nc-state": {
    "score": 0,
@@ -20240,7 +20100,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 365
+   "rank": 363
   },
   "2026-11-07-liberty-at-new-mexico-state": {
    "score": 0,
@@ -20348,18 +20208,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 77
+   "rank": 65
   },
   "2026-11-07-oregon-at-ohio-state": {
-   "score": 8.3,
-   "tier": "cousins",
+   "score": 6.8,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 4,
    "headline": "Ryan Day and Drew Mehringer both sit inside Urban Meyer's tree.",
    "trees": [
     {
      "coach": "Urban Meyer",
-     "links": 5
+     "links": 4
     }
    ],
    "connections": [
@@ -20383,18 +20243,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 176
+   "rank": 192
   },
   "2026-11-07-georgia-at-ole-miss": {
-   "score": 37,
-   "tier": "family",
+   "score": 17.5,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 15,
+   "connectionCount": 4,
    "headline": "Pete Golding (HC) and Kirby Smart (HC) both worked for Nick Saban.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 14
+     "links": 3
     },
     {
      "coach": "Gus Malzahn",
@@ -20413,8 +20273,8 @@
       "coach": "Kirby Smart",
       "role": "hc"
      },
-     "aStops": "Alabama 2018-22",
-     "bStops": "LSU 2004, Alabama 2007-15",
+     "aStops": "Alabama 2018-2022",
+     "bStops": "LSU 2004, Alabama 2007-2015",
      "together": null,
      "stops": null,
      "protege": null,
@@ -20432,7 +20292,7 @@
       "coach": "Travaris Robinson",
       "role": "dc"
      },
-     "aStops": "Auburn 2017-20",
+     "aStops": "Auburn 2017-2020",
      "bStops": "Auburn 2015",
      "together": null,
      "stops": null,
@@ -20460,7 +20320,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 24
+   "rank": 75
   },
   "2026-11-07-texas-state-at-oregon-state": {
    "score": 5.6,
@@ -20495,18 +20355,18 @@
      "weight": 3.4
     }
    ],
-   "rank": 238
+   "rank": 227
   },
   "2026-11-07-maryland-at-purdue": {
-   "score": 13.5,
+   "score": 12,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 8,
+   "connectionCount": 7,
    "headline": "Barry Odom and Aazaar Abdul-Rahim both sit inside Gary Patterson's tree.",
    "trees": [
     {
      "coach": "Ron Vanderlinden",
-     "links": 4
+     "links": 3
     },
     {
      "coach": "Gary Patterson",
@@ -20584,7 +20444,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 109
+   "rank": 114
   },
   "2026-11-07-northern-illinois-at-san-jose-state": {
    "score": 5.3,
@@ -20642,13 +20502,13 @@
      "weight": 1.5
     }
    ],
-   "rank": 247
+   "rank": 241
   },
   "2026-11-07-texas-a-m-at-south-carolina": {
-   "score": 38.3,
+   "score": 34.5,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 19,
+   "connectionCount": 17,
    "headline": "Shane Beamer and Mike Elko both sit inside Nick Saban's tree.",
    "trees": [
     {
@@ -20657,15 +20517,15 @@
     },
     {
      "coach": "Phillip Fulmer",
-     "links": 6
-    },
-    {
-     "coach": "Brian Kelly",
      "links": 4
     },
     {
+     "coach": "Brian Kelly",
+     "links": 3
+    },
+    {
      "coach": "Kirby Smart",
-     "links": 2
+     "links": 3
     },
     {
      "coach": "Greg Schiano",
@@ -20731,7 +20591,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 20
+   "rank": 19
   },
   "2026-11-07-clemson-at-syracuse": {
    "score": 7.8,
@@ -20812,7 +20672,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 191
+   "rank": 175
   },
   "2026-11-07-kentucky-at-tennessee": {
    "score": 5.6,
@@ -20847,7 +20707,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 237
+   "rank": 225
   },
   "2026-11-07-west-virginia-at-texas-tech": {
    "score": 2.3,
@@ -20882,18 +20742,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 329
+   "rank": 327
   },
   "2026-11-07-louisiana-tech-at-troy": {
-   "score": 7.9,
+   "score": 5.6,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 3,
+   "connectionCount": 2,
    "headline": "Gerad Parker and Sonny Cumbie both sit inside Tommy Tuberville's tree.",
    "trees": [
     {
      "coach": "Tommy Tuberville",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -20917,21 +20777,25 @@
      "weight": 3.4
     }
    ],
-   "rank": 185
+   "rank": 226
   },
   "2026-11-07-tulsa-at-tulane": {
-   "score": 13.5,
+   "score": 10.5,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 6,
+   "connectionCount": 4,
    "headline": "Will Hall (HC) and Kevin Barbay (OC) both worked for Willie Fritz.",
    "trees": [
     {
      "coach": "Willie Fritz",
-     "links": 4
+     "links": 1
     },
     {
      "coach": "Jim McElwain",
+     "links": 1
+    },
+    {
+     "coach": "Nick Saban",
      "links": 1
     },
     {
@@ -20951,7 +20815,7 @@
       "coach": "Kevin Barbay",
       "role": "oc"
      },
-     "aStops": "Tulane 2019-20",
+     "aStops": "Tulane 2019-2020",
      "bStops": "Houston 2024",
      "together": null,
      "stops": null,
@@ -20980,6 +20844,25 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Nick Saban",
+     "a": {
+      "coach": "Russ Callaway",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Kevin Barbay",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Scott Satterfield",
      "a": {
       "coach": "Nate Fuqua",
@@ -20996,28 +20879,9 @@
      "protege": null,
      "hops": 3,
      "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Willie Fritz",
-     "a": {
-      "coach": "Russ Callaway",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Kevin Barbay",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 1.5
     }
    ],
-   "rank": 110
+   "rank": 135
   },
   "2026-11-07-charlotte-at-uab": {
    "score": 3,
@@ -21075,7 +20939,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 299
+   "rank": 297
   },
   "2026-11-07-north-carolina-at-uconn": {
    "score": 0,
@@ -21085,19 +20949,19 @@
    "rank": null
   },
   "2026-11-07-wyoming-at-unlv": {
-   "score": 28.5,
+   "score": 21,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 11,
+   "connectionCount": 7,
    "headline": "Dan Mullen (HC) and Jay Sawvel (HC) both worked for Bob Davie.",
    "trees": [
     {
      "coach": "Bob Davie",
-     "links": 9
+     "links": 6
     },
     {
      "coach": "Lou Holtz",
-     "links": 2
+     "links": 1
     }
    ],
    "connections": [
@@ -21112,8 +20976,8 @@
       "coach": "Jay Sawvel",
       "role": "hc"
      },
-     "aStops": "Notre Dame 1999-00",
-     "bStops": "Notre Dame 1997-98",
+     "aStops": "Notre Dame 1999-2000",
+     "bStops": "Notre Dame 1997-1998",
      "together": null,
      "stops": null,
      "protege": null,
@@ -21128,8 +20992,8 @@
       "role": "hc"
      },
      "b": {
-      "coach": "Christian Taylor",
-      "role": "oc"
+      "coach": "Aaron Bohl",
+      "role": "dc"
      },
      "aStops": null,
      "bStops": null,
@@ -21147,8 +21011,8 @@
       "role": "hc"
      },
      "b": {
-      "coach": "Christian Taylor",
-      "role": "oc"
+      "coach": "Aaron Bohl",
+      "role": "dc"
      },
      "aStops": null,
      "bStops": null,
@@ -21159,7 +21023,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 37
+   "rank": 56
   },
   "2026-11-07-hawaii-at-utep": {
    "score": 0,
@@ -21172,15 +21036,15 @@
    "rank": null
   },
   "2026-11-07-byu-at-utah": {
-   "score": 43,
-   "tier": "reunion",
+   "score": 37.8,
+   "tier": "family",
    "staffed": true,
-   "connectionCount": 10,
-   "headline": "Morgan Scalley and Kalani Sitake shared Kyle Whittingham's staff at Utah 2009-14.",
+   "connectionCount": 7,
+   "headline": "Morgan Scalley and Kalani Sitake shared Kyle Whittingham's staff at Utah 2009-2014.",
    "trees": [
     {
      "coach": "Kyle Whittingham",
-     "links": 7
+     "links": 4
     },
     {
      "coach": "Gary Andersen",
@@ -21203,9 +21067,9 @@
       "coach": "Kalani Sitake",
       "role": "hc"
      },
-     "aStops": "Utah 2009-25",
-     "bStops": "Utah 2005-14",
-     "together": "Utah 2009-14",
+     "aStops": "Utah 2009-2025",
+     "bStops": "Utah 2005-2014",
+     "together": "Utah 2009-2014",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -21222,9 +21086,9 @@
       "coach": "Aaron Roderick",
       "role": "oc"
      },
-     "aStops": "Utah 2009-25",
-     "bStops": "Utah 2005-17",
-     "together": "Utah 2009-17",
+     "aStops": "Utah 2009-2025",
+     "bStops": "Utah 2005-2011 & 2013-2017",
+     "together": "Utah 2009-2011 & 2013-2017",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -21241,7 +21105,7 @@
       "coach": "Kalani Sitake",
       "role": "hc"
      },
-     "aStops": "Utah State 2011-12, Oregon State 2016-17",
+     "aStops": "Utah State 2011-2012, Oregon State 2016-2017",
      "bStops": "Oregon State 2015",
      "together": null,
      "stops": null,
@@ -21261,7 +21125,7 @@
       "role": "dc"
      },
      "aStops": "Utah State 2025",
-     "bStops": "BYU 2009-15, Virginia 2016-21",
+     "bStops": "BYU 2009-2015, Virginia 2016-2021",
      "together": null,
      "stops": null,
      "protege": null,
@@ -21307,7 +21171,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 14
+   "rank": 15
   },
   "2026-11-07-fresno-state-at-utah-state": {
    "score": 0,
@@ -21359,7 +21223,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 364
+   "rank": 362
   },
   "2026-11-07-rutgers-at-wisconsin": {
    "score": 0,
@@ -21396,7 +21260,7 @@
    "tier": "family",
    "staffed": true,
    "connectionCount": 5,
-   "headline": "Chuck Martin (Miami (OH) HC) coached John Hauser (Ohio HC) at Miami (OH) 2014-21.",
+   "headline": "Chuck Martin (Miami (OH) HC) coached John Hauser (Ohio HC) at Miami (OH) 2014-2021.",
    "trees": [
     {
      "coach": "Brian Kelly",
@@ -21422,7 +21286,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Miami (OH) 2014-21",
+     "stops": "Miami (OH) 2014-2021",
      "protege": "John Hauser",
      "hops": null,
      "weight": 18
@@ -21466,7 +21330,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 36
+   "rank": 29
   },
   "2026-11-11-buffalo-at-ball-state": {
    "score": 0,
@@ -21499,15 +21363,15 @@
    "rank": null
   },
   "2026-11-12-memphis-at-south-florida": {
-   "score": 3,
+   "score": 1.5,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 2,
-   "headline": "Tim Beck and David Weeks both sit inside Bill Snyder's tree.",
+   "connectionCount": 1,
+   "headline": "Tim Beck and Kevin Decker both sit inside Bill Snyder's tree.",
    "trees": [
     {
      "coach": "Bill Snyder",
-     "links": 2
+     "links": 1
     }
    ],
    "connections": [
@@ -21519,7 +21383,7 @@
       "role": "oc"
      },
      "b": {
-      "coach": "David Weeks",
+      "coach": "Kevin Decker",
       "role": "oc"
      },
      "aStops": null,
@@ -21531,7 +21395,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 300
+   "rank": 364
   },
   "2026-11-13-houston-at-colorado": {
    "score": 1.5,
@@ -21566,7 +21430,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 366
+   "rank": 365
   },
   "2026-11-13-florida-state-at-pittsburgh": {
    "score": 0,
@@ -21599,11 +21463,11 @@
    "rank": null
   },
   "2026-11-14-utah-at-arizona": {
-   "score": 33,
+   "score": 30.8,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 9,
-   "headline": "Brent Brennan (Arizona HC) coached Kevin McGiven (Utah OC) at San Jose State 2018-23.",
+   "connectionCount": 8,
+   "headline": "Brent Brennan (Arizona HC) coached Kevin McGiven (Utah OC) at San Jose State 2018-2023.",
    "trees": [
     {
      "coach": "Gary Andersen",
@@ -21611,7 +21475,7 @@
     },
     {
      "coach": "Kyle Whittingham",
-     "links": 2
+     "links": 1
     },
     {
      "coach": "Urban Meyer",
@@ -21645,7 +21509,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "San Jose State 2018-23",
+     "stops": "San Jose State 2018-2023",
      "protege": "Kevin McGiven",
      "hops": null,
      "weight": 12
@@ -21662,7 +21526,7 @@
       "role": "oc"
      },
      "aStops": "Oregon State 2015",
-     "bStops": "Utah State 2011-12, Oregon State 2016-17",
+     "bStops": "Utah State 2011-2012, Oregon State 2016-2017",
      "together": null,
      "stops": null,
      "protege": null,
@@ -21727,18 +21591,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 30
+   "rank": 26
   },
   "2026-11-14-south-carolina-at-arkansas": {
-   "score": 48.3,
+   "score": 42.3,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 21,
+   "connectionCount": 18,
    "headline": "Ryan Silverfield (HC) and Shane Beamer (HC) both worked for George O'Leary.",
    "trees": [
     {
      "coach": "George O'Leary",
-     "links": 10
+     "links": 4
     },
     {
      "coach": "Sam Pittman",
@@ -21746,15 +21610,15 @@
     },
     {
      "coach": "Nick Saban",
-     "links": 3
+     "links": 4
+    },
+    {
+     "coach": "Brian VanGorder",
+     "links": 2
     },
     {
      "coach": "Kirby Smart",
      "links": 2
-    },
-    {
-     "coach": "Brian VanGorder",
-     "links": 1
     },
     {
      "coach": "Todd Graham",
@@ -21773,7 +21637,7 @@
       "coach": "Shane Beamer",
       "role": "hc"
      },
-     "aStops": "UCF 2006-07",
+     "aStops": "UCF 2006-2007",
      "bStops": "Georgia Tech 2000",
      "together": null,
      "stops": null,
@@ -21792,8 +21656,8 @@
       "coach": "Kendal Briles",
       "role": "oc"
      },
-     "aStops": "Arkansas 2023-24",
-     "bStops": "Arkansas 2020-22",
+     "aStops": "Arkansas 2023-2024",
+     "bStops": "Arkansas 2020-2022",
      "together": null,
      "stops": null,
      "protege": null,
@@ -21827,8 +21691,8 @@
       "role": "hc"
      },
      "b": {
-      "coach": "Kendal Briles",
-      "role": "oc"
+      "coach": "Clayton White",
+      "role": "dc"
      },
      "aStops": null,
      "bStops": null,
@@ -21858,18 +21722,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 9
+   "rank": 11
   },
   "2026-11-14-baylor-at-byu": {
-   "score": 24.8,
-   "tier": "family",
+   "score": 19.5,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 9,
+   "connectionCount": 6,
    "headline": "Kalani Sitake (HC) and Dave Aranda (HC) both worked for Gary Andersen.",
    "trees": [
     {
      "coach": "Gary Andersen",
-     "links": 6
+     "links": 3
     },
     {
      "coach": "Kyle Whittingham",
@@ -21893,7 +21757,7 @@
       "role": "hc"
      },
      "aStops": "Oregon State 2015",
-     "bStops": "Utah State 2012, Wisconsin 2013-14",
+     "bStops": "Utah State 2012, Wisconsin 2013-2014",
      "together": null,
      "stops": null,
      "protege": null,
@@ -21904,12 +21768,12 @@
      "type": "shared-ancestor",
      "via": "Gary Andersen",
      "a": {
-      "coach": "Kalani Sitake",
-      "role": "hc"
+      "coach": "Aaron Roderick",
+      "role": "oc"
      },
      "b": {
-      "coach": "Joe Klanderman",
-      "role": "dc"
+      "coach": "Dave Aranda",
+      "role": "hc"
      },
      "aStops": null,
      "bStops": null,
@@ -21958,7 +21822,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 54
+   "rank": 62
   },
   "2026-11-14-oregon-state-at-boise-state": {
    "score": 2.3,
@@ -21993,7 +21857,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 332
+   "rank": 330
   },
   "2026-11-14-east-carolina-at-charlotte": {
    "score": 0,
@@ -22038,7 +21902,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 211
+   "rank": 193
   },
   "2026-11-14-arkansas-state-at-coastal-carolina": {
    "score": 0,
@@ -22105,7 +21969,7 @@
       "role": "oc"
      },
      "aStops": "Auburn 2015",
-     "bStops": "Auburn 2017-18",
+     "bStops": "Auburn 2017-2018",
      "together": null,
      "stops": null,
      "protege": null,
@@ -22151,7 +22015,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 83
+   "rank": 70
   },
   "2026-11-14-north-dakota-state-at-hawaii": {
    "score": 0,
@@ -22193,7 +22057,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 249
+   "rank": 243
   },
   "2026-11-14-purdue-at-iowa": {
    "score": 0,
@@ -22298,22 +22162,22 @@
      "weight": 1.5
     }
    ],
-   "rank": 146
+   "rank": 132
   },
   "2026-11-14-texas-at-lsu": {
-   "score": 67.5,
+   "score": 62.3,
    "tier": "reunion",
    "staffed": true,
-   "connectionCount": 25,
-   "headline": "Lane Kiffin and Steve Sarkisian shared Pete Carroll's staff at USC 2001-06.",
+   "connectionCount": 22,
+   "headline": "Lane Kiffin and Steve Sarkisian shared Pete Carroll's staff at USC 2001-2003 & 2005-2006.",
    "trees": [
     {
      "coach": "Pete Carroll",
-     "links": 13
+     "links": 11
     },
     {
      "coach": "Sonny Lubick",
-     "links": 5
+     "links": 4
     },
     {
      "coach": "Nick Saban",
@@ -22344,9 +22208,9 @@
       "coach": "Steve Sarkisian",
       "role": "hc"
      },
-     "aStops": "USC 2001-06",
-     "bStops": "USC 2001-08",
-     "together": "USC 2001-06",
+     "aStops": "USC 2001-2006",
+     "bStops": "USC 2001-2003 & 2005-2008",
+     "together": "USC 2001-2003 & 2005-2006",
      "stops": null,
      "protege": null,
      "hops": null,
@@ -22402,7 +22266,7 @@
       "role": "dc"
      },
      "aStops": "Alabama 2023",
-     "bStops": "LSU 2001-04",
+     "bStops": "LSU 2001-2004",
      "together": null,
      "stops": null,
      "protege": null,
@@ -22522,7 +22386,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 330
+   "rank": 328
   },
   "2026-11-14-wisconsin-at-maryland": {
    "score": 12.4,
@@ -22607,7 +22471,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 118
+   "rank": 109
   },
   "2026-11-14-duke-at-miami-fl": {
    "score": 2.3,
@@ -22642,7 +22506,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 331
+   "rank": 329
   },
   "2026-11-14-washington-at-michigan-state": {
    "score": 2.3,
@@ -22677,7 +22541,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 334
+   "rank": 332
   },
   "2026-11-14-auburn-at-mississippi-state": {
    "score": 28.5,
@@ -22708,7 +22572,7 @@
       "role": "hc"
      },
      "aStops": "UCF 2019",
-     "bStops": "UCF 2020, Tennessee 2021-22",
+     "bStops": "UCF 2020, Tennessee 2021-2022",
      "together": null,
      "stops": null,
      "protege": null,
@@ -22727,7 +22591,7 @@
       "role": "oc"
      },
      "aStops": "UCF 2019",
-     "bStops": "Tennessee 2021-22",
+     "bStops": "Tennessee 2021-2022",
      "together": null,
      "stops": null,
      "protege": null,
@@ -22746,7 +22610,7 @@
       "role": "dc"
      },
      "aStops": "UCF 2019",
-     "bStops": "Tennessee 2021-25",
+     "bStops": "Tennessee 2021-2025",
      "together": null,
      "stops": null,
      "protege": null,
@@ -22792,7 +22656,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 38
+   "rank": 32
   },
   "2026-11-14-syracuse-at-nc-state": {
    "score": 0,
@@ -22812,15 +22676,15 @@
    "rank": null
   },
   "2026-11-14-louisville-at-north-carolina": {
-   "score": 27.8,
+   "score": 24.8,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 8,
-   "headline": "Bobby Petrino (North Carolina OC) coached Jeff Brohm (Louisville HC) at Louisville 2003-06, Western Kentucky 2013.",
+   "connectionCount": 6,
+   "headline": "Bobby Petrino (North Carolina OC) coached Jeff Brohm (Louisville HC) at Louisville 2003-2006, Western Kentucky 2013.",
    "trees": [
     {
      "coach": "John L. Smith",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "Steve Spurrier",
@@ -22846,7 +22710,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Louisville 2003-06, Western Kentucky 2013",
+     "stops": "Louisville 2003-2006, Western Kentucky 2013",
      "protege": "Jeff Brohm",
      "hops": null,
      "weight": 12
@@ -22862,8 +22726,8 @@
       "coach": "Jeff Brohm",
       "role": "hc"
      },
-     "aStops": "Utah State 1995-97, Louisville 1998",
-     "bStops": "Louisville 2000-01",
+     "aStops": "Utah State 1995-1997, Louisville 1998",
+     "bStops": "Louisville 2000-2001",
      "together": null,
      "stops": null,
      "protege": null,
@@ -22963,7 +22827,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 367
+   "rank": 366
   },
   "2026-11-14-boston-college-at-notre-dame": {
    "score": 0,
@@ -22976,15 +22840,15 @@
    "rank": null
   },
   "2026-11-14-northwestern-at-ohio-state": {
-   "score": 9.8,
+   "score": 8.3,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 6,
+   "connectionCount": 5,
    "headline": "Ryan Day and Tim McGarigle both sit inside Urban Meyer's tree.",
    "trees": [
     {
      "coach": "Urban Meyer",
-     "links": 5
+     "links": 4
     },
     {
      "coach": "John Cooper",
@@ -23031,7 +22895,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 155
+   "rank": 163
   },
   "2026-11-14-ole-miss-at-oklahoma": {
    "score": 1.5,
@@ -23066,7 +22930,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 368
+   "rank": 367
   },
   "2026-11-14-texas-tech-at-oklahoma-state": {
    "score": 2.3,
@@ -23101,7 +22965,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 333
+   "rank": 331
   },
   "2026-11-14-michigan-at-oregon": {
    "score": 5.3,
@@ -23136,7 +23000,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 248
+   "rank": 242
   },
   "2026-11-14-minnesota-at-penn-state": {
    "score": 0,
@@ -23159,15 +23023,15 @@
    "rank": null
   },
   "2026-11-14-nebraska-at-rutgers": {
-   "score": 11.6,
+   "score": 9.4,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 4,
    "headline": "Greg Schiano and Matt Rhule both sit inside Joe Paterno's tree.",
    "trees": [
     {
      "coach": "Joe Paterno",
-     "links": 4
+     "links": 3
     },
     {
      "coach": "Mike Price",
@@ -23214,7 +23078,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 131
+   "rank": 148
   },
   "2026-11-14-wake-forest-at-smu": {
    "score": 12.3,
@@ -23318,18 +23182,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 122
+   "rank": 112
   },
   "2026-11-14-utah-state-at-san-diego-state": {
-   "score": 11.3,
+   "score": 8.3,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 2,
    "headline": "Sean Lewis (HC) and Robert Anae (OC) both worked for Dino Babers.",
    "trees": [
     {
      "coach": "Dino Babers",
-     "links": 3
+     "links": 1
     },
     {
      "coach": "Karl Dorrell",
@@ -23348,7 +23212,7 @@
       "coach": "Robert Anae",
       "role": "oc"
      },
-     "aStops": "Bowling Green 2014-15, Syracuse 2016-17",
+     "aStops": "Bowling Green 2014-2015, Syracuse 2016-2017",
      "bStops": "Syracuse 2022",
      "together": null,
      "stops": null,
@@ -23374,28 +23238,9 @@
      "protege": null,
      "hops": 4,
      "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Dino Babers",
-     "a": {
-      "coach": "Matt Johnson",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Robert Anae",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 1.5
     }
    ],
-   "rank": 138
+   "rank": 166
   },
   "2026-11-14-troy-at-south-alabama": {
    "score": 3.8,
@@ -23453,18 +23298,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 275
+   "rank": 271
   },
   "2026-11-14-kansas-state-at-tcu": {
-   "score": 10.9,
-   "tier": "cousins",
+   "score": 6.4,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 3,
    "headline": "Sonny Dykes and Collin Klein both sit inside Bill Snyder's tree.",
    "trees": [
     {
      "coach": "Bill Snyder",
-     "links": 3
+     "links": 1
     },
     {
      "coach": "Butch Davis",
@@ -23534,7 +23379,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 143
+   "rank": 200
   },
   "2026-11-14-uab-at-temple": {
    "score": 1.5,
@@ -23569,7 +23414,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 369
+   "rank": 368
   },
   "2026-11-14-tennessee-at-texas-a-m": {
    "score": 12.8,
@@ -23658,7 +23503,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 116
+   "rank": 105
   },
   "2026-11-14-fresno-state-at-texas-state": {
    "score": 0,
@@ -23713,7 +23558,7 @@
       "role": "oc"
      },
      "aStops": "Wyoming 2009",
-     "bStops": "Wyoming 2009-10",
+     "bStops": "Wyoming 2009-2010",
      "together": "Wyoming 2009",
      "stops": null,
      "protege": null,
@@ -23759,7 +23604,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 161
+   "rank": 146
   },
   "2026-11-14-wyoming-at-utep": {
    "score": 0,
@@ -23827,7 +23672,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 160
+   "rank": 144
   },
   "2026-11-14-alabama-at-vanderbilt": {
    "score": 8.3,
@@ -23908,7 +23753,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 177
+   "rank": 162
   },
   "2026-11-14-california-at-virginia": {
    "score": 0,
@@ -23961,15 +23806,15 @@
    "rank": null
   },
   "2026-11-17-ball-state-at-ohio": {
-   "score": 18.8,
+   "score": 11.3,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 6,
+   "connectionCount": 2,
    "headline": "John Hauser (HC) and Mike Uremovich (HC) both worked for Joe Novak.",
    "trees": [
     {
      "coach": "Joe Novak",
-     "links": 6
+     "links": 2
     }
    ],
    "connections": [
@@ -23984,8 +23829,8 @@
       "coach": "Mike Uremovich",
       "role": "hc"
      },
-     "aStops": "Northern Illinois 2004-07",
-     "bStops": "Northern Illinois 2001-03",
+     "aStops": "Northern Illinois 2004-2007",
+     "bStops": "Northern Illinois 2001-2003",
      "together": null,
      "stops": null,
      "protege": null,
@@ -24012,7 +23857,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 79
+   "rank": 126
   },
   "2026-11-18-akron-at-massachusetts": {
    "score": 0,
@@ -24123,7 +23968,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 92
+   "rank": 80
   },
   "2026-11-20-oregon-at-michigan-state": {
    "score": 4,
@@ -24149,7 +23994,7 @@
       "coach": "Drew Mehringer",
       "role": "oc"
      },
-     "aStops": "South Florida 2013-14",
+     "aStops": "South Florida 2013-2014",
      "bStops": "Florida Atlantic 2020",
      "together": null,
      "stops": null,
@@ -24158,7 +24003,7 @@
      "weight": 4
     }
    ],
-   "rank": 263
+   "rank": 259
   },
   "2026-11-20-bowling-green-at-toledo": {
    "score": 0,
@@ -24203,7 +24048,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 186
+   "rank": 171
   },
   "2026-11-20-new-mexico-at-wyoming": {
    "score": 4.5,
@@ -24261,7 +24106,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 258
+   "rank": 254
   },
   "2026-11-21-chattanooga-at-alabama": {
    "score": 0,
@@ -24281,15 +24126,15 @@
    "rank": null
   },
   "2026-11-21-oklahoma-state-at-arizona-state": {
-   "score": 12,
+   "score": 10.5,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 3,
+   "connectionCount": 2,
    "headline": "Brian Ward and Eric Morris shared Jake Dickert's staff at Washington State 2022.",
    "trees": [
     {
      "coach": "Jake Dickert",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -24320,8 +24165,8 @@
       "role": "dc"
      },
      "b": {
-      "coach": "Sean Brophy",
-      "role": "oc"
+      "coach": "Skyler Cassity",
+      "role": "dc"
      },
      "aStops": null,
      "bStops": null,
@@ -24332,7 +24177,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 128
+   "rank": 137
   },
   "2026-11-21-east-carolina-at-army": {
    "score": 0,
@@ -24352,19 +24197,19 @@
    "rank": null
   },
   "2026-11-21-texas-tech-at-baylor": {
-   "score": 33.8,
+   "score": 29.3,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 7,
+   "connectionCount": 5,
    "headline": "Dave Aranda (Baylor HC) coached Joey McGuire (Texas Tech HC) at Baylor 2020.",
    "trees": [
     {
      "coach": "Les Miles",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "Mike Leach",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -24426,7 +24271,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 28
+   "rank": 30
   },
   "2026-11-21-san-diego-state-at-boise-state": {
    "score": 0,
@@ -24517,7 +24362,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 139
+   "rank": 125
   },
   "2026-11-21-stanford-at-california": {
    "score": 2.3,
@@ -24552,7 +24397,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 337
+   "rank": 335
   },
   "2026-11-21-colorado-at-cincinnati": {
    "score": 1.5,
@@ -24587,7 +24432,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 371
+   "rank": 370
   },
   "2026-11-21-vanderbilt-at-florida": {
    "score": 14.3,
@@ -24617,7 +24462,7 @@
       "coach": "Clark Lea",
       "role": "hc"
      },
-     "aStops": "Wake Forest 2014-16",
+     "aStops": "Wake Forest 2014-2016",
      "bStops": "Bowling Green 2012, Wake Forest 2016",
      "together": "Wake Forest 2016",
      "stops": null,
@@ -24664,7 +24509,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 105
+   "rank": 97
   },
   "2026-11-21-south-florida-at-florida-atlantic": {
    "score": 0,
@@ -24694,19 +24539,19 @@
    "rank": null
   },
   "2026-11-21-wake-forest-at-georgia-tech": {
-   "score": 20.3,
-   "tier": "family",
+   "score": 14.3,
+   "tier": "cousins",
    "staffed": true,
-   "connectionCount": 12,
+   "connectionCount": 8,
    "headline": "Brent Key and Scottie Hazelton both sit inside George O'Leary's tree.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 8
+     "links": 6
     },
     {
      "coach": "George O'Leary",
-     "links": 4
+     "links": 2
     }
    ],
    "connections": [
@@ -24749,14 +24594,14 @@
      "weight": 2.3
     }
    ],
-   "rank": 71
+   "rank": 95
   },
   "2026-11-21-iowa-at-illinois": {
    "score": 18,
    "tier": "cousins",
    "staffed": true,
    "connectionCount": 1,
-   "headline": "Kirk Ferentz (Iowa HC) coached Bret Bielema (Illinois HC) at Iowa 1999-01.",
+   "headline": "Kirk Ferentz (Iowa HC) coached Bret Bielema (Illinois HC) at Iowa 1999-2001.",
    "trees": [],
    "connections": [
     {
@@ -24773,13 +24618,13 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Iowa 1999-01",
+     "stops": "Iowa 1999-2001",
      "protege": "Bret Bielema",
      "hops": null,
      "weight": 18
     }
    ],
-   "rank": 85
+   "rank": 72
   },
   "2026-11-21-byu-at-kansas": {
    "score": 1.5,
@@ -24814,7 +24659,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 370
+   "rank": 369
   },
   "2026-11-21-arizona-at-kansas-state": {
    "score": 0,
@@ -24866,7 +24711,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 338
+   "rank": 336
   },
   "2026-11-21-coastal-carolina-at-louisiana": {
    "score": 0,
@@ -24921,7 +24766,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 187
+   "rank": 172
   },
   "2026-11-21-georgia-state-at-marshall": {
    "score": 2.3,
@@ -24956,7 +24801,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 335
+   "rank": 333
   },
   "2026-11-21-virginia-tech-at-miami-fl": {
    "score": 0,
@@ -25011,7 +24856,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 372
+   "rank": 371
   },
   "2026-11-21-tennessee-tech-at-mississippi-state": {
    "score": 0,
@@ -25099,7 +24944,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 114
+   "rank": 104
   },
   "2026-11-21-memphis-at-navy": {
    "score": 0,
@@ -25112,19 +24957,19 @@
    "rank": null
   },
   "2026-11-21-ohio-state-at-nebraska": {
-   "score": 48,
-   "tier": "reunion",
+   "score": 33.8,
+   "tier": "family",
    "staffed": true,
-   "connectionCount": 19,
+   "connectionCount": 11,
    "headline": "Matt Rhule and Ryan Day shared Al Golden's staff at Temple 2006.",
    "trees": [
     {
      "coach": "Al Golden",
-     "links": 15
+     "links": 8
     },
     {
      "coach": "Tom O'Brien",
-     "links": 4
+     "links": 3
     }
    ],
    "connections": [
@@ -25139,7 +24984,7 @@
       "coach": "Ryan Day",
       "role": "hc"
      },
-     "aStops": "Temple 2006-10",
+     "aStops": "Temple 2006-2010",
      "bStops": "Temple 2006",
      "together": "Temple 2006",
      "stops": null,
@@ -25155,7 +25000,7 @@
       "role": "hc"
      },
      "b": {
-      "coach": "Arthur Smith",
+      "coach": "Keenan Bailey",
       "role": "oc"
      },
      "aStops": null,
@@ -25174,7 +25019,7 @@
       "role": "hc"
      },
      "b": {
-      "coach": "Arthur Smith",
+      "coach": "Keenan Bailey",
       "role": "oc"
      },
      "aStops": null,
@@ -25186,7 +25031,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 10
+   "rank": 20
   },
   "2026-11-21-hawaii-at-nevada": {
    "score": 3.4,
@@ -25221,7 +25066,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 286
+   "rank": 283
   },
   "2026-11-21-northern-illinois-at-north-dakota-state": {
    "score": 0,
@@ -25286,7 +25131,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 251
+   "rank": 245
   },
   "2026-11-21-texas-a-m-at-oklahoma": {
    "score": 0,
@@ -25357,8 +25202,8 @@
       "coach": "Jeff Grimes",
       "role": "oc"
      },
-     "aStops": "LSU 2005-08",
-     "bStops": "LSU 2014-16",
+     "aStops": "LSU 2005-2008",
+     "bStops": "LSU 2014-2016",
      "together": null,
      "stops": null,
      "protege": null,
@@ -25404,7 +25249,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 206
+   "rank": 187
   },
   "2026-11-21-unlv-at-san-jose-state": {
    "score": 5.3,
@@ -25439,7 +25284,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 252
+   "rank": 246
   },
   "2026-11-21-georgia-at-south-carolina": {
    "score": 45,
@@ -25547,7 +25392,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 13
+   "rank": 8
   },
   "2026-11-21-south-alabama-at-southern-mississippi": {
    "score": 2.3,
@@ -25582,7 +25427,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 336
+   "rank": 334
   },
   "2026-11-21-utah-at-tcu": {
    "score": 0,
@@ -25687,18 +25532,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 164
+   "rank": 150
   },
   "2026-11-21-washington-state-at-texas-state": {
-   "score": 17.3,
+   "score": 12.8,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 7,
+   "connectionCount": 5,
    "headline": "G. J. Kinne and Kirby Moore both sit inside Gene Chizik's tree.",
    "trees": [
     {
      "coach": "Gus Malzahn",
-     "links": 5
+     "links": 3
     },
     {
      "coach": "Gene Chizik",
@@ -25768,7 +25613,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 89
+   "rank": 107
   },
   "2026-11-21-georgia-southern-at-troy": {
    "score": 3.4,
@@ -25803,18 +25648,18 @@
      "weight": 3.4
     }
    ],
-   "rank": 285
+   "rank": 282
   },
   "2026-11-21-north-texas-at-tulane": {
-   "score": 16.5,
+   "score": 15,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 10,
+   "connectionCount": 9,
    "headline": "Tayler Polk and Neal Brown both sit inside Mark Stoops's tree.",
    "trees": [
     {
      "coach": "Mark Stoops",
-     "links": 3
+     "links": 2
     },
     {
      "coach": "R. C. Slocum",
@@ -25892,7 +25737,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 93
+   "rank": 91
   },
   "2026-11-21-charlotte-at-tulsa": {
    "score": 0,
@@ -25960,7 +25805,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 259
+   "rank": 255
   },
   "2026-11-21-old-dominion-at-uconn": {
    "score": 0,
@@ -26048,7 +25893,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 170
+   "rank": 158
   },
   "2026-11-21-north-carolina-at-virginia": {
    "score": 0,
@@ -26116,7 +25961,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 276
+   "rank": 272
   },
   "2026-11-21-houston-at-west-virginia": {
    "score": 5.3,
@@ -26174,7 +26019,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 250
+   "rank": 244
   },
   "2026-11-24-kent-state-at-eastern-michigan": {
    "score": 0,
@@ -26210,8 +26055,8 @@
       "coach": "Chuck Martin",
       "role": "hc"
      },
-     "aStops": "Notre Dame 2019-21",
-     "bStops": "Notre Dame 2010-13",
+     "aStops": "Notre Dame 2019-2021",
+     "bStops": "Notre Dame 2010-2013",
      "together": null,
      "stops": null,
      "protege": null,
@@ -26238,18 +26083,18 @@
      "weight": 2.3
     }
    ],
-   "rank": 140
+   "rank": 127
   },
   "2026-11-26-tcu-at-texas-tech": {
-   "score": 7.9,
+   "score": 5.6,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 3,
+   "connectionCount": 2,
    "headline": "Joey McGuire and Sonny Dykes both sit inside Mike Leach's tree.",
    "trees": [
     {
      "coach": "Mike Leach",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -26273,7 +26118,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 188
+   "rank": 228
   },
   "2026-11-27-buffalo-at-akron": {
    "score": 0,
@@ -26341,7 +26186,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 225
+   "rank": 211
   },
   "2026-11-27-florida-at-florida-state": {
    "score": 11.3,
@@ -26434,7 +26279,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 135
+   "rank": 122
   },
   "2026-11-27-nebraska-at-iowa": {
    "score": 0,
@@ -26467,15 +26312,15 @@
    "rank": null
   },
   "2026-11-27-mississippi-state-at-ole-miss": {
-   "score": 25.5,
+   "score": 21,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 3,
    "headline": "Pete Golding (HC) and Jeff Lebby (HC) both worked for Lane Kiffin.",
    "trees": [
     {
      "coach": "Lane Kiffin",
-     "links": 5
+     "links": 3
     }
    ],
    "connections": [
@@ -26490,8 +26335,8 @@
       "coach": "Jeff Lebby",
       "role": "hc"
      },
-     "aStops": "Ole Miss 2023-25",
-     "bStops": "Ole Miss 2020-21",
+     "aStops": "Ole Miss 2023-2025",
+     "bStops": "Ole Miss 2020-2021",
      "together": null,
      "stops": null,
      "protege": null,
@@ -26509,8 +26354,8 @@
       "coach": "Jeff Lebby",
       "role": "hc"
      },
-     "aStops": "Ole Miss 2022-23",
-     "bStops": "Ole Miss 2020-21",
+     "aStops": "Ole Miss 2022-2023",
+     "bStops": "Ole Miss 2020-2021",
      "together": null,
      "stops": null,
      "protege": null,
@@ -26528,35 +26373,16 @@
       "coach": "Jeff Lebby",
       "role": "hc"
      },
-     "aStops": "Ole Miss 2024-25",
-     "bStops": "Ole Miss 2020-21",
+     "aStops": "Ole Miss 2024-2025",
+     "bStops": "Ole Miss 2020-2021",
      "together": null,
      "stops": null,
      "protege": null,
      "hops": null,
      "weight": 6
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Lane Kiffin",
-     "a": {
-      "coach": "Cody Woodiel",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Jeff Lebby",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 2.3
     }
    ],
-   "rank": 51
+   "rank": 57
   },
   "2026-11-27-north-dakota-state-at-san-jose-state": {
    "score": 0,
@@ -26621,7 +26447,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 260
+   "rank": 256
   },
   "2026-11-27-texas-at-texas-a-m": {
    "score": 18.3,
@@ -26659,8 +26485,8 @@
       "coach": "Will Muschamp",
       "role": "dc"
      },
-     "aStops": "Alabama 2019-23",
-     "bStops": "LSU 2001-04",
+     "aStops": "Alabama 2019-2023",
+     "bStops": "LSU 2001-2004",
      "together": null,
      "stops": null,
      "protege": null,
@@ -26725,7 +26551,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 82
+   "rank": 69
   },
   "2026-11-27-west-virginia-at-utah": {
    "score": 0,
@@ -26770,7 +26596,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 373
+   "rank": 372
   },
   "2026-11-28-auburn-at-alabama": {
    "score": 6.8,
@@ -26855,7 +26681,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 212
+   "rank": 194
   },
   "2026-11-28-arizona-state-at-arizona": {
    "score": 13.5,
@@ -26886,7 +26712,7 @@
       "role": "oc"
      },
      "aStops": "Arizona 2000, San Jose State 2009",
-     "bStops": "San Jose State 2005-08",
+     "bStops": "San Jose State 2005-2006 & 2008",
      "together": null,
      "stops": null,
      "protege": null,
@@ -26932,13 +26758,13 @@
      "weight": 2.3
     }
    ],
-   "rank": 112
+   "rank": 102
   },
   "2026-11-28-lsu-at-arkansas": {
-   "score": 11.5,
+   "score": 10,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 6,
+   "connectionCount": 5,
    "headline": "Ron Roberts (DC) and Chris Kiffin (DC) both worked for Hugh Freeze.",
    "trees": [
     {
@@ -26951,10 +26777,6 @@
     },
     {
      "coach": "Dabo Swinney",
-     "links": 1
-    },
-    {
-     "coach": "Ed Orgeron",
      "links": 1
     },
     {
@@ -26975,7 +26797,7 @@
       "role": "dc"
      },
      "aStops": "Auburn 2023",
-     "bStops": "Ole Miss 2012-16",
+     "bStops": "Ole Miss 2012-2016",
      "together": null,
      "stops": null,
      "protege": null,
@@ -27003,25 +26825,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Ed Orgeron",
-     "a": {
-      "coach": "Ron Roberts",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Blake Baker",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Tim Cramsey",
@@ -27038,20 +26841,39 @@
      "protege": null,
      "hops": 3,
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy Bowden",
+     "a": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Charlie Weis Jr.",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "weight": 1.5
     }
    ],
-   "rank": 133
+   "rank": 139
   },
   "2026-11-28-troy-at-arkansas-state": {
-   "score": 7.9,
+   "score": 5.6,
    "tier": "thread",
    "staffed": true,
-   "connectionCount": 3,
+   "connectionCount": 2,
    "headline": "Butch Jones and Gerad Parker both sit inside Brian Kelly's tree.",
    "trees": [
     {
      "coach": "Brian Kelly",
-     "links": 3
+     "links": 2
     }
    ],
    "connections": [
@@ -27075,7 +26897,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 189
+   "rank": 231
   },
   "2026-11-28-cincinnati-at-byu": {
    "score": 0,
@@ -27102,7 +26924,7 @@
    "tier": "thread",
    "staffed": true,
    "connectionCount": 1,
-   "headline": "Greg Nosal and Max Warner shared Scot Loeffler's staff at Bowling Green 2019-23.",
+   "headline": "Greg Nosal and Max Warner shared Scot Loeffler's staff at Bowling Green 2019-2023.",
    "trees": [
     {
      "coach": "Scot Loeffler",
@@ -27121,27 +26943,27 @@
       "coach": "Max Warner",
       "role": "oc"
      },
-     "aStops": "Bowling Green 2019-23",
-     "bStops": "Bowling Green 2019-23",
-     "together": "Bowling Green 2019-23",
+     "aStops": "Bowling Green 2019-2023",
+     "bStops": "Bowling Green 2019-2023",
+     "together": "Bowling Green 2019-2023",
      "stops": null,
      "protege": null,
      "hops": null,
      "weight": 6
     }
    ],
-   "rank": 230
+   "rank": 216
   },
   "2026-11-28-pittsburgh-at-california": {
-   "score": 12.4,
-   "tier": "cousins",
+   "score": 3.4,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 1,
    "headline": "Tosh Lupoi and Pat Narduzzi both sit inside Nick Saban's tree.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 5
+     "links": 1
     }
    ],
    "connections": [
@@ -27165,7 +26987,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 120
+   "rank": 285
   },
   "2026-11-28-navy-at-charlotte": {
    "score": 7,
@@ -27195,7 +27017,7 @@
       "coach": "Ricky Brown",
       "role": "dc"
      },
-     "aStops": "Boston College 2013-15",
+     "aStops": "Boston College 2013-2015",
      "bStops": "Boston College 2016",
      "together": null,
      "stops": null,
@@ -27242,7 +27064,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 207
+   "rank": 188
   },
   "2026-11-28-south-carolina-at-clemson": {
    "score": 12.3,
@@ -27354,7 +27176,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 121
+   "rank": 111
   },
   "2026-11-28-ucf-at-colorado": {
    "score": 8.3,
@@ -27435,7 +27257,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 179
+   "rank": 164
   },
   "2026-11-28-tba-at-colorado-state": {
    "score": 0,
@@ -27459,15 +27281,15 @@
    "rank": null
   },
   "2026-11-28-georgia-tech-at-georgia": {
-   "score": 36,
+   "score": 30.8,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 16,
+   "connectionCount": 13,
    "headline": "Kirby Smart (HC) and Brent Key (HC) both worked for Nick Saban.",
    "trees": [
     {
      "coach": "Nick Saban",
-     "links": 12
+     "links": 9
     },
     {
      "coach": "Mark Richt",
@@ -27486,8 +27308,8 @@
       "coach": "Brent Key",
       "role": "hc"
      },
-     "aStops": "LSU 2004, Alabama 2007-15",
-     "bStops": "Alabama 2016-18",
+     "aStops": "LSU 2004, Alabama 2007-2015",
+     "bStops": "Alabama 2016-2018",
      "together": null,
      "stops": null,
      "protege": null,
@@ -27533,7 +27355,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 25
+   "rank": 24
   },
   "2026-11-28-louisiana-tech-at-georgia-southern": {
    "score": 0,
@@ -27578,7 +27400,7 @@
      "weight": 3.4
     }
    ],
-   "rank": 287
+   "rank": 284
   },
   "2026-11-28-sacramento-state-at-hawaii": {
    "score": 0,
@@ -27630,18 +27452,18 @@
      "weight": 1.5
     }
    ],
-   "rank": 301
+   "rank": 298
   },
   "2026-11-28-kansas-state-at-iowa-state": {
-   "score": 10.1,
-   "tier": "cousins",
+   "score": 5.6,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 4,
+   "connectionCount": 2,
    "headline": "Jimmy Rogers and Collin Klein both sit inside Bill Snyder's tree.",
    "trees": [
     {
      "coach": "Bill Snyder",
-     "links": 3
+     "links": 1
     },
     {
      "coach": "Frank Solich",
@@ -27688,7 +27510,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 152
+   "rank": 229
   },
   "2026-11-28-coastal-carolina-at-james-madison": {
    "score": 0,
@@ -27730,7 +27552,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 375
+   "rank": 374
   },
   "2026-11-28-marshall-at-louisiana-monroe": {
    "score": 0,
@@ -27798,7 +27620,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 239
+   "rank": 230
   },
   "2026-11-28-temple-at-memphis": {
    "score": 0,
@@ -27843,7 +27665,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 374
+   "rank": 373
   },
   "2026-11-28-oklahoma-at-missouri": {
    "score": 10.5,
@@ -27928,7 +27750,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 147
+   "rank": 133
   },
   "2026-11-28-liberty-at-missouri-state": {
    "score": 0,
@@ -27945,19 +27767,23 @@
    "rank": null
   },
   "2026-11-28-uab-at-north-texas": {
-   "score": 8.3,
-   "tier": "cousins",
+   "score": 6.8,
+   "tier": "thread",
    "staffed": true,
-   "connectionCount": 5,
+   "connectionCount": 4,
    "headline": "Neal Brown and Todd Grantham both sit inside Tommy Tuberville's tree.",
    "trees": [
     {
      "coach": "Tommy Tuberville",
-     "links": 3
+     "links": 1
     },
     {
      "coach": "Les Miles",
      "links": 2
+    },
+    {
+     "coach": "Bob Simmons",
+     "links": 1
     }
    ],
    "connections": [
@@ -27982,6 +27808,25 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Bob Simmons",
+     "a": {
+      "coach": "Bradley Dale Peveto",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Todd Grantham",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Les Miles",
      "a": {
       "coach": "Bradley Dale Peveto",
@@ -28000,7 +27845,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 178
+   "rank": 196
   },
   "2026-11-28-utep-at-northern-illinois": {
    "score": 9.4,
@@ -28085,7 +27930,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 162
+   "rank": 149
   },
   "2026-11-28-illinois-at-northwestern": {
    "score": 0,
@@ -28098,15 +27943,15 @@
    "rank": null
   },
   "2026-11-28-michigan-at-ohio-state": {
-   "score": 34.5,
+   "score": 29.3,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 15,
+   "connectionCount": 12,
    "headline": "Ryan Day (HC) and Kyle Whittingham (HC) both worked for Urban Meyer.",
    "trees": [
     {
      "coach": "Urban Meyer",
-     "links": 15
+     "links": 12
     }
    ],
    "connections": [
@@ -28121,8 +27966,8 @@
       "coach": "Kyle Whittingham",
       "role": "hc"
      },
-     "aStops": "Florida 2005, Ohio State 2017-18",
-     "bStops": "Utah 2003-04",
+     "aStops": "Florida 2005, Ohio State 2017-2018",
+     "bStops": "Utah 2003-2004",
      "together": null,
      "stops": null,
      "protege": null,
@@ -28149,7 +27994,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 26
+   "rank": 28
   },
   "2026-11-28-kansas-at-oklahoma-state": {
    "score": 3.8,
@@ -28207,7 +28052,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 277
+   "rank": 273
   },
   "2026-11-28-southern-mississippi-at-old-dominion": {
    "score": 0,
@@ -28298,7 +28143,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 226
+   "rank": 212
   },
   "2026-11-28-boise-state-at-pac-12-opponent-tba": {
    "score": 0,
@@ -28343,7 +28188,7 @@
    "tier": "thread",
    "staffed": true,
    "connectionCount": 1,
-   "headline": "Kirk Ciarrocca and Joe Rossi shared P. J. Fleck's staff at Minnesota 2018-22.",
+   "headline": "Kirk Ciarrocca and Joe Rossi shared P. J. Fleck's staff at Minnesota 2018-2019 & 2022.",
    "trees": [
     {
      "coach": "P. J. Fleck",
@@ -28362,16 +28207,16 @@
       "coach": "Joe Rossi",
       "role": "dc"
      },
-     "aStops": "Western Michigan 2013-16, Minnesota 2017-22",
-     "bStops": "Minnesota 2018-23",
-     "together": "Minnesota 2018-22",
+     "aStops": "Western Michigan 2013-2016, Minnesota 2017-2019 & 2022",
+     "bStops": "Minnesota 2018-2023",
+     "together": "Minnesota 2018-2019 & 2022",
      "stops": null,
      "protege": null,
      "hops": null,
      "weight": 6
     }
    ],
-   "rank": 231
+   "rank": 217
   },
   "2026-11-28-tulane-at-south-florida": {
    "score": 0,
@@ -28394,10 +28239,10 @@
    "rank": null
   },
   "2026-11-28-notre-dame-at-syracuse": {
-   "score": 27.9,
+   "score": 23.4,
    "tier": "family",
    "staffed": true,
-   "connectionCount": 11,
+   "connectionCount": 9,
    "headline": "John Scott Jr. (DC) and Aaron Henry (DC) both worked for Bret Bielema.",
    "trees": [
     {
@@ -28406,7 +28251,7 @@
     },
     {
      "coach": "Greg Schiano",
-     "links": 5
+     "links": 3
     },
     {
      "coach": "Urban Meyer",
@@ -28434,7 +28279,7 @@
       "role": "dc"
      },
      "aStops": "Arkansas 2017",
-     "bStops": "Illinois 2021-25",
+     "bStops": "Illinois 2021-2025",
      "together": null,
      "stops": null,
      "protege": null,
@@ -28453,7 +28298,7 @@
       "role": "dc"
      },
      "aStops": "Arkansas 2017",
-     "bStops": "Wisconsin 2009-12, Arkansas 2013",
+     "bStops": "Wisconsin 2009-2012, Arkansas 2013",
      "together": null,
      "stops": null,
      "protege": null,
@@ -28518,7 +28363,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 39
+   "rank": 45
   },
   "2026-11-28-usc-at-ucla": {
    "score": 0,
@@ -28558,15 +28403,15 @@
    "rank": null
   },
   "2026-11-28-tennessee-at-vanderbilt": {
-   "score": 12.8,
+   "score": 11.3,
    "tier": "cousins",
    "staffed": true,
-   "connectionCount": 7,
+   "connectionCount": 6,
    "headline": "Tim Beck and Josh Heupel both sit inside Bill Snyder's tree.",
    "trees": [
     {
      "coach": "Bob Stoops",
-     "links": 4
+     "links": 2
     },
     {
      "coach": "Bill Snyder",
@@ -28574,6 +28419,10 @@
     },
     {
      "coach": "Phillip Fulmer",
+     "links": 1
+    },
+    {
+     "coach": "Les Miles",
      "links": 1
     },
     {
@@ -28640,7 +28489,7 @@
      "weight": 2.3
     }
    ],
-   "rank": 117
+   "rank": 123
   },
   "2026-11-28-virginia-at-virginia-tech": {
    "score": 0,
@@ -28708,7 +28557,7 @@
      "weight": 1.5
     }
    ],
-   "rank": 213
+   "rank": 195
   },
   "2026-11-28-pac-12-opponent-tba-at-washington-state": {
    "score": 0,
@@ -28807,14 +28656,14 @@
      "weight": 2.3
     }
    ],
-   "rank": 68
+   "rank": 53
   }
  },
  "patriarchs": [
   {
    "coach": "Nick Saban",
    "gameCount": 55,
-   "linkCount": 195,
+   "linkCount": 137,
    "gameIds": [
     "2026-09-05-north-texas-at-indiana",
     "2026-09-05-texas-state-at-texas",
@@ -28838,7 +28687,6 @@
     "2026-10-01-north-texas-at-tulsa",
     "2026-10-03-arkansas-at-texas-a-m",
     "2026-10-03-kentucky-at-south-carolina",
-    "2026-10-03-old-dominion-at-georgia-state",
     "2026-10-10-georgia-at-alabama",
     "2026-10-10-lsu-at-kentucky",
     "2026-10-10-south-carolina-at-florida",
@@ -28856,6 +28704,7 @@
     "2026-11-07-georgia-at-ole-miss",
     "2026-11-07-south-alabama-at-louisiana",
     "2026-11-07-texas-a-m-at-south-carolina",
+    "2026-11-07-tulsa-at-tulane",
     "2026-11-14-florida-at-kentucky",
     "2026-11-14-south-carolina-at-arkansas",
     "2026-11-14-texas-at-lsu",
@@ -28875,8 +28724,8 @@
   },
   {
    "coach": "Todd Graham",
-   "gameCount": 43,
-   "linkCount": 101,
+   "gameCount": 44,
+   "linkCount": 100,
    "gameIds": [
     "2026-09-05-tulane-at-duke",
     "2026-09-07-smu-at-florida-state",
@@ -28904,6 +28753,7 @@
     "2026-10-24-california-at-smu",
     "2026-10-24-houston-at-utah",
     "2026-10-24-oregon-at-illinois",
+    "2026-10-24-tennessee-at-south-carolina",
     "2026-10-24-utsa-at-tulane",
     "2026-10-31-clemson-at-florida-state",
     "2026-10-31-louisiana-tech-at-south-alabama",
@@ -28926,7 +28776,7 @@
   {
    "coach": "Bob Stoops",
    "gameCount": 30,
-   "linkCount": 68,
+   "linkCount": 61,
    "gameIds": [
     "2026-09-05-baylor-at-auburn",
     "2026-09-05-marshall-at-penn-state",
@@ -28999,7 +28849,7 @@
   {
    "coach": "Urban Meyer",
    "gameCount": 26,
-   "linkCount": 73,
+   "linkCount": 67,
    "gameIds": [
     "2026-09-05-baylor-at-auburn",
     "2026-09-19-ohio-at-south-alabama",
@@ -29032,7 +28882,7 @@
   {
    "coach": "Mike Leach",
    "gameCount": 26,
-   "linkCount": 66,
+   "linkCount": 46,
    "gameIds": [
     "2026-09-05-marshall-at-penn-state",
     "2026-09-05-oklahoma-state-at-tulsa",
@@ -29064,8 +28914,8 @@
   },
   {
    "coach": "Les Miles",
-   "gameCount": 21,
-   "linkCount": 30,
+   "gameCount": 22,
+   "linkCount": 28,
    "gameIds": [
     "2026-09-05-baylor-at-auburn",
     "2026-09-12-arizona-state-at-texas-a-m",
@@ -29087,13 +28937,14 @@
     "2026-11-21-texas-tech-at-baylor",
     "2026-11-21-wisconsin-at-purdue",
     "2026-11-28-auburn-at-alabama",
+    "2026-11-28-tennessee-at-vanderbilt",
     "2026-11-28-uab-at-north-texas"
    ]
   },
   {
    "coach": "Tommy Tuberville",
    "gameCount": 21,
-   "linkCount": 29,
+   "linkCount": 23,
    "gameIds": [
     "2026-09-06-wisconsin-at-notre-dame",
     "2026-09-12-louisiana-tech-at-lsu",
@@ -29121,7 +28972,7 @@
   {
    "coach": "Steve Spurrier",
    "gameCount": 20,
-   "linkCount": 29,
+   "linkCount": 26,
    "gameIds": [
     "2026-09-04-utep-at-oklahoma",
     "2026-09-05-tulane-at-duke",
@@ -29175,7 +29026,7 @@
   {
    "coach": "Brian Kelly",
    "gameCount": 19,
-   "linkCount": 47,
+   "linkCount": 43,
    "gameIds": [
     "2026-09-12-alabama-at-kentucky",
     "2026-09-19-kentucky-at-texas-a-m",
@@ -29201,7 +29052,7 @@
   {
    "coach": "Sonny Lubick",
    "gameCount": 13,
-   "linkCount": 37,
+   "linkCount": 34,
    "gameIds": [
     "2026-09-12-charlotte-at-ole-miss",
     "2026-09-12-ohio-state-at-texas",
@@ -29261,7 +29112,7 @@
   {
    "coach": "Greg Schiano",
    "gameCount": 13,
-   "linkCount": 21,
+   "linkCount": 19,
    "gameIds": [
     "2026-09-12-arizona-state-at-texas-a-m",
     "2026-09-19-michigan-state-at-notre-dame",
@@ -29279,9 +29130,29 @@
    ]
   },
   {
+   "coach": "Butch Davis",
+   "gameCount": 13,
+   "linkCount": 17,
+   "gameIds": [
+    "2026-09-03-massachusetts-at-rutgers",
+    "2026-09-12-ohio-state-at-texas",
+    "2026-09-26-kansas-state-at-cincinnati",
+    "2026-09-26-ole-miss-at-florida",
+    "2026-10-10-south-carolina-at-florida",
+    "2026-10-17-florida-at-texas",
+    "2026-10-17-florida-state-at-miami-fl",
+    "2026-10-24-ole-miss-at-texas",
+    "2026-11-14-kansas-state-at-tcu",
+    "2026-11-14-south-carolina-at-arkansas",
+    "2026-11-21-arkansas-at-texas",
+    "2026-11-27-appalachian-state-at-south-alabama",
+    "2026-11-27-florida-at-florida-state"
+   ]
+  },
+  {
    "coach": "Gus Malzahn",
    "gameCount": 12,
-   "linkCount": 29,
+   "linkCount": 24,
    "gameIds": [
     "2026-09-07-smu-at-florida-state",
     "2026-09-19-lsu-at-ole-miss",
@@ -29300,7 +29171,7 @@
   {
    "coach": "Bill Snyder",
    "gameCount": 12,
-   "linkCount": 23,
+   "linkCount": 16,
    "gameIds": [
     "2026-09-05-fiu-at-south-florida",
     "2026-10-03-west-virginia-at-iowa-state",
@@ -29317,28 +29188,9 @@
    ]
   },
   {
-   "coach": "Butch Davis",
-   "gameCount": 12,
-   "linkCount": 17,
-   "gameIds": [
-    "2026-09-03-massachusetts-at-rutgers",
-    "2026-09-12-ohio-state-at-texas",
-    "2026-09-26-kansas-state-at-cincinnati",
-    "2026-09-26-ole-miss-at-florida",
-    "2026-10-10-south-carolina-at-florida",
-    "2026-10-17-florida-at-texas",
-    "2026-10-17-florida-state-at-miami-fl",
-    "2026-10-24-ole-miss-at-texas",
-    "2026-11-14-kansas-state-at-tcu",
-    "2026-11-21-arkansas-at-texas",
-    "2026-11-27-appalachian-state-at-south-alabama",
-    "2026-11-27-florida-at-florida-state"
-   ]
-  },
-  {
    "coach": "Lou Holtz",
    "gameCount": 12,
-   "linkCount": 15,
+   "linkCount": 13,
    "gameIds": [
     "2026-09-05-north-texas-at-indiana",
     "2026-09-12-unlv-at-north-texas",
@@ -29352,24 +29204,6 @@
     "2026-11-14-north-texas-at-utsa",
     "2026-11-21-kentucky-at-missouri",
     "2026-11-28-navy-at-charlotte"
-   ]
-  },
-  {
-   "coach": "Art Briles",
-   "gameCount": 11,
-   "linkCount": 14,
-   "gameIds": [
-    "2026-09-12-mississippi-state-at-minnesota",
-    "2026-09-19-louisiana-tech-at-baylor",
-    "2026-09-19-mississippi-state-at-south-carolina",
-    "2026-09-26-colorado-at-baylor",
-    "2026-10-03-baylor-at-arizona-state",
-    "2026-10-03-texas-tech-at-colorado",
-    "2026-10-17-arizona-state-at-texas-tech",
-    "2026-11-07-colorado-at-arizona-state",
-    "2026-11-07-west-virginia-at-texas-tech",
-    "2026-11-14-south-carolina-at-arkansas",
-    "2026-11-27-minnesota-at-wisconsin"
    ]
   },
   {
@@ -29391,37 +29225,21 @@
    ]
   },
   {
-   "coach": "George O'Leary",
-   "gameCount": 10,
-   "linkCount": 34,
+   "coach": "Art Briles",
+   "gameCount": 11,
+   "linkCount": 11,
    "gameIds": [
-    "2026-09-12-appalachian-state-at-east-carolina",
-    "2026-09-19-virginia-tech-at-maryland",
-    "2026-09-26-virginia-tech-at-boston-college",
-    "2026-10-10-south-carolina-at-florida",
-    "2026-10-17-georgia-tech-at-virginia-tech",
-    "2026-10-22-east-carolina-at-memphis",
-    "2026-10-24-boston-college-at-georgia-tech",
+    "2026-09-12-mississippi-state-at-minnesota",
+    "2026-09-19-louisiana-tech-at-baylor",
+    "2026-09-19-mississippi-state-at-south-carolina",
+    "2026-09-26-colorado-at-baylor",
+    "2026-10-03-baylor-at-arizona-state",
+    "2026-10-03-texas-tech-at-colorado",
+    "2026-10-17-arizona-state-at-texas-tech",
+    "2026-11-07-colorado-at-arizona-state",
+    "2026-11-07-west-virginia-at-texas-tech",
     "2026-11-14-south-carolina-at-arkansas",
-    "2026-11-21-syracuse-at-boston-college",
-    "2026-11-21-wake-forest-at-georgia-tech"
-   ]
-  },
-  {
-   "coach": "Ralph Friedgen",
-   "gameCount": 10,
-   "linkCount": 30,
-   "gameIds": [
-    "2026-09-11-rutgers-at-boston-college",
-    "2026-09-12-old-dominion-at-virginia-tech",
-    "2026-09-12-tennessee-at-georgia-tech",
-    "2026-09-19-virginia-tech-at-maryland",
-    "2026-09-26-virginia-tech-at-boston-college",
-    "2026-10-10-tennessee-at-arkansas",
-    "2026-10-17-georgia-tech-at-virginia-tech",
-    "2026-10-17-rutgers-at-maryland",
-    "2026-10-24-boston-college-at-georgia-tech",
-    "2026-11-21-syracuse-at-boston-college"
+    "2026-11-27-minnesota-at-wisconsin"
    ]
   },
   {
@@ -29442,40 +29260,6 @@
    ]
   },
   {
-   "coach": "Gary Andersen",
-   "gameCount": 10,
-   "linkCount": 27,
-   "gameIds": [
-    "2026-09-12-arizona-at-byu",
-    "2026-09-12-arkansas-at-utah",
-    "2026-09-19-fresno-state-at-san-jose-state",
-    "2026-09-19-louisiana-tech-at-baylor",
-    "2026-09-19-northern-illinois-at-arizona",
-    "2026-10-31-arizona-at-texas-tech",
-    "2026-11-07-byu-at-utah",
-    "2026-11-07-northern-illinois-at-san-jose-state",
-    "2026-11-14-baylor-at-byu",
-    "2026-11-14-utah-at-arizona"
-   ]
-  },
-  {
-   "coach": "Rich Rodriguez",
-   "gameCount": 10,
-   "linkCount": 12,
-   "gameIds": [
-    "2026-09-05-northern-illinois-at-iowa",
-    "2026-09-19-florida-at-auburn",
-    "2026-10-03-florida-at-missouri",
-    "2026-10-03-miami-fl-at-clemson",
-    "2026-10-08-south-alabama-at-arkansas-state",
-    "2026-10-17-florida-state-at-miami-fl",
-    "2026-10-20-south-alabama-at-marshall",
-    "2026-11-21-vanderbilt-at-florida",
-    "2026-11-27-florida-at-florida-state",
-    "2026-11-28-utep-at-northern-illinois"
-   ]
-  },
-  {
    "coach": "R. C. Slocum",
    "gameCount": 10,
    "linkCount": 11,
@@ -29493,9 +29277,74 @@
    ]
   },
   {
-   "coach": "Joe Novak",
+   "coach": "Rich Rodriguez",
+   "gameCount": 10,
+   "linkCount": 11,
+   "gameIds": [
+    "2026-09-05-northern-illinois-at-iowa",
+    "2026-09-19-florida-at-auburn",
+    "2026-10-03-florida-at-missouri",
+    "2026-10-03-miami-fl-at-clemson",
+    "2026-10-08-south-alabama-at-arkansas-state",
+    "2026-10-17-florida-state-at-miami-fl",
+    "2026-10-20-south-alabama-at-marshall",
+    "2026-11-21-vanderbilt-at-florida",
+    "2026-11-27-florida-at-florida-state",
+    "2026-11-28-utep-at-northern-illinois"
+   ]
+  },
+  {
+   "coach": "Ralph Friedgen",
+   "gameCount": 9,
+   "linkCount": 27,
+   "gameIds": [
+    "2026-09-11-rutgers-at-boston-college",
+    "2026-09-12-tennessee-at-georgia-tech",
+    "2026-09-19-virginia-tech-at-maryland",
+    "2026-09-26-virginia-tech-at-boston-college",
+    "2026-10-10-tennessee-at-arkansas",
+    "2026-10-17-georgia-tech-at-virginia-tech",
+    "2026-10-17-rutgers-at-maryland",
+    "2026-10-24-boston-college-at-georgia-tech",
+    "2026-11-21-syracuse-at-boston-college"
+   ]
+  },
+  {
+   "coach": "Gary Andersen",
    "gameCount": 9,
    "linkCount": 23,
+   "gameIds": [
+    "2026-09-12-arizona-at-byu",
+    "2026-09-12-arkansas-at-utah",
+    "2026-09-19-fresno-state-at-san-jose-state",
+    "2026-09-19-northern-illinois-at-arizona",
+    "2026-10-31-arizona-at-texas-tech",
+    "2026-11-07-byu-at-utah",
+    "2026-11-07-northern-illinois-at-san-jose-state",
+    "2026-11-14-baylor-at-byu",
+    "2026-11-14-utah-at-arizona"
+   ]
+  },
+  {
+   "coach": "George O'Leary",
+   "gameCount": 9,
+   "linkCount": 19,
+   "gameIds": [
+    "2026-09-12-appalachian-state-at-east-carolina",
+    "2026-09-26-virginia-tech-at-boston-college",
+    "2026-10-10-south-carolina-at-florida",
+    "2026-10-17-georgia-tech-at-virginia-tech",
+    "2026-10-22-east-carolina-at-memphis",
+    "2026-10-24-boston-college-at-georgia-tech",
+    "2026-11-14-south-carolina-at-arkansas",
+    "2026-11-21-syracuse-at-boston-college",
+    "2026-11-21-wake-forest-at-georgia-tech"
+   ]
+  },
+  {
+   "coach": "Joe Novak",
+   "gameCount": 9,
+   "linkCount": 16,
    "gameIds": [
     "2026-09-05-northern-illinois-at-iowa",
     "2026-09-19-ohio-at-south-alabama",
@@ -29527,7 +29376,7 @@
   {
    "coach": "Pat Hill",
    "gameCount": 8,
-   "linkCount": 36,
+   "linkCount": 30,
    "gameIds": [
     "2026-09-19-lsu-at-ole-miss",
     "2026-09-26-south-carolina-at-alabama",
@@ -29542,7 +29391,7 @@
   {
    "coach": "Phillip Fulmer",
    "gameCount": 8,
-   "linkCount": 19,
+   "linkCount": 15,
    "gameIds": [
     "2026-09-05-kent-state-at-south-carolina",
     "2026-10-10-south-carolina-at-florida",
@@ -29557,7 +29406,7 @@
   {
    "coach": "Kirby Smart",
    "gameCount": 8,
-   "linkCount": 15,
+   "linkCount": 14,
    "gameIds": [
     "2026-09-12-arizona-state-at-texas-a-m",
     "2026-09-12-california-at-syracuse",
@@ -29600,20 +29449,6 @@
    ]
   },
   {
-   "coach": "Al Golden",
-   "gameCount": 7,
-   "linkCount": 27,
-   "gameIds": [
-    "2026-09-12-ohio-state-at-texas",
-    "2026-09-26-texas-at-tennessee",
-    "2026-10-24-syracuse-at-north-carolina",
-    "2026-10-31-washington-at-nebraska",
-    "2026-11-14-tennessee-at-texas-a-m",
-    "2026-11-21-ohio-state-at-nebraska",
-    "2026-11-27-texas-at-texas-a-m"
-   ]
-  },
-  {
    "coach": "John Cooper",
    "gameCount": 7,
    "linkCount": 19,
@@ -29628,17 +29463,17 @@
    ]
   },
   {
-   "coach": "Houston Nutt",
+   "coach": "Al Golden",
    "gameCount": 7,
-   "linkCount": 11,
+   "linkCount": 18,
    "gameIds": [
-    "2026-09-07-smu-at-florida-state",
-    "2026-09-12-duke-at-illinois",
-    "2026-09-19-florida-at-auburn",
-    "2026-09-26-ole-miss-at-florida",
-    "2026-10-03-florida-at-missouri",
-    "2026-10-31-georgia-at-florida",
-    "2026-11-27-florida-at-florida-state"
+    "2026-09-12-ohio-state-at-texas",
+    "2026-09-26-texas-at-tennessee",
+    "2026-10-24-syracuse-at-north-carolina",
+    "2026-10-31-washington-at-nebraska",
+    "2026-11-14-tennessee-at-texas-a-m",
+    "2026-11-21-ohio-state-at-nebraska",
+    "2026-11-27-texas-at-texas-a-m"
    ]
   },
   {
@@ -29653,6 +29488,20 @@
     "2026-10-10-louisiana-at-louisiana-tech",
     "2026-10-31-utah-at-cincinnati",
     "2026-12-12-navy-at-army"
+   ]
+  },
+  {
+   "coach": "Houston Nutt",
+   "gameCount": 7,
+   "linkCount": 10,
+   "gameIds": [
+    "2026-09-07-smu-at-florida-state",
+    "2026-09-12-duke-at-illinois",
+    "2026-09-19-florida-at-auburn",
+    "2026-09-26-ole-miss-at-florida",
+    "2026-10-03-florida-at-missouri",
+    "2026-10-31-georgia-at-florida",
+    "2026-11-27-florida-at-florida-state"
    ]
   },
   {
@@ -29711,7 +29560,7 @@
   {
    "coach": "Jim Tressel",
    "gameCount": 5,
-   "linkCount": 16,
+   "linkCount": 14,
    "gameIds": [
     "2026-09-05-northern-illinois-at-iowa",
     "2026-09-06-wisconsin-at-notre-dame",
@@ -29723,7 +29572,7 @@
   {
    "coach": "Bryan Harsin",
    "gameCount": 5,
-   "linkCount": 14,
+   "linkCount": 12,
    "gameIds": [
     "2026-09-05-clemson-at-lsu",
     "2026-09-06-washington-state-at-washington",
@@ -29733,21 +29582,9 @@
    ]
   },
   {
-   "coach": "Lane Kiffin",
-   "gameCount": 5,
-   "linkCount": 12,
-   "gameIds": [
-    "2026-09-19-mississippi-state-at-south-carolina",
-    "2026-10-24-ole-miss-at-texas",
-    "2026-10-31-mississippi-state-at-texas",
-    "2026-11-14-wake-forest-at-smu",
-    "2026-11-27-mississippi-state-at-ole-miss"
-   ]
-  },
-  {
    "coach": "Chris Petersen",
    "gameCount": 5,
-   "linkCount": 11,
+   "linkCount": 12,
    "gameIds": [
     "2026-09-11-missouri-at-kansas",
     "2026-09-26-tcu-at-ucf",
@@ -29769,42 +29606,6 @@
    ]
   },
   {
-   "coach": "Joe Paterno",
-   "gameCount": 5,
-   "linkCount": 10,
-   "gameIds": [
-    "2026-09-03-massachusetts-at-rutgers",
-    "2026-09-12-ohio-state-at-texas",
-    "2026-10-17-florida-at-texas",
-    "2026-11-14-nebraska-at-rutgers",
-    "2026-11-27-florida-at-florida-state"
-   ]
-  },
-  {
-   "coach": "Randy Walker",
-   "gameCount": 5,
-   "linkCount": 10,
-   "gameIds": [
-    "2026-09-19-colorado-at-northwestern",
-    "2026-09-19-western-kentucky-at-indiana",
-    "2026-09-25-northwestern-at-indiana",
-    "2026-10-17-northwestern-at-michigan-state",
-    "2026-11-21-pittsburgh-at-louisville"
-   ]
-  },
-  {
-   "coach": "Tom Herman",
-   "gameCount": 5,
-   "linkCount": 10,
-   "gameIds": [
-    "2026-09-12-utsa-at-texas-state",
-    "2026-09-26-south-alabama-at-kentucky",
-    "2026-10-08-south-florida-at-utsa",
-    "2026-10-24-oregon-at-illinois",
-    "2026-10-24-vanderbilt-at-kentucky"
-   ]
-  },
-  {
    "coach": "Terry Bowden",
    "gameCount": 5,
    "linkCount": 9,
@@ -29814,6 +29615,54 @@
     "2026-11-07-clemson-at-syracuse",
     "2026-11-14-texas-at-lsu",
     "2026-11-27-texas-at-texas-a-m"
+   ]
+  },
+  {
+   "coach": "Joe Paterno",
+   "gameCount": 5,
+   "linkCount": 8,
+   "gameIds": [
+    "2026-09-03-massachusetts-at-rutgers",
+    "2026-09-12-ohio-state-at-texas",
+    "2026-10-17-florida-at-texas",
+    "2026-11-14-nebraska-at-rutgers",
+    "2026-11-27-florida-at-florida-state"
+   ]
+  },
+  {
+   "coach": "Lane Kiffin",
+   "gameCount": 5,
+   "linkCount": 8,
+   "gameIds": [
+    "2026-09-19-mississippi-state-at-south-carolina",
+    "2026-10-24-ole-miss-at-texas",
+    "2026-10-31-mississippi-state-at-texas",
+    "2026-11-14-wake-forest-at-smu",
+    "2026-11-27-mississippi-state-at-ole-miss"
+   ]
+  },
+  {
+   "coach": "Tom Herman",
+   "gameCount": 5,
+   "linkCount": 8,
+   "gameIds": [
+    "2026-09-12-utsa-at-texas-state",
+    "2026-09-26-south-alabama-at-kentucky",
+    "2026-10-08-south-florida-at-utsa",
+    "2026-10-24-oregon-at-illinois",
+    "2026-10-24-vanderbilt-at-kentucky"
+   ]
+  },
+  {
+   "coach": "Randy Walker",
+   "gameCount": 5,
+   "linkCount": 7,
+   "gameIds": [
+    "2026-09-19-colorado-at-northwestern",
+    "2026-09-19-western-kentucky-at-indiana",
+    "2026-09-25-northwestern-at-indiana",
+    "2026-10-17-northwestern-at-michigan-state",
+    "2026-11-21-pittsburgh-at-louisville"
    ]
   },
   {
@@ -29831,7 +29680,7 @@
   {
    "coach": "Pete Carroll",
    "gameCount": 4,
-   "linkCount": 22,
+   "linkCount": 20,
    "gameIds": [
     "2026-10-24-california-at-smu",
     "2026-10-24-ole-miss-at-texas",
@@ -29842,23 +29691,12 @@
   {
    "coach": "Mike Stoops",
    "gameCount": 4,
-   "linkCount": 14,
+   "linkCount": 11,
    "gameIds": [
     "2026-09-19-florida-at-auburn",
     "2026-10-10-south-carolina-at-florida",
     "2026-10-17-tcu-at-baylor",
     "2026-10-24-tennessee-at-south-carolina"
-   ]
-  },
-  {
-   "coach": "Kyle Whittingham",
-   "gameCount": 4,
-   "linkCount": 13,
-   "gameIds": [
-    "2026-09-12-arizona-at-byu",
-    "2026-11-07-byu-at-utah",
-    "2026-11-14-baylor-at-byu",
-    "2026-11-14-utah-at-arizona"
    ]
   },
   {
@@ -29873,14 +29711,14 @@
    ]
   },
   {
-   "coach": "Dino Babers",
+   "coach": "Kyle Whittingham",
    "gameCount": 4,
-   "linkCount": 8,
+   "linkCount": 9,
    "gameIds": [
-    "2026-10-03-michigan-at-minnesota",
-    "2026-10-24-san-diego-state-at-colorado-state",
-    "2026-10-31-colorado-state-at-utah-state",
-    "2026-11-14-utah-state-at-san-diego-state"
+    "2026-09-12-arizona-at-byu",
+    "2026-11-07-byu-at-utah",
+    "2026-11-14-baylor-at-byu",
+    "2026-11-14-utah-at-arizona"
    ]
   },
   {
@@ -29892,17 +29730,6 @@
     "2026-09-19-kentucky-at-texas-a-m",
     "2026-10-24-texas-a-m-at-alabama",
     "2026-11-14-florida-at-kentucky"
-   ]
-  },
-  {
-   "coach": "Steve Kragthorpe",
-   "gameCount": 4,
-   "linkCount": 8,
-   "gameIds": [
-    "2026-10-09-florida-state-at-louisville",
-    "2026-10-17-utah-at-colorado",
-    "2026-10-31-louisiana-tech-at-south-alabama",
-    "2026-11-07-texas-state-at-oregon-state"
    ]
   },
   {
@@ -29928,14 +29755,14 @@
    ]
   },
   {
-   "coach": "Ed Orgeron",
+   "coach": "Steve Kragthorpe",
    "gameCount": 4,
-   "linkCount": 5,
+   "linkCount": 6,
    "gameIds": [
-    "2026-10-24-baylor-at-kansas",
-    "2026-11-07-alabama-at-lsu",
-    "2026-11-14-wisconsin-at-maryland",
-    "2026-11-28-lsu-at-arkansas"
+    "2026-10-09-florida-state-at-louisville",
+    "2026-10-17-utah-at-colorado",
+    "2026-10-31-louisiana-tech-at-south-alabama",
+    "2026-11-07-texas-state-at-oregon-state"
    ]
   },
   {
@@ -29947,6 +29774,17 @@
     "2026-10-10-texas-at-oklahoma",
     "2026-10-24-ole-miss-at-texas",
     "2026-11-14-ole-miss-at-oklahoma"
+   ]
+  },
+  {
+   "coach": "Dino Babers",
+   "gameCount": 4,
+   "linkCount": 4,
+   "gameIds": [
+    "2026-10-03-michigan-at-minnesota",
+    "2026-10-24-san-diego-state-at-colorado-state",
+    "2026-10-31-colorado-state-at-utah-state",
+    "2026-11-14-utah-state-at-san-diego-state"
    ]
   },
   {
@@ -29996,21 +29834,11 @@
   {
    "coach": "Ron Prince",
    "gameCount": 3,
-   "linkCount": 21,
+   "linkCount": 14,
    "gameIds": [
     "2026-09-12-memphis-at-boise-state",
     "2026-09-12-old-dominion-at-virginia-tech",
     "2026-11-07-ucf-at-kansas"
-   ]
-  },
-  {
-   "coach": "Ron Vanderlinden",
-   "gameCount": 3,
-   "linkCount": 12,
-   "gameIds": [
-    "2026-09-26-nebraska-at-michigan-state",
-    "2026-10-03-maryland-at-nebraska",
-    "2026-11-07-maryland-at-purdue"
    ]
   },
   {
@@ -30024,23 +29852,13 @@
    ]
   },
   {
-   "coach": "Jeff Tedford",
+   "coach": "Ron Vanderlinden",
    "gameCount": 3,
    "linkCount": 7,
    "gameIds": [
-    "2026-09-05-ucla-at-california",
     "2026-09-26-nebraska-at-michigan-state",
-    "2026-10-17-washington-state-at-oregon-state"
-   ]
-  },
-  {
-   "coach": "Dirk Koetter",
-   "gameCount": 3,
-   "linkCount": 5,
-   "gameIds": [
-    "2026-09-11-missouri-at-kansas",
-    "2026-10-03-michigan-state-at-wisconsin",
-    "2026-10-24-boise-state-at-washington-state"
+    "2026-10-03-maryland-at-nebraska",
+    "2026-11-07-maryland-at-purdue"
    ]
   },
   {
@@ -30054,16 +29872,6 @@
    ]
   },
   {
-   "coach": "P. J. Fleck",
-   "gameCount": 3,
-   "linkCount": 5,
-   "gameIds": [
-    "2026-09-03-massachusetts-at-rutgers",
-    "2026-10-17-rutgers-at-maryland",
-    "2026-11-28-michigan-state-at-rutgers"
-   ]
-  },
-  {
    "coach": "Gary Pinkel",
    "gameCount": 3,
    "linkCount": 4,
@@ -30071,6 +29879,16 @@
     "2026-10-16-washington-at-purdue",
     "2026-11-07-colorado-at-arizona-state",
     "2026-11-28-ucf-at-colorado"
+   ]
+  },
+  {
+   "coach": "P. J. Fleck",
+   "gameCount": 3,
+   "linkCount": 4,
+   "gameIds": [
+    "2026-09-03-massachusetts-at-rutgers",
+    "2026-10-17-rutgers-at-maryland",
+    "2026-11-28-michigan-state-at-rutgers"
    ]
   },
   {
@@ -30156,7 +29974,7 @@
   {
    "coach": "Matt Wells",
    "gameCount": 2,
-   "linkCount": 11,
+   "linkCount": 8,
    "gameIds": [
     "2026-10-03-auburn-at-tennessee",
     "2026-10-31-louisiana-tech-at-south-alabama"
@@ -30165,19 +29983,10 @@
   {
    "coach": "Bob Davie",
    "gameCount": 2,
-   "linkCount": 10,
+   "linkCount": 7,
    "gameIds": [
     "2026-11-07-wyoming-at-unlv",
     "2026-11-21-utsa-at-uab"
-   ]
-  },
-  {
-   "coach": "Kalen DeBoer",
-   "gameCount": 2,
-   "linkCount": 9,
-   "gameIds": [
-    "2026-10-17-washington-state-at-oregon-state",
-    "2026-10-24-michigan-state-at-ucla"
    ]
   },
   {
@@ -30187,15 +29996,6 @@
    "gameIds": [
     "2026-08-29-san-jose-state-at-usc",
     "2026-12-12-navy-at-army"
-   ]
-  },
-  {
-   "coach": "David Shaw",
-   "gameCount": 2,
-   "linkCount": 6,
-   "gameIds": [
-    "2026-10-03-stanford-at-wake-forest",
-    "2026-10-10-stanford-at-notre-dame"
    ]
   },
   {
@@ -30217,33 +30017,6 @@
    ]
   },
   {
-   "coach": "Garrick McGee",
-   "gameCount": 2,
-   "linkCount": 5,
-   "gameIds": [
-    "2026-09-19-smu-at-louisville",
-    "2026-10-24-tennessee-at-south-carolina"
-   ]
-  },
-  {
-   "coach": "Gary Barnett",
-   "gameCount": 2,
-   "linkCount": 5,
-   "gameIds": [
-    "2026-10-17-northwestern-at-michigan-state",
-    "2026-11-28-penn-state-at-maryland"
-   ]
-  },
-  {
-   "coach": "John L. Smith",
-   "gameCount": 2,
-   "linkCount": 5,
-   "gameIds": [
-    "2026-10-10-tulsa-at-navy",
-    "2026-11-14-louisville-at-north-carolina"
-   ]
-  },
-  {
    "coach": "Paul Johnson",
    "gameCount": 2,
    "linkCount": 5,
@@ -30253,9 +30026,18 @@
    ]
   },
   {
-   "coach": "Bob Toledo",
+   "coach": "Brian VanGorder",
    "gameCount": 2,
    "linkCount": 4,
+   "gameIds": [
+    "2026-10-03-kentucky-at-south-carolina",
+    "2026-11-14-south-carolina-at-arkansas"
+   ]
+  },
+  {
+   "coach": "Bob Toledo",
+   "gameCount": 2,
+   "linkCount": 3,
    "gameIds": [
     "2026-09-05-ohio-at-nebraska",
     "2026-10-31-arizona-at-texas-tech"
@@ -30264,28 +30046,28 @@
   {
    "coach": "Chan Gailey",
    "gameCount": 2,
-   "linkCount": 4,
+   "linkCount": 3,
    "gameIds": [
     "2026-10-24-boston-college-at-georgia-tech",
     "2026-11-21-syracuse-at-boston-college"
    ]
   },
   {
-   "coach": "Tim Beckman",
-   "gameCount": 2,
-   "linkCount": 4,
-   "gameIds": [
-    "2026-09-19-ohio-at-south-alabama",
-    "2026-10-02-penn-state-at-northwestern"
-   ]
-  },
-  {
-   "coach": "Brian VanGorder",
+   "coach": "Garrick McGee",
    "gameCount": 2,
    "linkCount": 3,
    "gameIds": [
-    "2026-10-03-kentucky-at-south-carolina",
-    "2026-11-14-south-carolina-at-arkansas"
+    "2026-09-19-smu-at-louisville",
+    "2026-10-24-tennessee-at-south-carolina"
+   ]
+  },
+  {
+   "coach": "John L. Smith",
+   "gameCount": 2,
+   "linkCount": 3,
+   "gameIds": [
+    "2026-10-10-tulsa-at-navy",
+    "2026-11-14-louisville-at-north-carolina"
    ]
   },
   {
@@ -30298,12 +30080,30 @@
    ]
   },
   {
+   "coach": "Tim Beckman",
+   "gameCount": 2,
+   "linkCount": 3,
+   "gameIds": [
+    "2026-09-19-ohio-at-south-alabama",
+    "2026-10-02-penn-state-at-northwestern"
+   ]
+  },
+  {
    "coach": "Bill Lewis",
    "gameCount": 2,
    "linkCount": 2,
    "gameIds": [
     "2026-09-19-byu-at-colorado-state",
     "2026-10-31-colorado-state-at-utah-state"
+   ]
+  },
+  {
+   "coach": "Bob Simmons",
+   "gameCount": 2,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-10-03-baylor-at-arizona-state",
+    "2026-11-28-uab-at-north-texas"
    ]
   },
   {
@@ -30325,12 +30125,57 @@
    ]
   },
   {
+   "coach": "David Shaw",
+   "gameCount": 2,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-10-03-stanford-at-wake-forest",
+    "2026-10-10-stanford-at-notre-dame"
+   ]
+  },
+  {
+   "coach": "Dirk Koetter",
+   "gameCount": 2,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-09-11-missouri-at-kansas",
+    "2026-10-03-michigan-state-at-wisconsin"
+   ]
+  },
+  {
+   "coach": "Ed Orgeron",
+   "gameCount": 2,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-10-24-baylor-at-kansas",
+    "2026-11-14-wisconsin-at-maryland"
+   ]
+  },
+  {
+   "coach": "Gary Barnett",
+   "gameCount": 2,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-10-17-northwestern-at-michigan-state",
+    "2026-11-28-penn-state-at-maryland"
+   ]
+  },
+  {
    "coach": "Glen Mason",
    "gameCount": 2,
    "linkCount": 2,
    "gameIds": [
     "2026-11-21-wisconsin-at-purdue",
     "2026-11-28-utep-at-northern-illinois"
+   ]
+  },
+  {
+   "coach": "Jeff Tedford",
+   "gameCount": 2,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-09-05-ucla-at-california",
+    "2026-09-26-nebraska-at-michigan-state"
    ]
   },
   {
@@ -30361,12 +30206,30 @@
    ]
   },
   {
+   "coach": "Johnny Majors",
+   "gameCount": 2,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-10-24-tennessee-at-south-carolina",
+    "2026-11-21-georgia-southern-at-troy"
+   ]
+  },
+  {
    "coach": "Justin Fuente",
    "gameCount": 2,
    "linkCount": 2,
    "gameIds": [
     "2026-10-16-washington-at-purdue",
     "2026-11-14-tennessee-at-texas-a-m"
+   ]
+  },
+  {
+   "coach": "Kalen DeBoer",
+   "gameCount": 2,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-10-17-washington-state-at-oregon-state",
+    "2026-10-24-michigan-state-at-ucla"
    ]
   },
   {
@@ -30394,15 +30257,6 @@
    "gameIds": [
     "2026-09-19-troy-at-missouri",
     "2026-10-03-florida-at-missouri"
-   ]
-  },
-  {
-   "coach": "Larry Smith",
-   "gameCount": 2,
-   "linkCount": 2,
-   "gameIds": [
-    "2026-10-31-auburn-at-ole-miss",
-    "2026-11-07-arkansas-at-auburn"
    ]
   },
   {
@@ -30450,14 +30304,6 @@
    ]
   },
   {
-   "coach": "Andy Avalos",
-   "gameCount": 1,
-   "linkCount": 4,
-   "gameIds": [
-    "2026-10-24-boise-state-at-washington-state"
-   ]
-  },
-  {
    "coach": "Josh Heupel",
    "gameCount": 1,
    "linkCount": 4,
@@ -30466,27 +30312,11 @@
    ]
   },
   {
-   "coach": "Mike Houston",
+   "coach": "Andy Avalos",
    "gameCount": 1,
-   "linkCount": 4,
+   "linkCount": 3,
    "gameIds": [
-    "2026-11-06-south-florida-at-east-carolina"
-   ]
-  },
-  {
-   "coach": "Tom O'Brien",
-   "gameCount": 1,
-   "linkCount": 4,
-   "gameIds": [
-    "2026-11-21-ohio-state-at-nebraska"
-   ]
-  },
-  {
-   "coach": "Willie Fritz",
-   "gameCount": 1,
-   "linkCount": 4,
-   "gameIds": [
-    "2026-11-07-tulsa-at-tulane"
+    "2026-10-24-boise-state-at-washington-state"
    ]
   },
   {
@@ -30498,35 +30328,11 @@
    ]
   },
   {
-   "coach": "Greg Robinson",
-   "gameCount": 1,
-   "linkCount": 3,
-   "gameIds": [
-    "2026-11-07-south-alabama-at-louisiana"
-   ]
-  },
-  {
-   "coach": "Jake Dickert",
-   "gameCount": 1,
-   "linkCount": 3,
-   "gameIds": [
-    "2026-11-21-oklahoma-state-at-arizona-state"
-   ]
-  },
-  {
    "coach": "Jay Norvell",
    "gameCount": 1,
    "linkCount": 3,
    "gameIds": [
     "2026-10-10-hawaii-at-arizona-state"
-   ]
-  },
-  {
-   "coach": "Mark Stoops",
-   "gameCount": 1,
-   "linkCount": 3,
-   "gameIds": [
-    "2026-11-21-north-texas-at-tulane"
    ]
   },
   {
@@ -30538,11 +30344,11 @@
    ]
   },
   {
-   "coach": "Eliah Drinkwitz",
+   "coach": "Tom O'Brien",
    "gameCount": 1,
-   "linkCount": 2,
+   "linkCount": 3,
    "gameIds": [
-    "2026-09-06-washington-state-at-washington"
+    "2026-11-21-ohio-state-at-nebraska"
    ]
   },
   {
@@ -30554,11 +30360,11 @@
    ]
   },
   {
-   "coach": "Gregg Brandon",
+   "coach": "Greg Robinson",
    "gameCount": 1,
    "linkCount": 2,
    "gameIds": [
-    "2026-10-02-penn-state-at-northwestern"
+    "2026-11-07-south-alabama-at-louisiana"
    ]
   },
   {
@@ -30567,6 +30373,14 @@
    "linkCount": 2,
    "gameIds": [
     "2026-11-07-miami-fl-at-notre-dame"
+   ]
+  },
+  {
+   "coach": "Jake Dickert",
+   "gameCount": 1,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-11-21-oklahoma-state-at-arizona-state"
    ]
   },
   {
@@ -30586,11 +30400,27 @@
    ]
   },
   {
+   "coach": "Mark Stoops",
+   "gameCount": 1,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-11-21-north-texas-at-tulane"
+   ]
+  },
+  {
    "coach": "Mike Dubose",
    "gameCount": 1,
    "linkCount": 2,
    "gameIds": [
     "2026-11-28-oklahoma-at-missouri"
+   ]
+  },
+  {
+   "coach": "Mike Houston",
+   "gameCount": 1,
+   "linkCount": 2,
+   "gameIds": [
+    "2026-11-06-south-florida-at-east-carolina"
    ]
   },
   {
@@ -30639,14 +30469,6 @@
    "linkCount": 1,
    "gameIds": [
     "2026-11-28-utep-at-northern-illinois"
-   ]
-  },
-  {
-   "coach": "Bob Simmons",
-   "gameCount": 1,
-   "linkCount": 1,
-   "gameIds": [
-    "2026-10-03-baylor-at-arizona-state"
    ]
   },
   {
@@ -30738,6 +30560,14 @@
    ]
   },
   {
+   "coach": "Eliah Drinkwitz",
+   "gameCount": 1,
+   "linkCount": 1,
+   "gameIds": [
+    "2026-09-06-washington-state-at-washington"
+   ]
+  },
+  {
    "coach": "Fred Goldsmith",
    "gameCount": 1,
    "linkCount": 1,
@@ -30770,6 +30600,14 @@
    ]
   },
   {
+   "coach": "Gregg Brandon",
+   "gameCount": 1,
+   "linkCount": 1,
+   "gameIds": [
+    "2026-10-02-penn-state-at-northwestern"
+   ]
+  },
+  {
    "coach": "Jeff Brohm",
    "gameCount": 1,
    "linkCount": 1,
@@ -30794,19 +30632,19 @@
    ]
   },
   {
-   "coach": "Johnny Majors",
-   "gameCount": 1,
-   "linkCount": 1,
-   "gameIds": [
-    "2026-11-21-georgia-southern-at-troy"
-   ]
-  },
-  {
    "coach": "Larry Coker",
    "gameCount": 1,
    "linkCount": 1,
    "gameIds": [
     "2026-11-27-florida-at-florida-state"
+   ]
+  },
+  {
+   "coach": "Larry Smith",
+   "gameCount": 1,
+   "linkCount": 1,
+   "gameIds": [
+    "2026-10-31-auburn-at-ole-miss"
    ]
   },
   {
@@ -30927,6 +30765,14 @@
    "linkCount": 1,
    "gameIds": [
     "2026-10-17-louisville-at-syracuse"
+   ]
+  },
+  {
+   "coach": "Willie Fritz",
+   "gameCount": 1,
+   "linkCount": 1,
+   "gameIds": [
+    "2026-11-07-tulsa-at-tulane"
    ]
   }
  ],

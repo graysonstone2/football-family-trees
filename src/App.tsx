@@ -11,7 +11,6 @@ import {
   useRef,
   useState,
 } from 'react';
-import CoachComp from './CoachComp';
 import Tray from './Tray';
 import {
   CoachTreeNode,
@@ -59,7 +58,7 @@ const MIN_STAFF_OPTIONS = [
   { label: '5 future HCs', value: '5' },
 ];
 type TreeMode = 'forward' | 'reverse';
-type AppPage = 'tree' | 'biggest-trees' | 'productive-staffs' | 'schedule' | 'coach-comp';
+type AppPage = 'tree' | 'biggest-trees' | 'productive-staffs' | 'schedule';
 type InitialParams = {
   coach: string;
   game: string | null;
@@ -131,7 +130,7 @@ const groupByParent = (nodes: CoachTreeNode[]) => {
   return childrenByParent;
 };
 
-const PAGE_PARAMS: AppPage[] = ['biggest-trees', 'productive-staffs', 'schedule', 'coach-comp'];
+const PAGE_PARAMS: AppPage[] = ['biggest-trees', 'productive-staffs', 'schedule'];
 
 const getInitialParams = (): InitialParams => {
   if (typeof window === 'undefined') {
@@ -677,7 +676,6 @@ function App() {
               {page === 'biggest-trees' && 'The biggest coaching trees.'}
               {page === 'productive-staffs' && 'The most productive staffs.'}
               {page === 'schedule' && 'The 2026 schedule, by family tree.'}
-              {page === 'coach-comp' && 'Which coach are you?'}
             </h1>
             <p className="hero-copy mt-3 max-w-2xl text-sm leading-6">
               {page === 'tree' &&
@@ -688,8 +686,6 @@ function App() {
                 'Find the single-season staffs with the most assistants who became head coaches in this dataset.'}
               {page === 'schedule' &&
                 'Open any 2026 matchup to see which coaches on the two sidelines came out of the same tree, then rank the whole season by how tangled it gets.'}
-              {page === 'coach-comp' &&
-                'Upload your LinkedIn or resume and the search committee will tell you which college football coach had your career.'}
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               <PageButton active={page === 'tree'} onClick={() => setPage('tree')}>
@@ -703,9 +699,6 @@ function App() {
               </PageButton>
               <PageButton active={page === 'schedule'} onClick={() => setPage('schedule')}>
                 2026 schedule
-              </PageButton>
-              <PageButton active={page === 'coach-comp'} onClick={() => setPage('coach-comp')}>
-                Coach Comp
               </PageButton>
             </div>
           </div>
@@ -915,12 +908,6 @@ function App() {
               view={scheduleView}
             />
           </Suspense>
-        </section>
-      )}
-
-      {page === 'coach-comp' && (
-        <section className="site-container pb-8">
-          <CoachComp onOpenCoachTree={openCoachTree} />
         </section>
       )}
 
