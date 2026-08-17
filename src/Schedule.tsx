@@ -441,6 +441,7 @@ export default function Schedule({
   const [team, setTeam] = useState('');
   const [conference, setConference] = useState('');
   const [tier, setTier] = useState('');
+  const [weekSort, setWeekSort] = useState<'kickoff' | 'tangle'>('kickoff');
   const detailRef = useRef<HTMLDivElement>(null);
 
   const selectedGame = selectedGameId ? getGame(selectedGameId) : null;
@@ -470,16 +471,20 @@ export default function Schedule({
     }
   }, [selectedGame, view]);
 
-  const weekGames = useMemo(
-    () =>
-      SCHEDULE_GAMES.filter((game) => game.week === week && matchesFilters(game)).sort(
-        (a, b) =>
+  const weekGames = useMemo(() => {
+    const games = SCHEDULE_GAMES.filter((game) => game.week === week && matchesFilters(game));
+
+    return games.sort((a, b) =>
+      weekSort === 'tangle'
+        ? getLineage(b.id).score - getLineage(a.id).score ||
+          (getLineage(b.id).connectionCount ?? 0) - (getLineage(a.id).connectionCount ?? 0) ||
           a.date.localeCompare(b.date) ||
+          a.home.localeCompare(b.home)
+        : a.date.localeCompare(b.date) ||
           getLineage(b.id).score - getLineage(a.id).score ||
           a.home.localeCompare(b.home),
-      ),
-    [matchesFilters, week],
-  );
+    );
+  }, [matchesFilters, week, weekSort]);
 
   const rankedGames = useMemo(
     () =>
@@ -564,6 +569,17 @@ export default function Schedule({
             ]}
             value={patriarch}
           />
+          {view === 'week' && (
+            <FilterSelect
+              label="Sort this week"
+              onChange={(value) => setWeekSort(value === 'tangle' ? 'tangle' : 'kickoff')}
+              options={[
+                { label: 'By kickoff', value: 'kickoff' },
+                { label: 'Most tangled first', value: 'tangle' },
+              ]}
+              value={weekSort}
+            />
+          )}
           {view === 'ranked' && (
             <FilterSelect
               label="Tangle level"
@@ -646,7 +662,8 @@ export default function Schedule({
         {view === 'week' && (
           <>
             <p className="mb-3 text-sm text-[var(--theme-muted)]">
-              {weekGames.length} {weekGames.length === 1 ? 'game' : 'games'} in Week {week}.
+              {weekGames.length} {weekGames.length === 1 ? 'game' : 'games'} in Week {week},{' '}
+              {weekSort === 'tangle' ? 'most tangled first' : 'in kickoff order'}.
             </p>
             <div className="leaderboard-list">
               {weekGames.map((game) => (
