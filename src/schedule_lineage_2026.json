@@ -9898,7 +9898,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Tennessee 2021-2022",
+     "stops": "Tennessee 2021",
      "protege": "Kodi Burns",
      "hops": null,
      "aThrough": null,
@@ -16380,7 +16380,7 @@
    "tier": "reunion",
    "staffed": true,
    "connectionCount": 12,
-   "headline": "Spencer Danielson (Boise State HC) coached Matt Miller (Washington State OC) at Boise State 2025.",
+   "headline": "Spencer Danielson (Boise State HC) coached Matt Miller (Washington State OC) at Boise State 2024-2025.",
    "trees": [
     {
      "coach": "Bryan Harsin",
@@ -16418,7 +16418,7 @@
      "aStops": null,
      "bStops": null,
      "together": null,
-     "stops": "Boise State 2025",
+     "stops": "Boise State 2024-2025",
      "protege": "Matt Miller",
      "hops": null,
      "aThrough": null,
@@ -22393,7 +22393,7 @@
       "role": "oc"
      },
      "aStops": "UCF 2019",
-     "bStops": "Tennessee 2021-2022",
+     "bStops": "Tennessee 2021",
      "together": null,
      "stops": null,
      "protege": null,
