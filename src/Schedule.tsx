@@ -227,10 +227,12 @@ function Route({
 function ConnectionCard({
   connection,
   game,
+  highlighted,
   onOpenCoachTree,
 }: {
   connection: LineageConnection;
   game: ScheduleGame;
+  highlighted?: boolean;
   onOpenCoachTree: (coach: string) => void;
 }) {
   const { a, b, via } = connection;
@@ -238,7 +240,11 @@ function ConnectionCard({
     `${isHome ? game.home : game.away} ${ROLE_SHORT[member.role]}`;
 
   return (
-    <li className={`connection-card connection-card-${connection.type}`}>
+    <li
+      className={`connection-card connection-card-${connection.type} ${
+        highlighted ? 'connection-card-highlight' : ''
+      }`}
+    >
       <p className="connection-kind">{CONNECTION_LABELS[connection.type]}</p>
       <p className="connection-body">
         {connection.type === 'mentor-protege' && (
@@ -280,10 +286,13 @@ function ConnectionCard({
 
 function GameDetail({
   game,
+  highlightTree,
   onClose,
   onOpenCoachTree,
 }: {
   game: ScheduleGame;
+  /** The tree the list is filtered by, if any: its cards lead and get marked. */
+  highlightTree?: string;
   onClose: () => void;
   onOpenCoachTree: (coach: string) => void;
 }) {
@@ -292,6 +301,14 @@ function GameDetail({
   const meta = TIER_META[tier];
   const site = describeSite(game);
   const hidden = (lineage.connectionCount ?? 0) - lineage.connections.length;
+  // Someone who filtered by a coach opened this game to read about HIM, so his
+  // cards go first instead of being buried under stronger but unrelated ties.
+  const cards = highlightTree
+    ? [
+        ...lineage.connections.filter((c) => c.via === highlightTree),
+        ...lineage.connections.filter((c) => c.via !== highlightTree),
+      ]
+    : lineage.connections;
 
   return (
     <div className="game-detail">
@@ -340,7 +357,7 @@ function GameDetail({
             {lineage.trees.map((tree) => (
               <button
                 aria-label={`${tree.coach}: ${tree.links} ${tree.links === 1 ? 'link' : 'links'} across this matchup`}
-                className="tree-pill"
+                className={`tree-pill ${tree.coach === highlightTree ? 'tree-pill-active' : ''}`}
                 key={tree.coach}
                 onClick={() => onOpenCoachTree(tree.coach)}
                 title={`${tree.links} ${tree.links === 1 ? 'link' : 'links'} across this matchup`}
@@ -360,10 +377,11 @@ function GameDetail({
             How they are related ({lineage.connectionCount} {lineage.connectionCount === 1 ? 'link' : 'links'})
           </p>
           <ul className="connection-list">
-            {lineage.connections.map((connection, index) => (
+            {cards.map((connection, index) => (
               <ConnectionCard
                 connection={connection}
                 game={game}
+                highlighted={Boolean(highlightTree) && connection.via === highlightTree}
                 key={`${connection.type}-${connection.via}-${connection.a.coach}-${connection.b.coach}-${index}`}
                 onOpenCoachTree={onOpenCoachTree}
               />
@@ -628,6 +646,7 @@ export default function Schedule({
       {selectedGame && (
         <div ref={detailRef}>
           <GameDetail
+            highlightTree={patriarch || undefined}
             game={selectedGame}
             onClose={() => onSelectGame(null)}
             onOpenCoachTree={onOpenCoachTree}

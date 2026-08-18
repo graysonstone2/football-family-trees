@@ -1250,3 +1250,19 @@ button.insight-row {
     padding: 9px 4px;
   }
 }
+
+/* A tree carried in from the schedule filter: lead with it and mark it. */
+.tree-pill-active {
+  background: var(--theme-primary);
+  border-color: var(--theme-primary);
+  color: #fff;
+}
+
+.tree-pill-active em {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.connection-card-highlight {
+  box-shadow: inset 3px 0 0 var(--theme-primary);
+}

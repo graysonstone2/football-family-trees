@@ -528,6 +528,48 @@
      "aThrough": "Tim Beckman",
      "bThrough": "Gary Andersen",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mike Price",
+     "a": {
+      "coach": "Tim Banks",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Jake Spavital",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "James Franklin",
+     "bThrough": "Kevin Sumlin",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mike Stoops",
+     "a": {
+      "coach": "Kodi Burns",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jake Spavital",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Josh Heupel",
+     "bThrough": "Sonny Dykes",
+     "weight": 1.5
     }
    ],
    "rank": 17
@@ -910,6 +952,27 @@
      "aThrough": "Darrell Hazell",
      "bThrough": "Doc Holliday",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Jim Tressel",
+     "a": {
+      "coach": "Tim Lester",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Tony Petersen",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Darrell Hazell",
+     "bThrough": "Mark Snyder",
+     "weight": 1.5
     }
    ],
    "rank": 129
@@ -1008,6 +1071,27 @@
      "aThrough": "Jeff Scott",
      "bThrough": null,
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mack Brown",
+     "a": {
+      "coach": "Joe Cox",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Nick Eason",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Will Muschamp",
+     "bThrough": "Bryan Harsin",
+     "weight": 1.5
     },
     {
      "type": "shared-ancestor",
@@ -1135,27 +1219,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Jim Wacker",
-     "a": {
-      "coach": "Dana Holgorsen",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Kurt Mattix",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Kevin Sumlin",
-     "bThrough": "Rocky Long",
-     "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Mike Gundy",
      "a": {
       "coach": "Dana Holgorsen",
@@ -1173,6 +1236,27 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Tim Beckman",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Jim Wacker",
+     "a": {
+      "coach": "Dana Holgorsen",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Kurt Mattix",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Kevin Sumlin",
+     "bThrough": "Rocky Long",
      "weight": 1.5
     }
    ],
@@ -1838,27 +1922,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Jim Tressel",
-     "a": {
-      "coach": "Marcus Freeman",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Mike Tressel",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Mark Dantonio",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "John Cooper",
      "a": {
       "coach": "Chris Ash",
@@ -1897,6 +1960,48 @@
      "hops": 4,
      "aThrough": "Bret Bielema",
      "bThrough": "Lance Leipold",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Frank Solich",
+     "a": {
+      "coach": "Aaron Henry",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Jeff Grimes",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Derek Mason",
+     "bThrough": "Lance Leipold",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy Tuberville",
+     "a": {
+      "coach": "Chris Ash",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Jeff Grimes",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Paul Rhoads",
+     "bThrough": "Gene Chizik",
      "weight": 1.5
     }
    ],
@@ -2221,27 +2326,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Chuck Reedy",
-     "a": {
-      "coach": "Alex Golesh",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Blake Anderson",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Mike Gundy",
-     "bThrough": "Andy McCollum",
-     "weight": 3.4
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Mike Gundy",
      "a": {
       "coach": "Alex Golesh",
@@ -2259,6 +2343,27 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Larry Fedora",
+     "weight": 3.4
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Chuck Reedy",
+     "a": {
+      "coach": "Alex Golesh",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Blake Anderson",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Mike Gundy",
+     "bThrough": "Andy McCollum",
      "weight": 3.4
     }
    ],
@@ -2376,6 +2481,27 @@
      "aThrough": "Bronco Mendenhall",
      "bThrough": "Rocky Long",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Rocky Long",
+     "a": {
+      "coach": "Kelly Poppinga",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Danny Gonzales",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Bronco Mendenhall",
+     "bThrough": null,
+     "weight": 1.5
     }
    ],
    "rank": 29
@@ -2413,27 +2539,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Mario Cristobal",
-     "a": {
-      "coach": "Spencer Danielson",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Lance Guidry",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Andy Avalos",
-     "bThrough": null,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Ron Prince",
      "a": {
       "coach": "Erik Chinander",
@@ -2451,6 +2556,27 @@
      "hops": 4,
      "aThrough": "Scott Frost",
      "bThrough": "James Franklin",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mario Cristobal",
+     "a": {
+      "coach": "Spencer Danielson",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Lance Guidry",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Andy Avalos",
+     "bThrough": null,
      "weight": 2.3
     }
    ],
@@ -3408,27 +3534,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Kirby Smart",
-     "a": {
-      "coach": "Fran Brown",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Tosh Lupoi",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Dan Lanning",
-     "weight": 3.4
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Fran Brown",
@@ -3446,6 +3551,27 @@
      "hops": 3,
      "aThrough": "Kirby Smart",
      "bThrough": null,
+     "weight": 3.4
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Kirby Smart",
+     "a": {
+      "coach": "Fran Brown",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Tosh Lupoi",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Dan Lanning",
      "weight": 3.4
     }
    ],
@@ -3586,6 +3712,48 @@
      "aThrough": "Greg Schiano",
      "bThrough": "Larry Coker",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Dennis Erickson",
+     "a": {
+      "coach": "Will Muschamp",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Tim Walton",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Tommy Tuberville",
+     "bThrough": "Randy Shannon",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy West",
+     "a": {
+      "coach": "Johnny Nansen",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Tim Walton",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Clay Helton",
+     "bThrough": null,
+     "weight": 1.5
     }
    ],
    "rank": 130
@@ -3638,6 +3806,27 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Les Miles",
+     "a": {
+      "coach": "Mike Elko",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Marcus Arroyo",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Jimbo Fisher",
+     "bThrough": "Todd Monken",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Kirby Smart",
      "a": {
       "coach": "Elijah Robinson",
@@ -3659,10 +3848,10 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Les Miles",
+     "via": "Greg Schiano",
      "a": {
-      "coach": "Mike Elko",
-      "role": "hc"
+      "coach": "Elijah Robinson",
+      "role": "dc"
      },
      "b": {
       "coach": "Marcus Arroyo",
@@ -3674,9 +3863,9 @@
      "stops": null,
      "protege": null,
      "hops": 4,
-     "aThrough": "Jimbo Fisher",
-     "bThrough": "Todd Monken",
-     "weight": 2.3
+     "aThrough": "Fran Brown",
+     "bThrough": "Mario Cristobal",
+     "weight": 1.5
     }
    ],
    "rank": 58
@@ -3844,27 +4033,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Todd Graham",
-     "a": {
-      "coach": "Russ Callaway",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Major Applewhite",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Billy Napier",
-     "bThrough": null,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Mario Cristobal",
      "a": {
       "coach": "Nate Fuqua",
@@ -3882,6 +4050,27 @@
      "hops": 3,
      "aThrough": "Scott Satterfield",
      "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Steve Kragthorpe",
+     "a": {
+      "coach": "Nate Fuqua",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Todd Orlando",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Matt Wells",
      "weight": 1.5
     }
    ],
@@ -4533,6 +4722,69 @@
      "aThrough": "Will Muschamp",
      "bThrough": "Neal Brown",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Buddy Teevens",
+     "a": {
+      "coach": "Tim Banks",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Bill Cubit",
+     "bThrough": "Jay Hopson",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Nick Saban",
+     "a": {
+      "coach": "D. J. Durkin",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Will Muschamp",
+     "bThrough": "Brent Key",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Rich Rodriguez",
+     "a": {
+      "coach": "Tim Banks",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Butch Jones",
+     "bThrough": "Jay Hopson",
+     "weight": 1.5
     }
    ],
    "rank": 27
@@ -4619,27 +4871,6 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Kliff Kingsbury",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Mike Leach",
-     "a": {
-      "coach": "Jake Spavital",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Sonny Cumbie",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Dana Holgorsen",
-     "bThrough": null,
      "weight": 2.3
     }
    ],
@@ -4981,27 +5212,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Garrick McGee",
-     "a": {
-      "coach": "Jeff Brohm",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Maurice Crum Jr.",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Tyson Helton",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Rick Stockstill",
      "a": {
       "coach": "Steve Ellis",
@@ -5019,6 +5229,27 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Manny Diaz",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Garrick McGee",
+     "a": {
+      "coach": "Jeff Brohm",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Maurice Crum Jr.",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Tyson Helton",
      "weight": 2.3
     }
    ],
@@ -5065,27 +5296,6 @@
      "aThrough": null,
      "bThrough": null,
      "weight": 13.5
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Ralph Friedgen",
-     "a": {
-      "coach": "Clint Trickett",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "James Franklin",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Charles Huff",
-     "bThrough": null,
-     "weight": 2.3
     },
     {
      "type": "shared-ancestor",
@@ -5673,27 +5883,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Joe Novak",
-     "a": {
-      "coach": "Todd Orlando",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "John Hauser",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Alex Golesh",
-     "bThrough": null,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Urban Meyer",
      "a": {
       "coach": "Major Applewhite",
@@ -5715,7 +5904,49 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Joe Novak",
+     "a": {
+      "coach": "Todd Orlando",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "John Hauser",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Alex Golesh",
+     "bThrough": null,
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Matt Campbell",
+     "a": {
+      "coach": "Todd Orlando",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Scott Isphording",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Alex Golesh",
+     "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tim Beckman",
      "a": {
       "coach": "Todd Orlando",
       "role": "dc"
@@ -5831,27 +6062,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Bob Stoops",
-     "a": {
-      "coach": "Shane Beamer",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Jeff Lebby",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Lincoln Riley",
-     "bThrough": "Josh Heupel",
-     "weight": 3.4
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Mike Leach",
      "a": {
       "coach": "Shane Beamer",
@@ -5869,6 +6079,27 @@
      "hops": 4,
      "aThrough": "Lincoln Riley",
      "bThrough": "Art Briles",
+     "weight": 3.4
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Bob Stoops",
+     "a": {
+      "coach": "Shane Beamer",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Jeff Lebby",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Lincoln Riley",
+     "bThrough": "Josh Heupel",
      "weight": 3.4
     }
    ],
@@ -6643,27 +6874,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Bobby Bowden",
-     "a": {
-      "coach": "Maurice Linguist",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Shane Beamer",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Jimbo Fisher",
-     "bThrough": "Kirby Smart",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Maurice Linguist",
@@ -6703,6 +6913,69 @@
      "aThrough": "Jeff Tedford",
      "bThrough": "Lane Kiffin",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Willie Taggart",
+     "a": {
+      "coach": "Kalen DeBoer",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Kendal Briles",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Tom Allen",
+     "bThrough": null,
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Bobby Bowden",
+     "a": {
+      "coach": "Maurice Linguist",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Shane Beamer",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Jimbo Fisher",
+     "bThrough": "Kirby Smart",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Brian Kelly",
+     "a": {
+      "coach": "Maurice Linguist",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Clayton White",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Jeff Quinn",
+     "bThrough": "Mike Sanford Jr.",
+     "weight": 1.5
     }
    ],
    "rank": 63
@@ -6733,27 +7006,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Jim McElwain",
-     "a": {
-      "coach": "Ron Roberts",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Kevin Barbay",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Billy Napier",
-     "bThrough": null,
-     "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Tim Cramsey",
@@ -6771,6 +7023,27 @@
      "hops": 4,
      "aThrough": "Brian Polian",
      "bThrough": "Jim McElwain",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Jim McElwain",
+     "a": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Kevin Barbay",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Billy Napier",
+     "bThrough": null,
      "weight": 1.5
     }
    ],
@@ -6860,6 +7133,48 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Bob Stoops",
+     "a": {
+      "coach": "Alex Golesh",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Josh Heupel",
+     "bThrough": "Mark Mangino",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Urban Meyer",
+     "a": {
+      "coach": "Alex Golesh",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Tim Beckman",
+     "bThrough": null,
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Bill Cubit",
      "a": {
       "coach": "Tim Banks",
@@ -6877,6 +7192,27 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Scott Shafer",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Brian Kelly",
+     "a": {
+      "coach": "Tim Banks",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Clark Lea",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Butch Jones",
+     "bThrough": null,
      "weight": 2.3
     }
    ],
@@ -7025,7 +7361,7 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Steve Addazio",
+     "via": "Urban Meyer",
      "a": {
       "coach": "Greg Nosal",
       "role": "oc"
@@ -7046,7 +7382,7 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Urban Meyer",
+     "via": "Steve Addazio",
      "a": {
       "coach": "Greg Nosal",
       "role": "oc"
@@ -7273,6 +7609,27 @@
      "aThrough": "Brent Key",
      "bThrough": null,
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy West",
+     "a": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "John David Baker",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Rick Stockstill",
+     "bThrough": "Clay Helton",
+     "weight": 1.5
     }
    ],
    "rank": 144
@@ -7522,27 +7879,6 @@
      "aThrough": null,
      "bThrough": null,
      "weight": 6
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Nick Saban",
-     "a": {
-      "coach": "Joe Cox",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Mike Elko",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Jimbo Fisher",
-     "weight": 2.3
     },
     {
      "type": "shared-ancestor",
@@ -8664,6 +9000,27 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Bob Stoops",
+     "a": {
+      "coach": "Brian Ward",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Dave Aranda",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Jay Norvell",
+     "bThrough": "Mike Leach",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Art Briles",
      "a": {
       "coach": "Brian Ward",
@@ -8706,10 +9063,10 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Bob Stoops",
+     "via": "Les Miles",
      "a": {
-      "coach": "Brian Ward",
-      "role": "dc"
+      "coach": "Marcus Arroyo",
+      "role": "oc"
      },
      "b": {
       "coach": "Dave Aranda",
@@ -8720,10 +9077,31 @@
      "together": null,
      "stops": null,
      "protege": null,
-     "hops": 4,
-     "aThrough": "Jay Norvell",
-     "bThrough": "Mike Leach",
+     "hops": 3,
+     "aThrough": "Todd Monken",
+     "bThrough": null,
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "R. C. Slocum",
+     "a": {
+      "coach": "Brian Ward",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Jake Spavital",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Dino Babers",
+     "bThrough": "Kevin Sumlin",
+     "weight": 1.5
     }
    ],
    "rank": 50
@@ -9504,6 +9882,48 @@
      "aThrough": "Kane Wommack",
      "bThrough": "Matt Luke",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Larry Blakeney",
+     "a": {
+      "coach": "Chip Lindsey",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jon Sumrall",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Neal Brown",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Rich Rodriguez",
+     "a": {
+      "coach": "Chip Lindsey",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Todd Graham",
+     "bThrough": "Jay Hopson",
+     "weight": 1.5
     }
    ],
    "rank": 64
@@ -9762,27 +10182,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Kirby Smart",
-     "a": {
-      "coach": "Shane Beamer",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Will Stein",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Dan Lanning",
-     "weight": 3.4
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Shane Beamer",
@@ -9799,6 +10198,27 @@
      "protege": null,
      "hops": 4,
      "aThrough": "Kirby Smart",
+     "bThrough": "Dan Lanning",
+     "weight": 3.4
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Kirby Smart",
+     "a": {
+      "coach": "Shane Beamer",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Will Stein",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
      "bThrough": "Dan Lanning",
      "weight": 3.4
     },
@@ -9822,6 +10242,48 @@
      "aThrough": "Major Applewhite",
      "bThrough": "Dan Lanning",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Brian Kelly",
+     "a": {
+      "coach": "Clayton White",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Joe Sloan",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Mike Sanford Jr.",
+     "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mack Brown",
+     "a": {
+      "coach": "Kendal Briles",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jay Bateman",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Major Applewhite",
+     "bThrough": null,
+     "weight": 1.5
     }
    ],
    "rank": 33
@@ -10019,27 +10481,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Les Miles",
-     "a": {
-      "coach": "Mike Elko",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Ron Roberts",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Jimbo Fisher",
-     "bThrough": "Dave Aranda",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Mike Elko",
@@ -10061,6 +10502,27 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Les Miles",
+     "a": {
+      "coach": "Mike Elko",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Jimbo Fisher",
+     "bThrough": "Dave Aranda",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Greg Schiano",
      "a": {
       "coach": "Elijah Robinson",
@@ -10078,6 +10540,27 @@
      "hops": 4,
      "aThrough": "Fran Brown",
      "bThrough": "Mario Cristobal",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Kirby Smart",
+     "a": {
+      "coach": "Elijah Robinson",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Deron Wilson",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Fran Brown",
+     "bThrough": "Sam Pittman",
      "weight": 1.5
     }
    ],
@@ -10863,6 +11346,48 @@
      "aThrough": "Charles Huff",
      "bThrough": null,
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Ralph Friedgen",
+     "a": {
+      "coach": "Tim Cramsey",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Anthony Poindexter",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Charles Huff",
+     "bThrough": "James Franklin",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Les Miles",
+     "a": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Jim Knowles",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Dave Aranda",
+     "bThrough": "Mike Gundy",
+     "weight": 1.5
     }
    ],
    "rank": 85
@@ -11046,6 +11571,48 @@
      "hops": 4,
      "aThrough": "Mark Stoops",
      "bThrough": "Sonny Dykes",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Phillip Fulmer",
+     "a": {
+      "coach": "Brad White",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Shane Beamer",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Dave Clawson",
+     "bThrough": null,
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Steve Spurrier",
+     "a": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Shane Beamer",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Rick Stockstill",
+     "bThrough": null,
      "weight": 2.3
     }
    ],
@@ -11231,14 +11798,14 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Brian Kelly",
+     "via": "Mack Brown",
      "a": {
       "coach": "Jay Bateman",
       "role": "dc"
      },
      "b": {
-      "coach": "Blake Baker",
-      "role": "dc"
+      "coach": "Joe Cox",
+      "role": "oc"
      },
      "aStops": null,
      "bStops": null,
@@ -11246,13 +11813,34 @@
      "stops": null,
      "protege": null,
      "hops": 3,
-     "aThrough": "Mike Elko",
-     "bThrough": null,
+     "aThrough": null,
+     "bThrough": "Will Muschamp",
      "weight": 1.5
     },
     {
      "type": "shared-ancestor",
      "via": "Dabo Swinney",
+     "a": {
+      "coach": "Jay Bateman",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Charlie Weis Jr.",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Billy Napier",
+     "bThrough": "Jeff Scott",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy Bowden",
      "a": {
       "coach": "Jay Bateman",
       "role": "dc"
@@ -11689,6 +12277,48 @@
      "aThrough": "Urban Meyer",
      "bThrough": "Lane Kiffin",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Ken Hatfield",
+     "a": {
+      "coach": "Tim Walton",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Aazaar Abdul-Rahim",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Tommy West",
+     "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy West",
+     "a": {
+      "coach": "Tim Walton",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Aazaar Abdul-Rahim",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Walt Bell",
+     "weight": 1.5
     }
    ],
    "rank": 117
@@ -11946,6 +12576,27 @@
    "connections": [
     {
      "type": "shared-ancestor",
+     "via": "Sonny Lubick",
+     "a": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Pete Golding",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Urban Meyer",
+     "bThrough": "Lane Kiffin",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Joe Novak",
      "a": {
       "coach": "Clark Lea",
@@ -11984,27 +12635,6 @@
      "hops": 4,
      "aThrough": "Bo Pelini",
      "bThrough": "Frank Wilson",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Sonny Lubick",
-     "a": {
-      "coach": "Tim Beck",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Pete Golding",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Urban Meyer",
-     "bThrough": "Lane Kiffin",
      "weight": 2.3
     }
    ],
@@ -12414,27 +13044,6 @@
      "aThrough": "Kevin Sumlin",
      "bThrough": "Mike Leach",
      "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Mike Leach",
-     "a": {
-      "coach": "Jake Spavital",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Sonny Dykes",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Dana Holgorsen",
-     "bThrough": null,
-     "weight": 2.3
     }
    ],
    "rank": 11
@@ -12556,6 +13165,27 @@
      "aThrough": "Dan Lanning",
      "bThrough": "Major Applewhite",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Jim Harbaugh",
+     "a": {
+      "coach": "Ike Hilliard",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Scottie Hazelton",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Willie Taggart",
+     "bThrough": "Brian Polian",
+     "weight": 1.5
     }
    ],
    "rank": 109
@@ -13767,6 +14397,69 @@
      "aThrough": "Greg Schiano",
      "bThrough": "Jim Caldwell",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Nick Saban",
+     "a": {
+      "coach": "Will Muschamp",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Brent Key",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Steve Spurrier",
+     "a": {
+      "coach": "Johnny Nansen",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Jedd Fisch",
+     "bThrough": "Rick Stockstill",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy West",
+     "a": {
+      "coach": "Johnny Nansen",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Clay Helton",
+     "bThrough": "Rick Stockstill",
+     "weight": 1.5
     }
    ],
    "rank": 105
@@ -13803,6 +14496,27 @@
     }
    ],
    "connections": [
+    {
+     "type": "shared-ancestor",
+     "via": "Todd Graham",
+     "a": {
+      "coach": "Mack Leftwich",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Kenny Dillingham",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "G. J. Kinne",
+     "bThrough": "Mike Norvell",
+     "weight": 2.3
+    },
     {
      "type": "shared-ancestor",
      "via": "Art Briles",
@@ -13930,27 +14644,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Lou Holtz",
-     "a": {
-      "coach": "Jeff Traylor",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Eric Lewis",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Charlie Strong",
-     "bThrough": "Rick Minter",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Urban Meyer",
      "a": {
       "coach": "Jeff Traylor",
@@ -13968,6 +14661,27 @@
      "hops": 4,
      "aThrough": "Charlie Strong",
      "bThrough": "Scot Loeffler",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Lou Holtz",
+     "a": {
+      "coach": "Jeff Traylor",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Eric Lewis",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Charlie Strong",
+     "bThrough": "Rick Minter",
      "weight": 2.3
     }
    ],
@@ -14060,6 +14774,27 @@
      "aThrough": null,
      "bThrough": "Manny Matsakis",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Les Miles",
+     "a": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Bo Pelini",
+     "bThrough": "Dave Aranda",
+     "weight": 1.5
     }
    ],
    "rank": 154
@@ -14087,27 +14822,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Bobby Ross",
-     "a": {
-      "coach": "James Franklin",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Brent Key",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Ralph Friedgen",
-     "bThrough": "George O'Leary",
-     "weight": 3.4
-    },
-    {
-     "type": "shared-ancestor",
      "via": "George O'Leary",
      "a": {
       "coach": "James Franklin",
@@ -14125,6 +14839,27 @@
      "hops": 3,
      "aThrough": "Ralph Friedgen",
      "bThrough": null,
+     "weight": 3.4
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Bobby Ross",
+     "a": {
+      "coach": "James Franklin",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Brent Key",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Ralph Friedgen",
+     "bThrough": "George O'Leary",
      "weight": 3.4
     },
     {
@@ -14351,6 +15086,48 @@
      "aThrough": null,
      "bThrough": "Todd Graham",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Steve Kragthorpe",
+     "a": {
+      "coach": "Tony Gibson",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Todd Orlando",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Todd Graham",
+     "bThrough": "Matt Wells",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Bob Stoops",
+     "a": {
+      "coach": "Rod Smith",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jason Washington",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Kevin Wilson",
+     "bThrough": "Mike Leach",
+     "weight": 1.5
     }
    ],
    "rank": 34
@@ -14806,6 +15583,27 @@
      "aThrough": null,
      "bThrough": "Eliah Drinkwitz",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mack Brown",
+     "a": {
+      "coach": "D. J. Durkin",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Blake Baker",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Will Muschamp",
+     "bThrough": "Manny Diaz",
+     "weight": 1.5
     }
    ],
    "rank": 115
@@ -15014,48 +15812,6 @@
      "aThrough": null,
      "bThrough": null,
      "weight": 9
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Chan Gailey",
-     "a": {
-      "coach": "Chris Weinke",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Bill O'Brien",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Geoff Collins",
-     "bThrough": null,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "George O'Leary",
-     "a": {
-      "coach": "Chris Weinke",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Bill O'Brien",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Geoff Collins",
-     "bThrough": null,
-     "weight": 2.3
     },
     {
      "type": "shared-ancestor",
@@ -15317,27 +16073,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Brian Kelly",
-     "a": {
-      "coach": "Jay Bateman",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Clark Lea",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Mike Elko",
-     "bThrough": null,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Dave Clawson",
      "a": {
       "coach": "Jay Bateman",
@@ -15377,6 +16112,48 @@
      "aThrough": "Jeff Traylor",
      "bThrough": null,
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Lou Holtz",
+     "a": {
+      "coach": "Joe Sloan",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Skip Holtz",
+     "bThrough": "Urban Meyer",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mack Brown",
+     "a": {
+      "coach": "Jay Bateman",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Tom Herman",
+     "weight": 1.5
     }
    ],
    "rank": 52
@@ -15944,6 +16721,69 @@
      "aThrough": "Phillip Fulmer",
      "bThrough": "David Cutcliffe",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mike Stoops",
+     "a": {
+      "coach": "Kendal Briles",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Josh Heupel",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Sonny Dykes",
+     "bThrough": null,
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Phillip Fulmer",
+     "a": {
+      "coach": "Shane Beamer",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Jim Knowles",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "David Cutcliffe",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Garrick McGee",
+     "a": {
+      "coach": "Clayton White",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Anthony Poindexter",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Tyson Helton",
+     "bThrough": "Jeff Brohm",
+     "weight": 1.5
     }
    ],
    "rank": 48
@@ -16227,6 +17067,27 @@
    "connections": [
     {
      "type": "shared-ancestor",
+     "via": "Todd Graham",
+     "a": {
+      "coach": "Russ Callaway",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jeff Traylor",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Billy Napier",
+     "bThrough": "Chad Morris",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Dabo Swinney",
      "a": {
       "coach": "Russ Callaway",
@@ -16265,27 +17126,6 @@
      "hops": 4,
      "aThrough": "Shawn Elliott",
      "bThrough": "Charlie Strong",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Todd Graham",
-     "a": {
-      "coach": "Russ Callaway",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Jeff Traylor",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Billy Napier",
-     "bThrough": "Chad Morris",
      "weight": 2.3
     }
    ],
@@ -16490,27 +17330,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Bryan Harsin",
-     "a": {
-      "coach": "Kirby Moore",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Spencer Danielson",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Eliah Drinkwitz",
-     "bThrough": null,
-     "weight": 3.4
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Chris Petersen",
      "a": {
       "coach": "Trent Bray",
@@ -16550,6 +17369,27 @@
      "aThrough": "Jeff Tedford",
      "bThrough": "Mark Helfrich",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Dan Hawkins",
+     "a": {
+      "coach": "Matt Miller",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Erik Chinander",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Andy Avalos",
+     "bThrough": "Mark Helfrich",
+     "weight": 1.5
     }
    ],
    "rank": 4
@@ -16710,27 +17550,6 @@
      "aThrough": "Mike Leach",
      "bThrough": "Kevin Sumlin",
      "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Mike Leach",
-     "a": {
-      "coach": "Alex Grinch",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Jake Spavital",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Dana Holgorsen",
-     "weight": 1.5
     }
    ],
    "rank": 135
@@ -16832,6 +17651,48 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Kane Wommack",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Les Miles",
+     "a": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Chip Lindsey",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Dave Aranda",
+     "bThrough": "Todd Monken",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Steve Roberts",
+     "a": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Corey Batoon",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Hugh Freeze",
+     "bThrough": null,
      "weight": 1.5
     }
    ],
@@ -17103,27 +17964,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Houston Nutt",
-     "a": {
-      "coach": "Jon Sumrall",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Travaris Robinson",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Fitz Hill",
-     "bThrough": "Gus Malzahn",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Buster Faulkner",
@@ -17141,6 +17981,27 @@
      "hops": 3,
      "aThrough": "Brent Key",
      "bThrough": null,
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Houston Nutt",
+     "a": {
+      "coach": "Jon Sumrall",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Travaris Robinson",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Fitz Hill",
+     "bThrough": "Gus Malzahn",
      "weight": 2.3
     },
     {
@@ -17200,27 +18061,6 @@
      "aThrough": null,
      "bThrough": null,
      "weight": 6
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Todd Graham",
-     "a": {
-      "coach": "Tim Harris Jr.",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Chad Morris",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Gus Malzahn",
-     "bThrough": null,
-     "weight": 1.5
     }
    ],
    "rank": 158
@@ -17457,27 +18297,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Tommy Tuberville",
-     "a": {
-      "coach": "Eric Lewis",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Chris Ash",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Bobby Petrino",
-     "bThrough": "Paul Rhoads",
-     "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Urban Meyer",
      "a": {
       "coach": "Eric Lewis",
@@ -17495,6 +18314,27 @@
      "hops": 3,
      "aThrough": "Scot Loeffler",
      "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy Tuberville",
+     "a": {
+      "coach": "Eric Lewis",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Chris Ash",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Bobby Petrino",
+     "bThrough": "Paul Rhoads",
      "weight": 1.5
     }
    ],
@@ -17842,6 +18682,27 @@
      "aThrough": null,
      "bThrough": "Will Muschamp",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Larry Smith",
+     "a": {
+      "coach": "Marcus Woodson",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Tim Banks",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Sam Pittman",
+     "bThrough": "Bill Cubit",
+     "weight": 1.5
     }
    ],
    "rank": 59
@@ -18281,6 +19142,27 @@
     {
      "type": "shared-ancestor",
      "via": "Mack Brown",
+     "a": {
+      "coach": "John Scott Jr.",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Rhett Lashlee",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Will Muschamp",
+     "bThrough": "Gene Chizik",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy Tuberville",
      "a": {
       "coach": "John Scott Jr.",
       "role": "dc"
@@ -19029,6 +19911,69 @@
      "aThrough": "Dave Christensen",
      "bThrough": "Barry Odom",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Jim Harbaugh",
+     "a": {
+      "coach": "Marcus Arroyo",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Chris Marve",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Willie Taggart",
+     "bThrough": "Derek Mason",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Karl Dorrell",
+     "a": {
+      "coach": "Brian Ward",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Chris Marve",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Dino Babers",
+     "bThrough": "Clark Lea",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Rick Neuheisel",
+     "a": {
+      "coach": "Marcus Arroyo",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Chris Marve",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Bobby Hauck",
+     "bThrough": "Clark Lea",
+     "weight": 1.5
     }
    ],
    "rank": 94
@@ -19088,6 +20033,27 @@
    "connections": [
     {
      "type": "shared-ancestor",
+     "via": "Todd Graham",
+     "a": {
+      "coach": "Kodi Burns",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Ryan Silverfield",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Gus Malzahn",
+     "bThrough": "Mike Norvell",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Joe Novak",
      "a": {
       "coach": "Alex Golesh",
@@ -19130,14 +20096,14 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Todd Graham",
+     "via": "Nick Saban",
      "a": {
-      "coach": "Kodi Burns",
-      "role": "oc"
+      "coach": "D. J. Durkin",
+      "role": "dc"
      },
      "b": {
-      "coach": "Ryan Silverfield",
-      "role": "hc"
+      "coach": "Tim Cramsey",
+      "role": "oc"
      },
      "aStops": null,
      "bStops": null,
@@ -19145,9 +20111,51 @@
      "stops": null,
      "protege": null,
      "hops": 4,
-     "aThrough": "Gus Malzahn",
-     "bThrough": "Mike Norvell",
-     "weight": 2.3
+     "aThrough": "Will Muschamp",
+     "bThrough": "Brian Polian",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Greg Schiano",
+     "a": {
+      "coach": "Tim Banks",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Tim Cramsey",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Bill Cubit",
+     "bThrough": "Mario Cristobal",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "James Franklin",
+     "a": {
+      "coach": "Tim Banks",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Tim Cramsey",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Charles Huff",
+     "weight": 1.5
     }
    ],
    "rank": 51
@@ -19218,27 +20226,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Steve Spurrier",
-     "a": {
-      "coach": "Buster Faulkner",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Brent Venables",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Rick Stockstill",
-     "bThrough": "Bob Stoops",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Tommy Bowden",
      "a": {
       "coach": "Buster Faulkner",
@@ -19256,6 +20243,27 @@
      "hops": 4,
      "aThrough": "Rick Stockstill",
      "bThrough": "Dabo Swinney",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Steve Spurrier",
+     "a": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Brent Venables",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Rick Stockstill",
+     "bThrough": "Bob Stoops",
      "weight": 2.3
     }
    ],
@@ -19604,6 +20612,48 @@
      "aThrough": null,
      "bThrough": "Jeff Quinn",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Nick Saban",
+     "a": {
+      "coach": "Joe Cox",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Maurice Linguist",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Jimbo Fisher",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy Tuberville",
+     "a": {
+      "coach": "Joe Cox",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Maurice Linguist",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Will Muschamp",
+     "bThrough": "Paul Rhoads",
+     "weight": 1.5
     }
    ],
    "rank": 43
@@ -19759,27 +20809,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Bill Snyder",
-     "a": {
-      "coach": "Jeff Lebby",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Tim Beck",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Brent Venables",
-     "bThrough": null,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Bob Stoops",
      "a": {
       "coach": "Jeff Lebby",
@@ -19797,6 +20826,27 @@
      "hops": 4,
      "aThrough": "Josh Heupel",
      "bThrough": "Mark Mangino",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Bill Snyder",
+     "a": {
+      "coach": "Jeff Lebby",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Brent Venables",
+     "bThrough": null,
      "weight": 2.3
     }
    ],
@@ -19983,27 +21033,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Greg Schiano",
-     "a": {
-      "coach": "Marcus Freeman",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Mario Cristobal",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Darrell Hazell",
-     "bThrough": null,
-     "weight": 3.4
-    },
-    {
-     "type": "shared-ancestor",
      "via": "John Cooper",
      "a": {
       "coach": "Marcus Freeman",
@@ -20021,6 +21050,27 @@
      "hops": 4,
      "aThrough": "Luke Fickell",
      "bThrough": "Larry Coker",
+     "weight": 3.4
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Greg Schiano",
+     "a": {
+      "coach": "Marcus Freeman",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Mario Cristobal",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Darrell Hazell",
+     "bThrough": null,
      "weight": 3.4
     },
     {
@@ -20142,27 +21192,6 @@
      "aThrough": null,
      "bThrough": null,
      "weight": 4
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Nick Saban",
-     "a": {
-      "coach": "Pete Golding",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Travaris Robinson",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Will Muschamp",
-     "weight": 2.3
     }
    ],
    "rank": 61
@@ -20294,6 +21323,48 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Matt Canada",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "David Bailiff",
+     "a": {
+      "coach": "Kevin Kane",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Aazaar Abdul-Rahim",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "David Beaty",
+     "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mike Gundy",
+     "a": {
+      "coach": "Josh Henson",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Aazaar Abdul-Rahim",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Walt Bell",
      "weight": 1.5
     }
    ],
@@ -20434,6 +21505,27 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Kirby Smart",
+     "a": {
+      "coach": "Shane Beamer",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Elijah Robinson",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Fran Brown",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Brian Kelly",
      "a": {
       "coach": "Clayton White",
@@ -20452,6 +21544,27 @@
      "aThrough": "Mike Sanford Jr.",
      "bThrough": null,
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Greg Schiano",
+     "a": {
+      "coach": "Clayton White",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Elijah Robinson",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Bill Cubit",
+     "bThrough": "Fran Brown",
+     "weight": 1.5
     }
    ],
    "rank": 14
@@ -20966,27 +22079,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Kyle Whittingham",
-     "a": {
-      "coach": "Kevin McGiven",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Aaron Roderick",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Gary Andersen",
-     "bThrough": null,
-     "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Urban Meyer",
      "a": {
       "coach": "Kevin McGiven",
@@ -21392,6 +22484,27 @@
      "aThrough": "Rocky Long",
      "bThrough": "Bronco Mendenhall",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Rocky Long",
+     "a": {
+      "coach": "Danny Gonzales",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Kevin McGiven",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Bronco Mendenhall",
+     "weight": 1.5
     }
    ],
    "rank": 13
@@ -21473,7 +22586,7 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "George O'Leary",
+     "via": "Nick Saban",
      "a": {
       "coach": "Tim Cramsey",
       "role": "oc"
@@ -21487,9 +22600,30 @@
      "together": null,
      "stops": null,
      "protege": null,
-     "hops": 3,
+     "hops": 4,
      "aThrough": "Brian Polian",
-     "bThrough": null,
+     "bThrough": "Kirby Smart",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mike Leach",
+     "a": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Shane Beamer",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Manny Matsakis",
+     "bThrough": "Lincoln Riley",
      "weight": 2.3
     },
     {
@@ -21515,14 +22649,14 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Mike Leach",
+     "via": "Todd Graham",
      "a": {
-      "coach": "Ron Roberts",
-      "role": "dc"
+      "coach": "Ryan Silverfield",
+      "role": "hc"
      },
      "b": {
-      "coach": "Shane Beamer",
-      "role": "hc"
+      "coach": "Kendal Briles",
+      "role": "oc"
      },
      "aStops": null,
      "bStops": null,
@@ -21530,8 +22664,8 @@
      "stops": null,
      "protege": null,
      "hops": 4,
-     "aThrough": "Manny Matsakis",
-     "bThrough": "Lincoln Riley",
+     "aThrough": "Mike Norvell",
+     "bThrough": "Major Applewhite",
      "weight": 2.3
     }
    ],
@@ -21984,6 +23118,27 @@
      "aThrough": "Mike Elko",
      "bThrough": null,
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy Bowden",
+     "a": {
+      "coach": "Jay Bateman",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Billy Napier",
+     "bThrough": "Rick Stockstill",
+     "weight": 1.5
     }
    ],
    "rank": 106
@@ -22264,6 +23419,27 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Gene Chizik",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Nick Saban",
+     "a": {
+      "coach": "Clint Trickett",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Mike Tressel",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Charles Huff",
+     "bThrough": "Mark Dantonio",
      "weight": 1.5
     }
    ],
@@ -22922,27 +24098,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "June Jones",
-     "a": {
-      "coach": "Maurice Crum Jr.",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Jake Dickert",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Tyson Helton",
-     "bThrough": "Nick Rolovich",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Mack Brown",
      "a": {
       "coach": "Rhett Lashlee",
@@ -22960,6 +24115,27 @@
      "hops": 4,
      "aThrough": "Gene Chizik",
      "bThrough": "Major Applewhite",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "June Jones",
+     "a": {
+      "coach": "Maurice Crum Jr.",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Jake Dickert",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Tyson Helton",
+     "bThrough": "Nick Rolovich",
      "weight": 2.3
     },
     {
@@ -23265,27 +24441,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Justin Fuente",
-     "a": {
-      "coach": "Holmon Wiggins",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Josh Heupel",
-      "role": "hc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Barry Odom",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Les Miles",
      "a": {
       "coach": "Mike Elko",
@@ -23325,6 +24480,69 @@
      "aThrough": "Dave Clawson",
      "bThrough": "David Cutcliffe",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Justin Fuente",
+     "a": {
+      "coach": "Holmon Wiggins",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Josh Heupel",
+      "role": "hc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Barry Odom",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Al Golden",
+     "a": {
+      "coach": "Holmon Wiggins",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jim Knowles",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Matt Rhule",
+     "bThrough": "Ryan Day",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Steve Addazio",
+     "a": {
+      "coach": "Elijah Robinson",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Jim Knowles",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Fran Brown",
+     "bThrough": "Ryan Day",
+     "weight": 1.5
     }
    ],
    "rank": 77
@@ -23465,27 +24683,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Lou Holtz",
-     "a": {
-      "coach": "Jeff Traylor",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Bradley Dale Peveto",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Charlie Strong",
-     "bThrough": "Skip Holtz",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Todd Graham",
      "a": {
       "coach": "Jeff Traylor",
@@ -23503,6 +24700,27 @@
      "hops": 4,
      "aThrough": "Chad Morris",
      "bThrough": "G. J. Kinne",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Lou Holtz",
+     "a": {
+      "coach": "Jeff Traylor",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Bradley Dale Peveto",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Charlie Strong",
+     "bThrough": "Skip Holtz",
      "weight": 2.3
     }
    ],
@@ -24054,7 +25272,7 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Chan Gailey",
+     "via": "George O'Leary",
      "a": {
       "coach": "Bill O'Brien",
       "role": "hc"
@@ -24075,7 +25293,7 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "George O'Leary",
+     "via": "Chan Gailey",
      "a": {
       "coach": "Bill O'Brien",
       "role": "hc"
@@ -24300,27 +25518,6 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "George O'Leary",
-     "a": {
-      "coach": "Brent Key",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Scottie Hazelton",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Brian Polian",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Brent Key",
@@ -24338,6 +25535,27 @@
      "hops": 3,
      "aThrough": null,
      "bThrough": "Major Applewhite",
+     "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "George O'Leary",
+     "a": {
+      "coach": "Brent Key",
+      "role": "hc"
+     },
+     "b": {
+      "coach": "Scottie Hazelton",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Brian Polian",
      "weight": 2.3
     }
    ],
@@ -25213,6 +26431,27 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Nick Saban",
+     "a": {
+      "coach": "Will Muschamp",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Tim Cramsey",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Brian Polian",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Greg Schiano",
      "a": {
       "coach": "Kyle Flood",
@@ -25453,6 +26692,27 @@
     },
     {
      "type": "shared-ancestor",
+     "via": "Todd Graham",
+     "a": {
+      "coach": "Russ Callaway",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Bradley Dale Peveto",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Billy Napier",
+     "bThrough": "G. J. Kinne",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
      "via": "Matt Luke",
      "a": {
       "coach": "Tayler Polk",
@@ -25470,6 +26730,27 @@
      "hops": 3,
      "aThrough": "Jon Sumrall",
      "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Nick Saban",
+     "a": {
+      "coach": "Russ Callaway",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Matt Powledge",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Billy Napier",
+     "bThrough": "Dan Lanning",
      "weight": 1.5
     }
    ],
@@ -26026,6 +27307,69 @@
      "aThrough": "Todd Graham",
      "bThrough": "Jay Hopson",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Joe Paterno",
+     "a": {
+      "coach": "Tim Harris Jr.",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Brad White",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Al Golden",
+     "bThrough": "Jim Caldwell",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Larry Coker",
+     "a": {
+      "coach": "Tim Harris Jr.",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Brad White",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Mario Cristobal",
+     "bThrough": "Mark Stoops",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Rocky Long",
+     "a": {
+      "coach": "Tony White",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Buster Faulkner",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Blake Anderson",
+     "weight": 1.5
     }
    ],
    "rank": 96
@@ -26256,27 +27600,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Nick Saban",
-     "a": {
-      "coach": "Mike Elko",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Will Muschamp",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": "Jimbo Fisher",
-     "bThrough": null,
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Terry Bowden",
      "a": {
       "coach": "Mike Elko",
@@ -26315,6 +27638,27 @@
      "hops": 4,
      "aThrough": "Matt Rhule",
      "bThrough": "Jedd Fisch",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Greg Schiano",
+     "a": {
+      "coach": "Elijah Robinson",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Kyle Flood",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": "Fran Brown",
+     "bThrough": null,
      "weight": 1.5
     }
    ],
@@ -26454,6 +27798,27 @@
      "aThrough": "Jimbo Fisher",
      "bThrough": "Will Muschamp",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Tommy Tuberville",
+     "a": {
+      "coach": "Maurice Linguist",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "D. J. Durkin",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Paul Rhoads",
+     "bThrough": "Will Muschamp",
+     "weight": 1.5
     }
    ],
    "rank": 168
@@ -26495,27 +27860,6 @@
      "aThrough": null,
      "bThrough": null,
      "weight": 6
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Dick Tomey",
-     "a": {
-      "coach": "Brent Brennan",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Brian Ward",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Dino Babers",
-     "weight": 2.3
     },
     {
      "type": "shared-ancestor",
@@ -26589,27 +27933,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Dabo Swinney",
-     "a": {
-      "coach": "Ron Roberts",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Charlie Weis Jr.",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Billy Napier",
-     "bThrough": "Jeff Scott",
-     "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Nick Saban",
      "a": {
       "coach": "Tim Cramsey",
@@ -26627,6 +27950,27 @@
      "hops": 3,
      "aThrough": "Brian Polian",
      "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Dabo Swinney",
+     "a": {
+      "coach": "Ron Roberts",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Charlie Weis Jr.",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Billy Napier",
+     "bThrough": "Jeff Scott",
      "weight": 1.5
     },
     {
@@ -26842,27 +28186,6 @@
      "aThrough": null,
      "bThrough": "Rick Minter",
      "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Steve Addazio",
-     "a": {
-      "coach": "Todd Fitch",
-      "role": "oc"
-     },
-     "b": {
-      "coach": "Eric Lewis",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Scot Loeffler",
-     "weight": 1.5
     }
    ],
    "rank": 164
@@ -26982,6 +28305,48 @@
      "hops": 3,
      "aThrough": "Willie Taggart",
      "bThrough": null,
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Mack Brown",
+     "a": {
+      "coach": "Nick Eason",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Kendal Briles",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Bryan Harsin",
+     "bThrough": "Major Applewhite",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Todd Graham",
+     "a": {
+      "coach": "Chad Morris",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Kendal Briles",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Major Applewhite",
      "weight": 1.5
     }
    ],
@@ -27111,27 +28476,6 @@
     {
      "type": "shared-ancestor",
      "via": "Mark Richt",
-     "a": {
-      "coach": "Kirby Smart",
-      "role": "hc"
-     },
-     "b": {
-      "coach": "Chris Weinke",
-      "role": "oc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 3,
-     "aThrough": null,
-     "bThrough": "Jeremy Pruitt",
-     "weight": 2.3
-    },
-    {
-     "type": "shared-ancestor",
-     "via": "Nick Saban",
      "a": {
       "coach": "Kirby Smart",
       "role": "hc"
@@ -27566,6 +28910,27 @@
      "aThrough": null,
      "bThrough": "Tyson Helton",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Nick Rolovich",
+     "a": {
+      "coach": "Corey Batoon",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Ben Arbuckle",
+      "role": "oc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Jake Dickert",
+     "weight": 1.5
     }
    ],
    "rank": 107
@@ -27628,27 +28993,6 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Bob Simmons",
-     "a": {
-      "coach": "Bradley Dale Peveto",
-      "role": "dc"
-     },
-     "b": {
-      "coach": "Todd Grantham",
-      "role": "dc"
-     },
-     "aStops": null,
-     "bStops": null,
-     "together": null,
-     "stops": null,
-     "protege": null,
-     "hops": 4,
-     "aThrough": "Les Miles",
-     "bThrough": "Mike Gundy",
-     "weight": 1.5
-    },
-    {
-     "type": "shared-ancestor",
      "via": "Les Miles",
      "a": {
       "coach": "Bradley Dale Peveto",
@@ -27665,6 +29009,27 @@
      "protege": null,
      "hops": 3,
      "aThrough": null,
+     "bThrough": "Mike Gundy",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Bob Simmons",
+     "a": {
+      "coach": "Bradley Dale Peveto",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Todd Grantham",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Les Miles",
      "bThrough": "Mike Gundy",
      "weight": 1.5
     }
@@ -27758,6 +29123,27 @@
      "aThrough": "Bob Pruett",
      "bThrough": "Jay Hopson",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Glen Mason",
+     "a": {
+      "coach": "Tony Petersen",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Kelvin Sigler",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Rod Carey",
+     "weight": 1.5
     }
    ],
    "rank": 125
@@ -28196,6 +29582,27 @@
      "aThrough": "Willie Taggart",
      "bThrough": "Derek Mason",
      "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Walt Harris",
+     "a": {
+      "coach": "Mike Johnson",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Chris Ash",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "J.D. Brookhart",
+     "bThrough": "Paul Rhoads",
+     "weight": 1.5
     }
    ],
    "rank": 47
@@ -28328,6 +29735,48 @@
      "aThrough": "Dave Clawson",
      "bThrough": "David Cutcliffe",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Les Miles",
+     "a": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jim Knowles",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Bo Pelini",
+     "bThrough": "Mike Gundy",
+     "weight": 1.5
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Urban Meyer",
+     "a": {
+      "coach": "Tim Beck",
+      "role": "oc"
+     },
+     "b": {
+      "coach": "Jim Knowles",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 3,
+     "aThrough": null,
+     "bThrough": "Ryan Day",
+     "weight": 1.5
     }
    ],
    "rank": 120
@@ -28445,7 +29894,7 @@
    "connections": [
     {
      "type": "shared-ancestor",
-     "via": "Bob Wagner",
+     "via": "Paul Johnson",
      "a": {
       "coach": "Jeff Monken",
       "role": "hc"
@@ -28466,7 +29915,7 @@
     },
     {
      "type": "shared-ancestor",
-     "via": "Paul Johnson",
+     "via": "Bob Wagner",
      "a": {
       "coach": "Jeff Monken",
       "role": "hc"
@@ -28505,6 +29954,27 @@
      "aThrough": "Paul Johnson",
      "bThrough": "Ken Niumatalolo",
      "weight": 2.3
+    },
+    {
+     "type": "shared-ancestor",
+     "via": "Lloyd Carr",
+     "a": {
+      "coach": "Daryl Dixon",
+      "role": "dc"
+     },
+     "b": {
+      "coach": "Eric Lewis",
+      "role": "dc"
+     },
+     "aStops": null,
+     "bStops": null,
+     "together": null,
+     "stops": null,
+     "protege": null,
+     "hops": 4,
+     "aThrough": "Stan Parrish",
+     "bThrough": "Ron English",
+     "weight": 1.5
     }
    ],
    "rank": 78

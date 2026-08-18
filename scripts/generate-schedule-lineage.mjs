@@ -20,7 +20,6 @@ const WEIGHT = { mentorProtege: 8, sharedStaff: 6, sharedMentor: 4, sharedAncest
 const MAX_SHARED_PER_PAIR = 3;
 const MAX_ANCESTORS_PER_PAIR = 2;
 const MAX_CONNECTIONS_PER_GAME = 12;
-const MAX_ANCESTOR_CARDS = 3;
 // Pages list up to three co-coordinators per side. Capping the staff keeps a team
 // with a thoroughly edited Wikipedia page from outranking everyone on volume.
 const MAX_PER_ROLE = { hc: 1, oc: 2, dc: 2 };
@@ -351,23 +350,42 @@ const headlineFor = (game, connections) => {
  * What the game detail shows. Two-hop tree links are the weakest evidence and the
  * most repetitive, so they get their own quota instead of filling the whole card.
  */
-const shortlist = (connections) => {
-  const strong = connections.filter((c) => c.type !== 'shared-ancestor');
-  const seenTree = new Set();
-  // One card per tree: "both branch off Pat Hill" five times over is not five facts.
-  const faint = connections.filter((c) => {
-    if (c.type !== 'shared-ancestor' || seenTree.has(c.via)) {
-      return false;
+/**
+ * Pick the cards to show. Every tree named in the pills above the card list has
+ * to be explained by at least one card, or the pills promise a connection the
+ * detail panel never shows -- and a reader who filtered by that coach lands on
+ * the game and finds nothing about him.
+ */
+const shortlist = (connections, treeOrder) => {
+  const chosen = [];
+  const taken = new Set();
+  const take = (c) => {
+    if (!taken.has(c) && chosen.length < MAX_CONNECTIONS_PER_GAME) {
+      taken.add(c);
+      chosen.push(c);
+    }
+  };
+
+  // Direct boss/protege and shared-staff ties are the strongest facts available.
+  connections.filter((c) => c.type !== 'shared-ancestor').forEach(take);
+
+  // Then one card per named tree, strongest first, so a four-link tree is never
+  // crowded out by a one-link tree that merely came up earlier in staff order.
+  treeOrder.forEach((via) => {
+    if (chosen.some((c) => c.via === via)) {
+      return;
     }
 
-    seenTree.add(c.via);
-    return true;
+    const best = connections
+      .filter((c) => c.via === via)
+      .sort((x, y) => y.weight - x.weight)[0];
+
+    if (best) {
+      take(best);
+    }
   });
 
-  return [
-    ...strong.slice(0, MAX_CONNECTIONS_PER_GAME),
-    ...faint.slice(0, Math.max(0, Math.min(MAX_ANCESTOR_CARDS, MAX_CONNECTIONS_PER_GAME - strong.length))),
-  ];
+  return chosen;
 };
 
 const tierFor = (score) => {
@@ -416,6 +434,12 @@ schedule.games.forEach((game) => {
     patriarchs.set(via, entry);
   });
 
+  // Closest relationship first, so one shared boss outranks a pile of two-hop ties.
+  const treeList = Array.from(viaTotals.entries())
+    .sort((x, y) => y[1].best - x[1].best || y[1].weight - x[1].weight || x[0].localeCompare(y[0]))
+    .slice(0, 6)
+    .map(([via, totals]) => ({ coach: via, links: totals.links }));
+
   results.push({
     id: game.id,
     score,
@@ -423,12 +447,8 @@ schedule.games.forEach((game) => {
     staffed: true,
     connectionCount: connections.length,
     headline: headlineFor(game, connections),
-    // Closest relationship first, so one shared boss outranks a pile of two-hop ties.
-    trees: Array.from(viaTotals.entries())
-      .sort((x, y) => y[1].best - x[1].best || y[1].weight - x[1].weight || x[0].localeCompare(y[0]))
-      .slice(0, 6)
-      .map(([via, totals]) => ({ coach: via, links: totals.links })),
-    connections: shortlist(connections).map((c) => ({
+    trees: treeList,
+    connections: shortlist(connections, treeList.map((t) => t.coach)).map((c) => ({
       type: c.type,
       via: c.via,
       a: c.a,
